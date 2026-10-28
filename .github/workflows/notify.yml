@@ -18,7 +18,7 @@ jobs:
           python-version: "3.12"
       - name: Herberekenen en pushmelding sturen
         env:
-          NTFY_TOPIC: valuebet-scout-f2b2bb153e
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           SITE_URL: ${{ vars.SITE_URL }}
         run: python scripts/engine.py apply --notify
       - name: Opslaan

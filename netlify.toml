@@ -1,8 +1,4 @@
+# De app draait nu op GitHub Pages. Netlify bouwt niets meer (spaart de gratis credits).
 [build]
   publish = "site"
-  command = ""
-
-[[headers]]
-  for = "/data/*"
-  [headers.values]
-    Cache-Control = "no-cache"
+  ignore = "exit 0"
