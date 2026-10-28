@@ -1,0 +1,31 @@
+name: Ochtendmelding 8u
+on:
+  schedule:
+    - cron: "0 7 * * *"   # 08:00 Belgische wintertijd (09:00 zomertijd)
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: data
+  cancel-in-progress: false
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Herberekenen en pushmelding sturen
+        env:
+          NTFY_TOPIC: valuebet-scout-f2b2bb153e
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: python scripts/engine.py apply --notify
+      - name: Opslaan
+        run: |
+          git config user.name "valuebet-bot"
+          git config user.email "valuebet-bot@users.noreply.github.com"
+          git add site/data cache
+          git diff --cached --quiet || git commit -m "data: ochtendmelding"
+          git pull --rebase
+          git push

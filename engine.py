@@ -1,0 +1,649 @@
+#!/usr/bin/env python3
+"""ValueBet Scout - rekenmotor.
+
+Gebruik:
+  python scripts/engine.py fetch            # data ophalen (odds + teamdata), rekenen, tracker afrekenen
+  python scripts/engine.py apply [--notify] # onderzoek van Claude (research.json/promos.json) verwerken, opnieuw rekenen
+
+Geen externe libraries nodig. Sleutels via omgevingsvariabelen:
+  ODDS_API_KEY, API_FOOTBALL_KEY, NTFY_TOPIC (optioneel), SITE_URL (optioneel)
+Testen zonder internet: MOCK_DIR=<map met voorbeeldantwoorden>.
+"""
+import json
+import os
+import sys
+import time
+import unicodedata
+import urllib.error
+import urllib.parse
+import urllib.request
+from datetime import datetime, timedelta, timezone
+from difflib import SequenceMatcher
+from itertools import combinations
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+DATA = ROOT / "site" / "data"
+CACHE = ROOT / "cache"
+
+# ---------------------------------------------------------------- instellingen
+LEAGUES = [
+    # (naam, The Odds API key, API-Football league id)
+    ("Premier League", "soccer_epl", 39),
+    ("LaLiga", "soccer_spain_la_liga", 140),
+    ("Serie A", "soccer_italy_serie_a", 135),
+    ("Bundesliga", "soccer_germany_bundesliga", 78),
+    ("Ligue 1", "soccer_france_ligue_one", 61),
+    ("Eredivisie", "soccer_netherlands_eredivisie", 88),
+    ("Primeira Liga", "soccer_portugal_primeira_liga", 94),
+    ("Jupiler Pro League", "soccer_belgium_first_div", 144),
+    ("Champions League", "soccer_uefa_champs_league", 2),
+    ("Europa League", "soccer_uefa_europa_league", 3),
+]
+UNIBET_KEYS = ["unibet_nl", "unibet_fr", "unibet_se", "unibet_it"]  # geen aparte BE-feed; NL ligt het dichtst bij
+SHARP_KEYS = {"pinnacle": 3.0, "betfair_ex_eu": 2.0, "matchbook": 1.5}
+DAYS_AHEAD = 7
+MIN_BOOKMAKERS = 4
+MIN_VALUE = 0.03          # minstens +3% value om in de lijst te komen
+MIN_PROB = 0.15           # geen gokken op grote outsiders
+MAX_ODDS = 6.0
+TRACK_SCORE = 7.0         # vanaf deze score wordt een tip in de Tracker gevolgd
+CAP_MODEL = 3.0           # max correctie (procentpunten) uit vaste regels
+CAP_RESEARCH = 4.0        # max correctie uit Claude-onderzoek
+CAP_TOTAL = 6.0           # max totale correctie
+TZ = timezone(timedelta(hours=1))  # weergave; de app toont lokale tijd van de gsm
+
+
+def now_utc():
+    return datetime.now(timezone.utc)
+
+
+def iso(dt):
+    return dt.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def parse_dt(s):
+    return datetime.fromisoformat(s.replace("Z", "+00:00"))
+
+
+def load(path, default):
+    try:
+        return json.loads(Path(path).read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return default
+
+
+def save(path, obj):
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
+    Path(path).write_text(json.dumps(obj, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+def clamp(x, lo, hi):
+    return max(lo, min(hi, x))
+
+
+# ---------------------------------------------------------------- HTTP
+class Http:
+    def __init__(self):
+        self.mock = os.environ.get("MOCK_DIR")
+        self.errors = []
+        self.odds_remaining = None
+        self.football_calls = 0
+
+    def get(self, url, headers=None, mock_name=None):
+        if self.mock:
+            p = Path(self.mock) / (mock_name or "missing")
+            if p.exists():
+                return json.loads(p.read_text(encoding="utf-8"))
+            return None
+        req = urllib.request.Request(url, headers=headers or {})
+        for attempt in range(3):
+            try:
+                with urllib.request.urlopen(req, timeout=30) as r:
+                    rem = r.headers.get("x-requests-remaining")
+                    if rem is not None:
+                        self.odds_remaining = rem
+                    return json.loads(r.read().decode("utf-8"))
+            except urllib.error.HTTPError as e:
+                body = e.read().decode("utf-8", "replace")[:300]
+                self.errors.append(f"{e.code} bij {redact(url)}: {body}")
+                return None
+            except Exception as e:  # netwerkfout: kort wachten en opnieuw
+                if attempt == 2:
+                    self.errors.append(f"Netwerkfout bij {redact(url)}: {e}")
+                    return None
+                time.sleep(3)
+
+
+def redact(url):
+    parts = urllib.parse.urlsplit(url)
+    q = [(k, "***" if "key" in k.lower() else v) for k, v in urllib.parse.parse_qsl(parts.query)]
+    return urllib.parse.urlunsplit(parts._replace(query=urllib.parse.urlencode(q)))
+
+
+# ---------------------------------------------------------------- ophalen
+def fetch_odds(http):
+    key = os.environ.get("ODDS_API_KEY", "")
+    if not key and not http.mock:
+        http.errors.append("ODDS_API_KEY ontbreekt")
+        return {}
+    active = http.get(f"https://api.the-odds-api.com/v4/sports/?apiKey={key}", mock_name="sports.json") or []
+    active_keys = {s.get("key") for s in active if s.get("active")}
+    out = {}
+    t_from = iso(now_utc())
+    t_to = iso(now_utc() + timedelta(days=DAYS_AHEAD))
+    for name, okey, _ in LEAGUES:
+        if active and okey not in active_keys:
+            continue  # competitie ligt stil (geen kosten)
+        q = urllib.parse.urlencode({
+            "apiKey": key, "regions": "eu", "markets": "h2h", "oddsFormat": "decimal",
+            "commenceTimeFrom": t_from, "commenceTimeTo": t_to,
+        })
+        res = http.get(f"https://api.the-odds-api.com/v4/sports/{okey}/odds?{q}", mock_name=f"odds_{okey}.json")
+        if res is not None:
+            out[okey] = res
+    return out
+
+
+def season_for(d):
+    return d.year if d.month >= 7 else d.year - 1
+
+
+def fetch_football(http):
+    key = os.environ.get("API_FOOTBALL_KEY", "")
+    if not key and not http.mock:
+        http.errors.append("API_FOOTBALL_KEY ontbreekt: geen blessures/vorm/uitslagen")
+        return {}
+    headers = {"x-apisports-key": key}
+    base = "https://v3.football.api-sports.io"
+    today = now_utc().date()
+    season = int(os.environ.get("SEASON", season_for(today)))
+    frm, to = (today - timedelta(days=5)).isoformat(), (today + timedelta(days=DAYS_AHEAD)).isoformat()
+    out = {}
+    for name, okey, lid in LEAGUES:
+        entry = {}
+        for kind, path in [
+            ("fixtures", f"/fixtures?league={lid}&season={season}&from={frm}&to={to}"),
+            ("standings", f"/standings?league={lid}&season={season}"),
+            ("injuries", f"/injuries?league={lid}&season={season}"),
+        ]:
+            res = http.get(base + path, headers=headers, mock_name=f"af_{kind}_{lid}.json")
+            http.football_calls += 1
+            if res is None:
+                continue
+            if res.get("errors"):
+                errs = res["errors"]
+                if errs and errs != []:
+                    http.errors.append(f"API-Football {kind} {name}: {errs}")
+            entry[kind] = res.get("response", [])
+        out[okey] = entry
+    return out
+
+
+# ---------------------------------------------------------------- namen koppelen
+STOP = {"fc", "cf", "afc", "sc", "ac", "as", "ss", "sv", "rc", "cd", "ud", "sl", "club", "de", "the", "kv", "krc",
+        "rsc", "kaa", "royal", "rcd", "ogc", "stade", "1", "fk", "bk", "vfb", "vfl", "tsg", "sk", "if", "us", "ssc",
+        "calcio", "football", "futbol", "cfc", "ca", "rb", "rsca", "kvc", "sint", "st", "olympique", "real", "sporting", "cp"}
+ALIASES = {
+    "internazionale": "inter", "psg": "paris saint germain", "man united": "manchester united",
+    "man city": "manchester city", "spurs": "tottenham", "wolves": "wolverhampton", "bayern": "bayern munchen",
+    "gladbach": "monchengladbach", "brugge": "club brugge", "union sg": "union saint gilloise",
+}
+
+
+def norm(name):
+    s = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode().lower()
+    for ch in ".-'&/()":
+        s = s.replace(ch, " ")
+    s = ALIASES.get(s.strip(), s)
+    toks = [t for t in s.split() if t not in STOP]
+    return " ".join(toks) or s.strip()
+
+
+def sim(a, b):
+    na, nb = norm(a), norm(b)
+    if not na or not nb:
+        return 0.0
+    if na in nb or nb in na:
+        return 0.95
+    ta, tb = set(na.split()), set(nb.split())
+    overlap = len(ta & tb) / max(1, min(len(ta), len(tb)))
+    return max(SequenceMatcher(None, na, nb).ratio(), overlap * 0.9)
+
+
+def match_fixture(ev, fixtures):
+    t = parse_dt(ev["commence_time"])
+    best, best_s = None, 0.0
+    for f in fixtures:
+        try:
+            ft = parse_dt(f["fixture"]["date"])
+        except Exception:
+            continue
+        if abs((ft - t).total_seconds()) > 36 * 3600:
+            continue
+        s = (sim(ev["home_team"], f["teams"]["home"]["name"]) + sim(ev["away_team"], f["teams"]["away"]["name"])) / 2
+        if s > best_s:
+            best, best_s = f, s
+    return best if best_s >= 0.6 else None
+
+
+# ---------------------------------------------------------------- kansen
+def devig(outcomes, home, away):
+    prices = {}
+    for o in outcomes:
+        n = o.get("name")
+        if n == home:
+            prices["home"] = o["price"]
+        elif n == away:
+            prices["away"] = o["price"]
+        elif n and n.lower() == "draw":
+            prices["draw"] = o["price"]
+    if len(prices) != 3 or min(prices.values()) <= 1.0:
+        return None, None
+    inv = {k: 1 / v for k, v in prices.items()}
+    tot = sum(inv.values())
+    return {k: v / tot for k, v in inv.items()}, prices
+
+
+def shift(p, outcome, pp):
+    """Verschuif `pp` procentpunten naar `outcome`, trek het proportioneel af van de andere twee."""
+    d = pp / 100
+    q = dict(p)
+    others = [k for k in q if k != outcome]
+    rest = sum(q[k] for k in others)
+    q[outcome] = q[outcome] + d
+    for k in others:
+        q[k] = q[k] - d * (q[k] / rest if rest else 0.5)
+    q = {k: clamp(v, 0.01, 0.98) for k, v in q.items()}
+    tot = sum(q.values())
+    return {k: v / tot for k, v in q.items()}
+
+
+def form_ppg(form):
+    if not form:
+        return None
+    f = [c for c in form.upper() if c in "WDL"][-5:]
+    if not f:
+        return None
+    return sum({"W": 3, "D": 1, "L": 0}[c] for c in f) / len(f)
+
+
+def rec_ppg(rec):
+    try:
+        pl = rec["played"]
+        if pl < 3:
+            return None
+        return (3 * rec["win"] + rec["draw"]) / pl
+    except Exception:
+        return None
+
+
+def standings_index(standings):
+    idx = {}
+    for block in standings or []:
+        for group in block.get("league", {}).get("standings", []):
+            for row in group:
+                idx[row["team"]["id"]] = row
+    return idx
+
+
+def model_adjustments(fixture, st_idx, injuries):
+    """Kleine, begrensde correcties op de thuiswinst (procentpunten) uit vaste regels."""
+    steps = []
+    if not fixture:
+        return 0.0, steps, False
+    hid, aid = fixture["teams"]["home"]["id"], fixture["teams"]["away"]["id"]
+    hn, an = fixture["teams"]["home"]["name"], fixture["teams"]["away"]["name"]
+    total = 0.0
+    hs, as_ = st_idx.get(hid), st_idx.get(aid)
+    if hs and as_:
+        fh, fa = form_ppg(hs.get("form")), form_ppg(as_.get("form"))
+        if fh is not None and fa is not None:
+            a = clamp((fh - fa) * 0.5, -1.5, 1.5)
+            if abs(a) >= 0.1:
+                steps.append({"label": "Vorm (laatste 5)", "note": f"{hn} {hs.get('form','')[-5:]} tegen {an} {as_.get('form','')[-5:]}", "pp": round(a, 1)})
+                total += a
+        hh, ha = rec_ppg(hs.get("home", {})), rec_ppg(hs.get("all", {}))
+        ah, aa = rec_ppg(as_.get("away", {})), rec_ppg(as_.get("all", {}))
+        if None not in (hh, ha, ah, aa):
+            spec = (hh - ha) - (ah - aa)
+            a = clamp(spec * 0.75, -1.0, 1.0)
+            if abs(a) >= 0.1:
+                steps.append({"label": "Thuis/uit-record", "note": f"{hn} thuis {hh:.1f} ptn/match, {an} uit {ah:.1f}".replace(".", ","), "pp": round(a, 1)})
+                total += a
+    fid = fixture["fixture"]["id"]
+    miss_h = [i["player"]["name"] for i in injuries if i.get("fixture", {}).get("id") == fid and i["team"]["id"] == hid]
+    miss_a = [i["player"]["name"] for i in injuries if i.get("fixture", {}).get("id") == fid and i["team"]["id"] == aid]
+    if miss_h or miss_a:
+        a = clamp((len(miss_a) - len(miss_h)) * 0.4, -2.0, 2.0)
+        note = f"{hn}: {len(miss_h)} afwezig, {an}: {len(miss_a)} afwezig"
+        steps.append({"label": "Blessures/schorsingen", "note": note, "pp": round(a, 1),
+                      "players": {"home": miss_h[:8], "away": miss_a[:8]}})
+        total += a
+    return clamp(total, -CAP_MODEL, CAP_MODEL), steps, True
+
+
+# ---------------------------------------------------------------- hoofdberekening
+def build(odds_raw, fb_raw, research, promos):
+    matches, bets = [], []
+    adj_research = research.get("adjustments", {}) if research else {}
+    notes_research = research.get("match_notes", {}) if research else {}
+    for name, okey, _ in LEAGUES:
+        events = odds_raw.get(okey) or []
+        fb = fb_raw.get(okey, {})
+        fixtures = fb.get("fixtures", [])
+        st_idx = standings_index(fb.get("standings"))
+        injuries = fb.get("injuries", [])
+        for ev in events:
+            home, away = ev["home_team"], ev["away_team"]
+            books, unibet = [], None
+            for bm in ev.get("bookmakers", []):
+                mk = next((m for m in bm.get("markets", []) if m["key"] == "h2h"), None)
+                if not mk:
+                    continue
+                p, prices = devig(mk["outcomes"], home, away)
+                if not p:
+                    continue
+                if bm["key"] in UNIBET_KEYS:
+                    if unibet is None or UNIBET_KEYS.index(bm["key"]) < UNIBET_KEYS.index(unibet["key"]):
+                        unibet = {"key": bm["key"], "title": bm.get("title", bm["key"]), "prices": prices, "p": p}
+                    continue
+                books.append((bm["key"], p, prices))
+            if len(books) < MIN_BOOKMAKERS or not unibet:
+                continue
+            wsum = sum(SHARP_KEYS.get(k, 1.0) for k, _, _ in books)
+            pm = {o: sum(SHARP_KEYS.get(k, 1.0) * p[o] for k, p, _ in books) / wsum for o in ("home", "draw", "away")}
+            has_sharp = any(k in SHARP_KEYS for k, _, _ in books)
+            best = {o: max(pr[o] for _, _, pr in books) for o in ("home", "draw", "away")}
+
+            fx = match_fixture(ev, fixtures) if fixtures else None
+            madj, msteps, matched = model_adjustments(fx, st_idx, injuries)
+            p_model = shift(pm, "home", madj) if madj else dict(pm)
+
+            names = {"home": home, "draw": "Gelijkspel", "away": away}
+            match_id = ev["id"]
+            m = {
+                "id": match_id, "league": name, "kickoff": ev["commence_time"],
+                "home": home, "away": away, "n_books": len(books), "sharp": has_sharp,
+                "unibet_source": unibet["title"], "unibet": unibet["prices"],
+                "p_market": {k: round(v, 4) for k, v in pm.items()},
+                "fixture_id": fx["fixture"]["id"] if fx else None,
+                "note": notes_research.get(match_id, ""),
+            }
+            matches.append(m)
+
+            for o in ("home", "draw", "away"):
+                odds = unibet["prices"][o]
+                r = adj_research.get(f"{match_id}|{o}")
+                rpp = clamp(float(r.get("pp", 0)), -CAP_RESEARCH, CAP_RESEARCH) if r else 0.0
+                p_fin = shift(p_model, o, rpp) if rpp else dict(p_model)
+                # totale correctie begrenzen
+                diff = (p_fin[o] - pm[o]) * 100
+                if abs(diff) > CAP_TOTAL:
+                    p_fin = shift(pm, o, CAP_TOTAL if diff > 0 else -CAP_TOTAL)
+                p = p_fin[o]
+                ev_val = p * odds - 1
+                ev_mkt = pm[o] * odds - 1
+                if ev_val < MIN_VALUE or p < MIN_PROB or odds > MAX_ODDS:
+                    continue
+                steps = [
+                    {"label": f"Unibet-odds {fmt(odds)}", "note": f"Bron: {unibet['title']} (zelfde platform als unibet.be)", "val": pct(1 / odds)},
+                    {"label": "Marktconsensus", "note": f"{len(books)} bookmakers, marge eruit" + (", incl. Pinnacle" if has_sharp else ""), "val": pct(pm[o])},
+                ]
+                for s in msteps:
+                    sign = s["pp"] if o == "home" else (-s["pp"] * (pm[o] / (1 - pm["home"])) if pm["home"] < 1 else 0)
+                    if abs(sign) >= 0.1:
+                        steps.append({"label": s["label"], "note": s["note"], "val": ppfmt(sign)})
+                if r:
+                    steps.append({"label": "Onderzoek Claude", "note": r.get("note", ""), "val": ppfmt(rpp),
+                                  "sources": r.get("sources", [])[:4]})
+                steps.append({"label": "Eigen kans", "note": "Na alle correcties (begrensd)", "val": pct(p), "final": True})
+
+                value_s = clamp(ev_val / 0.12 * 10, 0, 10)
+                rel_s = clamp(len(books) / 15 * 6 + (2 if has_sharp else 0) + (2 if matched else 0), 0, 10)
+                lag_s = clamp(ev_mkt / 0.06 * 10, 0, 10)
+                news_s = clamp(float(r.get("confidence", 6)), 0, 10) if r else (6.0 if matched else 4.0)
+                score = 0.4 * value_s + 0.25 * rel_s + 0.2 * lag_s + 0.15 * news_s
+                bets.append({
+                    "key": f"{match_id}|{o}", "match_id": match_id, "league": name, "kickoff": ev["commence_time"],
+                    "match": f"{home} – {away}", "outcome": o, "pick": names[o], "odds": odds,
+                    "best_odds": best[o], "p": round(p, 4), "p_market": round(pm[o], 4),
+                    "ev": round(ev_val, 4), "ev_market": round(ev_mkt, 4), "score": round(score, 1),
+                    "parts": [["Value", round(value_s, 1)], ["Betrouwbaarheid analyse", round(rel_s, 1)],
+                              ["Odds-achterstand Unibet", round(lag_s, 1)], ["Nieuws bevestigd", round(news_s, 1)]],
+                    "steps": steps, "promo": None,
+                })
+    bets.sort(key=lambda b: (-b["score"], -b["ev"]))
+    # niet meer dan 1 tip per wedstrijd in de toplijst
+    seen, top = set(), []
+    for b in bets:
+        if b["match_id"] in seen:
+            continue
+        seen.add(b["match_id"])
+        top.append(b)
+    apply_odds_boosts(top, matches, promos)
+    top.sort(key=lambda b: (-b["score"], -b["ev"]))
+    return matches, top
+
+
+def apply_odds_boosts(top, matches, promos):
+    for pr in (promos or {}).get("promos", []):
+        if pr.get("type") != "odds_boost" or not pr.get("boosted_odds"):
+            continue
+        txt = pr.get("match", "")
+        best_m, best_s = None, 0
+        for m in matches:
+            s = sim(txt, f"{m['home']} {m['away']}")
+            if s > best_s:
+                best_m, best_s = m, s
+        if not best_m or best_s < 0.55:
+            continue
+        pick = pr.get("pick", "").lower()
+        o = "draw" if "gelijk" in pick or "draw" in pick else ("away" if sim(pick, best_m["away"]) > sim(pick, best_m["home"]) else "home")
+        p = best_m["p_market"][o]
+        odds = float(pr["boosted_odds"])
+        ev_val = p * odds - 1
+        if ev_val <= 0:
+            continue
+        names = {"home": best_m["home"], "draw": "Gelijkspel", "away": best_m["away"]}
+        top.append({
+            "key": f"{best_m['id']}|{o}|boost", "match_id": best_m["id"], "league": best_m["league"],
+            "kickoff": best_m["kickoff"], "match": f"{best_m['home']} – {best_m['away']}", "outcome": o,
+            "pick": names[o], "odds": odds, "best_odds": odds, "p": round(p, 4), "p_market": round(p, 4),
+            "ev": round(ev_val, 4), "ev_market": round(ev_val, 4), "score": round(clamp(5 + ev_val * 40, 0, 10), 1),
+            "parts": [["Value", round(clamp(ev_val / 0.12 * 10, 0, 10), 1)]],
+            "steps": [{"label": f"Odds-boost {fmt(odds)}", "note": pr.get("name", "Unibet-promo"), "val": pct(1 / odds)},
+                      {"label": "Marktconsensus", "note": "Kans volgens de markt", "val": pct(p), "final": True}],
+            "promo": pr.get("name", "Odds-boost"),
+        })
+
+
+def build_combis(top, promos):
+    legs = [b for b in top if b["score"] >= 6.0 and b["ev"] > 0 and not b.get("promo")][:7]
+    boost = None
+    for pr in (promos or {}).get("promos", []):
+        if pr.get("type") == "combi_boost" and pr.get("value"):
+            boost = pr
+    out = []
+    for n in (2, 3):
+        for combo in combinations(legs, n):
+            if len({c["match_id"] for c in combo}) < n:
+                continue
+            odds, p = 1.0, 1.0
+            for c in combo:
+                odds *= c["odds"]
+                p *= c["p"]
+            eff = odds
+            if boost and n >= int(boost.get("min_legs", 2)):
+                eff = 1 + (odds - 1) * (1 + float(boost["value"]))
+            out.append({
+                "legs": [{"match": c["match"], "pick": c["pick"], "odds": c["odds"], "key": c["key"]} for c in combo],
+                "odds": round(odds, 2), "odds_boosted": round(eff, 2) if eff != odds else None,
+                "boost_name": boost.get("name") if boost and eff != odds else None,
+                "p": round(p, 4), "ev": round(p * eff - 1, 4),
+            })
+    out.sort(key=lambda c: -(c["ev"] * min(1.0, c["p"] * 4)))  # value, maar straf heel kleine kansen
+    return out[:4]
+
+
+# ---------------------------------------------------------------- tracker
+def update_history(history, top, matches):
+    hist = history.setdefault("bets", [])
+    known = {h["key"] for h in hist}
+    by_match = {m["id"]: m for m in matches}
+    now = now_utc()
+    by_key = {h["key"]: h for h in hist}
+    for b in top:
+        if b["score"] < 5.0 or parse_dt(b["kickoff"]) <= now:
+            continue
+        tracked = b["score"] >= TRACK_SCORE
+        h = by_key.get(b["key"])
+        if h is None:
+            hist.append({
+                "key": b["key"], "match_id": b["match_id"], "league": b["league"], "kickoff": b["kickoff"],
+                "match": b["match"], "pick": b["pick"], "outcome": b["outcome"], "odds": b["odds"],
+                "p": b["p"], "ev": b["ev"], "score": b["score"], "tipped_at": iso(now), "status": "open",
+                "tracked": tracked, "fixture_id": by_match.get(b["match_id"], {}).get("fixture_id"),
+                "promo": b.get("promo"),
+            })
+        elif h["status"] == "open" and tracked and not h.get("tracked"):
+            # pas vandaag sterk genoeg: volgen tegen de odds van nu
+            h.update({"odds": b["odds"], "p": b["p"], "ev": b["ev"], "score": b["score"],
+                      "tipped_at": iso(now), "tracked": True})
+    # laatste marktprijs voor aftrap bijhouden (benadering van de slotkoers)
+    for h in hist:
+        m = by_match.get(h["match_id"])
+        if h["status"] == "open" and m and parse_dt(m["kickoff"]) > now:
+            fair = 1 / m["p_market"][h["outcome"]]
+            h["last_fair_odds"] = round(fair, 3)
+            h["clv"] = round(h["odds"] / fair - 1, 4)
+            if not h.get("fixture_id"):
+                h["fixture_id"] = m.get("fixture_id")
+
+
+def settle(history, fb_raw, research):
+    fixtures = {}
+    for entry in fb_raw.values():
+        for f in entry.get("fixtures", []):
+            fixtures[f["fixture"]["id"]] = f
+    manual = (research or {}).get("results", {})
+    now = now_utc()
+    for h in history.get("bets", []):
+        if h["status"] != "open":
+            continue
+        gh = ga = None
+        f = fixtures.get(h.get("fixture_id"))
+        if f and f["fixture"]["status"]["short"] in ("FT", "AET", "PEN"):
+            ft = f.get("score", {}).get("fulltime", {})
+            gh, ga = ft.get("home"), ft.get("away")
+        elif h["match_id"] in manual:
+            gh, ga = manual[h["match_id"]].get("home"), manual[h["match_id"]].get("away")
+        elif f and f["fixture"]["status"]["short"] in ("PST", "CANC", "ABD"):
+            h["status"] = "void"
+            continue
+        if gh is None or ga is None:
+            if parse_dt(h["kickoff"]) < now - timedelta(days=6):
+                h["status"] = "void"
+                h["result"] = "geen uitslag gevonden"
+            continue
+        res = "home" if gh > ga else ("away" if ga > gh else "draw")
+        h["status"] = "won" if res == h["outcome"] else "lost"
+        h["result"] = f"{gh}-{ga}"
+        h["settled_at"] = iso(now)
+
+
+# ---------------------------------------------------------------- uitvoer
+def fmt(x):
+    return f"{x:.2f}".replace(".", ",")
+
+
+def pct(x):
+    return f"{x * 100:.1f}%".replace(".", ",")
+
+
+def ppfmt(x):
+    return ("+" if x >= 0 else "−") + f"{abs(x):.1f}".replace(".", ",")
+
+
+def notify(top, research, errors):
+    topic = os.environ.get("NTFY_TOPIC")
+    if not topic:
+        return
+    lines = []
+    for b in top[:3]:
+        lines.append(f"{b['score']:.1f} · {b['pick']} @ {fmt(b['odds'])} ({b['match']}) value {b['ev']*100:+.0f}%")
+    for a in (research or {}).get("alerts", [])[:2]:
+        lines.append(f"! {a.get('title','')}")
+    if not lines:
+        lines = ["Vandaag geen bets boven de drempel."]
+    if errors:
+        lines.append(f"({len(errors)} datafout(en), zie Meldingen)")
+    body = "\n".join(lines).encode("utf-8")
+    req = urllib.request.Request(f"https://ntfy.sh/{topic}", data=body, method="POST")
+    req.add_header("Title", f"ValueBet Scout: {len(top)} value bets")
+    req.add_header("Tags", "soccer")
+    if os.environ.get("SITE_URL"):
+        req.add_header("Click", os.environ["SITE_URL"])
+    try:
+        urllib.request.urlopen(req, timeout=20).read()
+    except Exception as e:
+        print("ntfy mislukt:", e)
+
+
+def run(mode, do_notify=False):
+    http = Http()
+    research = load(DATA / "research.json", {})
+    promos = load(DATA / "promos.json", {"promos": []})
+    history = load(DATA / "history.json", {"bets": []})
+    meta = load(CACHE / "meta.json", {})
+
+    if mode == "fetch":
+        odds_raw = fetch_odds(http)
+        fb_raw = fetch_football(http)
+        save(CACHE / "odds.json", odds_raw)
+        save(CACHE / "football.json", fb_raw)
+        meta = {"fetched_at": iso(now_utc()), "odds_remaining": http.odds_remaining,
+                "football_calls": http.football_calls, "errors": http.errors}
+        save(CACHE / "meta.json", meta)
+    else:
+        odds_raw = load(CACHE / "odds.json", {})
+        fb_raw = load(CACHE / "football.json", {})
+
+    # onderzoek van een vorige dag niet meer gebruiken
+    today = now_utc().astimezone(TZ).date().isoformat()
+    if research.get("date") and research["date"] != today:
+        research = {"results": research.get("results", {})}
+    if promos.get("date") and promos["date"] != today:
+        promos = {"promos": []}
+
+    matches, top = build(odds_raw, fb_raw, research, promos)
+    combis = build_combis(top, promos)
+    settle(history, fb_raw, research)
+    update_history(history, top, matches)
+
+    latest = {
+        "generated_at": iso(now_utc()), "fetched_at": meta.get("fetched_at"),
+        "research_date": research.get("date"), "odds_remaining": meta.get("odds_remaining"),
+        "errors": meta.get("errors", []), "n_matches": len(matches),
+        "bets": top[:30], "combis": combis, "promos": promos.get("promos", []),
+        "alerts": research.get("alerts", []), "summary": research.get("summary", ""),
+        "settings": {"min_value": MIN_VALUE, "track_score": TRACK_SCORE},
+    }
+    save(DATA / "latest.json", latest)
+    save(DATA / "history.json", history)
+    # compacte lijst van wedstrijden voor het onderzoek van Claude
+    save(CACHE / "matches.json", [
+        {"id": m["id"], "league": m["league"], "kickoff": m["kickoff"], "home": m["home"], "away": m["away"],
+         "unibet": m["unibet"], "p_market": m["p_market"]} for m in matches])
+    if do_notify:
+        notify(top, research, meta.get("errors", []))
+    print(f"{len(matches)} wedstrijden, {len(top)} value bets, {len(combis)} combi's, fouten: {len(meta.get('errors', []))}")
+    for e in meta.get("errors", []):
+        print("  -", e)
+
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2 or sys.argv[1] not in ("fetch", "apply"):
+        print(__doc__)
+        sys.exit(1)
+    run(sys.argv[1], "--notify" in sys.argv)
