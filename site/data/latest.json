@@ -1,12 +1,500 @@
 {
- "generated_at": "2026-10-28T16:17:25Z",
- "fetched_at": null,
+ "generated_at": "2026-10-28T16:27:19Z",
+ "fetched_at": "2026-10-28T16:27:19Z",
  "research_date": null,
- "odds_remaining": null,
- "errors": [],
- "n_matches": 0,
- "bets": [],
- "combis": [],
+ "odds_remaining": "490",
+ "errors": [
+  "API-Football fixtures Premier League: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football standings Premier League: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football injuries Premier League: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football fixtures LaLiga: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football standings LaLiga: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football injuries LaLiga: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football fixtures Serie A: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football standings Serie A: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football injuries Serie A: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football fixtures Bundesliga: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football standings Bundesliga: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football injuries Bundesliga: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football fixtures Ligue 1: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football standings Ligue 1: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football injuries Ligue 1: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football fixtures Eredivisie: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football standings Eredivisie: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football injuries Eredivisie: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football fixtures Primeira Liga: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football standings Primeira Liga: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football injuries Primeira Liga: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football fixtures Jupiler Pro League: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football standings Jupiler Pro League: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football injuries Jupiler Pro League: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football fixtures Champions League: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football standings Champions League: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football injuries Champions League: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football fixtures Europa League: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football standings Europa League: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
+  "API-Football injuries Europa League: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}"
+ ],
+ "n_matches": 92,
+ "bets": [
+  {
+   "key": "c0c32575c239ac72913af247ce084ea2|home",
+   "match_id": "c0c32575c239ac72913af247ce084ea2",
+   "league": "Eredivisie",
+   "kickoff": "2026-11-01T13:30:00Z",
+   "match": "Excelsior – FC Twente Enschede",
+   "outcome": "home",
+   "pick": "Excelsior",
+   "odds": 5.4,
+   "best_odds": 5.5,
+   "p": 0.2023,
+   "p_market": 0.2023,
+   "ev": 0.0926,
+   "ev_market": 0.0926,
+   "score": 7.9,
+   "parts": [
+    [
+     "Value",
+     7.7
+    ],
+    [
+     "Betrouwbaarheid analyse",
+     8.8
+    ],
+    [
+     "Odds-achterstand Unibet",
+     10
+    ],
+    [
+     "Nieuws bevestigd",
+     4.0
+    ]
+   ],
+   "steps": [
+    {
+     "label": "Unibet-odds 5,40",
+     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
+     "val": "18,5%"
+    },
+    {
+     "label": "Marktconsensus",
+     "note": "17 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "20,2%"
+    },
+    {
+     "label": "Eigen kans",
+     "note": "Na alle correcties (begrensd)",
+     "val": "20,2%",
+     "final": true
+    }
+   ],
+   "promo": null
+  },
+  {
+   "key": "961d9c9f07b1f911e211cd6a750cddba|away",
+   "match_id": "961d9c9f07b1f911e211cd6a750cddba",
+   "league": "Eredivisie",
+   "kickoff": "2026-11-01T15:45:00Z",
+   "match": "Groningen – Sparta Rotterdam",
+   "outcome": "away",
+   "pick": "Sparta Rotterdam",
+   "odds": 4.6,
+   "best_odds": 4.3,
+   "p": 0.2308,
+   "p_market": 0.2308,
+   "ev": 0.0616,
+   "ev_market": 0.0616,
+   "score": 6.9,
+   "parts": [
+    [
+     "Value",
+     5.1
+    ],
+    [
+     "Betrouwbaarheid analyse",
+     8.8
+    ],
+    [
+     "Odds-achterstand Unibet",
+     10
+    ],
+    [
+     "Nieuws bevestigd",
+     4.0
+    ]
+   ],
+   "steps": [
+    {
+     "label": "Unibet-odds 4,60",
+     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
+     "val": "21,7%"
+    },
+    {
+     "label": "Marktconsensus",
+     "note": "17 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "23,1%"
+    },
+    {
+     "label": "Eigen kans",
+     "note": "Na alle correcties (begrensd)",
+     "val": "23,1%",
+     "final": true
+    }
+   ],
+   "promo": null
+  },
+  {
+   "key": "f6f3cf01c2b20b7f746b5a06097a0569|home",
+   "match_id": "f6f3cf01c2b20b7f746b5a06097a0569",
+   "league": "Champions League",
+   "kickoff": "2026-11-03T20:00:00Z",
+   "match": "Feyenoord – Inter Milan",
+   "outcome": "home",
+   "pick": "Feyenoord",
+   "odds": 4.8,
+   "best_odds": 4.51,
+   "p": 0.2191,
+   "p_market": 0.2191,
+   "ev": 0.0517,
+   "ev_market": 0.0517,
+   "score": 6.2,
+   "parts": [
+    [
+     "Value",
+     4.3
+    ],
+    [
+     "Betrouwbaarheid analyse",
+     8.8
+    ],
+    [
+     "Odds-achterstand Unibet",
+     8.6
+    ],
+    [
+     "Nieuws bevestigd",
+     4.0
+    ]
+   ],
+   "steps": [
+    {
+     "label": "Unibet-odds 4,80",
+     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
+     "val": "20,8%"
+    },
+    {
+     "label": "Marktconsensus",
+     "note": "17 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "21,9%"
+    },
+    {
+     "label": "Eigen kans",
+     "note": "Na alle correcties (begrensd)",
+     "val": "21,9%",
+     "final": true
+    }
+   ],
+   "promo": null
+  },
+  {
+   "key": "c27c8af8c7ee29d153de0b9999ea0434|away",
+   "match_id": "c27c8af8c7ee29d153de0b9999ea0434",
+   "league": "Eredivisie",
+   "kickoff": "2026-10-31T17:45:00Z",
+   "match": "Heerenveen – NEC Nijmegen",
+   "outcome": "away",
+   "pick": "NEC Nijmegen",
+   "odds": 3.4,
+   "best_odds": 3.15,
+   "p": 0.308,
+   "p_market": 0.308,
+   "ev": 0.0473,
+   "ev_market": 0.0473,
+   "score": 6.1,
+   "parts": [
+    [
+     "Value",
+     3.9
+    ],
+    [
+     "Betrouwbaarheid analyse",
+     9.2
+    ],
+    [
+     "Odds-achterstand Unibet",
+     7.9
+    ],
+    [
+     "Nieuws bevestigd",
+     4.0
+    ]
+   ],
+   "steps": [
+    {
+     "label": "Unibet-odds 3,40",
+     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
+     "val": "29,4%"
+    },
+    {
+     "label": "Marktconsensus",
+     "note": "18 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "30,8%"
+    },
+    {
+     "label": "Eigen kans",
+     "note": "Na alle correcties (begrensd)",
+     "val": "30,8%",
+     "final": true
+    }
+   ],
+   "promo": null
+  },
+  {
+   "key": "aecb9d8c01176616c87d893bee4bc0de|away",
+   "match_id": "aecb9d8c01176616c87d893bee4bc0de",
+   "league": "Bundesliga",
+   "kickoff": "2026-10-31T14:30:00Z",
+   "match": "Borussia Monchengladbach – SC Paderborn",
+   "outcome": "away",
+   "pick": "SC Paderborn",
+   "odds": 3.8,
+   "best_odds": 3.71,
+   "p": 0.2727,
+   "p_market": 0.2727,
+   "ev": 0.0362,
+   "ev_market": 0.0362,
+   "score": 5.3,
+   "parts": [
+    [
+     "Value",
+     3.0
+    ],
+    [
+     "Betrouwbaarheid analyse",
+     9.2
+    ],
+    [
+     "Odds-achterstand Unibet",
+     6.0
+    ],
+    [
+     "Nieuws bevestigd",
+     4.0
+    ]
+   ],
+   "steps": [
+    {
+     "label": "Unibet-odds 3,80",
+     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
+     "val": "26,3%"
+    },
+    {
+     "label": "Marktconsensus",
+     "note": "18 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "27,3%"
+    },
+    {
+     "label": "Eigen kans",
+     "note": "Na alle correcties (begrensd)",
+     "val": "27,3%",
+     "final": true
+    }
+   ],
+   "promo": null
+  },
+  {
+   "key": "a7ba9b844f121a4a8777d87b1f863137|away",
+   "match_id": "a7ba9b844f121a4a8777d87b1f863137",
+   "league": "Bundesliga",
+   "kickoff": "2026-10-31T14:30:00Z",
+   "match": "Bayer Leverkusen – VfB Stuttgart",
+   "outcome": "away",
+   "pick": "VfB Stuttgart",
+   "odds": 4.1,
+   "best_odds": 3.9,
+   "p": 0.2525,
+   "p_market": 0.2525,
+   "ev": 0.0353,
+   "ev_market": 0.0353,
+   "score": 5.3,
+   "parts": [
+    [
+     "Value",
+     2.9
+    ],
+    [
+     "Betrouwbaarheid analyse",
+     9.2
+    ],
+    [
+     "Odds-achterstand Unibet",
+     5.9
+    ],
+    [
+     "Nieuws bevestigd",
+     4.0
+    ]
+   ],
+   "steps": [
+    {
+     "label": "Unibet-odds 4,10",
+     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
+     "val": "24,4%"
+    },
+    {
+     "label": "Marktconsensus",
+     "note": "18 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "25,3%"
+    },
+    {
+     "label": "Eigen kans",
+     "note": "Na alle correcties (begrensd)",
+     "val": "25,3%",
+     "final": true
+    }
+   ],
+   "promo": null
+  },
+  {
+   "key": "016bdfefaa570d0fcaeffc5a1cb3625f|draw",
+   "match_id": "016bdfefaa570d0fcaeffc5a1cb3625f",
+   "league": "Eredivisie",
+   "kickoff": "2026-11-01T11:15:00Z",
+   "match": "FC Zwolle – ADO Den Haag",
+   "outcome": "draw",
+   "pick": "Gelijkspel",
+   "odds": 3.85,
+   "best_odds": 3.85,
+   "p": 0.2682,
+   "p_market": 0.2682,
+   "ev": 0.0325,
+   "ev_market": 0.0325,
+   "score": 5.0,
+   "parts": [
+    [
+     "Value",
+     2.7
+    ],
+    [
+     "Betrouwbaarheid analyse",
+     8.8
+    ],
+    [
+     "Odds-achterstand Unibet",
+     5.4
+    ],
+    [
+     "Nieuws bevestigd",
+     4.0
+    ]
+   ],
+   "steps": [
+    {
+     "label": "Unibet-odds 3,85",
+     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
+     "val": "26,0%"
+    },
+    {
+     "label": "Marktconsensus",
+     "note": "17 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "26,8%"
+    },
+    {
+     "label": "Eigen kans",
+     "note": "Na alle correcties (begrensd)",
+     "val": "26,8%",
+     "final": true
+    }
+   ],
+   "promo": null
+  }
+ ],
+ "combis": [
+  {
+   "legs": [
+    {
+     "match": "Excelsior – FC Twente Enschede",
+     "pick": "Excelsior",
+     "odds": 5.4,
+     "key": "c0c32575c239ac72913af247ce084ea2|home"
+    },
+    {
+     "match": "Heerenveen – NEC Nijmegen",
+     "pick": "NEC Nijmegen",
+     "odds": 3.4,
+     "key": "c27c8af8c7ee29d153de0b9999ea0434|away"
+    }
+   ],
+   "odds": 18.36,
+   "odds_boosted": null,
+   "boost_name": null,
+   "p": 0.0623,
+   "ev": 0.144
+  },
+  {
+   "legs": [
+    {
+     "match": "Groningen – Sparta Rotterdam",
+     "pick": "Sparta Rotterdam",
+     "odds": 4.6,
+     "key": "961d9c9f07b1f911e211cd6a750cddba|away"
+    },
+    {
+     "match": "Heerenveen – NEC Nijmegen",
+     "pick": "NEC Nijmegen",
+     "odds": 3.4,
+     "key": "c27c8af8c7ee29d153de0b9999ea0434|away"
+    }
+   ],
+   "odds": 15.64,
+   "odds_boosted": null,
+   "boost_name": null,
+   "p": 0.0711,
+   "ev": 0.1118
+  },
+  {
+   "legs": [
+    {
+     "match": "Excelsior – FC Twente Enschede",
+     "pick": "Excelsior",
+     "odds": 5.4,
+     "key": "c0c32575c239ac72913af247ce084ea2|home"
+    },
+    {
+     "match": "Groningen – Sparta Rotterdam",
+     "pick": "Sparta Rotterdam",
+     "odds": 4.6,
+     "key": "961d9c9f07b1f911e211cd6a750cddba|away"
+    }
+   ],
+   "odds": 24.84,
+   "odds_boosted": null,
+   "boost_name": null,
+   "p": 0.0467,
+   "ev": 0.1598
+  },
+  {
+   "legs": [
+    {
+     "match": "Feyenoord – Inter Milan",
+     "pick": "Feyenoord",
+     "odds": 4.8,
+     "key": "f6f3cf01c2b20b7f746b5a06097a0569|home"
+    },
+    {
+     "match": "Heerenveen – NEC Nijmegen",
+     "pick": "NEC Nijmegen",
+     "odds": 3.4,
+     "key": "c27c8af8c7ee29d153de0b9999ea0434|away"
+    }
+   ],
+   "odds": 16.32,
+   "odds_boosted": null,
+   "boost_name": null,
+   "p": 0.0675,
+   "ev": 0.1013
+  }
+ ],
  "promos": [],
  "alerts": [],
  "summary": "",
