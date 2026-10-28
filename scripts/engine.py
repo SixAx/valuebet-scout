@@ -640,7 +640,126 @@ def ppfmt(x):
     return ("+" if x >= 0 else "−") + f"{abs(x):.1f}".replace(".", ",")
 
 
-def notify(top, research, errors):
+# ---------------------------------------------------------------- weekportefeuille van Claude
+PICKS_PER_WEEK = 10
+PICK_STAKE = 10.0
+MAX_RISKY_PICKS = 3       # hoogstens 3 risicobets per week
+
+
+def local_now():
+    return now_utc().astimezone(TZ)
+
+
+def week_key(dt):
+    y, w, _ = dt.astimezone(TZ).isocalendar()
+    return f"{y}-W{w:02d}"
+
+
+def week_label(key):
+    y, w = key.split("-W")
+    mon = datetime.fromisocalendar(int(y), int(w), 1)
+    sun = mon + timedelta(days=6)
+    return f"{mon.day}/{mon.month} – {sun.day}/{sun.month}"
+
+
+def add_picks(history, top, research, autofill, matches=()):
+    """Leg de keuzes van Claude vast (research.json -> picks) en vul eventueel aan tot 10 per week."""
+    hist = history.setdefault("bets", [])
+    by_key = {h["key"]: h for h in hist}
+    bets = {b["key"]: b for b in top}
+    now = now_utc()
+    wk = week_key(now)
+    in_week = [h for h in hist if h.get("claude_pick") and h.get("pick_week") == wk]
+    n_risky = sum(1 for h in in_week if h.get("category") == "risky")
+    added = []
+
+    def take(b, reason, auto=False):
+        nonlocal n_risky
+        if len(in_week) >= PICKS_PER_WEEK or parse_dt(b["kickoff"]) <= now:
+            return False
+        if b["category"] == "risky" and n_risky >= MAX_RISKY_PICKS:
+            return False
+        h = by_key.get(b["key"])
+        if h and h.get("claude_pick"):
+            return False
+        if h is None:
+            h = {"key": b["key"], "match_id": b["match_id"], "league": b["league"], "kickoff": b["kickoff"],
+                 "match": b["match"], "pick": b["pick"], "outcome": b["outcome"], "odds": b["odds"],
+                 "p": b["p"], "ev": b["ev"], "score": b["score"], "tipped_at": iso(now), "status": "open",
+                 "tracked": True, "category": b["category"], "fixture_id": None, "promo": b.get("promo")}
+            hist.append(h)
+            by_key[b["key"]] = h
+        h.update({"claude_pick": True, "pick_week": wk, "pick_odds": b["odds"], "pick_stake": PICK_STAKE,
+                  "pick_p": b["p"], "pick_ev": b["ev"], "pick_at": iso(now), "pick_reason": reason,
+                  "pick_auto": auto, "category": b["category"]})
+        in_week.append(h)
+        if b["category"] == "risky":
+            n_risky += 1
+        added.append(h)
+        return True
+
+    by_match = {m["id"]: m for m in matches}
+    for pk in (research or {}).get("picks", []):
+        b = bets.get(pk.get("key"))
+        if b is None and "|" in pk.get("key", ""):
+            # ook een uitkomst die niet in de lijst staat mag gekozen worden (bv. na eigen onderzoek)
+            mid, o = pk["key"].split("|", 1)
+            m = by_match.get(mid)
+            if m and o in ("home", "draw", "away"):
+                p = m["p_market"][o]
+                b = {"key": pk["key"], "match_id": mid, "league": m["league"], "kickoff": m["kickoff"],
+                     "match": f"{m['home']} – {m['away']}", "outcome": o,
+                     "pick": {"home": m["home"], "draw": "Gelijkspel", "away": m["away"]}[o],
+                     "odds": m["unibet"][o], "p": p, "ev": round(p * m["unibet"][o] - 1, 4), "score": 0,
+                     "category": "safe" if p >= SAFE_PROB else "risky"}
+        if b:
+            take(b, pk.get("reason", "").strip() or "Gekozen na het ochtendonderzoek.")
+
+    # zaterdag en zondag: aanvullen tot 10 met de sterkste bets die nog dit weekend gespeeld worden
+    if autofill and local_now().weekday() >= 5 and len(in_week) < PICKS_PER_WEEK:
+        end = (local_now().replace(hour=23, minute=59) + timedelta(days=6 - local_now().weekday())).astimezone(timezone.utc)
+        cands = [b for b in top if parse_dt(b["kickoff"]) <= end and not b.get("promo")]
+        cands.sort(key=lambda b: (b["ev"] < 0, -(b["ev"] if b["category"] == "risky" else b["score"] / 100 + b["ev"])))
+        for b in cands:
+            if len(in_week) >= PICKS_PER_WEEK:
+                break
+            why = (f"Automatisch aangevuld: {round(b['p'] * 100)}% winkans, "
+                   f"value {('+' if b['ev'] >= 0 else '−')}{dec(abs(b['ev']) * 100)}% bij odds {fmt(b['odds'])}.")
+            take(b, why, auto=True)
+    return added
+
+
+def weekly_summary(history):
+    weeks = {}
+    for h in history.get("bets", []):
+        if not h.get("claude_pick"):
+            continue
+        w = weeks.setdefault(h["pick_week"], {"week": h["pick_week"], "label": week_label(h["pick_week"]),
+                                              "n": 0, "won": 0, "lost": 0, "open": 0, "void": 0,
+                                              "staked": 0.0, "returned": 0.0, "pnl": 0.0})
+        st = h.get("pick_stake", PICK_STAKE)
+        w["n"] += 1
+        if h["status"] == "won":
+            w["won"] += 1; w["staked"] += st; w["returned"] += st * h["pick_odds"]; w["pnl"] += st * (h["pick_odds"] - 1)
+        elif h["status"] == "lost":
+            w["lost"] += 1; w["staked"] += st; w["pnl"] -= st
+        elif h["status"] == "void":
+            w["void"] += 1
+        else:
+            w["open"] += 1
+    out = sorted(weeks.values(), key=lambda w: w["week"], reverse=True)
+    for w in out:
+        for k in ("staked", "returned", "pnl"):
+            w[k] = round(w[k], 2)
+    total = {"staked": round(sum(w["staked"] for w in out), 2), "pnl": round(sum(w["pnl"] for w in out), 2),
+             "weeks": len(out), "won": sum(w["won"] for w in out),
+             "settled": sum(w["won"] + w["lost"] for w in out),
+             "weeks_positive": sum(1 for w in out if w["pnl"] > 0 and w["open"] == 0)}
+    total["roi"] = round(total["pnl"] / total["staked"], 4) if total["staked"] else 0.0
+    return {"weeks": out, "total": total, "per_week": PICKS_PER_WEEK, "stake": PICK_STAKE}
+
+
+def notify(top, research, errors, new_picks=(), portfolio=None):
     topic = os.environ.get("NTFY_TOPIC")
     if not topic:
         return
@@ -651,6 +770,16 @@ def notify(top, research, errors):
         lines.append(f"{round(b['p']*100)}% · {b['pick']} @ {fmt(b['odds'])} ({b['match']})")
     for b in risky:
         lines.append(f"🔥 {b['pick']} @ {fmt(b['odds'])} ({b['match']}) x-factor {b['ev']*100:+.0f}%")
+    if new_picks:
+        lines.append(f"Claude zet vandaag in ({len(new_picks)}× €{PICK_STAKE:.0f}):")
+        for h in new_picks:
+            lines.append(f"✓ {h['pick']} @ {fmt(h['pick_odds'])} ({h['match']})")
+    if portfolio and local_now().weekday() == 0:
+        done = [w for w in portfolio["weeks"] if w["week"] != week_key(now_utc())]
+        if done:
+            w = done[0]
+            lines.insert(0, f"Vorige week ({w['label']}): {w['won']}/{w['won'] + w['lost']} raak, "
+                            f"{'+' if w['pnl'] >= 0 else '−'}€{abs(w['pnl']):.2f}".replace(".", ","))
     for a in (research or {}).get("alerts", [])[:2]:
         lines.append(f"! {a.get('title','')}")
     if not lines:
@@ -667,6 +796,14 @@ def notify(top, research, errors):
         urllib.request.urlopen(req, timeout=20).read()
     except Exception as e:
         print("ntfy mislukt:", e)
+
+
+def shortlist(top):
+    safe = [b for b in top if b["category"] == "safe"]
+    risky = [b for b in top if b["category"] == "risky"]
+    keep = safe[:12] + risky[:8]
+    keep += [b for b in top if b.get("claude_pick") and b not in keep]
+    return keep
 
 
 def run(mode, do_notify=False):
@@ -699,13 +836,20 @@ def run(mode, do_notify=False):
     combis = build_combis(top, promos)
     settle(history, fb_raw, research)
     update_history(history, top, matches)
+    new_picks = add_picks(history, top, research, autofill=do_notify, matches=matches)
+    portfolio = weekly_summary(history)
+    picked = {h["key"]: h for h in history["bets"] if h.get("claude_pick") and h["status"] == "open"}
+    for b in top:
+        if b["key"] in picked:
+            b["claude_pick"] = True
+            b["pick_reason"] = picked[b["key"]].get("pick_reason", "")
 
     latest = {
         "generated_at": iso(now_utc()), "fetched_at": meta.get("fetched_at"),
         "research_date": research.get("date"), "odds_remaining": meta.get("odds_remaining"),
         "errors": meta.get("errors", []), "notes": meta.get("notes", []), "n_matches": len(matches),
-        "bets": [b for b in top if b["category"] == "safe"][:12] + [b for b in top if b["category"] == "risky"][:8], "combis": combis, "promos": promos.get("promos", []),
-        "alerts": research.get("alerts", []), "summary": research.get("summary", ""),
+        "bets": shortlist(top), "combis": combis, "promos": promos.get("promos", []),
+        "alerts": research.get("alerts", []), "summary": research.get("summary", ""), "portfolio": portfolio,
         "settings": {"min_value": MIN_VALUE, "track_score": TRACK_SCORE, "safe_prob": SAFE_PROB},
     }
     save(DATA / "latest.json", latest)
@@ -715,7 +859,7 @@ def run(mode, do_notify=False):
         {"id": m["id"], "league": m["league"], "kickoff": m["kickoff"], "home": m["home"], "away": m["away"],
          "unibet": m["unibet"], "p_market": m["p_market"]} for m in matches])
     if do_notify:
-        notify(top, research, meta.get("errors", []))
+        notify(top, research, meta.get("errors", []), new_picks, portfolio)
     print(f"{len(matches)} wedstrijden, {len(top)} value bets, {len(combis)} combi's, fouten: {len(meta.get('errors', []))}")
     for e in meta.get("errors", []):
         print("  -", e)

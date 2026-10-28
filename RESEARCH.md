@@ -28,7 +28,21 @@ dat een favoriet nog sterker maakt.
    (zonder verlengingen) op en zet die in `results`.
 7. Maak maximaal 5 `alerts`: belangrijk nieuws waarbij Unibet de odds nog niet lijkt te hebben aangepast, of een
    promo met duidelijke value.
-8. Schrijf beide bestanden. Controleer met `python3 scripts/engine.py apply` dat er geen fout is. Zet daarna
+8. **Weekportefeuille: kies de bets waarop jij zelf €10 zou inzetten.** Elke week (maandag–zondag) zet Claude
+   zogezegd in op 10 bets van €10; de gebruiker beslist op basis van dit resultaat of hij echt geld inzet. Wees dus
+   streng en eerlijk:
+   - Lees in `site/data/history.json` hoeveel bets met `"claude_pick": true` en `"pick_week"` = deze week er al zijn.
+     Kies er vandaag hoogstens zoveel dat het totaal 10 niet overschrijdt; spreid ze over de week (meestal 2–4 per
+     dag, de meeste voor het weekend). Elke bet moet nog moeten beginnen.
+   - Kies alleen bets waarvan je na je onderzoek denkt dat ze op lange termijn winst opleveren: je eigen kans × odds
+     moet boven 1 liggen. Vooral favorieten waar vers nieuws in hun voordeel nog niet in de odds zit, of een
+     odds-boost. Hoogstens 3 risicobets per week (de engine weigert er meer).
+   - Liever minder dan 10 dan een slechte bet. Wat op zaterdag/zondag nog ontbreekt, vult de engine automatisch aan
+     met de sterkste bets van het weekend.
+   - Zet ze in `research.json` → `picks`: `{"key": "<match_id>|<home|draw|away>", "reason": "2–3 zinnen: waarom"}`.
+     De sleutel staat als `key` bij elke bet in `latest.json`; een andere uitkomst van een wedstrijd uit
+     `cache/matches.json` mag ook. De odds worden vastgelegd op het moment van kiezen; later wijzigen kan niet.
+9. Schrijf beide bestanden. Controleer met `python3 scripts/engine.py apply` dat er geen fout is. Zet daarna
    `site/data/latest.json`, `site/data/history.json` en `cache/` terug met `git checkout -- site/data/latest.json
    site/data/history.json cache`, en commit en push alleen de twee bestanden.
 
@@ -47,7 +61,8 @@ dat een favoriet nog sterker maakt.
     {"tag": "BLESSURE", "time": "07:52", "title": "Kort, concreet", "body": "Wat er is en welke bet het raakt.",
      "url": "https://..."}
   ],
-  "results": {"<match_id>": {"home": 2, "away": 1}}
+  "results": {"<match_id>": {"home": 2, "away": 1}},
+  "picks": [{"key": "<match_id>|home", "reason": "Waarom je hier €10 op zet."}]
 }
 ```
 

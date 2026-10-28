@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T16:38:14Z",
+ "generated_at": "2026-10-28T20:00:53Z",
  "fetched_at": "2026-10-28T16:27:19Z",
  "research_date": null,
  "odds_remaining": "490",
@@ -1088,6 +1088,20 @@
  "promos": [],
  "alerts": [],
  "summary": "",
+ "portfolio": {
+  "weeks": [],
+  "total": {
+   "staked": 0,
+   "pnl": 0,
+   "weeks": 0,
+   "won": 0,
+   "settled": 0,
+   "weeks_positive": 0,
+   "roi": 0.0
+  },
+  "per_week": 10,
+  "stake": 10.0
+ },
  "settings": {
   "min_value": 0.03,
   "track_score": 7.0,
