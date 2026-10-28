@@ -859,7 +859,9 @@ def run(mode, do_notify=False):
         {"id": m["id"], "league": m["league"], "kickoff": m["kickoff"], "home": m["home"], "away": m["away"],
          "unibet": m["unibet"], "p_market": m["p_market"]} for m in matches])
     if do_notify:
-        notify(top, research, meta.get("errors", []), new_picks, portfolio)
+        today_picks = [h for h in history["bets"] if h.get("claude_pick") and h.get("pick_at")
+                       and parse_dt(h["pick_at"]).astimezone(TZ).date() == local_now().date()]
+        notify(top, research, meta.get("errors", []), today_picks, portfolio)
     print(f"{len(matches)} wedstrijden, {len(top)} value bets, {len(combis)} combi's, fouten: {len(meta.get('errors', []))}")
     for e in meta.get("errors", []):
         print("  -", e)
