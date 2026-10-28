@@ -6,6 +6,11 @@ De push van die bestanden start de workflow `research.yml`, die alles herbereken
 
 ## Werkwijze
 
+Let op: het gratis plan van API-Football geeft geen toegang tot het huidige seizoen. Blessures, vorm én
+uitslagen komen dus volledig uit dit onderzoek. Kijk bij elke bet naar `category`: `safe` = favoriet (grote
+winkans), `risky` = outsider met hoge x-factor. Zoek vooral nieuws dat een favoriet kan doen struikelen of
+dat een favoriet nog sterker maakt.
+
 1. `git pull`. Lees `site/data/latest.json` (huidige bets), `cache/matches.json` (alle wedstrijden met
    Unibet-odds en marktkans) en `site/data/history.json` (gevolgde bets).
 2. Kies maximaal 15 wedstrijden: alle wedstrijden uit `latest.json` → `bets`, aangevuld met topwedstrijden

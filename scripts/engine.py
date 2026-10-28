@@ -44,10 +44,13 @@ UNIBET_KEYS = ["unibet_nl", "unibet_fr", "unibet_se", "unibet_it"]  # geen apart
 SHARP_KEYS = {"pinnacle": 3.0, "betfair_ex_eu": 2.0, "matchbook": 1.5}
 DAYS_AHEAD = 7
 MIN_BOOKMAKERS = 4
-MIN_VALUE = 0.03          # minstens +3% value om in de lijst te komen
+MIN_VALUE = 0.03          # risicobets: minstens +3% value
+SAFE_PROB = 0.55          # favorieten: minstens 55% winkans
+SAFE_MIN_VALUE = -0.035   # favorieten: hoogstens 3,5% onder de eerlijke odds
 MIN_PROB = 0.15           # geen gokken op grote outsiders
 MAX_ODDS = 6.0
-TRACK_SCORE = 7.0         # vanaf deze score wordt een tip in de Tracker gevolgd
+TRACK_SCORE = 7.0         # risicobets vanaf deze score volgen in de Tracker
+TRACK_SAFE_TOP = 5        # de 5 beste favorieten van elke dag volgen
 CAP_MODEL = 3.0           # max correctie (procentpunten) uit vaste regels
 CAP_RESEARCH = 4.0        # max correctie uit Claude-onderzoek
 CAP_TOTAL = 6.0           # max totale correctie
@@ -87,6 +90,7 @@ class Http:
     def __init__(self):
         self.mock = os.environ.get("MOCK_DIR")
         self.errors = []
+        self.notes = []
         self.odds_remaining = None
         self.football_calls = 0
 
@@ -171,10 +175,14 @@ def fetch_football(http):
             http.football_calls += 1
             if res is None:
                 continue
-            if res.get("errors"):
-                errs = res["errors"]
-                if errs and errs != []:
-                    http.errors.append(f"API-Football {kind} {name}: {errs}")
+            errs = res.get("errors")
+            if errs and isinstance(errs, dict) and "plan" in errs:
+                # gratis plan geeft geen toegang tot het huidige seizoen: stoppen, requests sparen
+                http.notes.append("API-Football (gratis plan) geeft geen toegang tot dit seizoen: "
+                                  "blessures, vorm en uitslagen komen uit het ochtendonderzoek van Claude.")
+                return out
+            if errs:
+                http.errors.append(f"API-Football {kind} {name}: {errs}")
             entry[kind] = res.get("response", [])
         out[okey] = entry
     return out
@@ -384,7 +392,11 @@ def build(odds_raw, fb_raw, research, promos):
                 p = p_fin[o]
                 ev_val = p * odds - 1
                 ev_mkt = pm[o] * odds - 1
-                if ev_val < MIN_VALUE or p < MIN_PROB or odds > MAX_ODDS:
+                if p >= SAFE_PROB and ev_val >= SAFE_MIN_VALUE and odds >= 1.15:
+                    cat = "safe"
+                elif ev_val >= MIN_VALUE and p >= MIN_PROB and odds <= MAX_ODDS and p < SAFE_PROB:
+                    cat = "risky"
+                else:
                     continue
                 steps = [
                     {"label": f"Unibet-odds {fmt(odds)}", "note": f"Bron: {unibet['title']} (zelfde platform als unibet.be)", "val": pct(1 / odds)},
@@ -399,31 +411,85 @@ def build(odds_raw, fb_raw, research, promos):
                                   "sources": r.get("sources", [])[:4]})
                 steps.append({"label": "Eigen kans", "note": "Na alle correcties (begrensd)", "val": pct(p), "final": True})
 
-                value_s = clamp(ev_val / 0.12 * 10, 0, 10)
-                rel_s = clamp(len(books) / 15 * 6 + (2 if has_sharp else 0) + (2 if matched else 0), 0, 10)
-                lag_s = clamp(ev_mkt / 0.06 * 10, 0, 10)
+                rel_s = clamp(len(books) / 15 * 6 + (2 if has_sharp else 0) + (2 if matched or r else 0), 0, 10)
                 news_s = clamp(float(r.get("confidence", 6)), 0, 10) if r else (6.0 if matched else 4.0)
-                score = 0.4 * value_s + 0.25 * rel_s + 0.2 * lag_s + 0.15 * news_s
+                if cat == "safe":
+                    # vooral: hoe groot is de winkans, en betaalt Unibet (bijna) eerlijk?
+                    win_s = clamp((p - 0.5) / 0.35 * 10, 0, 10)
+                    value_s = clamp((ev_val + 0.04) / 0.08 * 10, 0, 10)
+                    score = 0.45 * win_s + 0.3 * value_s + 0.15 * rel_s + 0.1 * news_s
+                    parts = [["Winkans", round(win_s, 1)], ["Value t.o.v. eerlijke odds", round(value_s, 1)],
+                             ["Betrouwbaarheid analyse", round(rel_s, 1)], ["Nieuws bevestigd", round(news_s, 1)]]
+                else:
+                    value_s = clamp(ev_val / 0.12 * 10, 0, 10)
+                    lag_s = clamp(ev_mkt / 0.06 * 10, 0, 10)
+                    score = 0.4 * value_s + 0.25 * rel_s + 0.2 * lag_s + 0.15 * news_s
+                    parts = [["X-factor (value)", round(value_s, 1)], ["Betrouwbaarheid analyse", round(rel_s, 1)],
+                             ["Odds-achterstand Unibet", round(lag_s, 1)], ["Nieuws bevestigd", round(news_s, 1)]]
                 bets.append({
                     "key": f"{match_id}|{o}", "match_id": match_id, "league": name, "kickoff": ev["commence_time"],
                     "match": f"{home} – {away}", "outcome": o, "pick": names[o], "odds": odds,
                     "best_odds": best[o], "p": round(p, 4), "p_market": round(pm[o], 4),
                     "ev": round(ev_val, 4), "ev_market": round(ev_mkt, 4), "score": round(score, 1),
-                    "parts": [["Value", round(value_s, 1)], ["Betrouwbaarheid analyse", round(rel_s, 1)],
-                              ["Odds-achterstand Unibet", round(lag_s, 1)], ["Nieuws bevestigd", round(news_s, 1)]],
-                    "steps": steps, "promo": None,
+                    "category": cat, "parts": parts, "steps": steps, "promo": None,
+                    "why": explain(cat, names[o], o, home, away, p, odds, ev_val, len(books), has_sharp, r,
+                                   notes_research.get(match_id)),
                 })
     bets.sort(key=lambda b: (-b["score"], -b["ev"]))
-    # niet meer dan 1 tip per wedstrijd in de toplijst
+    # niet meer dan 1 tip per wedstrijd per lijst
     seen, top = set(), []
     for b in bets:
-        if b["match_id"] in seen:
+        k = (b["match_id"], b["category"])
+        if k in seen:
             continue
-        seen.add(b["match_id"])
+        seen.add(k)
         top.append(b)
     apply_odds_boosts(top, matches, promos)
     top.sort(key=lambda b: (-b["score"], -b["ev"]))
     return matches, top
+
+
+def dec(x):
+    return f"{x:.1f}".replace(".", ",")
+
+
+def euro(x):
+    return "€" + f"{x:.2f}".replace(".", ",")
+
+
+def explain(cat, pick, o, home, away, p, odds, ev, n_books, sharp, research, match_note):
+    """Uitleg in gewone taal: waarom deze bet, wat kan je verwachten."""
+    fair = 1 / p
+    wins = "het gelijk eindigt" if o == "draw" else f"{pick} wint"
+    src = f"{n_books} bookmakers" + (" (waaronder Pinnacle, de scherpste)" if sharp else "")
+    out = []
+    if cat == "safe":
+        out.append(f"{pick} is de favoriet. Volgens {src} is de kans dat {wins} ongeveer {round(p * 100)}%: "
+                   f"zo'n {round(p * 10)} op 10 keer.")
+        if ev >= 0:
+            out.append(f"Unibet betaalt {fmt(odds)}, terwijl een eerlijke odds voor die kans {fmt(fair)} is. "
+                       f"Unibet betaalt dus iets meer dan eerlijk: dat is value, zeldzaam bij een favoriet.")
+        else:
+            out.append(f"Unibet betaalt {fmt(odds)}; een eerlijke odds voor die kans is {fmt(fair)}. Het verschil is "
+                       f"de marge van de bookmaker: op lange termijn kost dit ongeveer {dec(abs(ev) * 100)}% van je inzet. "
+                       f"Je wint deze bet vaak, maar niet gratis. Dit is een van de favorieten met de kleinste marge.")
+        out.append(f"Met €10 krijg je {euro(10 * odds)} terug als het lukt (winst {euro(10 * (odds - 1))}). "
+                   f"In ongeveer {round((1 - p) * 100)}% van de gevallen verlies je je inzet.")
+    else:
+        out.append(f"Dit is een risicobet. De kans dat {wins} is volgens {src} maar ongeveer {round(p * 100)}%: "
+                   f"zo'n 1 op {max(2, round(1 / p))} keer.")
+        out.append(f"Unibet betaalt wel {fmt(odds)}, terwijl een eerlijke odds {fmt(fair)} zou zijn. Daardoor is de "
+                   f"x-factor +{dec(ev * 100)}%: wie zulke bets vaak speelt, wint op lange termijn gemiddeld zoveel "
+                   f"bovenop zijn inzet terug.")
+        out.append(f"Je verliest de meeste van deze bets. Met €10 krijg je {euro(10 * odds)} terug als het lukt. "
+                   f"Speel ze alleen met een klein bedrag en als reeks, nooit om verlies goed te maken.")
+    if research and research.get("note"):
+        out.append("Nieuws: " + research["note"])
+    elif match_note:
+        out.append("Nieuws: " + match_note)
+    else:
+        out.append("Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35.")
+    return out
 
 
 def apply_odds_boosts(top, matches, promos):
@@ -455,11 +521,16 @@ def apply_odds_boosts(top, matches, promos):
             "steps": [{"label": f"Odds-boost {fmt(odds)}", "note": pr.get("name", "Unibet-promo"), "val": pct(1 / odds)},
                       {"label": "Marktconsensus", "note": "Kans volgens de markt", "val": pct(p), "final": True}],
             "promo": pr.get("name", "Odds-boost"),
+            "category": "safe" if p >= SAFE_PROB else "risky",
+            "why": [f"Promo van Unibet: {pr.get('name', 'odds-boost')}. De verhoogde odds {fmt(odds)} liggen boven de "
+                    f"eerlijke odds {fmt(1 / p)}, dus deze promo heeft value (+{dec(ev_val * 100)}%)."]
+                   + ([pr["note"]] if pr.get("note") else []),
         })
 
 
 def build_combis(top, promos):
-    legs = [b for b in top if b["score"] >= 6.0 and b["ev"] > 0 and not b.get("promo")][:7]
+    # combi's uit favorieten: grote kans per selectie; een combi-boost kan de marge goedmaken
+    legs = [b for b in top if b["category"] == "safe" and not b.get("promo")][:7]
     boost = None
     for pr in (promos or {}).get("promos", []):
         if pr.get("type") == "combi_boost" and pr.get("value"):
@@ -482,7 +553,8 @@ def build_combis(top, promos):
                 "boost_name": boost.get("name") if boost and eff != odds else None,
                 "p": round(p, 4), "ev": round(p * eff - 1, 4),
             })
-    out.sort(key=lambda c: -(c["ev"] * min(1.0, c["p"] * 4)))  # value, maar straf heel kleine kansen
+    out = [c for c in out if c["p"] >= 0.30]
+    out.sort(key=lambda c: (-c["ev"], -c["p"]))
     return out[:4]
 
 
@@ -493,17 +565,20 @@ def update_history(history, top, matches):
     by_match = {m["id"]: m for m in matches}
     now = now_utc()
     by_key = {h["key"]: h for h in hist}
+    safe_top = {b["key"] for b in [x for x in top if x["category"] == "safe"][:TRACK_SAFE_TOP]}
     for b in top:
-        if b["score"] < 5.0 or parse_dt(b["kickoff"]) <= now:
+        if parse_dt(b["kickoff"]) <= now:
             continue
-        tracked = b["score"] >= TRACK_SCORE
+        tracked = b["key"] in safe_top or (b["category"] == "risky" and b["score"] >= TRACK_SCORE)
+        if not tracked and b["score"] < 5.0:
+            continue
         h = by_key.get(b["key"])
         if h is None:
             hist.append({
                 "key": b["key"], "match_id": b["match_id"], "league": b["league"], "kickoff": b["kickoff"],
                 "match": b["match"], "pick": b["pick"], "outcome": b["outcome"], "odds": b["odds"],
                 "p": b["p"], "ev": b["ev"], "score": b["score"], "tipped_at": iso(now), "status": "open",
-                "tracked": tracked, "fixture_id": by_match.get(b["match_id"], {}).get("fixture_id"),
+                "tracked": tracked, "category": b["category"], "fixture_id": by_match.get(b["match_id"], {}).get("fixture_id"),
                 "promo": b.get("promo"),
             })
         elif h["status"] == "open" and tracked and not h.get("tracked"):
@@ -570,8 +645,12 @@ def notify(top, research, errors):
     if not topic:
         return
     lines = []
-    for b in top[:3]:
-        lines.append(f"{b['score']:.1f} · {b['pick']} @ {fmt(b['odds'])} ({b['match']}) value {b['ev']*100:+.0f}%")
+    safe = [b for b in top if b["category"] == "safe"][:3]
+    risky = [b for b in top if b["category"] == "risky"][:1]
+    for b in safe:
+        lines.append(f"{round(b['p']*100)}% · {b['pick']} @ {fmt(b['odds'])} ({b['match']})")
+    for b in risky:
+        lines.append(f"🔥 {b['pick']} @ {fmt(b['odds'])} ({b['match']}) x-factor {b['ev']*100:+.0f}%")
     for a in (research or {}).get("alerts", [])[:2]:
         lines.append(f"! {a.get('title','')}")
     if not lines:
@@ -580,7 +659,7 @@ def notify(top, research, errors):
         lines.append(f"({len(errors)} datafout(en), zie Meldingen)")
     body = "\n".join(lines).encode("utf-8")
     req = urllib.request.Request(f"https://ntfy.sh/{topic}", data=body, method="POST")
-    req.add_header("Title", f"ValueBet Scout: {len(top)} value bets")
+    req.add_header("Title", "ValueBet Scout: bets van vandaag")
     req.add_header("Tags", "soccer")
     if os.environ.get("SITE_URL"):
         req.add_header("Click", os.environ["SITE_URL"])
@@ -603,7 +682,7 @@ def run(mode, do_notify=False):
         save(CACHE / "odds.json", odds_raw)
         save(CACHE / "football.json", fb_raw)
         meta = {"fetched_at": iso(now_utc()), "odds_remaining": http.odds_remaining,
-                "football_calls": http.football_calls, "errors": http.errors}
+                "football_calls": http.football_calls, "errors": http.errors, "notes": http.notes}
         save(CACHE / "meta.json", meta)
     else:
         odds_raw = load(CACHE / "odds.json", {})
@@ -624,10 +703,10 @@ def run(mode, do_notify=False):
     latest = {
         "generated_at": iso(now_utc()), "fetched_at": meta.get("fetched_at"),
         "research_date": research.get("date"), "odds_remaining": meta.get("odds_remaining"),
-        "errors": meta.get("errors", []), "n_matches": len(matches),
-        "bets": top[:30], "combis": combis, "promos": promos.get("promos", []),
+        "errors": meta.get("errors", []), "notes": meta.get("notes", []), "n_matches": len(matches),
+        "bets": [b for b in top if b["category"] == "safe"][:12] + [b for b in top if b["category"] == "risky"][:8], "combis": combis, "promos": promos.get("promos", []),
         "alerts": research.get("alerts", []), "summary": research.get("summary", ""),
-        "settings": {"min_value": MIN_VALUE, "track_score": TRACK_SCORE},
+        "settings": {"min_value": MIN_VALUE, "track_score": TRACK_SCORE, "safe_prob": SAFE_PROB},
     }
     save(DATA / "latest.json", latest)
     save(DATA / "history.json", history)
