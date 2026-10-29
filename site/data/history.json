@@ -370,6 +370,34 @@
    "promo": null,
    "last_fair_odds": 1.376,
    "clv": -0.0332
+  },
+  {
+   "key": "2dd4ff7c9aef0d27f3f30acf413dfa8b|home",
+   "match_id": "2dd4ff7c9aef0d27f3f30acf413dfa8b",
+   "league": "Jupiler Pro League",
+   "kickoff": "2026-10-30T19:45:00Z",
+   "match": "SV Zulte-Waregem – Club Brugge",
+   "pick": "SV Zulte-Waregem",
+   "outcome": "home",
+   "odds": 6.4,
+   "p": 0.1727,
+   "ev": 0.1053,
+   "score": 0,
+   "tipped_at": "2026-10-29T06:39:40Z",
+   "status": "open",
+   "tracked": true,
+   "category": "risky",
+   "fixture_id": null,
+   "promo": null,
+   "claude_pick": true,
+   "pick_week": "2026-W44",
+   "pick_odds": 6.4,
+   "pick_stake": 10.0,
+   "pick_p": 0.1727,
+   "pick_ev": 0.1053,
+   "pick_at": "2026-10-29T06:39:40Z",
+   "pick_reason": "Dit is een prijsbet, geen gevoelsbet: Unibet betaalt 6,40 terwijl de scherpe markt (Pinnacle en 17 anderen) Zulte Waregem ±17% kans geeft, wat 5,8 waard is: ongeveer +10% verwachte winst. Zulte zit in slechte vorm (4 nederlagen zonder doelpunt) en Club won 7 keer op rij, dus deze bet verliest meestal; de winst zit enkel in het herhalen van zulke te hoge odds op lange termijn.",
+   "pick_auto": false
   }
  ]
 }
