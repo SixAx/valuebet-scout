@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T10:23:00Z",
+ "generated_at": "2026-10-29T10:47:46Z",
  "fetched_at": "2026-10-29T05:48:50Z",
  "research_date": "2026-10-29",
  "odds_remaining": "480",
@@ -3402,7 +3402,8 @@
     "returned": 0.0,
     "pnl": 0.0,
     "report": "",
-    "breakdown": null
+    "breakdown": null,
+    "committed": 10.0
    }
   ],
   "total": {
@@ -3415,7 +3416,8 @@
    "roi": 0.0
   },
   "per_week": 10,
-  "stake": 10.0
+  "stake": 10.0,
+  "budget": 100.0
  },
  "calibration": {
   "n": 0,

@@ -219,9 +219,13 @@ def fetch_scores(http, history):
     """Uitslagen via The Odds API, alleen voor competities met open bets waarvan de aftrap voorbij is."""
     key = os.environ.get("ODDS_API_KEY", "")
     now = now_utc()
-    need = sorted({SPORT_OF.get(h["league"]) for h in history.get("bets", [])
-                   if h["status"] == "open" and SPORT_OF.get(h["league"])
-                   and now - timedelta(days=3) < parse_dt(h["kickoff"]) < now - timedelta(hours=2)})
+    items = []
+    for h in history.get("bets", []):
+        if h["status"] == "open":
+            items += h["legs"] if h.get("type") == "combi" else [h]
+    need = sorted({SPORT_OF.get(x["league"]) for x in items
+                   if x.get("status", "open") == "open" and SPORT_OF.get(x["league"])
+                   and now - timedelta(days=3) < parse_dt(x["kickoff"]) < now - timedelta(hours=2)})
     out = {}
     for okey in need:
         try:
@@ -758,8 +762,8 @@ def update_history(history, top, matches):
                       "tipped_at": iso(now), "tracked": True})
     # laatste marktprijs voor aftrap bijhouden (benadering van de slotkoers)
     for h in hist:
-        m = by_match.get(h["match_id"])
-        if h["status"] == "open" and m and parse_dt(m["kickoff"]) > now:
+        m = by_match.get(h.get("match_id"))
+        if h["status"] == "open" and m and h.get("outcome") and parse_dt(m["kickoff"]) > now:
             fair = 1 / m["p_market"][h["outcome"]]
             h["last_fair_odds"] = round(fair, 3)
             h["clv"] = round(h["odds"] / fair - 1, 4)
@@ -774,30 +778,63 @@ def settle(history, fb_raw, research, scores=None):
             fixtures[f["fixture"]["id"]] = f
     manual = (research or {}).get("results", {})
     now = now_utc()
+
+    def result(match_id, fixture_id, kickoff):
+        """(thuis, uit) als de uitslag bekend is, 'void' als de match niet doorging, anders None."""
+        f = fixtures.get(fixture_id)
+        if f and f["fixture"]["status"]["short"] in ("FT", "AET", "PEN"):
+            ft = f.get("score", {}).get("fulltime", {})
+            if ft.get("home") is not None:
+                return ft["home"], ft["away"]
+        if scores and match_id in scores:
+            return scores[match_id]["home"], scores[match_id]["away"]
+        if match_id in manual and manual[match_id].get("home") is not None:
+            return manual[match_id]["home"], manual[match_id]["away"]
+        if f and f["fixture"]["status"]["short"] in ("PST", "CANC", "ABD"):
+            return "void"
+        if parse_dt(kickoff) < now - timedelta(days=6):
+            return "void"
+        return None
+
+    def apply(x, r):
+        if r is None:
+            return False
+        if r == "void":
+            x["status"] = "void"
+            x.setdefault("result", "niet gespeeld of geen uitslag")
+            return True
+        gh, ga = r
+        res = "home" if gh > ga else ("away" if ga > gh else "draw")
+        x["status"] = "won" if res == x["outcome"] else "lost"
+        x["result"] = f"{gh}-{ga}"
+        return True
+
     for h in history.get("bets", []):
         if h["status"] != "open":
             continue
-        gh = ga = None
-        f = fixtures.get(h.get("fixture_id"))
-        if f and f["fixture"]["status"]["short"] in ("FT", "AET", "PEN"):
-            ft = f.get("score", {}).get("fulltime", {})
-            gh, ga = ft.get("home"), ft.get("away")
-        elif scores and h["match_id"] in scores:
-            gh, ga = scores[h["match_id"]]["home"], scores[h["match_id"]]["away"]
-        elif h["match_id"] in manual:
-            gh, ga = manual[h["match_id"]].get("home"), manual[h["match_id"]].get("away")
-        elif f and f["fixture"]["status"]["short"] in ("PST", "CANC", "ABD"):
-            h["status"] = "void"
+        if h.get("type") == "combi":
+            for l in h["legs"]:
+                if l["status"] == "open":
+                    apply(l, result(l["match_id"], l.get("fixture_id"), l["kickoff"]))
+            sts = [l["status"] for l in h["legs"]]
+            if "lost" in sts:
+                h["status"] = "lost"
+            elif "open" not in sts:
+                live = [l for l in h["legs"] if l["status"] == "won"]
+                if not live:
+                    h["status"] = "void"
+                else:
+                    h["status"] = "won"
+                    o = 1.0
+                    for l in live:
+                        o *= l["odds"]
+                    h["pick_odds"] = h["odds"] = round(o, 2)  # nietige selecties tellen als odds 1
+            if h["status"] != "open":
+                h["result"] = f"{sts.count('won')}/{len(sts)} raak"
+                h["settled_at"] = iso(now)
             continue
-        if gh is None or ga is None:
-            if parse_dt(h["kickoff"]) < now - timedelta(days=6):
-                h["status"] = "void"
-                h["result"] = "geen uitslag gevonden"
-            continue
-        res = "home" if gh > ga else ("away" if ga > gh else "draw")
-        h["status"] = "won" if res == h["outcome"] else "lost"
-        h["result"] = f"{gh}-{ga}"
-        h["settled_at"] = iso(now)
+        if apply(h, result(h["match_id"], h.get("fixture_id"), h["kickoff"])):
+            h["settled_at"] = iso(now)
 
 
 # ---------------------------------------------------------------- uitvoer
@@ -814,8 +851,10 @@ def ppfmt(x):
 
 
 # ---------------------------------------------------------------- weekportefeuille van Claude
-PICKS_PER_WEEK = 10
-PICK_STAKE = 10.0
+PICKS_PER_WEEK = 10       # hoogstens 10 bets (enkel of combi) per week
+PICK_STAKE = 10.0          # standaardbedrag
+WEEK_BUDGET = 100.0        # Claude zet per week samen hoogstens €100 in
+MIN_STAKE, MAX_STAKE = 2.0, 30.0
 MAX_RISKY_PICKS = 3       # hoogstens 3 risicobets per week
 
 
@@ -836,19 +875,55 @@ def week_label(key):
 
 
 def add_picks(history, top, research, autofill, matches=()):
-    """Leg de keuzes van Claude vast (research.json -> picks) en vul eventueel aan tot 10 per week."""
+    """Leg de keuzes van Claude vast (research.json -> picks): enkele bets of combi's, met eigen bedrag.
+    Hoogstens 10 per week en samen hoogstens €100; op zaterdag/zondag aanvullen met €10-bets."""
     hist = history.setdefault("bets", [])
     by_key = {h["key"]: h for h in hist}
     bets = {b["key"]: b for b in top}
+    by_match = {m["id"]: m for m in matches}
     now = now_utc()
     wk = week_key(now)
     in_week = [h for h in hist if h.get("claude_pick") and h.get("pick_week") == wk]
+    spent = sum(h.get("pick_stake", PICK_STAKE) for h in in_week)
     n_risky = sum(1 for h in in_week if h.get("category") == "risky")
     added = []
 
-    def take(b, reason, auto=False):
-        nonlocal n_risky
-        if len(in_week) >= PICKS_PER_WEEK or parse_dt(b["kickoff"]) <= now:
+    def lookup(key):
+        b = bets.get(key)
+        if b is None and "|" in (key or ""):
+            # ook een uitkomst die niet in de lijst staat mag gekozen worden (bv. na eigen onderzoek)
+            mid, o = key.split("|", 1)
+            m = by_match.get(mid)
+            if m and o in ("home", "draw", "away"):
+                p = m["p_market"][o]
+                b = {"key": key, "match_id": mid, "league": m["league"], "kickoff": m["kickoff"],
+                     "match": f"{m['home']} – {m['away']}", "outcome": o,
+                     "pick": {"home": m["home"], "draw": "Gelijkspel", "away": m["away"]}[o],
+                     "odds": m["unibet"][o], "p": p, "ev": round(p * m["unibet"][o] - 1, 4), "score": 0,
+                     "category": "safe" if p >= SAFE_PROB else "risky"}
+        return b
+
+    def room(stake):
+        return len(in_week) < PICKS_PER_WEEK and spent + stake <= WEEK_BUDGET + 1e-9
+
+    def stake_of(pk):
+        try:
+            st = float(pk.get("stake", PICK_STAKE))
+        except (TypeError, ValueError):
+            st = PICK_STAKE
+        return round(clamp(st, MIN_STAKE, MAX_STAKE))
+
+    def record(h, stake, reason, auto, cat):
+        nonlocal spent, n_risky
+        h.update({"claude_pick": True, "pick_week": wk, "pick_stake": stake, "pick_at": iso(now),
+                  "pick_reason": reason, "pick_auto": auto, "category": cat})
+        in_week.append(h)
+        spent += stake
+        n_risky += cat == "risky"
+        added.append(h)
+
+    def take(b, reason, stake, auto=False):
+        if not room(stake) or parse_dt(b["kickoff"]) <= now:
             return False
         if b["category"] == "risky" and n_risky >= MAX_RISKY_PICKS:
             return False
@@ -862,43 +937,57 @@ def add_picks(history, top, research, autofill, matches=()):
                  "tracked": True, "category": b["category"], "fixture_id": None, "promo": b.get("promo")}
             hist.append(h)
             by_key[b["key"]] = h
-        h.update({"claude_pick": True, "pick_week": wk, "pick_odds": b["odds"], "pick_stake": PICK_STAKE,
-                  "pick_p": b["p"], "pick_ev": b["ev"], "pick_at": iso(now), "pick_reason": reason,
-                  "pick_auto": auto, "category": b["category"]})
-        in_week.append(h)
-        if b["category"] == "risky":
-            n_risky += 1
-        added.append(h)
+        h.update({"pick_odds": b["odds"], "pick_p": b["p"], "pick_ev": b["ev"]})
+        record(h, stake, reason, auto, b["category"])
         return True
 
-    by_match = {m["id"]: m for m in matches}
-    for pk in (research or {}).get("picks", []):
-        b = bets.get(pk.get("key"))
-        if b is None and "|" in pk.get("key", ""):
-            # ook een uitkomst die niet in de lijst staat mag gekozen worden (bv. na eigen onderzoek)
-            mid, o = pk["key"].split("|", 1)
-            m = by_match.get(mid)
-            if m and o in ("home", "draw", "away"):
-                p = m["p_market"][o]
-                b = {"key": pk["key"], "match_id": mid, "league": m["league"], "kickoff": m["kickoff"],
-                     "match": f"{m['home']} – {m['away']}", "outcome": o,
-                     "pick": {"home": m["home"], "draw": "Gelijkspel", "away": m["away"]}[o],
-                     "odds": m["unibet"][o], "p": p, "ev": round(p * m["unibet"][o] - 1, 4), "score": 0,
-                     "category": "safe" if p >= SAFE_PROB else "risky"}
-        if b:
-            take(b, pk.get("reason", "").strip() or "Gekozen na het ochtendonderzoek.")
+    def take_combi(legs, reason, stake):
+        if len(legs) < 2 or len({l["match_id"] for l in legs}) < len(legs):
+            return False
+        if not room(stake) or any(parse_dt(l["kickoff"]) <= now for l in legs):
+            return False
+        key = "combi|" + "+".join(sorted(l["key"] for l in legs))
+        if key in by_key:
+            return False
+        odds = p = 1.0
+        for l in legs:
+            odds *= l["odds"]
+            p *= l["p"]
+        h = {"key": key, "type": "combi", "match_id": None, "outcome": None, "league": "Combi",
+             "kickoff": max(l["kickoff"] for l in legs), "match": " + ".join(l["pick"] for l in legs),
+             "pick": f"Combi van {len(legs)}", "odds": round(odds, 2), "p": round(p, 4), "ev": round(p * odds - 1, 4),
+             "score": 0, "tipped_at": iso(now), "status": "open", "tracked": True,
+             "legs": [{"key": l["key"], "match_id": l["match_id"], "outcome": l["outcome"], "pick": l["pick"],
+                       "match": l["match"], "league": l["league"], "kickoff": l["kickoff"], "odds": l["odds"],
+                       "p": round(l["p"], 4), "status": "open"} for l in legs],
+             "pick_odds": round(odds, 2), "pick_p": round(p, 4), "pick_ev": round(p * odds - 1, 4)}
+        hist.append(h)
+        by_key[key] = h
+        record(h, stake, reason, False, "combi")
+        return True
 
-    # zaterdag en zondag: aanvullen tot 10 met de sterkste bets die nog dit weekend gespeeld worden
-    if autofill and local_now().weekday() >= 5 and len(in_week) < PICKS_PER_WEEK:
+    for pk in (research or {}).get("picks", []):
+        reason = (pk.get("reason") or "").strip() or "Gekozen na het ochtendonderzoek."
+        if pk.get("combi"):
+            legs = [lookup(k) for k in pk["combi"]]
+            if all(legs):
+                take_combi(legs, reason, stake_of(pk))
+            continue
+        b = lookup(pk.get("key"))
+        if b:
+            take(b, reason, stake_of(pk))
+
+    # zaterdag en zondag: aanvullen met €10-bets die nog dit weekend gespeeld worden
+    if autofill and local_now().weekday() >= 5 and room(PICK_STAKE):
         end = (local_now().replace(hour=23, minute=59) + timedelta(days=6 - local_now().weekday())).astimezone(timezone.utc)
         cands = [b for b in top if parse_dt(b["kickoff"]) <= end and not b.get("promo")]
         cands.sort(key=lambda b: (b["ev"] < 0, -(b["ev"] if b["category"] == "risky" else b["score"] / 100 + b["ev"])))
         for b in cands:
-            if len(in_week) >= PICKS_PER_WEEK:
+            if not room(PICK_STAKE):
                 break
             why = (f"Automatisch aangevuld: {round(b['p'] * 100)}% winkans, "
                    f"value {('+' if b['ev'] >= 0 else '−')}{dec(abs(b['ev']) * 100)}% bij odds {fmt(b['odds'])}.")
-            take(b, why, auto=True)
+            take(b, why, PICK_STAKE, auto=True)
     return added
 
 
@@ -934,12 +1023,15 @@ def weekly_summary(history):
     for w in out:
         w["report"] = reports.get(w["week"], "")
         w["breakdown"] = br.get(w["week"])
-    return {"weeks": out, "total": total, "per_week": PICKS_PER_WEEK, "stake": PICK_STAKE}
+    for w in out:
+        w["committed"] = round(sum(h.get("pick_stake", PICK_STAKE) for h in history.get("bets", [])
+                                   if h.get("claude_pick") and h.get("pick_week") == w["week"]), 2)
+    return {"weeks": out, "total": total, "per_week": PICKS_PER_WEEK, "stake": PICK_STAKE, "budget": WEEK_BUDGET}
 
 
 def calibration(history):
     """Kloppen de kansen? Voorspelde kans tegenover hoe vaak het echt uitkwam."""
-    done = [h for h in history.get("bets", []) if h["status"] in ("won", "lost") and h.get("p")]
+    done = [h for h in history.get("bets", []) if h["status"] in ("won", "lost") and h.get("p") and h.get("type") != "combi"]
     edges = [(0.0, 0.3), (0.3, 0.45), (0.45, 0.55), (0.55, 0.65), (0.65, 0.75), (0.75, 0.85), (0.85, 1.01)]
     rows = []
     for lo, hi in edges:
@@ -965,7 +1057,7 @@ def week_breakdown(history):
             continue
         w = out.setdefault(h["pick_week"], {"type": {}, "league": {}})
         r = h.get("pick_stake", PICK_STAKE) * (h["pick_odds"] - 1) if h["status"] == "won" else -h.get("pick_stake", PICK_STAKE)
-        for dim, k in (("type", "Favorieten" if h.get("category") != "risky" else "Risico"), ("league", h["league"])):
+        for dim, k in (("type", {"risky": "Risico", "combi": "Combi's"}.get(h.get("category"), "Favorieten")), ("league", h["league"])):
             d = w[dim].setdefault(k, {"n": 0, "won": 0, "pnl": 0.0})
             d["n"] += 1
             d["won"] += h["status"] == "won"
@@ -985,9 +1077,9 @@ def notify(top, research, errors, new_picks=(), portfolio=None, title="ValueBet 
     for b in risky:
         lines.append(f"🔥 {b['pick']} @ {fmt(b['odds'])} ({b['match']}) x-factor {b['ev']*100:+.0f}%")
     if new_picks:
-        lines.append(f"Claude zet vandaag in ({len(new_picks)}× €{PICK_STAKE:.0f}):")
+        lines.append(f"Claude zet vandaag in (€{sum(h.get('pick_stake', PICK_STAKE) for h in new_picks):.0f}):")
         for h in new_picks:
-            lines.append(f"✓ {h['pick']} @ {fmt(h['pick_odds'])} ({h['match']})")
+            lines.append(f"✓ €{h.get('pick_stake', PICK_STAKE):.0f} · {h['pick']} @ {fmt(h['pick_odds'])} ({h['match']})")
     if portfolio and local_now().weekday() == 0:
         done = [w for w in portfolio["weeks"] if w["week"] != week_key(now_utc())]
         if done:
@@ -1064,6 +1156,10 @@ def run(mode, do_notify=False, notify_updates=False):
         history.setdefault("reports", {})[research.get("report_week") or prev] = research["weekly_report"]
     portfolio = weekly_summary(history)
     picked = {h["key"]: h for h in history["bets"] if h.get("claude_pick") and h["status"] == "open"}
+    for h in list(picked.values()):
+        if h.get("type") == "combi":
+            for l in h["legs"]:
+                picked.setdefault(l["key"], {"pick_reason": f"Onderdeel van Claude's combi: {h['match']}."})
     for b in top:
         if b["key"] in picked:
             b["claude_pick"] = True

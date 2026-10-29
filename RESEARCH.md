@@ -34,7 +34,7 @@ dat een favoriet nog sterker maakt.
 7. Maak maximaal 5 `alerts`: belangrijk nieuws waarbij Unibet de odds nog niet lijkt te hebben aangepast, of een
    promo met duidelijke value.
 8. **Weekportefeuille: kies de bets waarop jij zelf €10 zou inzetten.** Elke week (maandag–zondag) zet Claude
-   zogezegd in op 10 bets van €10; de gebruiker beslist op basis van dit resultaat of hij echt geld inzet. Wees dus
+   zogezegd tot €100 in, op hoogstens 10 bets of combi's; de gebruiker beslist op basis van dit resultaat of hij echt geld inzet. Wees dus
    streng en eerlijk:
    - Lees in `site/data/history.json` hoeveel bets met `"claude_pick": true` en `"pick_week"` = deze week er al zijn.
      Kies er vandaag hoogstens zoveel dat het totaal 10 niet overschrijdt; spreid ze over de week (meestal 2–4 per
@@ -44,7 +44,12 @@ dat een favoriet nog sterker maakt.
      odds-boost. Hoogstens 3 risicobets per week (de engine weigert er meer).
    - Liever minder dan 10 dan een slechte bet. Wat op zaterdag/zondag nog ontbreekt, vult de engine automatisch aan
      met de sterkste bets van het weekend.
-   - Zet ze in `research.json` → `picks`: `{"key": "<match_id>|<home|draw|away>", "reason": "2–3 zinnen: waarom"}`.
+   - **Bedrag:** je hebt per week €100 en hoogstens 10 bets. Kies per bet zelf een bedrag tussen €2 en €30
+     (`"stake"`): meer op wat je het sterkst vindt, weinig op risicobets. Wat je niet uitgeeft, mag je laten liggen.
+   - **Combi's mogen ook:** `{"combi": ["<key1>", "<key2>", ...], "stake": 10, "reason": "..."}` (2–6 selecties uit
+     verschillende wedstrijden). Een combi telt als één bet. Gebruik ze vooral als er een combi-boost is, of als de
+     combinatie volgens je onderzoek echt value heeft; bekijk ook `combis` in `latest.json`.
+   - Zet ze in `research.json` → `picks`: `{"key": "<match_id>|<home|draw|away>", "stake": 15, "reason": "2–3 zinnen: waarom"}`.
      De sleutel staat als `key` bij elke bet in `latest.json`; een andere uitkomst van een wedstrijd uit
      `cache/matches.json` mag ook. De odds worden vastgelegd op het moment van kiezen; later wijzigen kan niet.
 8b. **Maandag: weekrapport.** Schrijf op maandag in `weekly_report` 4–6 zinnen over de vorige week (maandag–zondag):
@@ -77,7 +82,8 @@ dat een favoriet nog sterker maakt.
      "url": "https://..."}
   ],
   "results": {"<match_id>": {"home": 2, "away": 1}},
-  "picks": [{"key": "<match_id>|home", "reason": "Waarom je hier €10 op zet."}],
+  "picks": [{"key": "<match_id>|home", "stake": 15, "reason": "Waarom je hierop inzet."},
+            {"combi": ["<match_id>|home", "<match_id>|away"], "stake": 10, "reason": "Waarom deze combi."}],
   "weekly_report": "Alleen op maandag: 4–6 zinnen over vorige week.",
   "report_week": "2026-W44",
   "urgent": false
