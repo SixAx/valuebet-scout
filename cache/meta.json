@@ -1,37 +1,9 @@
 {
- "fetched_at": "2026-10-28T16:27:19Z",
- "odds_remaining": "490",
- "football_calls": 30,
- "errors": [
-  "API-Football fixtures Premier League: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football standings Premier League: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football injuries Premier League: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football fixtures LaLiga: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football standings LaLiga: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football injuries LaLiga: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football fixtures Serie A: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football standings Serie A: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football injuries Serie A: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football fixtures Bundesliga: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football standings Bundesliga: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football injuries Bundesliga: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football fixtures Ligue 1: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football standings Ligue 1: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football injuries Ligue 1: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football fixtures Eredivisie: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football standings Eredivisie: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football injuries Eredivisie: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football fixtures Primeira Liga: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football standings Primeira Liga: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football injuries Primeira Liga: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football fixtures Jupiler Pro League: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football standings Jupiler Pro League: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football injuries Jupiler Pro League: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football fixtures Champions League: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football standings Champions League: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football injuries Champions League: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football fixtures Europa League: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football standings Europa League: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}",
-  "API-Football injuries Europa League: {'plan': 'Free plans do not have access to this season, try from 2022 to 2024.'}"
+ "fetched_at": "2026-10-29T05:48:50Z",
+ "odds_remaining": "480",
+ "football_calls": 1,
+ "errors": [],
+ "notes": [
+  "API-Football (gratis plan) geeft geen toegang tot dit seizoen: blessures, vorm en uitslagen komen uit het ochtendonderzoek van Claude."
  ]
 }

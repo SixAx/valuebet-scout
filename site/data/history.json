@@ -17,8 +17,8 @@
    "tracked": true,
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 4.943,
-   "clv": 0.0924
+   "last_fair_odds": 5.274,
+   "clv": 0.0238
   },
   {
    "key": "961d9c9f07b1f911e211cd6a750cddba|away",
@@ -37,8 +37,8 @@
    "tracked": false,
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 4.333,
-   "clv": 0.0617
+   "last_fair_odds": 4.284,
+   "clv": 0.0736
   },
   {
    "key": "f6f3cf01c2b20b7f746b5a06097a0569|home",
@@ -57,8 +57,8 @@
    "tracked": false,
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 4.564,
-   "clv": 0.0517
+   "last_fair_odds": 4.533,
+   "clv": 0.0589
   },
   {
    "key": "c27c8af8c7ee29d153de0b9999ea0434|away",
@@ -77,8 +77,8 @@
    "tracked": false,
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 3.247,
-   "clv": 0.0472
+   "last_fair_odds": 3.204,
+   "clv": 0.0611
   },
   {
    "key": "aecb9d8c01176616c87d893bee4bc0de|away",
@@ -97,8 +97,8 @@
    "tracked": false,
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 3.667,
-   "clv": 0.0363
+   "last_fair_odds": 3.663,
+   "clv": 0.0374
   },
   {
    "key": "a7ba9b844f121a4a8777d87b1f863137|away",
@@ -117,8 +117,8 @@
    "tracked": false,
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 3.96,
-   "clv": 0.0353
+   "last_fair_odds": 3.995,
+   "clv": 0.0262
   },
   {
    "key": "016bdfefaa570d0fcaeffc5a1cb3625f|draw",
@@ -137,8 +137,8 @@
    "tracked": false,
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 3.729,
-   "clv": 0.0326
+   "last_fair_odds": 3.733,
+   "clv": 0.0314
   },
   {
    "key": "6c520ed959578ca3aebe351ee3765d53|away",
@@ -158,8 +158,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.271,
-   "clv": -0.0241
+   "last_fair_odds": 1.269,
+   "clv": -0.0226
   },
   {
    "key": "9507f4bcbcfd4e4953720628a2b86a17|home",
@@ -179,8 +179,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.401,
-   "clv": -0.029
+   "last_fair_odds": 1.372,
+   "clv": -0.009
   },
   {
    "key": "3f9f4bc9a19bf36dcb74be2f29610d55|home",
@@ -200,8 +200,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.512,
-   "clv": -0.0211
+   "last_fair_odds": 1.499,
+   "clv": -0.013
   },
   {
    "key": "8f0b7ef29a47f675429758e83a426d7e|home",
@@ -221,8 +221,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.429,
-   "clv": -0.0341
+   "last_fair_odds": 1.425,
+   "clv": -0.0318
   },
   {
    "key": "2e488800d615a94e5377c195810303c0|home",
@@ -242,8 +242,134 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.533,
-   "clv": -0.0279
+   "last_fair_odds": 1.546,
+   "clv": -0.0364
+  },
+  {
+   "key": "58c68450fcf69bf88e944dd7177f9104|home",
+   "match_id": "58c68450fcf69bf88e944dd7177f9104",
+   "league": "Jupiler Pro League",
+   "kickoff": "2026-10-31T19:45:00Z",
+   "match": "SK Beveren – Union Saint-Gilloise",
+   "pick": "SK Beveren",
+   "outcome": "home",
+   "odds": 5.3,
+   "p": 0.198,
+   "ev": 0.0497,
+   "score": 6.0,
+   "tipped_at": "2026-10-29T05:48:50Z",
+   "status": "open",
+   "tracked": false,
+   "category": "risky",
+   "fixture_id": null,
+   "promo": null,
+   "last_fair_odds": 5.051,
+   "clv": 0.0494
+  },
+  {
+   "key": "6601f69175a02f03fb7065aacb538e01|away",
+   "match_id": "6601f69175a02f03fb7065aacb538e01",
+   "league": "Premier League",
+   "kickoff": "2026-10-31T12:30:00Z",
+   "match": "Chelsea – Manchester United",
+   "pick": "Manchester United",
+   "outcome": "away",
+   "odds": 4.4,
+   "p": 0.2347,
+   "ev": 0.0327,
+   "score": 5.3,
+   "tipped_at": "2026-10-29T05:48:50Z",
+   "status": "open",
+   "tracked": false,
+   "category": "risky",
+   "fixture_id": null,
+   "promo": null,
+   "last_fair_odds": 4.261,
+   "clv": 0.0327
+  },
+  {
+   "key": "aeadf1388a1075328536501576b3d550|away",
+   "match_id": "aeadf1388a1075328536501576b3d550",
+   "league": "Serie A",
+   "kickoff": "2026-11-01T19:45:00Z",
+   "match": "Juventus – Napoli",
+   "pick": "Napoli",
+   "outcome": "away",
+   "odds": 3.75,
+   "p": 0.2754,
+   "ev": 0.0327,
+   "score": 5.2,
+   "tipped_at": "2026-10-29T05:48:50Z",
+   "status": "open",
+   "tracked": false,
+   "category": "risky",
+   "fixture_id": null,
+   "promo": null,
+   "last_fair_odds": 3.631,
+   "clv": 0.0327
+  },
+  {
+   "key": "a5910ae3b314876faea7f5c03b8aeaad|away",
+   "match_id": "a5910ae3b314876faea7f5c03b8aeaad",
+   "league": "Champions League",
+   "kickoff": "2026-11-04T20:00:00Z",
+   "match": "Slavia Praha – Arsenal",
+   "pick": "Arsenal",
+   "outcome": "away",
+   "odds": 1.35,
+   "p": 0.7217,
+   "ev": -0.0257,
+   "score": 5.1,
+   "tipped_at": "2026-10-29T05:48:50Z",
+   "status": "open",
+   "tracked": true,
+   "category": "safe",
+   "fixture_id": null,
+   "promo": null,
+   "last_fair_odds": 1.386,
+   "clv": -0.0257
+  },
+  {
+   "key": "6d386ed81fabf67aa19fbd442c0d8c60|away",
+   "match_id": "6d386ed81fabf67aa19fbd442c0d8c60",
+   "league": "Champions League",
+   "kickoff": "2026-11-04T20:00:00Z",
+   "match": "Borussia Dortmund – Real Betis",
+   "pick": "Real Betis",
+   "outcome": "away",
+   "odds": 4.5,
+   "p": 0.2296,
+   "ev": 0.0332,
+   "score": 5.0,
+   "tipped_at": "2026-10-29T05:48:50Z",
+   "status": "open",
+   "tracked": false,
+   "category": "risky",
+   "fixture_id": null,
+   "promo": null,
+   "last_fair_odds": 4.355,
+   "clv": 0.0332
+  },
+  {
+   "key": "f43ef699c987e112e115f7035114854e|away",
+   "match_id": "f43ef699c987e112e115f7035114854e",
+   "league": "Champions League",
+   "kickoff": "2026-11-04T17:45:00Z",
+   "match": "AEK Athens – Real Madrid",
+   "pick": "Real Madrid",
+   "outcome": "away",
+   "odds": 1.33,
+   "p": 0.7269,
+   "ev": -0.0332,
+   "score": 4.9,
+   "tipped_at": "2026-10-29T05:48:50Z",
+   "status": "open",
+   "tracked": true,
+   "category": "safe",
+   "fixture_id": null,
+   "promo": null,
+   "last_fair_odds": 1.376,
+   "clv": -0.0332
   }
  ]
 }
