@@ -46,7 +46,8 @@ DAYS_AHEAD = 7
 MIN_BOOKMAKERS = 4
 MIN_VALUE = 0.03          # risicobets: minstens +3% value
 SAFE_PROB = 0.55          # favorieten: minstens 55% winkans
-SAFE_MIN_VALUE = -0.035   # favorieten: hoogstens 3,5% onder de eerlijke odds
+SAFE_MIN_VALUE = -0.15    # favorieten: alles tonen tot 15% onder de eerlijke odds (filter in de app)
+ELO_WEIGHT = 0.15         # aandeel van het ClubElo-model in de eigen kans
 MIN_PROB = 0.15           # geen gokken op grote outsiders
 MAX_ODDS = 6.0
 TRACK_SCORE = 7.0         # risicobets vanaf deze score volgen in de Tracker
@@ -93,6 +94,18 @@ class Http:
         self.notes = []
         self.odds_remaining = None
         self.football_calls = 0
+
+    def get_text(self, url, mock_name=None):
+        if self.mock:
+            p = Path(self.mock) / (mock_name or "missing")
+            return p.read_text(encoding="utf-8") if p.exists() else None
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "valuebet-scout/1.0"})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return r.read().decode("utf-8", "replace")
+        except Exception as e:
+            self.errors.append(f"Fout bij {redact(url)}: {e}")
+            return None
 
     def get(self, url, headers=None, mock_name=None):
         if self.mock:
@@ -146,6 +159,86 @@ def fetch_odds(http):
         res = http.get(f"https://api.the-odds-api.com/v4/sports/{okey}/odds?{q}", mock_name=f"odds_{okey}.json")
         if res is not None:
             out[okey] = res
+    return out
+
+
+def fetch_elo(http):
+    """ClubElo: onafhankelijk model (Elo-ratings) met winstkansen per wedstrijd, gratis en zonder sleutel."""
+    txt = http.get_text("http://api.clubelo.com/Fixtures", mock_name="elo.csv")
+    if not txt:
+        return []
+    lines = [l for l in txt.strip().splitlines() if l.strip()]
+    if len(lines) < 2:
+        return []
+    head = lines[0].split(",")
+    out = []
+    for line in lines[1:]:
+        row = dict(zip(head, line.split(",")))
+        ph = pd = pa = 0.0
+        for k, v in row.items():
+            if not k.startswith("GD"):
+                continue
+            try:
+                x = float(v)
+            except ValueError:
+                continue
+            g = k[2:]
+            if g.startswith(">"):
+                ph += x
+            elif g.startswith("<"):
+                pa += x
+            elif g.startswith("="):
+                n = int(g[1:])
+                ph += x if n > 0 else 0
+                pa += x if n < 0 else 0
+                pd += x if n == 0 else 0
+        tot = ph + pd + pa
+        if tot <= 0 or not row.get("Home"):
+            continue
+        out.append({"date": row.get("Date", ""), "home": row["Home"], "away": row.get("Away", ""),
+                    "p": {"home": ph / tot, "draw": pd / tot, "away": pa / tot}})
+    return out
+
+
+def match_elo(home, away, kickoff, elo):
+    day = kickoff[:10]
+    best, best_s = None, 0.0
+    for e in elo:
+        if e["date"] and abs((datetime.fromisoformat(e["date"]) - datetime.fromisoformat(day)).days) > 1:
+            continue
+        sc = (sim(home, e["home"]) + sim(away, e["away"])) / 2
+        if sc > best_s:
+            best, best_s = e, sc
+    return best if best_s >= 0.62 else None
+
+
+SPORT_OF = {name: okey for name, okey, _ in LEAGUES}
+
+
+def fetch_scores(http, history):
+    """Uitslagen via The Odds API, alleen voor competities met open bets waarvan de aftrap voorbij is."""
+    key = os.environ.get("ODDS_API_KEY", "")
+    now = now_utc()
+    need = sorted({SPORT_OF.get(h["league"]) for h in history.get("bets", [])
+                   if h["status"] == "open" and h.get("tracked") and SPORT_OF.get(h["league"])
+                   and now - timedelta(days=3) < parse_dt(h["kickoff"]) < now - timedelta(hours=2)})
+    out = {}
+    for okey in need:
+        try:
+            if http.odds_remaining is not None and float(http.odds_remaining) < 40:
+                http.notes.append("Te weinig odds-credits over voor uitslagen; het ochtendonderzoek vult ze aan.")
+                break
+        except ValueError:
+            pass
+        res = http.get(f"https://api.the-odds-api.com/v4/sports/{okey}/scores/?daysFrom=3&apiKey={key}",
+                       mock_name=f"scores_{okey}.json") or []
+        for g in res:
+            if g.get("completed") and g.get("scores"):
+                sc = {x["name"]: x["score"] for x in g["scores"]}
+                try:
+                    out[g["id"]] = {"home": int(sc[g["home_team"]]), "away": int(sc[g["away_team"]])}
+                except (KeyError, ValueError):
+                    pass
     return out
 
 
@@ -332,10 +425,11 @@ def model_adjustments(fixture, st_idx, injuries):
 
 
 # ---------------------------------------------------------------- hoofdberekening
-def build(odds_raw, fb_raw, research, promos):
+def build(odds_raw, fb_raw, research, promos, elo=()):
     matches, bets = [], []
     adj_research = research.get("adjustments", {}) if research else {}
     notes_research = research.get("match_notes", {}) if research else {}
+    community = research.get("community", {}) if research else {}
     for name, okey, _ in LEAGUES:
         events = odds_raw.get(okey) or []
         fb = fb_raw.get(okey, {})
@@ -367,6 +461,9 @@ def build(odds_raw, fb_raw, research, promos):
             fx = match_fixture(ev, fixtures) if fixtures else None
             madj, msteps, matched = model_adjustments(fx, st_idx, injuries)
             p_model = shift(pm, "home", madj) if madj else dict(pm)
+            el = match_elo(home, away, ev["commence_time"], elo) if elo else None
+            if el:
+                p_model = {o: (1 - ELO_WEIGHT) * p_model[o] + ELO_WEIGHT * el["p"][o] for o in p_model}
 
             names = {"home": home, "draw": "Gelijkspel", "away": away}
             match_id = ev["id"]
@@ -377,6 +474,7 @@ def build(odds_raw, fb_raw, research, promos):
                 "p_market": {k: round(v, 4) for k, v in pm.items()},
                 "fixture_id": fx["fixture"]["id"] if fx else None,
                 "note": notes_research.get(match_id, ""),
+                "p_elo": {k: round(v, 4) for k, v in el["p"].items()} if el else None,
             }
             matches.append(m)
 
@@ -402,6 +500,9 @@ def build(odds_raw, fb_raw, research, promos):
                     {"label": f"Unibet-odds {fmt(odds)}", "note": f"Bron: {unibet['title']} (zelfde platform als unibet.be)", "val": pct(1 / odds)},
                     {"label": "Marktconsensus", "note": f"{len(books)} bookmakers, marge eruit" + (", incl. Pinnacle" if has_sharp else ""), "val": pct(pm[o])},
                 ]
+                if el:
+                    steps.append({"label": "ClubElo-model", "note": f"Onafhankelijk model op basis van Elo-ratings: {pct(el['p'][o])} (weegt {round(ELO_WEIGHT * 100)}% mee)",
+                                  "val": ppfmt((el["p"][o] - pm[o]) * 100 * ELO_WEIGHT)})
                 for s in msteps:
                     sign = s["pp"] if o == "home" else (-s["pp"] * (pm[o] / (1 - pm["home"])) if pm["home"] < 1 else 0)
                     if abs(sign) >= 0.1:
@@ -415,11 +516,15 @@ def build(odds_raw, fb_raw, research, promos):
                 news_s = clamp(float(r.get("confidence", 6)), 0, 10) if r else (6.0 if matched else 4.0)
                 if cat == "safe":
                     # vooral: hoe groot is de winkans, en betaalt Unibet (bijna) eerlijk?
+                    # zekerheid + goede odds + eerlijke prijs, en bevestiging door een tweede model
                     win_s = clamp((p - 0.5) / 0.35 * 10, 0, 10)
-                    value_s = clamp((ev_val + 0.04) / 0.08 * 10, 0, 10)
-                    score = 0.45 * win_s + 0.3 * value_s + 0.15 * rel_s + 0.1 * news_s
-                    parts = [["Winkans", round(win_s, 1)], ["Value t.o.v. eerlijke odds", round(value_s, 1)],
-                             ["Betrouwbaarheid analyse", round(rel_s, 1)], ["Nieuws bevestigd", round(news_s, 1)]]
+                    odds_s = clamp((odds - 1.2) / 0.8 * 10, 0, 10)
+                    value_s = clamp((ev_val + 0.08) / 0.12 * 10, 0, 10)
+                    agree_s = clamp(5 + (el["p"][o] - pm[o]) * 50, 0, 10) if el else 5.0
+                    score = 0.35 * win_s + 0.2 * odds_s + 0.25 * value_s + 0.1 * agree_s + 0.1 * news_s
+                    parts = [["Zekerheid (winkans)", round(win_s, 1)], ["Odds (opbrengst)", round(odds_s, 1)],
+                             ["Prijs t.o.v. eerlijke odds", round(value_s, 1)],
+                             ["Bevestigd door ClubElo", round(agree_s, 1)], ["Nieuws", round(news_s, 1)]]
                 else:
                     value_s = clamp(ev_val / 0.12 * 10, 0, 10)
                     lag_s = clamp(ev_mkt / 0.06 * 10, 0, 10)
@@ -432,8 +537,11 @@ def build(odds_raw, fb_raw, research, promos):
                     "best_odds": best[o], "p": round(p, 4), "p_market": round(pm[o], 4),
                     "ev": round(ev_val, 4), "ev_market": round(ev_mkt, 4), "score": round(score, 1),
                     "category": cat, "parts": parts, "steps": steps, "promo": None,
+                    "p_elo": round(el["p"][o], 4) if el else None,
+                    "community": [c for c in community.get(match_id, []) if c.get("outcome") == o][:3]
+                                 or [c for c in community.get(match_id, []) if not c.get("outcome")][:2],
                     "why": explain(cat, names[o], o, home, away, p, odds, ev_val, len(books), has_sharp, r,
-                                   notes_research.get(match_id)),
+                                   notes_research.get(match_id), el["p"][o] if el else None),
                 })
     bets.sort(key=lambda b: (-b["score"], -b["ev"]))
     # niet meer dan 1 tip per wedstrijd per lijst
@@ -457,7 +565,7 @@ def euro(x):
     return "€" + f"{x:.2f}".replace(".", ",")
 
 
-def explain(cat, pick, o, home, away, p, odds, ev, n_books, sharp, research, match_note):
+def explain(cat, pick, o, home, away, p, odds, ev, n_books, sharp, research, match_note, p_elo=None):
     """Uitleg in gewone taal: waarom deze bet, wat kan je verwachten."""
     fair = 1 / p
     wins = "het gelijk eindigt" if o == "draw" else f"{pick} wint"
@@ -469,10 +577,15 @@ def explain(cat, pick, o, home, away, p, odds, ev, n_books, sharp, research, mat
         if ev >= 0:
             out.append(f"Unibet betaalt {fmt(odds)}, terwijl een eerlijke odds voor die kans {fmt(fair)} is. "
                        f"Unibet betaalt dus iets meer dan eerlijk: dat is value, zeldzaam bij een favoriet.")
-        else:
+        elif ev >= -0.04:
             out.append(f"Unibet betaalt {fmt(odds)}; een eerlijke odds voor die kans is {fmt(fair)}. Het verschil is "
                        f"de marge van de bookmaker: op lange termijn kost dit ongeveer {dec(abs(ev) * 100)}% van je inzet. "
-                       f"Je wint deze bet vaak, maar niet gratis. Dit is een van de favorieten met de kleinste marge.")
+                       f"Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.")
+        else:
+            out.append(f"Let op: Unibet betaalt {fmt(odds)}, terwijl een eerlijke odds voor die kans {fmt(fair)} is. "
+                       f"Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer {dec(abs(ev) * 100)}% van je "
+                       f"inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een "
+                       f"combi-boost dit goedmaakt.")
         out.append(f"Met €10 krijg je {euro(10 * odds)} terug als het lukt (winst {euro(10 * (odds - 1))}). "
                    f"In ongeveer {round((1 - p) * 100)}% van de gevallen verlies je je inzet.")
     else:
@@ -483,6 +596,14 @@ def explain(cat, pick, o, home, away, p, odds, ev, n_books, sharp, research, mat
                    f"bovenop zijn inzet terug.")
         out.append(f"Je verliest de meeste van deze bets. Met €10 krijg je {euro(10 * odds)} terug als het lukt. "
                    f"Speel ze alleen met een klein bedrag en als reeks, nooit om verlies goed te maken.")
+    if p_elo is not None:
+        diff = (p_elo - p) * 100
+        if abs(diff) < 4:
+            out.append(f"Het ClubElo-model (puur op basis van prestaties) komt op {round(p_elo * 100)}%: dat bevestigt de inschatting.")
+        elif diff > 0:
+            out.append(f"Het ClubElo-model is nog positiever: {round(p_elo * 100)}%. Een extra teken dat de kans eerder onderschat wordt.")
+        else:
+            out.append(f"Het ClubElo-model is voorzichtiger: {round(p_elo * 100)}%. Twee modellen zijn het hier dus niet helemaal eens.")
     if research and research.get("note"):
         out.append("Nieuws: " + research["note"])
     elif match_note:
@@ -596,7 +717,7 @@ def update_history(history, top, matches):
                 h["fixture_id"] = m.get("fixture_id")
 
 
-def settle(history, fb_raw, research):
+def settle(history, fb_raw, research, scores=None):
     fixtures = {}
     for entry in fb_raw.values():
         for f in entry.get("fixtures", []):
@@ -611,6 +732,8 @@ def settle(history, fb_raw, research):
         if f and f["fixture"]["status"]["short"] in ("FT", "AET", "PEN"):
             ft = f.get("score", {}).get("fulltime", {})
             gh, ga = ft.get("home"), ft.get("away")
+        elif scores and h["match_id"] in scores:
+            gh, ga = scores[h["match_id"]]["home"], scores[h["match_id"]]["away"]
         elif h["match_id"] in manual:
             gh, ga = manual[h["match_id"]].get("home"), manual[h["match_id"]].get("away")
         elif f and f["fixture"]["status"]["short"] in ("PST", "CANC", "ABD"):
@@ -801,7 +924,7 @@ def notify(top, research, errors, new_picks=(), portfolio=None):
 def shortlist(top):
     safe = [b for b in top if b["category"] == "safe"]
     risky = [b for b in top if b["category"] == "risky"]
-    keep = safe[:12] + risky[:8]
+    keep = safe[:40] + risky[:12]
     keep += [b for b in top if b.get("claude_pick") and b not in keep]
     return keep
 
@@ -816,14 +939,21 @@ def run(mode, do_notify=False):
     if mode == "fetch":
         odds_raw = fetch_odds(http)
         fb_raw = fetch_football(http)
+        elo = fetch_elo(http)
+        scores = fetch_scores(http, history)
+        save(CACHE / "elo.json", elo)
+        save(CACHE / "scores.json", {**load(CACHE / "scores.json", {}), **scores})
         save(CACHE / "odds.json", odds_raw)
         save(CACHE / "football.json", fb_raw)
         meta = {"fetched_at": iso(now_utc()), "odds_remaining": http.odds_remaining,
-                "football_calls": http.football_calls, "errors": http.errors, "notes": http.notes}
+                "football_calls": http.football_calls, "errors": http.errors, "notes": http.notes,
+                "elo_fixtures": len(elo), "scores": len(scores)}
         save(CACHE / "meta.json", meta)
     else:
         odds_raw = load(CACHE / "odds.json", {})
         fb_raw = load(CACHE / "football.json", {})
+    elo = load(CACHE / "elo.json", [])
+    scores = load(CACHE / "scores.json", {})
 
     # onderzoek van een vorige dag niet meer gebruiken
     today = now_utc().astimezone(TZ).date().isoformat()
@@ -832,9 +962,9 @@ def run(mode, do_notify=False):
     if promos.get("date") and promos["date"] != today:
         promos = {"promos": []}
 
-    matches, top = build(odds_raw, fb_raw, research, promos)
+    matches, top = build(odds_raw, fb_raw, research, promos, elo)
     combis = build_combis(top, promos)
-    settle(history, fb_raw, research)
+    settle(history, fb_raw, research, scores)
     update_history(history, top, matches)
     new_picks = add_picks(history, top, research, autofill=do_notify, matches=matches)
     portfolio = weekly_summary(history)
@@ -848,6 +978,7 @@ def run(mode, do_notify=False):
         "generated_at": iso(now_utc()), "fetched_at": meta.get("fetched_at"),
         "research_date": research.get("date"), "odds_remaining": meta.get("odds_remaining"),
         "errors": meta.get("errors", []), "notes": meta.get("notes", []), "n_matches": len(matches),
+        "elo_fixtures": meta.get("elo_fixtures"), "n_elo": sum(1 for m in matches if m.get("p_elo")),
         "bets": shortlist(top), "combis": combis, "promos": promos.get("promos", []),
         "alerts": research.get("alerts", []), "summary": research.get("summary", ""), "portfolio": portfolio,
         "settings": {"min_value": MIN_VALUE, "track_score": TRACK_SCORE, "safe_prob": SAFE_PROB},

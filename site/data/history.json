@@ -400,6 +400,48 @@
    "pick_auto": false,
    "last_fair_odds": 5.79,
    "clv": 0.1053
+  },
+  {
+   "key": "df7d2d81b9e2f3f11c6aeddaee6b7085|away",
+   "match_id": "df7d2d81b9e2f3f11c6aeddaee6b7085",
+   "league": "Champions League",
+   "kickoff": "2026-11-04T20:00:00Z",
+   "match": "RB Leipzig – Manchester City",
+   "pick": "Manchester City",
+   "outcome": "away",
+   "odds": 1.63,
+   "p": 0.6147,
+   "ev": 0.002,
+   "score": 4.8,
+   "tipped_at": "2026-10-29T09:59:59Z",
+   "status": "open",
+   "tracked": true,
+   "category": "safe",
+   "fixture_id": null,
+   "promo": null,
+   "last_fair_odds": 1.627,
+   "clv": 0.002
+  },
+  {
+   "key": "1836e9e3241ea98ae062bab0f288ce2c|home",
+   "match_id": "1836e9e3241ea98ae062bab0f288ce2c",
+   "league": "Eredivisie",
+   "kickoff": "2026-10-31T15:30:00Z",
+   "match": "Feyenoord – Fortuna Sittard",
+   "pick": "Feyenoord",
+   "outcome": "home",
+   "odds": 1.16,
+   "p": 0.8169,
+   "ev": -0.0524,
+   "score": 4.6,
+   "tipped_at": "2026-10-29T09:59:59Z",
+   "status": "open",
+   "tracked": true,
+   "category": "safe",
+   "fixture_id": null,
+   "promo": null,
+   "last_fair_odds": 1.224,
+   "clv": -0.0524
   }
  ]
 }

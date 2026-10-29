@@ -6,7 +6,7 @@ De push van die bestanden start de workflow `research.yml`, die alles herbereken
 
 ## Werkwijze
 
-Let op: het gratis plan van API-Football geeft geen toegang tot het huidige seizoen. Blessures, vorm én
+Let op: ClubElo (onafhankelijk Elo-model) weegt 15% mee in de kans; je ziet het als `p_elo` per bet. Het gratis plan van API-Football geeft geen toegang tot het huidige seizoen. Blessures, vorm én
 uitslagen komen dus volledig uit dit onderzoek. Kijk bij elke bet naar `category`: `safe` = favoriet (grote
 winkans), `risky` = outsider met hoge x-factor. Zoek vooral nieuws dat een favoriet kan doen struikelen of
 dat een favoriet nog sterker maakt.
@@ -26,6 +26,11 @@ dat een favoriet nog sterker maakt.
    promo's op die je in een bron bevestigd ziet.
 6. Zoek voor bets in `history.json` met `"status": "open"` waarvan de aftrap voorbij is de eindstand na 90 minuten
    (zonder verlengingen) op en zet die in `results`.
+6b. **Tipsters en fora.** Zoek voor de belangrijkste wedstrijden (de favorieten bovenaan `latest.json` en je
+   eigen keuzes) wat tipsters en fora aanraden: Reddit (r/SoccerBetting, r/sportsbook, r/BelgianFootball),
+   Sporting Life, Covers, voetbalwedden.net, bettingexpert. Zet per wedstrijd hoogstens 2 tips in `community`:
+   `{"<match_id>": [{"outcome": "home", "note": "Wat ze aanraden en waarom, 1 zin", "source": "Reddit r/SoccerBetting", "url": "https://..."}]}`.
+   Alleen echte, gevonden tips met link. Ze tellen niet mee in de kans; ze worden enkel getoond.
 7. Maak maximaal 5 `alerts`: belangrijk nieuws waarbij Unibet de odds nog niet lijkt te hebben aangepast, of een
    promo met duidelijke value.
 8. **Weekportefeuille: kies de bets waarop jij zelf €10 zou inzetten.** Elke week (maandag–zondag) zet Claude
@@ -57,6 +62,7 @@ dat een favoriet nog sterker maakt.
                         "sources": ["https://..."]}
   },
   "match_notes": {"<match_id>": "Korte notitie"},
+  "community": {"<match_id>": [{"outcome": "away", "note": "Tip in 1 zin", "source": "Reddit r/SoccerBetting", "url": "https://..."}]},
   "alerts": [
     {"tag": "BLESSURE", "time": "07:52", "title": "Kort, concreet", "body": "Wat er is en welke bet het raakt.",
      "url": "https://..."}
