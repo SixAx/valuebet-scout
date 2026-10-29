@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T09:59:59Z",
+ "generated_at": "2026-10-29T10:03:43Z",
  "fetched_at": "2026-10-29T05:48:50Z",
  "research_date": "2026-10-29",
  "odds_remaining": "480",
@@ -2818,23 +2818,38 @@
   {
    "legs": [
     {
-     "match": "RB Leipzig – Manchester City",
-     "pick": "Manchester City",
-     "odds": 1.63,
-     "key": "df7d2d81b9e2f3f11c6aeddaee6b7085|away"
+     "match": "Feyenoord – Fortuna Sittard",
+     "pick": "Feyenoord",
+     "odds": 1.16,
+     "key": "1836e9e3241ea98ae062bab0f288ce2c|home",
+     "p": 0.8169,
+     "kickoff": "2026-10-31T15:30:00Z",
+     "league": "Eredivisie"
     },
     {
-     "match": "Lazio – Cagliari",
-     "pick": "Lazio",
-     "odds": 1.48,
-     "key": "3f9f4bc9a19bf36dcb74be2f29610d55|home"
+     "match": "Real Racing Club de Santander – Real Madrid",
+     "pick": "Real Madrid",
+     "odds": 1.24,
+     "key": "6c520ed959578ca3aebe351ee3765d53|away",
+     "p": 0.7882,
+     "kickoff": "2026-11-01T15:15:00Z",
+     "league": "LaLiga"
     }
    ],
-   "odds": 2.41,
+   "n": 2,
+   "odds": 1.44,
    "odds_boosted": null,
    "boost_name": null,
-   "p": 0.4099,
-   "ev": -0.0111
+   "p": 0.6439,
+   "ev": -0.0738,
+   "label": "Zekerste 2-combi",
+   "kind": "safe",
+   "why": [
+    "Deze combi wint als alle 2 selecties lukken. De kans daarop is ongeveer 64%: zo'n 6 op 10 keer.",
+    "De gecombineerde odds zijn 1,44. Een eerlijke odds voor deze kans zou 1,55 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 7,4% van je inzet.",
+    "Zwakste schakel: Real Madrid (79%). Met €10 krijg je €14,38 terug als alles lukt."
+   ]
   },
   {
    "legs": [
@@ -2842,62 +2857,431 @@
      "match": "Real Racing Club de Santander – Real Madrid",
      "pick": "Real Madrid",
      "odds": 1.24,
-     "key": "6c520ed959578ca3aebe351ee3765d53|away"
+     "key": "6c520ed959578ca3aebe351ee3765d53|away",
+     "p": 0.7882,
+     "kickoff": "2026-11-01T15:15:00Z",
+     "league": "LaLiga"
     },
     {
-     "match": "RB Leipzig – Manchester City",
-     "pick": "Manchester City",
-     "odds": 1.63,
-     "key": "df7d2d81b9e2f3f11c6aeddaee6b7085|away"
+     "match": "Lazio – Cagliari",
+     "pick": "Lazio",
+     "odds": 1.48,
+     "key": "3f9f4bc9a19bf36dcb74be2f29610d55|home",
+     "p": 0.6669,
+     "kickoff": "2026-11-01T14:00:00Z",
+     "league": "Serie A"
     }
    ],
-   "odds": 2.02,
+   "n": 2,
+   "odds": 1.84,
    "odds_boosted": null,
    "boost_name": null,
-   "p": 0.4845,
-   "ev": -0.0207
+   "p": 0.5257,
+   "ev": -0.0353,
+   "label": "Beste prijs 2-combi",
+   "kind": "value",
+   "why": [
+    "Deze combi wint als alle 2 selecties lukken. De kans daarop is ongeveer 53%: zo'n 5 op 10 keer.",
+    "De gecombineerde odds zijn 1,84. Een eerlijke odds voor deze kans zou 1,90 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 3,5% van je inzet.",
+    "Zwakste schakel: Lazio (67%). Met €10 krijg je €18,35 terug als alles lukt."
+   ]
   },
   {
    "legs": [
     {
-     "match": "RB Leipzig – Manchester City",
-     "pick": "Manchester City",
-     "odds": 1.63,
-     "key": "df7d2d81b9e2f3f11c6aeddaee6b7085|away"
+     "match": "Feyenoord – Fortuna Sittard",
+     "pick": "Feyenoord",
+     "odds": 1.16,
+     "key": "1836e9e3241ea98ae062bab0f288ce2c|home",
+     "p": 0.8169,
+     "kickoff": "2026-10-31T15:30:00Z",
+     "league": "Eredivisie"
+    },
+    {
+     "match": "Real Racing Club de Santander – Real Madrid",
+     "pick": "Real Madrid",
+     "odds": 1.24,
+     "key": "6c520ed959578ca3aebe351ee3765d53|away",
+     "p": 0.7882,
+     "kickoff": "2026-11-01T15:15:00Z",
+     "league": "LaLiga"
+    },
+    {
+     "match": "FC Porto – Estoril",
+     "pick": "FC Porto",
+     "odds": 1.15,
+     "key": "60352ce6c1b34bca7b294edae8aa388b|home",
+     "p": 0.7771,
+     "kickoff": "2026-10-31T20:30:00Z",
+     "league": "Primeira Liga"
+    }
+   ],
+   "n": 3,
+   "odds": 1.65,
+   "odds_boosted": null,
+   "boost_name": null,
+   "p": 0.5004,
+   "ev": -0.1723,
+   "label": "Zekerste 3-combi",
+   "kind": "safe",
+   "why": [
+    "Deze combi wint als alle 3 selecties lukken. De kans daarop is ongeveer 50%: zo'n 5 op 10 keer.",
+    "De gecombineerde odds zijn 1,65. Een eerlijke odds voor deze kans zou 2,00 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 17,2% van je inzet.",
+    "Zwakste schakel: FC Porto (78%). Met €10 krijg je €16,54 terug als alles lukt."
+   ]
+  },
+  {
+   "legs": [
+    {
+     "match": "Real Racing Club de Santander – Real Madrid",
+     "pick": "Real Madrid",
+     "odds": 1.24,
+     "key": "6c520ed959578ca3aebe351ee3765d53|away",
+     "p": 0.7882,
+     "kickoff": "2026-11-01T15:15:00Z",
+     "league": "LaLiga"
     },
     {
      "match": "Slavia Praha – Arsenal",
      "pick": "Arsenal",
      "odds": 1.35,
-     "key": "a5910ae3b314876faea7f5c03b8aeaad|away"
+     "key": "a5910ae3b314876faea7f5c03b8aeaad|away",
+     "p": 0.7217,
+     "kickoff": "2026-11-04T20:00:00Z",
+     "league": "Champions League"
+    },
+    {
+     "match": "Lazio – Cagliari",
+     "pick": "Lazio",
+     "odds": 1.48,
+     "key": "3f9f4bc9a19bf36dcb74be2f29610d55|home",
+     "p": 0.6669,
+     "kickoff": "2026-11-01T14:00:00Z",
+     "league": "Serie A"
     }
    ],
-   "odds": 2.2,
+   "n": 3,
+   "odds": 2.48,
    "odds_boosted": null,
    "boost_name": null,
-   "p": 0.4436,
-   "ev": -0.0238
+   "p": 0.3794,
+   "ev": -0.0601,
+   "label": "Beste prijs 3-combi",
+   "kind": "value",
+   "why": [
+    "Deze combi wint als alle 3 selecties lukken. De kans daarop is ongeveer 38%: zo'n 4 op 10 keer.",
+    "De gecombineerde odds zijn 2,48. Een eerlijke odds voor deze kans zou 2,64 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 6,0% van je inzet.",
+    "Zwakste schakel: Lazio (67%). Met €10 krijg je €24,78 terug als alles lukt."
+   ]
   },
   {
    "legs": [
     {
-     "match": "RB Leipzig – Manchester City",
-     "pick": "Manchester City",
-     "odds": 1.63,
-     "key": "df7d2d81b9e2f3f11c6aeddaee6b7085|away"
+     "match": "Feyenoord – Fortuna Sittard",
+     "pick": "Feyenoord",
+     "odds": 1.16,
+     "key": "1836e9e3241ea98ae062bab0f288ce2c|home",
+     "p": 0.8169,
+     "kickoff": "2026-10-31T15:30:00Z",
+     "league": "Eredivisie"
+    },
+    {
+     "match": "Real Racing Club de Santander – Real Madrid",
+     "pick": "Real Madrid",
+     "odds": 1.24,
+     "key": "6c520ed959578ca3aebe351ee3765d53|away",
+     "p": 0.7882,
+     "kickoff": "2026-11-01T15:15:00Z",
+     "league": "LaLiga"
+    },
+    {
+     "match": "Le Havre – Paris Saint Germain",
+     "pick": "Paris Saint Germain",
+     "odds": 1.22,
+     "key": "9a9f6c78276f74f15f42b013b033aa5d|away",
+     "p": 0.7725,
+     "kickoff": "2026-10-30T18:00:00Z",
+     "league": "Ligue 1"
+    },
+    {
+     "match": "FC Porto – Estoril",
+     "pick": "FC Porto",
+     "odds": 1.15,
+     "key": "60352ce6c1b34bca7b294edae8aa388b|home",
+     "p": 0.7771,
+     "kickoff": "2026-10-31T20:30:00Z",
+     "league": "Primeira Liga"
+    }
+   ],
+   "n": 4,
+   "odds": 2.02,
+   "odds_boosted": null,
+   "boost_name": null,
+   "p": 0.3865,
+   "ev": -0.22,
+   "label": "Zekerste 4-combi",
+   "kind": "safe",
+   "why": [
+    "Deze combi wint als alle 4 selecties lukken. De kans daarop is ongeveer 39%: zo'n 4 op 10 keer.",
+    "De gecombineerde odds zijn 2,02. Een eerlijke odds voor deze kans zou 2,59 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 22,0% van je inzet.",
+    "Zwakste schakel: Paris Saint Germain (77%). Met €10 krijg je €20,18 terug als alles lukt."
+   ]
+  },
+  {
+   "legs": [
+    {
+     "match": "Real Racing Club de Santander – Real Madrid",
+     "pick": "Real Madrid",
+     "odds": 1.24,
+     "key": "6c520ed959578ca3aebe351ee3765d53|away",
+     "p": 0.7882,
+     "kickoff": "2026-11-01T15:15:00Z",
+     "league": "LaLiga"
     },
     {
      "match": "Como – Venezia",
      "pick": "Como",
      "odds": 1.33,
-     "key": "9507f4bcbcfd4e4953720628a2b86a17|home"
+     "key": "9507f4bcbcfd4e4953720628a2b86a17|home",
+     "p": 0.7287,
+     "kickoff": "2026-11-01T11:30:00Z",
+     "league": "Serie A"
+    },
+    {
+     "match": "Slavia Praha – Arsenal",
+     "pick": "Arsenal",
+     "odds": 1.35,
+     "key": "a5910ae3b314876faea7f5c03b8aeaad|away",
+     "p": 0.7217,
+     "kickoff": "2026-11-04T20:00:00Z",
+     "league": "Champions League"
+    },
+    {
+     "match": "Lazio – Cagliari",
+     "pick": "Lazio",
+     "odds": 1.48,
+     "key": "3f9f4bc9a19bf36dcb74be2f29610d55|home",
+     "p": 0.6669,
+     "kickoff": "2026-11-01T14:00:00Z",
+     "league": "Serie A"
     }
    ],
-   "odds": 2.17,
+   "n": 4,
+   "odds": 3.3,
    "odds_boosted": null,
    "boost_name": null,
-   "p": 0.4479,
-   "ev": -0.0289
+   "p": 0.2764,
+   "ev": -0.0891,
+   "label": "Beste prijs 4-combi",
+   "kind": "value",
+   "why": [
+    "Deze combi wint als alle 4 selecties lukken. De kans daarop is ongeveer 28%: zo'n 3 op 10 keer.",
+    "De gecombineerde odds zijn 3,30. Een eerlijke odds voor deze kans zou 3,62 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 8,9% van je inzet.",
+    "Zwakste schakel: Lazio (67%). Met €10 krijg je €32,95 terug als alles lukt."
+   ]
+  },
+  {
+   "legs": [
+    {
+     "match": "Feyenoord – Fortuna Sittard",
+     "pick": "Feyenoord",
+     "odds": 1.16,
+     "key": "1836e9e3241ea98ae062bab0f288ce2c|home",
+     "p": 0.8169,
+     "kickoff": "2026-10-31T15:30:00Z",
+     "league": "Eredivisie"
+    },
+    {
+     "match": "Real Racing Club de Santander – Real Madrid",
+     "pick": "Real Madrid",
+     "odds": 1.24,
+     "key": "6c520ed959578ca3aebe351ee3765d53|away",
+     "p": 0.7882,
+     "kickoff": "2026-11-01T15:15:00Z",
+     "league": "LaLiga"
+    },
+    {
+     "match": "Barcelona – Aston Villa",
+     "pick": "Barcelona",
+     "odds": 1.24,
+     "key": "bd680c6ad693dae859030f86e1be2769|home",
+     "p": 0.7704,
+     "kickoff": "2026-11-03T20:00:00Z",
+     "league": "Champions League"
+    },
+    {
+     "match": "Le Havre – Paris Saint Germain",
+     "pick": "Paris Saint Germain",
+     "odds": 1.22,
+     "key": "9a9f6c78276f74f15f42b013b033aa5d|away",
+     "p": 0.7725,
+     "kickoff": "2026-10-30T18:00:00Z",
+     "league": "Ligue 1"
+    },
+    {
+     "match": "FC Porto – Estoril",
+     "pick": "FC Porto",
+     "odds": 1.15,
+     "key": "60352ce6c1b34bca7b294edae8aa388b|home",
+     "p": 0.7771,
+     "kickoff": "2026-10-31T20:30:00Z",
+     "league": "Primeira Liga"
+    }
+   ],
+   "n": 5,
+   "odds": 2.5,
+   "odds_boosted": null,
+   "boost_name": null,
+   "p": 0.2978,
+   "ev": -0.2548,
+   "label": "Zekerste 5-combi",
+   "kind": "safe",
+   "why": [
+    "Deze combi wint als alle 5 selecties lukken. De kans daarop is ongeveer 30%: zo'n 3 op 10 keer.",
+    "De gecombineerde odds zijn 2,50. Een eerlijke odds voor deze kans zou 3,36 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 25,5% van je inzet.",
+    "Zwakste schakel: Barcelona (77%). Met €10 krijg je €25,02 terug als alles lukt."
+   ]
+  },
+  {
+   "legs": [
+    {
+     "match": "Feyenoord – Fortuna Sittard",
+     "pick": "Feyenoord",
+     "odds": 1.16,
+     "key": "1836e9e3241ea98ae062bab0f288ce2c|home",
+     "p": 0.8169,
+     "kickoff": "2026-10-31T15:30:00Z",
+     "league": "Eredivisie"
+    },
+    {
+     "match": "Real Racing Club de Santander – Real Madrid",
+     "pick": "Real Madrid",
+     "odds": 1.24,
+     "key": "6c520ed959578ca3aebe351ee3765d53|away",
+     "p": 0.7882,
+     "kickoff": "2026-11-01T15:15:00Z",
+     "league": "LaLiga"
+    },
+    {
+     "match": "Barcelona – Aston Villa",
+     "pick": "Barcelona",
+     "odds": 1.24,
+     "key": "bd680c6ad693dae859030f86e1be2769|home",
+     "p": 0.7704,
+     "kickoff": "2026-11-03T20:00:00Z",
+     "league": "Champions League"
+    },
+    {
+     "match": "Como – Venezia",
+     "pick": "Como",
+     "odds": 1.33,
+     "key": "9507f4bcbcfd4e4953720628a2b86a17|home",
+     "p": 0.7287,
+     "kickoff": "2026-11-01T11:30:00Z",
+     "league": "Serie A"
+    },
+    {
+     "match": "Slavia Praha – Arsenal",
+     "pick": "Arsenal",
+     "odds": 1.35,
+     "key": "a5910ae3b314876faea7f5c03b8aeaad|away",
+     "p": 0.7217,
+     "kickoff": "2026-11-04T20:00:00Z",
+     "league": "Champions League"
+    }
+   ],
+   "n": 5,
+   "odds": 3.2,
+   "odds_boosted": null,
+   "boost_name": null,
+   "p": 0.2609,
+   "ev": -0.1646,
+   "label": "Beste prijs 5-combi",
+   "kind": "value",
+   "why": [
+    "Deze combi wint als alle 5 selecties lukken. De kans daarop is ongeveer 26%: zo'n 3 op 10 keer.",
+    "De gecombineerde odds zijn 3,20. Een eerlijke odds voor deze kans zou 3,83 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 16,5% van je inzet.",
+    "Zwakste schakel: Arsenal (72%). Met €10 krijg je €32,02 terug als alles lukt."
+   ]
+  },
+  {
+   "legs": [
+    {
+     "match": "Feyenoord – Fortuna Sittard",
+     "pick": "Feyenoord",
+     "odds": 1.16,
+     "key": "1836e9e3241ea98ae062bab0f288ce2c|home",
+     "p": 0.8169,
+     "kickoff": "2026-10-31T15:30:00Z",
+     "league": "Eredivisie"
+    },
+    {
+     "match": "Real Racing Club de Santander – Real Madrid",
+     "pick": "Real Madrid",
+     "odds": 1.24,
+     "key": "6c520ed959578ca3aebe351ee3765d53|away",
+     "p": 0.7882,
+     "kickoff": "2026-11-01T15:15:00Z",
+     "league": "LaLiga"
+    },
+    {
+     "match": "Barcelona – Aston Villa",
+     "pick": "Barcelona",
+     "odds": 1.24,
+     "key": "bd680c6ad693dae859030f86e1be2769|home",
+     "p": 0.7704,
+     "kickoff": "2026-11-03T20:00:00Z",
+     "league": "Champions League"
+    },
+    {
+     "match": "Le Havre – Paris Saint Germain",
+     "pick": "Paris Saint Germain",
+     "odds": 1.22,
+     "key": "9a9f6c78276f74f15f42b013b033aa5d|away",
+     "p": 0.7725,
+     "kickoff": "2026-10-30T18:00:00Z",
+     "league": "Ligue 1"
+    },
+    {
+     "match": "FC Porto – Estoril",
+     "pick": "FC Porto",
+     "odds": 1.15,
+     "key": "60352ce6c1b34bca7b294edae8aa388b|home",
+     "p": 0.7771,
+     "kickoff": "2026-10-31T20:30:00Z",
+     "league": "Primeira Liga"
+    },
+    {
+     "match": "Casa Pia – Sporting Lisbon",
+     "pick": "Sporting Lisbon",
+     "odds": 1.22,
+     "key": "75daf3f21fd7945dcc4215b1fe8a5da3|away",
+     "p": 0.7396,
+     "kickoff": "2026-10-30T20:15:00Z",
+     "league": "Primeira Liga"
+    }
+   ],
+   "n": 6,
+   "odds": 3.05,
+   "odds_boosted": null,
+   "boost_name": null,
+   "p": 0.2202,
+   "ev": -0.3276,
+   "label": "Zekerste 6-combi",
+   "kind": "safe",
+   "why": [
+    "Deze combi wint als alle 6 selecties lukken. De kans daarop is ongeveer 22%: zo'n 2 op 10 keer.",
+    "De gecombineerde odds zijn 3,05. Een eerlijke odds voor deze kans zou 4,54 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 32,8% van je inzet.",
+    "Zwakste schakel: Sporting Lisbon (74%). Met €10 krijg je €30,53 terug als alles lukt."
+   ]
   }
  ],
  "promos": [],

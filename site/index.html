@@ -82,10 +82,12 @@ p{margin:0}
 
 <script>
 const S = { tab: 'top', sel: null, league: 'Alle', latest: null, history: null, stake: 10, mode: 'claude', placed: {},
+  combi: {}, csize: 4,
   F: { sort: 'score', minP: 0, minOdds: 0, minScore: 0, show: 'all', open: false } };
+try { S.combi = JSON.parse(localStorage.getItem('mycombi') || '{}'); } catch (e) {}
 try { Object.assign(S.F, JSON.parse(localStorage.getItem('filters') || '{}'), { open: false }); } catch (e) {}
 try { S.stake = +localStorage.getItem('stake') || 10; S.placed = JSON.parse(localStorage.getItem('placed') || '{}'); } catch (e) {}
-const persist = () => { try { localStorage.setItem('stake', S.stake); localStorage.setItem('placed', JSON.stringify(S.placed)); localStorage.setItem('filters', JSON.stringify(S.F)); } catch (e) {} };
+const persist = () => { try { localStorage.setItem('stake', S.stake); localStorage.setItem('placed', JSON.stringify(S.placed)); localStorage.setItem('filters', JSON.stringify(S.F)); localStorage.setItem('mycombi', JSON.stringify(S.combi)); } catch (e) {} };
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const f2 = x => (+x).toFixed(2).replace('.', ',');
@@ -121,7 +123,7 @@ function subtitle() {
 }
 
 function render() {
-  document.getElementById('sub').textContent = ({ top: subtitle(), combi: 'Combi’s en promo’s met positieve value', tracker: 'Claude zet elke week in op 10 bets: volg of dat winst oplevert', alerts: 'Nieuws, promo’s en status' })[S.tab];
+  document.getElementById('sub').textContent = ({ top: subtitle(), combi: 'Combi’s van 2 tot 6 matchen, met de kans dat ze uitkomen', tracker: 'Claude zet elke week in op 10 bets: volg of dat winst oplevert', alerts: 'Nieuws, promo’s en status' })[S.tab];
   document.querySelectorAll('nav button').forEach(b => b.classList.toggle('on', b.dataset.tab === S.tab));
   const m = document.getElementById('main');
   m.innerHTML = S.tab === 'top' ? (S.sel ? detail() : list()) : S.tab === 'combi' ? combi() : S.tab === 'tracker' ? tracker() : alerts();
@@ -225,24 +227,47 @@ function detail() {
     ${b.parts.map(p => `<div><div class="place" style="font-size:13px"><span>${esc(p[0])}</span><b>${sc(p[1])}</b></div><div class="bar b" style="margin-top:4px"><i style="width:${p[1] * 10}%"></i></div></div>`).join('')}
   </div>
   <button class="btn ${placed ? 'ghost' : ''}" data-place="${esc(b.key)}">${placed ? `Ingezet (€${placed}) · tik om te wissen` : `Ik heb dit ingezet (€${S.stake})`}</button>
+  <button class="btn ghost" data-addcombi="${esc(b.key)}">${S.combi[b.match_id] && S.combi[b.match_id].key === b.key ? '✓ In mijn combi · tik om te verwijderen' : '+ Toevoegen aan mijn combi'}</button>
   <a class="btn ghost" style="display:block;text-align:center;text-decoration:none" href="https://www.unibet.be/betting/sports/filter/football" target="_blank" rel="noopener">Open Unibet</a>`;
 }
 
-function combi() {
-  const c = S.latest?.combis || [], pr = S.latest?.promos || [];
-  let h = c.length ? c.map((x, i) => `<div class="card" style="padding:16px;display:flex;flex-direction:column;gap:12px">
-    <div class="place"><span style="font-size:16px;font-weight:700">Combi ${i + 1} (${x.legs.length} bets)</span>${x.boost_name ? `<span class="tag">${esc(x.boost_name)}</span>` : ''}</div>
-    <div style="display:flex;flex-direction:column;gap:6px;font-size:14px">
-      ${x.legs.map(l => `<div class="place"><span class="ell">${esc(l.pick)} <span class="small">· ${esc(l.match)}</span></span><span>${f2(l.odds)}</span></div>`).join('')}
-      <div class="place" style="color:var(--muted);border-top:1px solid var(--line);padding-top:6px"><span>Totale odds</span><span>${f2(x.odds)}</span></div>
+function combiCard(x, title, extra) {
+  const eff = x.odds_boosted || x.odds;
+  return `<div class="card" style="padding:16px;display:flex;flex-direction:column;gap:12px">
+    <div class="place"><span style="font-size:16px;font-weight:700">${esc(title)}</span>${x.boost_name ? `<span class="tag">${esc(x.boost_name)}</span>` : ''}</div>
+    <div style="display:flex;flex-direction:column;gap:8px;font-size:14px">
+      ${x.legs.map(l => `<div class="place"><div style="min-width:0"><div class="ell"><b>${esc(l.pick)}</b> <span class="small">${Math.round(l.p * 100)}%</span></div><div class="small ell" style="font-size:12px">${esc(l.match)}${l.kickoff ? ' · ' + when(l.kickoff) : ''}</div></div><span style="white-space:nowrap">${f2(l.odds)}${extra ? ` <button class="link" style="padding:0 0 0 8px;min-height:32px" data-unpick="${esc(l.key)}" aria-label="Verwijder ${esc(l.pick)}">✕</button>` : ''}</span></div>`).join('')}
+      <div class="place" style="color:var(--muted);border-top:1px solid var(--line);padding-top:8px"><span>Totale odds</span><span>${f2(x.odds)}</span></div>
       ${x.odds_boosted ? `<div class="place" style="color:var(--muted)"><span>Met promo</span><span class="pos" style="font-weight:600">${f2(x.odds_boosted)}</span></div>` : ''}
     </div>
     <div class="kpis">
-      <div class="kpi"><b>Kans</b><span class="num">${pc(x.p)}</span></div>
+      <div class="kpi"><b>Kans combi</b><span class="num">${pc(x.p)}</span></div>
       <div class="kpi"><b>Value</b><span class="num ${evClass(x.ev)}">${spc(x.ev)}</span></div>
-      <div class="kpi"><b>€${S.stake} wordt</b><span class="num">€${f2(S.stake * (x.odds_boosted || x.odds))}</span></div>
-    </div></div>`).join('') : `<div class="empty">Vandaag geen combi’s: daarvoor zijn minstens twee sterke value bets uit verschillende wedstrijden nodig.</div>`;
-  h += `<p class="small" style="line-height:1.5;padding:0 4px">Combi\u2019s van favorieten: elke selectie heeft een grote kans, maar de combi wint alleen als alles lukt. Zonder promo stapelt de marge van de bookmaker zich op (negatieve value); met een combi-boost kan die positief worden.</p>`;
+      <div class="kpi"><b>€10 wordt</b><span class="num">€${f2(10 * eff)}</span></div>
+    </div>
+    ${(x.why || []).length ? `<details><summary class="link" style="list-style:none;padding:0;min-height:32px">Waarom deze combi?</summary>${x.why.map(t => `<p style="font-size:13px;line-height:1.55;color:var(--soft);margin-top:6px">${esc(t)}</p>`).join('')}</details>` : ''}
+  </div>`;
+}
+
+function myCombi() {
+  const legs = Object.values(S.combi);
+  if (!legs.length) return `<div class="card" style="font-size:13px;line-height:1.5;color:var(--soft)"><b style="color:var(--text)">Maak je eigen combi</b><br>Open een bet bij Top bets en tik op “+ Toevoegen aan mijn combi”. Hier zie je dan de totale odds en de kans dat alles lukt.</div>`;
+  let odds = 1, p = 1;
+  legs.forEach(l => { odds *= l.odds; p *= l.p; });
+  const x = { legs, odds, p, ev: p * odds - 1, why: [] };
+  return combiCard(x, `Mijn combi (${legs.length})`, true) + `<button class="btn ghost" data-clearcombi>Mijn combi wissen</button>`;
+}
+
+function combi() {
+  const all = S.latest?.combis || [], pr = S.latest?.promos || [];
+  const sizes = [...new Set(all.map(c => c.n))].sort();
+  if (!sizes.includes(S.csize)) S.csize = sizes.includes(4) ? 4 : sizes[0];
+  const shown = all.filter(c => c.n === S.csize);
+  let h = myCombi();
+  h += `<div class="sect">Voorgestelde combi’s</div>
+  <p class="small" style="line-height:1.5;padding:0 4px">Uit favorieten met minstens 62% winkans, alle wedstrijden binnen 4 dagen. Per aantal: de zekerste combi en die met de beste prijs.</p>`;
+  h += sizes.length ? `<div class="chips">${sizes.map(n => `<button class="chip ${n === S.csize ? 'on' : ''}" data-csize="${n}">${n} matchen</button>`).join('')}</div>` + shown.map(x => combiCard(x, x.label || `${x.n}-combi`)).join('') : `<div class="empty">Vandaag niet genoeg sterke favorieten voor een combi.</div>`;
+  h += `<p class="small" style="line-height:1.5;padding:0 4px">Let op: hoe meer matchen, hoe hoger de odds, maar ook hoe groter de kans dat één wedstrijd misloopt. De marge van Unibet stapelt zich bij elke selectie op. Een combi-boost kan dat deels goedmaken.</p>`;
   h += `<div class="sect">Promo’s van vandaag</div>`;
   h += pr.length ? pr.map(p => `<div class="card place"><div style="display:flex;flex-direction:column;gap:2px"><span style="font-size:14px;font-weight:600">${esc(p.name)}</span><span class="small" style="font-size:12px">${esc(p.note || '')}</span></div>${safeUrl(p.url) ? `<a href="${esc(p.url)}" target="_blank" rel="noopener" style="font-size:13px;white-space:nowrap">Bekijk</a>` : ''}</div>`).join('') : `<div class="empty" style="padding:8px">Geen promo’s gevonden vandaag.</div>`;
   return h;
@@ -354,6 +379,13 @@ document.addEventListener('click', e => {
   else if (t.dataset.bet) S.sel = t.dataset.bet;
   else if ('back' in t.dataset) S.sel = null;
   else if (t.dataset.league) S.league = t.dataset.league;
+  else if (t.dataset.csize) S.csize = +t.dataset.csize;
+  else if (t.dataset.addcombi) {
+    const b = (S.latest?.bets || []).find(x => x.key === t.dataset.addcombi);
+    if (b) { if (S.combi[b.match_id] && S.combi[b.match_id].key === b.key) delete S.combi[b.match_id]; else S.combi[b.match_id] = { key: b.key, match: b.match, pick: b.pick, odds: b.odds, p: b.p, kickoff: b.kickoff }; persist(); }
+  }
+  else if (t.dataset.unpick) { for (const k in S.combi) if (S.combi[k].key === t.dataset.unpick) delete S.combi[k]; persist(); }
+  else if ('clearcombi' in t.dataset) { S.combi = {}; persist(); }
   else if (t.dataset.f) { const v = t.dataset.v; S.F[t.dataset.f] = isNaN(+v) ? v : +v; persist(); }
   else if ('ftoggle' in t.dataset) S.F.open = !S.F.open;
   else if ('freset' in t.dataset) { Object.assign(S.F, { minP: 0, minOdds: 0, minScore: 0, show: 'all' }); persist(); }

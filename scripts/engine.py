@@ -649,34 +649,84 @@ def apply_odds_boosts(top, matches, promos):
         })
 
 
+COMBI_SIZES = (2, 3, 4, 5, 6)
+COMBI_MIN_LEG_P = 0.62      # elke selectie minstens 62% winkans
+COMBI_MAX_DAYS = 4          # alle wedstrijden binnen 4 dagen, zodat de combi snel afgerekend is
+
+
+def combi_obj(combo, boost, label, kind):
+    odds, p = 1.0, 1.0
+    for c in combo:
+        odds *= c["odds"]
+        p *= c["p"]
+    n = len(combo)
+    eff = odds
+    if boost and n >= int(boost.get("min_legs", 2)):
+        eff = 1 + (odds - 1) * (1 + float(boost["value"]))
+    ev = p * eff - 1
+    fair = 1.0
+    for c in combo:
+        fair *= 1 / c["p"]
+    weakest = min(combo, key=lambda c: c["p"])
+    why = [f"Deze combi wint als alle {n} selecties lukken. De kans daarop is ongeveer {round(p * 100)}%: "
+           f"zo'n {max(1, round(p * 10))} op 10 keer.",
+           f"De gecombineerde odds zijn {fmt(odds)}" + (f", met de {boost.get('name', 'combi-boost')} {fmt(eff)}" if eff != odds else "")
+           + f". Een eerlijke odds voor deze kans zou {fmt(fair)} zijn.",
+           (f"Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi "
+            f"ongeveer {dec(abs(ev) * 100)}% van je inzet." if ev < 0 else
+            f"Deze combi betaalt meer dan eerlijk (+{dec(ev * 100)}%): op lange termijn levert hij winst op."),
+           f"Zwakste schakel: {weakest['pick']} ({round(weakest['p'] * 100)}%). Met €10 krijg je {euro(10 * eff)} terug als alles lukt."]
+    return {
+        "legs": [{"match": c["match"], "pick": c["pick"], "odds": c["odds"], "key": c["key"], "p": c["p"],
+                  "kickoff": c["kickoff"], "league": c["league"]} for c in combo],
+        "n": n, "odds": round(odds, 2), "odds_boosted": round(eff, 2) if eff != odds else None,
+        "boost_name": boost.get("name") if boost and eff != odds else None,
+        "p": round(p, 4), "ev": round(ev, 4), "label": label, "kind": kind, "why": why,
+    }
+
+
 def build_combis(top, promos):
-    # combi's uit favorieten: grote kans per selectie; een combi-boost kan de marge goedmaken
-    legs = [b for b in top if b["category"] == "safe" and not b.get("promo")][:7]
+    """Combi's van 2 tot 6 favorieten: per grootte de zekerste en de beste prijs."""
+    now = now_utc()
+    pool = [b for b in top if b["category"] == "safe" and not b.get("promo") and b["p"] >= COMBI_MIN_LEG_P
+            and parse_dt(b["kickoff"]) > now]
+    # per wedstrijd enkel de beste selectie; hoogstens 14 kandidaten (zekerheid en prijs samen)
+    seen, legs = set(), []
+    for b in sorted(pool, key=lambda b: -(b["p"] + 0.5 * b["ev"])):
+        if b["match_id"] in seen:
+            continue
+        seen.add(b["match_id"])
+        legs.append(b)
+    legs = legs[:14]
     boost = None
     for pr in (promos or {}).get("promos", []):
         if pr.get("type") == "combi_boost" and pr.get("value"):
             boost = pr
-    out = []
-    for n in (2, 3):
+    out, used = [], set()
+    for n in COMBI_SIZES:
+        best_p = best_v = None
         for combo in combinations(legs, n):
-            if len({c["match_id"] for c in combo}) < n:
+            ks = [parse_dt(c["kickoff"]) for c in combo]
+            if (max(ks) - min(ks)).days > COMBI_MAX_DAYS:
                 continue
-            odds, p = 1.0, 1.0
+            p = 1.0
+            odds = 1.0
             for c in combo:
-                odds *= c["odds"]
                 p *= c["p"]
-            eff = odds
-            if boost and n >= int(boost.get("min_legs", 2)):
-                eff = 1 + (odds - 1) * (1 + float(boost["value"]))
-            out.append({
-                "legs": [{"match": c["match"], "pick": c["pick"], "odds": c["odds"], "key": c["key"]} for c in combo],
-                "odds": round(odds, 2), "odds_boosted": round(eff, 2) if eff != odds else None,
-                "boost_name": boost.get("name") if boost and eff != odds else None,
-                "p": round(p, 4), "ev": round(p * eff - 1, 4),
-            })
-    out = [c for c in out if c["p"] >= 0.30]
-    out.sort(key=lambda c: (-c["ev"], -c["p"]))
-    return out[:4]
+                odds *= c["odds"]
+            if best_p is None or p > best_p[0]:
+                best_p = (p, combo)
+            if p >= 0.25 and (best_v is None or p * odds > best_v[0]):
+                best_v = (p * odds, combo)
+        for cand, label, kind in ((best_p, f"Zekerste {n}-combi", "safe"), (best_v, f"Beste prijs {n}-combi", "value")):
+            if not cand:
+                continue
+            sig = tuple(sorted(c["key"] for c in cand[1]))
+            if sig in used:
+                continue
+            used.add(sig)
+            out.append(combi_obj(cand[1], boost, label, kind))
+    return out
 
 
 # ---------------------------------------------------------------- tracker
