@@ -397,7 +397,9 @@
    "pick_ev": 0.1053,
    "pick_at": "2026-10-29T06:39:40Z",
    "pick_reason": "Dit is een prijsbet, geen gevoelsbet: Unibet betaalt 6,40 terwijl de scherpe markt (Pinnacle en 17 anderen) Zulte Waregem ±17% kans geeft, wat 5,8 waard is: ongeveer +10% verwachte winst. Zulte zit in slechte vorm (4 nederlagen zonder doelpunt) en Club won 7 keer op rij, dus deze bet verliest meestal; de winst zit enkel in het herhalen van zulke te hoge odds op lange termijn.",
-   "pick_auto": false
+   "pick_auto": false,
+   "last_fair_odds": 5.79,
+   "clv": 0.1053
   }
  ]
 }
