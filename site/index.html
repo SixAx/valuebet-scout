@@ -82,12 +82,12 @@ p{margin:0}
 
 <script>
 const S = { tab: 'top', sel: null, league: 'Alle', latest: null, history: null, stake: 10, mode: 'claude', placed: {},
-  combi: {}, csize: 4,
+  combi: {}, csize: 4, budget: 30,
   F: { sort: 'score', minP: 0, minOdds: 0, minScore: 0, show: 'all', open: false } };
-try { S.combi = JSON.parse(localStorage.getItem('mycombi') || '{}'); } catch (e) {}
+try { S.combi = JSON.parse(localStorage.getItem('mycombi') || '{}'); S.budget = +localStorage.getItem('budget') || 30; } catch (e) {}
 try { Object.assign(S.F, JSON.parse(localStorage.getItem('filters') || '{}'), { open: false }); } catch (e) {}
 try { S.stake = +localStorage.getItem('stake') || 10; S.placed = JSON.parse(localStorage.getItem('placed') || '{}'); } catch (e) {}
-const persist = () => { try { localStorage.setItem('stake', S.stake); localStorage.setItem('placed', JSON.stringify(S.placed)); localStorage.setItem('filters', JSON.stringify(S.F)); localStorage.setItem('mycombi', JSON.stringify(S.combi)); } catch (e) {} };
+const persist = () => { try { localStorage.setItem('stake', S.stake); localStorage.setItem('placed', JSON.stringify(S.placed)); localStorage.setItem('filters', JSON.stringify(S.F)); localStorage.setItem('mycombi', JSON.stringify(S.combi)); localStorage.setItem('budget', S.budget); } catch (e) {} };
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const f2 = x => (+x).toFixed(2).replace('.', ',');
@@ -99,6 +99,31 @@ const when = iso => { const d = new Date(iso); return d.toLocaleDateString('nl-B
 const FLAME = '<svg aria-label="Risicobet" role="img" width="16" height="16" viewBox="0 0 24 24" fill="#FF9A4D" style="vertical-align:-2px"><path d="M12 2c1 3.5-1.5 5.5-1.5 8 0 1.4 1 2.5 2.3 2.5 1.6 0 2.4-1.4 2.2-3.2C17.6 11 19 13.6 19 16a7 7 0 0 1-14 0c0-4.4 3.6-6.7 5-9.2C10.6 5.3 11.3 3.6 12 2z"/></svg>';
 const isRisky = b => (b.category || 'risky') === 'risky';
 const evClass = x => x >= 0 ? 'pos' : 'neg';
+const weekStart = () => { const d = new Date(); d.setHours(0, 0, 0, 0); d.setDate(d.getDate() - ((d.getDay() + 6) % 7)); return d; };
+function advice(b) {
+  const unit = S.budget / 10;
+  let st, why;
+  if (b.ev > 0) {
+    st = Math.min(unit * 2, Math.max(unit * 0.5, S.budget * (b.kelly || 0) / 4));
+    if (isRisky(b)) st = Math.min(st, unit * 0.75);
+    why = 'Positieve value: hoe groter het voordeel, hoe meer je inzet (een kwart van de Kelly-formule, begrensd).';
+  } else {
+    st = unit * 0.5;
+    why = 'Geen value: Unibet betaalt minder dan eerlijk. Als je toch inzet, houd het klein.';
+  }
+  return { stake: Math.max(1, Math.round(st)), why };
+}
+function realWeek() {
+  const ws = weekStart().getTime(), bets = S.history?.bets || [];
+  let pnl = 0, staked = 0, open = 0;
+  for (const k in S.placed) {
+    const h = bets.find(x => x.key === k), st = +S.placed[k];
+    if (!h || new Date(h.kickoff).getTime() < ws) continue;
+    staked += st;
+    if (h.status === 'won') pnl += st * (h.odds - 1); else if (h.status === 'lost') pnl -= st; else open++;
+  }
+  return { pnl, staked, open, limitHit: -pnl >= S.budget };
+}
 const safeUrl = u => /^https?:\/\//i.test(u || '') ? u : null;
 
 async function load() {
@@ -180,6 +205,7 @@ function list() {
   const safe = shown.filter(b => !isRisky(b)), risky = shown.filter(isRisky);
   const head = `<div class="row head"><span>#</span><span>Bet</span><span class="r">Kans</span><span class="r">Value</span><span class="r">Cijfer</span></div>`;
   return `<div class="chips">${leagues.map(l => `<button class="chip ${l === S.league ? 'on' : ''}" data-league="${esc(l)}">${esc(l)}</button>`).join('')}</div>
+  ${realWeek().limitHit ? `<div class="card" style="border-color:var(--warn);font-size:14px;line-height:1.5"><b class="neg">Weeklimiet bereikt</b><br>Je staat deze week ${eur(realWeek().pnl)} op je echte inzetten (budget €${S.budget}). Advies: niets meer inzetten tot maandag.</div>` : ''}
   ${filters(shown.length)}
   ${F.show !== 'risky' ? `<div class="sect">Grote kans om te winnen</div>
   <p class="small" style="line-height:1.5;padding:0 4px">Favorieten (${Math.round((S.latest?.settings?.safe_prob || .55) * 100)}%+ winkans). Het Claude-cijfer weegt zekerheid, de hoogte van de odds, de prijs t.o.v. eerlijke odds en een tweede model (ClubElo).</p>
@@ -226,7 +252,13 @@ function detail() {
     <div class="sect" style="padding:0">Opbouw Claude-cijfer</div>
     ${b.parts.map(p => `<div><div class="place" style="font-size:13px"><span>${esc(p[0])}</span><b>${sc(p[1])}</b></div><div class="bar b" style="margin-top:4px"><i style="width:${p[1] * 10}%"></i></div></div>`).join('')}
   </div>
-  <button class="btn ${placed ? 'ghost' : ''}" data-place="${esc(b.key)}">${placed ? `Ingezet (€${placed}) · tik om te wissen` : `Ik heb dit ingezet (€${S.stake})`}</button>
+  <div class="card" style="padding:16px;display:flex;flex-direction:column;gap:8px">
+    <div class="sect" style="padding:0">Inzetadvies</div>
+    <div class="place"><span style="font-size:14px;color:var(--soft)">Van je weekbudget €${S.budget}</span><span class="num" style="font-size:30px">€${advice(b).stake}</span></div>
+    <p class="small" style="line-height:1.5">${esc(advice(b).why)}${realWeek().limitHit ? ' <b class="neg">Je weeklimiet is bereikt.</b>' : ''}</p>
+    <div style="border-top:1px solid var(--line);padding-top:8px;font-size:14px;line-height:1.5;color:var(--soft)"><b style="color:var(--text)">Odds vergelijken:</b> Unibet geeft ${f2(b.odds)}, de eerlijke odds zijn <b style="color:var(--text)">${f2(b.fair_odds || 1 / b.p)}</b>. Geeft Bwin, Napoleon of een andere Belgische bookmaker meer dan ${f2(b.odds)}, zet dan daar in. Vanaf ${f2(b.fair_odds || 1 / b.p)} heb je echt value.</div>
+  </div>
+  <button class="btn ${placed ? 'ghost' : ''}" data-place="${esc(b.key)}" data-stake-amt="${advice(b).stake}">${placed ? `Ingezet (€${placed}) · tik om te wissen` : `Ik heb dit ingezet (€${advice(b).stake})`}</button>
   <button class="btn ghost" data-addcombi="${esc(b.key)}">${S.combi[b.match_id] && S.combi[b.match_id].key === b.key ? '✓ In mijn combi · tik om te verwijderen' : '+ Toevoegen aan mijn combi'}</button>
   <a class="btn ghost" style="display:block;text-align:center;text-decoration:none" href="https://www.unibet.be/betting/sports/filter/football" target="_blank" rel="noopener">Open Unibet</a>`;
 }
@@ -293,6 +325,8 @@ function portfolio() {
   </div>
   ${pf.weeks.map(w => `<div class="card" style="padding:14px;display:flex;flex-direction:column;gap:8px">
     <div class="place"><span style="font-weight:700">Week ${esc(w.label)}</span><span style="font-weight:700">${w.won + w.lost ? pnlTxt(w.pnl) : '<span class="small">bezig</span>'}</span></div>
+    ${w.report ? `<div style="background:var(--card2);border-radius:10px;padding:10px 12px;font-size:13px;line-height:1.55;color:var(--soft)"><b style="color:var(--text)">Weekrapport van Claude</b><br>${esc(w.report)}</div>` : ''}
+    ${w.breakdown ? `<div class="small" style="font-size:12px;line-height:1.6">${['type', 'league'].map(d => Object.entries(w.breakdown[d]).map(([k, v]) => `${esc(k)}: ${v.won}/${v.n} raak, <span class="${v.pnl >= 0 ? 'pos' : 'neg'}">${eur(v.pnl)}</span>`).join(' · ')).join('<br>')}</div>` : ''}
     <span class="small" style="font-size:12px">${w.n}/${pf.per_week} bets · ${w.won} gewonnen · ${w.lost} verloren${w.open ? ` · ${w.open} nog te spelen` : ''}${w.void ? ` · ${w.void} nietig` : ''}</span>
     ${weekOf(w.week).map(b => {
       const r = b.status === 'won' ? b.pick_stake * (b.pick_odds - 1) : b.status === 'lost' ? -b.pick_stake : null;
@@ -307,11 +341,47 @@ function portfolio() {
 }
 
 function modeChips() {
-  return [['claude', 'Claude (10/week)'], ['paper', 'Alle tips'], ['safe', 'Grote kans'], ['risky', 'Risico'], ['real', 'Echt ingezet']].map(([k, l]) => `<button class="chip ${S.mode === k ? 'on' : ''}" data-mode="${k}">${k === 'risky' ? FLAME + ' ' : ''}${l}</button>`).join('');
+  return [['claude', 'Claude (10/week)'], ['real', 'Echt ingezet'], ['check', 'Klopt het?'], ['paper', 'Alle tips'], ['safe', 'Grote kans'], ['risky', 'Risico']].map(([k, l]) => `<button class="chip ${S.mode === k ? 'on' : ''}" data-mode="${k}">${k === 'risky' ? FLAME + ' ' : ''}${l}</button>`).join('');
+}
+
+function calib() {
+  const c = S.latest?.calibration;
+  const head = `<div class="chips">${modeChips()}</div>`;
+  if (!c || c.n < 10) return `<div class="card" style="padding:16px;display:flex;flex-direction:column;gap:12px">${head}
+    <p style="font-size:14px;line-height:1.55;color:var(--soft)">Hier zie je straks of de kansen van de app kloppen: winnen bets met “70% kans” ook echt ongeveer 7 op 10 keer? Daarvoor zijn minstens 10 afgeronde bets nodig${c ? ` (nu ${c.n})` : ''}. Betrouwbaar wordt het vanaf ±200.</p></div>`;
+  const bar = (v, col) => `<div class="bar" style="height:8px"><i style="width:${Math.round(v * 100)}%;background:${col}"></i></div>`;
+  const verdict = Math.abs(c.hit_avg - c.pred_avg) < 0.04 ? 'De kansen kloppen tot nu toe goed.' : c.hit_avg > c.pred_avg ? 'Tot nu toe winnen er meer bets dan voorspeld.' : 'Tot nu toe winnen er minder bets dan voorspeld: de app is te optimistisch.';
+  return `<div class="card" style="padding:16px;display:flex;flex-direction:column;gap:12px">${head}
+    <span class="small" style="text-transform:uppercase;letter-spacing:.6px">${c.n} afgeronde bets</span>
+    <div class="kpis">
+      <div class="kpi"><b>Voorspeld</b><span class="num">${pc(c.pred_avg)}</span></div>
+      <div class="kpi"><b>Werkelijk</b><span class="num">${pc(c.hit_avg)}</span></div>
+      <div class="kpi"><b>Odds vs slot</b><span class="num ${evClass(c.clv || 0)}">${c.clv == null ? '—' : spc(c.clv)}</span></div>
+    </div>
+    <p style="font-size:14px;line-height:1.5;color:var(--soft)">${verdict} ${c.n < 200 ? 'Met minder dan 200 bets is dit nog grotendeels toeval.' : ''}</p>
+    <p class="small" style="line-height:1.5">“Odds vs slot”: hoeveel beter de odds bij het tippen waren dan de eerlijke marktprijs vlak voor aftrap. Positief = de app vindt bets voordat de markt ze ontdekt; dat is het sterkste teken dat het werkt.</p>
+  </div>
+  <div class="card" style="padding:16px;display:flex;flex-direction:column;gap:12px">
+    <div class="sect" style="padding:0">Per kansgroep</div>
+    <div class="place small"><span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:#7CC4FF"></span> voorspeld</span><span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:var(--acc)"></span> werkelijk</span></div>
+    ${c.rows.map(r => `<div style="display:flex;flex-direction:column;gap:4px">
+      <div class="place" style="font-size:13px"><b>${esc(r.label)}</b><span class="small">${r.n} bets · ${pc(r.pred)} → ${pc(r.hit)}</span></div>
+      ${bar(r.pred, '#7CC4FF')}${bar(r.hit, 'var(--acc)')}</div>`).join('')}
+  </div>`;
+}
+
+function budgetCard() {
+  const w = realWeek();
+  return `<div style="display:flex;flex-direction:column;gap:8px;border-top:1px solid var(--line);padding-top:12px">
+    <span style="font-size:13px;font-weight:600">Weekbudget (stoplimiet)</span>
+    <div class="grid4">${[20, 30, 50, 100].map(v => `<button class="chip ${v === S.budget ? 'on' : ''}" data-budget="${v}" style="padding:12px 0;font-size:14px">€${v}</button>`).join('')}</div>
+    <p class="small" style="line-height:1.5">Deze week: ${eur(w.pnl)} op €${f2(w.staked)} ingezet${w.open ? `, ${w.open} nog open` : ''}. ${w.limitHit ? '<b class="neg">Limiet bereikt: niets meer inzetten tot maandag.</b>' : `Stop als je €${S.budget} verloren hebt.`}</p>
+  </div>`;
 }
 
 function tracker() {
   if (S.mode === 'claude') return portfolio();
+  if (S.mode === 'check') return calib();
   const all = (S.history?.bets || []).slice().sort((a, b) => b.kickoff.localeCompare(a.kickoff));
   const rows = S.mode === 'real' ? all.filter(b => S.placed[b.key]) : all.filter(b => b.tracked !== false && (S.mode === 'paper' || (S.mode === 'safe' ? !isRisky(b) : isRisky(b))));
   let pnl = 0, staked = 0, won = 0, settled = 0, clvSum = 0, clvN = 0;
@@ -332,7 +402,7 @@ function tracker() {
       <div><div class="small">Raak</div><b style="font-size:16px">${won} / ${settled}</b></div>
     </div>
     ${clvN ? `<p class="small" style="line-height:1.5">Gemiddeld kregen de tips ${spc(clvSum / clvN)} betere odds dan de markt vlak voor aftrap. Positief op lange termijn = het model werkt.</p>` : ''}
-    ${S.mode !== 'real' ? `<div style="display:flex;flex-direction:column;gap:8px;border-top:1px solid var(--line);padding-top:12px">
+    ${S.mode === 'real' ? budgetCard() : ''}${S.mode !== 'real' ? `<div style="display:flex;flex-direction:column;gap:8px;border-top:1px solid var(--line);padding-top:12px">
       <span style="font-size:13px;font-weight:600">Inzet per bet</span>
       <div class="stake"><button class="sq" aria-label="Inzet verlagen" data-stake="-5">−</button><span class="num" style="flex:1;text-align:center;font-size:30px">€${S.stake}</span><button class="sq" aria-label="Inzet verhogen" data-stake="5">+</button></div>
       <div class="grid4">${[5, 10, 20, 50].map(v => `<button class="chip ${v === S.stake ? 'on' : ''}" data-setstake="${v}" style="padding:12px 0;font-size:14px">€${v}</button>`).join('')}</div>
@@ -392,7 +462,8 @@ document.addEventListener('click', e => {
   else if (t.dataset.mode) S.mode = t.dataset.mode;
   else if (t.dataset.stake) { S.stake = Math.max(1, Math.min(500, S.stake + +t.dataset.stake)); persist(); }
   else if (t.dataset.setstake) { S.stake = +t.dataset.setstake; persist(); }
-  else if (t.dataset.place) { const k = t.dataset.place; if (S.placed[k]) delete S.placed[k]; else S.placed[k] = S.stake; persist(); }
+  else if (t.dataset.place) { const k = t.dataset.place; if (S.placed[k]) delete S.placed[k]; else S.placed[k] = +t.dataset.stakeAmt || S.stake; persist(); }
+  else if (t.dataset.budget) { S.budget = +t.dataset.budget; persist(); }
   else if ('reload' in t.dataset) { load(); return; }
   else return;
   render();

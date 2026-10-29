@@ -220,7 +220,7 @@ def fetch_scores(http, history):
     key = os.environ.get("ODDS_API_KEY", "")
     now = now_utc()
     need = sorted({SPORT_OF.get(h["league"]) for h in history.get("bets", [])
-                   if h["status"] == "open" and h.get("tracked") and SPORT_OF.get(h["league"])
+                   if h["status"] == "open" and SPORT_OF.get(h["league"])
                    and now - timedelta(days=3) < parse_dt(h["kickoff"]) < now - timedelta(hours=2)})
     out = {}
     for okey in need:
@@ -538,6 +538,7 @@ def build(odds_raw, fb_raw, research, promos, elo=()):
                     "ev": round(ev_val, 4), "ev_market": round(ev_mkt, 4), "score": round(score, 1),
                     "category": cat, "parts": parts, "steps": steps, "promo": None,
                     "p_elo": round(el["p"][o], 4) if el else None,
+                    "fair_odds": round(1 / p, 2), "kelly": round(max(0.0, (p * odds - 1) / (odds - 1)), 4),
                     "community": [c for c in community.get(match_id, []) if c.get("outcome") == o][:3]
                                  or [c for c in community.get(match_id, []) if not c.get("outcome")][:2],
                     "why": explain(cat, names[o], o, home, away, p, odds, ev_val, len(books), has_sharp, r,
@@ -741,8 +742,7 @@ def update_history(history, top, matches):
         if parse_dt(b["kickoff"]) <= now:
             continue
         tracked = b["key"] in safe_top or (b["category"] == "risky" and b["score"] >= TRACK_SCORE)
-        if not tracked and b["score"] < 5.0:
-            continue
+        # ook niet-gevolgde bets bewaren: nodig om te controleren of de kansen kloppen
         h = by_key.get(b["key"])
         if h is None:
             hist.append({
@@ -929,10 +929,51 @@ def weekly_summary(history):
              "settled": sum(w["won"] + w["lost"] for w in out),
              "weeks_positive": sum(1 for w in out if w["pnl"] > 0 and w["open"] == 0)}
     total["roi"] = round(total["pnl"] / total["staked"], 4) if total["staked"] else 0.0
+    reports = history.get("reports", {})
+    br = week_breakdown(history)
+    for w in out:
+        w["report"] = reports.get(w["week"], "")
+        w["breakdown"] = br.get(w["week"])
     return {"weeks": out, "total": total, "per_week": PICKS_PER_WEEK, "stake": PICK_STAKE}
 
 
-def notify(top, research, errors, new_picks=(), portfolio=None):
+def calibration(history):
+    """Kloppen de kansen? Voorspelde kans tegenover hoe vaak het echt uitkwam."""
+    done = [h for h in history.get("bets", []) if h["status"] in ("won", "lost") and h.get("p")]
+    edges = [(0.0, 0.3), (0.3, 0.45), (0.45, 0.55), (0.55, 0.65), (0.65, 0.75), (0.75, 0.85), (0.85, 1.01)]
+    rows = []
+    for lo, hi in edges:
+        g = [h for h in done if lo <= h["p"] < hi]
+        if not g:
+            continue
+        rows.append({"label": f"{round(lo * 100)}–{min(100, round(hi * 100))}%", "n": len(g),
+                     "pred": round(sum(h["p"] for h in g) / len(g), 4),
+                     "hit": round(sum(1 for h in g if h["status"] == "won") / len(g), 4)})
+    clv = [h["clv"] for h in done if isinstance(h.get("clv"), (int, float))]
+    brier = sum((h["p"] - (1 if h["status"] == "won" else 0)) ** 2 for h in done) / len(done) if done else None
+    return {"n": len(done), "rows": rows, "clv": round(sum(clv) / len(clv), 4) if clv else None,
+            "pred_avg": round(sum(h["p"] for h in done) / len(done), 4) if done else None,
+            "hit_avg": round(sum(1 for h in done if h["status"] == "won") / len(done), 4) if done else None,
+            "brier": round(brier, 4) if brier is not None else None}
+
+
+def week_breakdown(history):
+    """Per week: resultaat van Claude's keuzes per type en per competitie (voor het weekrapport)."""
+    out = {}
+    for h in history.get("bets", []):
+        if not h.get("claude_pick") or h["status"] not in ("won", "lost"):
+            continue
+        w = out.setdefault(h["pick_week"], {"type": {}, "league": {}})
+        r = h.get("pick_stake", PICK_STAKE) * (h["pick_odds"] - 1) if h["status"] == "won" else -h.get("pick_stake", PICK_STAKE)
+        for dim, k in (("type", "Favorieten" if h.get("category") != "risky" else "Risico"), ("league", h["league"])):
+            d = w[dim].setdefault(k, {"n": 0, "won": 0, "pnl": 0.0})
+            d["n"] += 1
+            d["won"] += h["status"] == "won"
+            d["pnl"] = round(d["pnl"] + r, 2)
+    return out
+
+
+def notify(top, research, errors, new_picks=(), portfolio=None, title="ValueBet Scout: bets van vandaag"):
     topic = os.environ.get("NTFY_TOPIC")
     if not topic:
         return
@@ -961,7 +1002,7 @@ def notify(top, research, errors, new_picks=(), portfolio=None):
         lines.append(f"({len(errors)} datafout(en), zie Meldingen)")
     body = "\n".join(lines).encode("utf-8")
     req = urllib.request.Request(f"https://ntfy.sh/{topic}", data=body, method="POST")
-    req.add_header("Title", "ValueBet Scout: bets van vandaag")
+    req.add_header("Title", title)
     req.add_header("Tags", "soccer")
     if os.environ.get("SITE_URL"):
         req.add_header("Click", os.environ["SITE_URL"])
@@ -979,7 +1020,7 @@ def shortlist(top):
     return keep
 
 
-def run(mode, do_notify=False):
+def run(mode, do_notify=False, notify_updates=False):
     http = Http()
     research = load(DATA / "research.json", {})
     promos = load(DATA / "promos.json", {"promos": []})
@@ -1017,6 +1058,10 @@ def run(mode, do_notify=False):
     settle(history, fb_raw, research, scores)
     update_history(history, top, matches)
     new_picks = add_picks(history, top, research, autofill=do_notify, matches=matches)
+    if research.get("weekly_report"):
+        # het rapport gaat over de vorige week
+        prev = week_key(now_utc() - timedelta(days=7))
+        history.setdefault("reports", {})[research.get("report_week") or prev] = research["weekly_report"]
     portfolio = weekly_summary(history)
     picked = {h["key"]: h for h in history["bets"] if h.get("claude_pick") and h["status"] == "open"}
     for b in top:
@@ -1030,7 +1075,7 @@ def run(mode, do_notify=False):
         "errors": meta.get("errors", []), "notes": meta.get("notes", []), "n_matches": len(matches),
         "elo_fixtures": meta.get("elo_fixtures"), "n_elo": sum(1 for m in matches if m.get("p_elo")),
         "bets": shortlist(top), "combis": combis, "promos": promos.get("promos", []),
-        "alerts": research.get("alerts", []), "summary": research.get("summary", ""), "portfolio": portfolio,
+        "alerts": research.get("alerts", []), "summary": research.get("summary", ""), "portfolio": portfolio, "calibration": calibration(history),
         "settings": {"min_value": MIN_VALUE, "track_score": TRACK_SCORE, "safe_prob": SAFE_PROB},
     }
     save(DATA / "latest.json", latest)
@@ -1039,6 +1084,10 @@ def run(mode, do_notify=False):
     save(CACHE / "matches.json", [
         {"id": m["id"], "league": m["league"], "kickoff": m["kickoff"], "home": m["home"], "away": m["away"],
          "unibet": m["unibet"], "p_market": m["p_market"]} for m in matches])
+    if notify_updates and not do_notify and local_now().hour >= 9 and (new_picks or research.get("urgent")):
+        # tweede nieuwsronde (weekend): enkel melden als er iets nieuws is
+        notify([], research if research.get("urgent") else {}, [], new_picks, None,
+               title="ValueBet Scout: update voor de wedstrijden van vandaag")
     if do_notify:
         today_picks = [h for h in history["bets"] if h.get("claude_pick") and h.get("pick_at")
                        and parse_dt(h["pick_at"]).astimezone(TZ).date() == local_now().date()]
@@ -1052,4 +1101,4 @@ if __name__ == "__main__":
     if len(sys.argv) < 2 or sys.argv[1] not in ("fetch", "apply"):
         print(__doc__)
         sys.exit(1)
-    run(sys.argv[1], "--notify" in sys.argv)
+    run(sys.argv[1], "--notify" in sys.argv, "--notify-updates" in sys.argv)

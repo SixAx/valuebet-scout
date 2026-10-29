@@ -19,7 +19,10 @@ jobs:
         with:
           python-version: "3.12"
       - name: Onderzoek toepassen
-        run: python scripts/engine.py apply
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: python scripts/engine.py apply --notify-updates
       - name: Opslaan
         run: |
           git config user.name "valuebet-bot"

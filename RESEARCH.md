@@ -47,6 +47,15 @@ dat een favoriet nog sterker maakt.
    - Zet ze in `research.json` → `picks`: `{"key": "<match_id>|<home|draw|away>", "reason": "2–3 zinnen: waarom"}`.
      De sleutel staat als `key` bij elke bet in `latest.json`; een andere uitkomst van een wedstrijd uit
      `cache/matches.json` mag ook. De odds worden vastgelegd op het moment van kiezen; later wijzigen kan niet.
+8b. **Maandag: weekrapport.** Schrijf op maandag in `weekly_report` 4–6 zinnen over de vorige week (maandag–zondag):
+   hoeveel van je keuzes raak waren, wat werkte en wat niet (favorieten of risico, welke competities; zie de
+   bets met `"claude_pick": true` en die `pick_week`), en wat je deze week anders doet. Eerlijk, ook bij verlies.
+   Zet `report_week` op die week (bv. `"2026-W44"`).
+8c. **Weekendronde (zaterdag en zondag rond 10u47).** Er is dan een tweede, korte ronde. Lees eerst het bestaande
+   `research.json` van vandaag en vul het aan in plaats van het te vervangen. Kijk alleen naar de wedstrijden van
+   vandaag: officiële of verwachte opstellingen, last-minute blessures, en of Unibet een odds-achterstand heeft.
+   Voeg alerts toe met het uur erbij en zet `"urgent": true` als er iets belangrijks is; nieuwe keuzes voor de
+   weekportefeuille mag je toevoegen zolang de week onder 10 blijft. Er gaat dan automatisch een melding uit.
 9. Schrijf beide bestanden. Controleer met `python3 scripts/engine.py apply` dat er geen fout is. Zet daarna
    `site/data/latest.json`, `site/data/history.json` en `cache/` terug met `git checkout -- site/data/latest.json
    site/data/history.json cache`, en commit en push alleen de twee bestanden.
@@ -68,7 +77,10 @@ dat een favoriet nog sterker maakt.
      "url": "https://..."}
   ],
   "results": {"<match_id>": {"home": 2, "away": 1}},
-  "picks": [{"key": "<match_id>|home", "reason": "Waarom je hier €10 op zet."}]
+  "picks": [{"key": "<match_id>|home", "reason": "Waarom je hier €10 op zet."}],
+  "weekly_report": "Alleen op maandag: 4–6 zinnen over vorige week.",
+  "report_week": "2026-W44",
+  "urgent": false
 }
 ```
 
