@@ -1,1 +1,41 @@
-{}
+{
+ "date": "2026-10-29",
+ "summary": "Geen vers (<24u) nieuws over basisspelers gevonden dat Unibet nog niet verwerkt heeft, dus geen correcties. Op alle favorieten ligt de Unibet-odds onder de eerlijke marktprijs; enkel Zulte Waregem thuis tegen Club Brugge (6,4 tegenover eerlijk ±5,8) wordt duidelijk boven de markt betaald en is de enige keuze van vandaag. Geen Unibet-voetbalpromo voor vandaag bevestigd gevonden.",
+ "adjustments": {},
+ "match_notes": {
+  "2dd4ff7c9aef0d27f3f30acf413dfa8b": "Zulte Waregem (10e) verloor 4 competitiematchen op rij zonder te scoren; Mbaye geschorst, Paugain geblesseerd. Club Brugge (2e) won 7 keer op rij, enkel Ordóñez out.",
+  "58c68450fcf69bf88e944dd7177f9104": "Union verloor op 22/10 spits Biondic (voetblessure, enkele weken) en Olaru (hoofdtrauma) tegen Beer Sheva.",
+  "aeadf1388a1075328536501576b3d550": "Juventus mist o.a. Yildiz, Thuram, Locatelli, Conceição, Nico González en Çelik (nieuws van 23/10, al in de odds). Napoli zonder Neres, Spinazzola en Badiashile.",
+  "6a3819cdbe2ba2fe5a3d8f9b4b459965": "Liverpool mist Frimpong (spierblessure tot na de interlandbreak); Szoboszlai wordt fit verwacht.",
+  "005711684f3e51024ac40c1ee69978e9": "Atlético zonder Koke en Johnny Cardoso; Barrios mogelijk op de bank (rust voor Bayern).",
+  "aecb9d8c01176616c87d893bee4bc0de": "Gladbach-kapitein Sander kreeg rood in de beker maar mag in de Bundesliga tegen Paderborn wel spelen.",
+  "3f9f4bc9a19bf36dcb74be2f29610d55": "Lazio zonder Gudmundsson, Marusic en Rovella twijfelachtig. Cagliari mist Winks, Felici en Idrissi.",
+  "04aa939b89001eedf55668e66c74836e": "Bologna volgens fantacalcio-online zonder Orsolini en Holme; Monza mist o.a. Pessina.",
+  "9507f4bcbcfd4e4953720628a2b86a17": "Como zonder afwezigen; Venezia mist o.a. Adorante en Franjić.",
+  "7df53f9af95d5a4e13b504882078dab8": "City en Brighton speelden woensdag al 2-2 in de League Cup (City door na strafschoppen); City speelde toen met negen wissels.",
+  "6c520ed959578ca3aebe351ee3765d53": "Real Madrid 8-0-2 in de competitie, Racing 3-2-5 met 26 tegengoals; geen blessurenieuws gevonden."
+ },
+ "alerts": [
+  {
+   "tag": "ODDS-ACHTERSTAND",
+   "time": "07:55",
+   "title": "Unibet betaalt Zulte Waregem ruim boven de markt",
+   "body": "Unibet geeft 6,40 op een thuiszege van Zulte Waregem tegen Club Brugge (vrijdag 20u45), terwijl 18 bookmakers samen ±17% kans geven (eerlijke odds ±5,8). Outsider: Zulte scoorde 4 matchen niet.",
+   "url": "https://www.mightytips.com/football-predictions/zulte-waregem-vs-club-brugge-prediction-30-10-2026/"
+  },
+  {
+   "tag": "BLESSURE",
+   "time": "07:55",
+   "title": "Union zonder spits Biondic in Beveren",
+   "body": "Biondic viel op 22/10 uit met een voetblessure (enkele weken), Olaru kreeg een hoofdtrauma. Raakt de risicobet Beveren–Union; nieuws is al een week oud en wellicht verwerkt.",
+   "url": "https://sporza.be/nl/2026/10/22/-dit-is-een-vreselijk-beeld-union-ziet-biondic-en-olaru-geblesseerd-uitvallen-na-twee-pijnlijke-momenten~1792689222071/"
+  }
+ ],
+ "results": {},
+ "picks": [
+  {
+   "key": "2dd4ff7c9aef0d27f3f30acf413dfa8b|home",
+   "reason": "Dit is een prijsbet, geen gevoelsbet: Unibet betaalt 6,40 terwijl de scherpe markt (Pinnacle en 17 anderen) Zulte Waregem ±17% kans geeft, wat 5,8 waard is: ongeveer +10% verwachte winst. Zulte zit in slechte vorm (4 nederlagen zonder doelpunt) en Club won 7 keer op rij, dus deze bet verliest meestal; de winst zit enkel in het herhalen van zulke te hoge odds op lange termijn."
+  }
+ ]
+}
