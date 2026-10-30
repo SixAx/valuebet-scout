@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-30T05:50:06Z",
+ "generated_at": "2026-10-30T06:39:13Z",
  "fetched_at": "2026-10-30T05:50:06Z",
- "research_date": null,
+ "research_date": "2026-10-30",
  "odds_remaining": "468",
  "errors": [],
  "notes": [
@@ -1572,7 +1572,7 @@
     "Paris Saint Germain is de favoriet. Volgens 18 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Paris Saint Germain wint ongeveer 74%: zo'n 7 op 10 keer.",
     "Let op: Unibet betaalt 1,27, terwijl een eerlijke odds voor die kans 1,35 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 5,9% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €12,70 terug als het lukt (winst €2,70). In ongeveer 26% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: PSG zonder Dembélé, Kvaratskhelia, Marquinhos en Nuno Mendes (geblesseerd, nieuws van 28/10). Le Havre mist o.a. Zagadou, Mpasi, Mambimbi en Jelert en verloor 4-3 van Marseille."
    ]
   },
   {
@@ -2788,8 +2788,10 @@
     "Dit is een risicobet. De kans dat Real Sociedad wint is volgens 17 bookmakers (waaronder Pinnacle, de scherpste) maar ongeveer 29%: zo'n 1 op 3 keer.",
     "Unibet betaalt wel 3,65, terwijl een eerlijke odds 3,48 zou zijn. Daardoor is de x-factor +4,8%: wie zulke bets vaak speelt, wint op lange termijn gemiddeld zoveel bovenop zijn inzet terug.",
     "Je verliest de meeste van deze bets. Met €10 krijg je €36,50 terug als het lukt. Speel ze alleen met een klein bedrag en als reeks, nooit om verlies goed te maken.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
-   ]
+    "Nieuws: Athletic zonder Guruzeta (kruisband, seizoen voorbij) en Ruiz de Galarreta (hamstring); Sancet en Nico Williams terug. Real Sociedad won vier competitieduels op rij en recupereert Aramburu; Beitia twijfelachtig."
+   ],
+   "claude_pick": true,
+   "pick_reason": "Unibet betaalt 3,65 terwijl de marktconsensus Real Sociedad ±29% kans geeft (eerlijk ±3,5) en andere bookmakers rond 3,25 zaten: ongeveer +5% verwachte winst. La Real is in vorm (vier competitiezeges op rij) en Athletic mist spits Guruzeta en regisseur Galarreta. Het blijft een uitzege in een derby, dus klein bedrag."
   },
   {
    "key": "6d386ed81fabf67aa19fbd442c0d8c60|away",
@@ -2916,7 +2918,7 @@
     "Dit is een risicobet. De kans dat Manchester United wint is volgens 22 bookmakers (waaronder Pinnacle, de scherpste) maar ongeveer 23%: zo'n 1 op 4 keer.",
     "Unibet betaalt wel 4,40, terwijl een eerlijke odds 4,26 zou zijn. Daardoor is de x-factor +3,3%: wie zulke bets vaak speelt, wint op lange termijn gemiddeld zoveel bovenop zijn inzet terug.",
     "Je verliest de meeste van deze bets. Met €10 krijg je €44,00 terug als het lukt. Speel ze alleen met een klein bedrag en als reeks, nooit om verlies goed te maken.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Chelsea mist João Pedro, Reece James, Gittens, keeper Emiliano Martínez en wellicht Lacroix (hamstring); Palmer terug na schorsing. United (16e) zonder Šeško, Shaw, Ugarte en Dorgu, twijfel rond Mainoo en Rashford; acht duels zonder zege."
    ]
   }
  ],
@@ -3025,17 +3027,17 @@
    ],
    "n": 3,
    "odds": 1.78,
-   "odds_boosted": null,
-   "boost_name": null,
+   "odds_boosted": 1.81,
+   "boost_name": "Combo Booster",
    "p": 0.4943,
-   "ev": -0.1186,
+   "ev": -0.1031,
    "label": "Zekerste 3-combi",
    "kind": "safe",
    "why": [
     "Deze combi wint als alle 3 selecties lukken. De kans daarop is ongeveer 49%: zo'n 5 op 10 keer.",
-    "De gecombineerde odds zijn 1,78. Een eerlijke odds voor deze kans zou 2,02 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 11,9% van je inzet.",
-    "Zwakste schakel: Barcelona (77%). Met €10 krijg je €17,83 terug als alles lukt."
+    "De gecombineerde odds zijn 1,78, met de Combo Booster 1,81. Een eerlijke odds voor deze kans zou 2,02 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 10,3% van je inzet.",
+    "Zwakste schakel: Barcelona (77%). Met €10 krijg je €18,14 terug als alles lukt."
    ]
   },
   {
@@ -3070,17 +3072,17 @@
    ],
    "n": 3,
    "odds": 2.66,
-   "odds_boosted": null,
-   "boost_name": null,
+   "odds_boosted": 2.72,
+   "boost_name": "Combo Booster",
    "p": 0.3508,
-   "ev": -0.0687,
+   "ev": -0.0455,
    "label": "Beste prijs 3-combi",
    "kind": "value",
    "why": [
     "Deze combi wint als alle 3 selecties lukken. De kans daarop is ongeveer 35%: zo'n 4 op 10 keer.",
-    "De gecombineerde odds zijn 2,66. Een eerlijke odds voor deze kans zou 2,85 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 6,9% van je inzet.",
-    "Zwakste schakel: Bayer Leverkusen (66%). Met €10 krijg je €26,55 terug als alles lukt."
+    "De gecombineerde odds zijn 2,66, met de Combo Booster 2,72. Een eerlijke odds voor deze kans zou 2,85 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 4,5% van je inzet.",
+    "Zwakste schakel: Bayer Leverkusen (66%). Met €10 krijg je €27,21 terug als alles lukt."
    ]
   },
   {
@@ -3124,17 +3126,17 @@
    ],
    "n": 4,
    "odds": 2.26,
-   "odds_boosted": null,
-   "boost_name": null,
+   "odds_boosted": 2.32,
+   "boost_name": "Combo Booster",
    "p": 0.3661,
-   "ev": -0.1709,
+   "ev": -0.1524,
    "label": "Zekerste 4-combi",
    "kind": "safe",
    "why": [
     "Deze combi wint als alle 4 selecties lukken. De kans daarop is ongeveer 37%: zo'n 4 op 10 keer.",
-    "De gecombineerde odds zijn 2,26. Een eerlijke odds voor deze kans zou 2,73 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 17,1% van je inzet.",
-    "Zwakste schakel: Paris Saint Germain (74%). Met €10 krijg je €22,65 terug als alles lukt."
+    "De gecombineerde odds zijn 2,26, met de Combo Booster 2,32. Een eerlijke odds voor deze kans zou 2,73 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 15,2% van je inzet.",
+    "Zwakste schakel: Paris Saint Germain (74%). Met €10 krijg je €23,15 terug als alles lukt."
    ]
   },
   {
@@ -3178,17 +3180,17 @@
    ],
    "n": 4,
    "odds": 3.53,
-   "odds_boosted": null,
-   "boost_name": null,
+   "odds_boosted": 3.63,
+   "boost_name": "Combo Booster",
    "p": 0.2555,
-   "ev": -0.0978,
+   "ev": -0.0719,
    "label": "Beste prijs 4-combi",
    "kind": "value",
    "why": [
     "Deze combi wint als alle 4 selecties lukken. De kans daarop is ongeveer 26%: zo'n 3 op 10 keer.",
-    "De gecombineerde odds zijn 3,53. Een eerlijke odds voor deze kans zou 3,91 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 9,8% van je inzet.",
-    "Zwakste schakel: Bayer Leverkusen (66%). Met €10 krijg je €35,31 terug als alles lukt."
+    "De gecombineerde odds zijn 3,53, met de Combo Booster 3,63. Een eerlijke odds voor deze kans zou 3,91 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 7,2% van je inzet.",
+    "Zwakste schakel: Bayer Leverkusen (66%). Met €10 krijg je €36,33 terug als alles lukt."
    ]
   },
   {
@@ -3241,17 +3243,17 @@
    ],
    "n": 5,
    "odds": 2.99,
-   "odds_boosted": null,
-   "boost_name": null,
+   "odds_boosted": 3.07,
+   "boost_name": "Combo Booster",
    "p": 0.269,
-   "ev": -0.1959,
+   "ev": -0.1745,
    "label": "Zekerste 5-combi",
    "kind": "safe",
    "why": [
     "Deze combi wint als alle 5 selecties lukken. De kans daarop is ongeveer 27%: zo'n 3 op 10 keer.",
-    "De gecombineerde odds zijn 2,99. Een eerlijke odds voor deze kans zou 3,72 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 19,6% van je inzet.",
-    "Zwakste schakel: Como (73%). Met €10 krijg je €29,89 terug als alles lukt."
+    "De gecombineerde odds zijn 2,99, met de Combo Booster 3,07. Een eerlijke odds voor deze kans zou 3,72 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 17,5% van je inzet.",
+    "Zwakste schakel: Como (73%). Met €10 krijg je €30,69 terug als alles lukt."
    ]
   },
   {
@@ -3304,17 +3306,17 @@
    ],
    "n": 5,
    "odds": 3.29,
-   "odds_boosted": null,
-   "boost_name": null,
+   "odds_boosted": 3.38,
+   "boost_name": "Combo Booster",
    "p": 0.2551,
-   "ev": -0.1614,
+   "ev": -0.138,
    "label": "Beste prijs 5-combi",
    "kind": "value",
    "why": [
     "Deze combi wint als alle 5 selecties lukken. De kans daarop is ongeveer 26%: zo'n 3 op 10 keer.",
-    "De gecombineerde odds zijn 3,29. Een eerlijke odds voor deze kans zou 3,92 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 16,1% van je inzet.",
-    "Zwakste schakel: Arsenal (72%). Met €10 krijg je €32,87 terug als alles lukt."
+    "De gecombineerde odds zijn 3,29, met de Combo Booster 3,38. Een eerlijke odds voor deze kans zou 3,92 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 13,8% van je inzet.",
+    "Zwakste schakel: Arsenal (72%). Met €10 krijg je €33,79 terug als alles lukt."
    ]
   },
   {
@@ -3376,39 +3378,56 @@
    ],
    "n": 6,
    "odds": 3.98,
-   "odds_boosted": null,
-   "boost_name": null,
+   "odds_boosted": 4.09,
+   "boost_name": "Combo Booster",
    "p": 0.1959,
-   "ev": -0.221,
+   "ev": -0.1977,
    "label": "Zekerste 6-combi",
    "kind": "safe",
    "why": [
     "Deze combi wint als alle 6 selecties lukken. De kans daarop is ongeveer 20%: zo'n 2 op 10 keer.",
-    "De gecombineerde odds zijn 3,98. Een eerlijke odds voor deze kans zou 5,10 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 22,1% van je inzet.",
-    "Zwakste schakel: Real Madrid (73%). Met €10 krijg je €39,76 terug als alles lukt."
+    "De gecombineerde odds zijn 3,98, met de Combo Booster 4,09. Een eerlijke odds voor deze kans zou 5,10 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 19,8% van je inzet.",
+    "Zwakste schakel: Real Madrid (73%). Met €10 krijg je €40,95 terug als alles lukt."
    ]
   }
  ],
- "promos": [],
- "alerts": [],
- "summary": "",
+ "promos": [
+  {
+   "name": "Combo Booster",
+   "type": "combi_boost",
+   "value": 0.04,
+   "min_legs": 3,
+   "note": "+4% op de nettowinst bij 3 selecties, oplopend tot +8% (4), +12% (5), +16% (6) en +50% (12+); elke selectie min. odds 1,50; loopt tot 31/01/2027.",
+   "url": "https://nl.unibetsports.be/promotions/sportsbook-promotions/combo-booster"
+  }
+ ],
+ "alerts": [
+  {
+   "tag": "ODDS-ACHTERSTAND",
+   "time": "07:50",
+   "title": "Unibet betaalt Real Sociedad hoger dan de markt",
+   "body": "Unibet geeft 3,65 op Real Sociedad in Bilbao (zondag 21u), terwijl RotoWire op 29/10 elders +220 à +228 (±3,25) noteerde en de marktconsensus ±29% kans geeft (eerlijk ±3,5). Athletic mist Guruzeta en Galarreta.",
+   "url": "https://www.rotowire.com/soccer/article/athletic-club-vs-real-sociedad-prediction-predicted-lineups-team-news-144597"
+  }
+ ],
+ "summary": "Geen vers (<24u) nieuws over basisspelers dat Unibet nog niet verwerkt heeft, dus geen correcties. PSG mist in Le Havre Dembélé, Kvaratskhelia, Marquinhos en Nuno Mendes (al sinds midweek bekend) en Man United komt na acht duels zonder zege naar Chelsea. Enige nieuwe keuze: Real Sociedad op 3,65 in de Baskische derby, duidelijk boven de rest van de markt; de Unibet Combo Booster (+4% vanaf 3 selecties) loopt nog, maar levert met de huidige odds geen value op.",
  "portfolio": {
   "weeks": [
    {
     "week": "2026-W44",
     "label": "26/10 – 1/11",
-    "n": 1,
+    "n": 2,
     "won": 0,
     "lost": 0,
-    "open": 1,
+    "open": 2,
     "void": 0,
     "staked": 0.0,
     "returned": 0.0,
     "pnl": 0.0,
     "report": "",
     "breakdown": null,
-    "committed": 10.0
+    "committed": 16.0
    }
   ],
   "total": {

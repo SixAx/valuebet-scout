@@ -1031,7 +1031,16 @@
    "fixture_id": null,
    "promo": null,
    "last_fair_odds": 3.484,
-   "clv": 0.0475
+   "clv": 0.0475,
+   "pick_odds": 3.65,
+   "pick_p": 0.287,
+   "pick_ev": 0.0477,
+   "claude_pick": true,
+   "pick_week": "2026-W44",
+   "pick_stake": 6,
+   "pick_at": "2026-10-30T06:39:13Z",
+   "pick_reason": "Unibet betaalt 3,65 terwijl de marktconsensus Real Sociedad ±29% kans geeft (eerlijk ±3,5) en andere bookmakers rond 3,25 zaten: ongeveer +5% verwachte winst. La Real is in vorm (vier competitiezeges op rij) en Athletic mist spits Guruzeta en regisseur Galarreta. Het blijft een uitzege in een derby, dus klein bedrag.",
+   "pick_auto": false
   },
   {
    "key": "e1c3625feeebcd65317e17a4e9a38c4f|home",
