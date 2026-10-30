@@ -1,4 +1,13 @@
 {
- "date": "2026-10-29",
- "promos": []
+ "date": "2026-10-30",
+ "promos": [
+  {
+   "name": "Combo Booster",
+   "type": "combi_boost",
+   "value": 0.04,
+   "min_legs": 3,
+   "note": "+4% op de nettowinst bij 3 selecties, oplopend tot +8% (4), +12% (5), +16% (6) en +50% (12+); elke selectie min. odds 1,50; loopt tot 31/01/2027.",
+   "url": "https://nl.unibetsports.be/promotions/sportsbook-promotions/combo-booster"
+  }
+ ]
 }
