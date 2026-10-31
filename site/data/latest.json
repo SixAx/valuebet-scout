@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T07:44:45Z",
+ "generated_at": "2026-10-31T09:50:09Z",
  "fetched_at": "2026-10-31T05:44:16Z",
  "research_date": "2026-10-31",
  "odds_remaining": "450",
@@ -1045,7 +1045,7 @@
     "Bayern Munich is de favoriet. Volgens 19 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Bayern Munich wint ongeveer 71%: zo'n 7 op 10 keer.",
     "Let op: Unibet betaalt 1,35, terwijl een eerlijke odds voor die kans 1,41 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,1% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €13,50 terug als het lukt (winst €3,50). In ongeveer 29% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Bayern mist Luis Díaz (hamstring); Kompany na ziekenhuisopname weer op de bank verwacht. Dortmund zonder Karetsas en Konstantelias."
    ],
    "claude_pick": true,
    "pick_reason": "Automatisch aangevuld: 71% winkans, value −4,1% bij odds 1,35."
@@ -2865,7 +2865,7 @@
     "Dit is een risicobet. De kans dat Manchester United wint is volgens 21 bookmakers (waaronder Pinnacle, de scherpste) maar ongeveer 27%: zo'n 1 op 4 keer.",
     "Unibet betaalt wel 3,90, terwijl een eerlijke odds 3,73 zou zijn. Daardoor is de x-factor +4,7%: wie zulke bets vaak speelt, wint op lange termijn gemiddeld zoveel bovenop zijn inzet terug.",
     "Je verliest de meeste van deze bets. Met €10 krijg je €39,00 terug als het lukt. Speel ze alleen met een klein bedrag en als reeks, nooit om verlies goed te maken.",
-    "Nieuws: Chelsea (5e) mist Lacroix, Reece James, João Pedro, keeper Emiliano Martínez, Hato, Anselmino en Gittens; Palmer terug na schorsing. United (16e, 8 duels zonder zege) zonder Shaw, Šeško, Ugarte en Dorgu; Mainoo terug in training, Rashford twijfelachtig, Fernandes wellicht terug in de basis."
+    "Nieuws: Chelsea (5e) mist Lacroix, Reece James, João Pedro, keeper Emiliano Martínez, Hato, Anselmino en Gittens; Palmer terug na schorsing. United (16e, 8 duels zonder zege) zonder Shaw, Šeško, Ugarte en Dorgu; Mainoo terug in training, Rashford twijfelachtig, Fernandes wellicht terug in de basis. Update 10u49: Rashford en Shaw reisden niet mee, Mainoo zit in de selectie."
    ]
   },
   {
@@ -3621,9 +3621,30 @@
    "title": "Anderlecht twijfelt over Winkler tegen Westerlo",
    "body": "Vaste flankspeler Winkler is onzeker en ook Camara en Sardella ontbreken. Klein effect op Anderlecht-winst (1,56); geen correctie.",
    "url": "https://voetbalfocus.be/anderlecht-winkler-onzeker-westerlo/"
+  },
+  {
+   "tag": "BLESSURE",
+   "time": "10:49",
+   "title": "Rashford en Shaw niet mee naar Chelsea, Mainoo wel",
+   "body": "Rashford en Shaw reisden vrijdag niet mee met United; Mainoo zit in de selectie. Al sinds vrijdagnamiddag bekend; Unibet (Chelsea 1,97) ligt nog altijd onder de eerlijke prijs, dus geen value en geen correctie.",
+   "url": "https://britbrief.co.uk/sports/football/mainoo-in-man-utd-squad-for-chelsea-trip-rashford-and-shaw-out.html"
+  },
+  {
+   "tag": "BLESSURE",
+   "time": "10:49",
+   "title": "Barça zonder Koundé tegen Alavés",
+   "body": "Koundé (enkel) kon vrijdag niet meetrainen en speelt niet; Flick heeft maar vier fitte verdedigers uit de A-kern (Cancelo, Cubarsí, Gerard Martín, Balde). Barcelona-winst op 1,12 blijft zonder value.",
+   "url": "https://cronicaglobal.elespanol.com/culemania/primer-equipo/20261030/defensa-minimos-flick-cuenta-jugadores-disponibles-primer/1003742807674_0.html"
+  },
+  {
+   "tag": "NIEUWS",
+   "time": "10:49",
+   "title": "Derby: Milan zonder Tomori, Inter zonder Lautaro",
+   "body": "Tuttosport (07:50) zet Tomori bij de afwezigen van Milan; Inter mist Lautaro, Pavard, Stones en Jones, maar Calhanoglu staat in de vermoedelijke elf. Nieuws dat beide kanten raakt; geen correctie.",
+   "url": "https://www.tuttosport.com/news/calcio/serie-a/2026/10/31-152256445/milan-inter_probabili_formazioni_aggiornate_orario_e_dove_vedere_in_tv_e_streaming_la_serie_a"
   }
  ],
- "summary": "Geen vers nieuws over basisspelers dat Unibet nog niet verwerkt heeft, dus geen correcties. Gladbach recupereert Kühn, Lidberg, Hashioka en Itakura tegen Paderborn (dat midweek bekervoetbal speelde), Real Madrid mist Vinícius (geschorst) en Rodrygo in Santander, en Anderlecht twijfelt over Winkler. Enige nieuwe keuze: Ipswich op 2,75 in Hull, licht boven de marktconsensus; de favorieten van het weekend liggen bij Unibet allemaal onder hun eerlijke prijs.",
+ "summary": "Geen vers nieuws over basisspelers dat Unibet nog niet verwerkt heeft, dus geen correcties. Gladbach recupereert Kühn, Lidberg, Hashioka en Itakura tegen Paderborn (dat midweek bekervoetbal speelde), Real Madrid mist Vinícius (geschorst) en Rodrygo in Santander, en Anderlecht twijfelt over Winkler. Enige nieuwe keuze: Ipswich op 2,75 in Hull, licht boven de marktconsensus; de favorieten van het weekend liggen bij Unibet allemaal onder hun eerlijke prijs. Weekendronde (10u49): Rashford en Shaw niet mee naar Chelsea, Koundé out bij Barça en Tomori out voor de derby; niets daarvan geeft value bij Unibet. De weekportefeuille zit al op 10 bets, dus geen nieuwe keuzes.",
  "portfolio": {
   "weeks": [
    {
