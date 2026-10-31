@@ -1,11 +1,14 @@
 {
- "date": "2026-10-30",
- "summary": "Geen vers (<24u) nieuws over basisspelers dat Unibet nog niet verwerkt heeft, dus geen correcties. PSG mist in Le Havre Dembélé, Kvaratskhelia, Marquinhos en Nuno Mendes (al sinds midweek bekend) en Man United komt na acht duels zonder zege naar Chelsea. Enige nieuwe keuze: Real Sociedad op 3,65 in de Baskische derby, duidelijk boven de rest van de markt; de Unibet Combo Booster (+4% vanaf 3 selecties) loopt nog, maar levert met de huidige odds geen value op.",
+ "date": "2026-10-31",
+ "summary": "Geen vers nieuws over basisspelers dat Unibet nog niet verwerkt heeft, dus geen correcties. Gladbach recupereert Kühn, Lidberg, Hashioka en Itakura tegen Paderborn (dat midweek bekervoetbal speelde), Real Madrid mist Vinícius (geschorst) en Rodrygo in Santander, en Anderlecht twijfelt over Winkler. Enige nieuwe keuze: Ipswich op 2,75 in Hull, licht boven de marktconsensus; de favorieten van het weekend liggen bij Unibet allemaal onder hun eerlijke prijs.",
  "adjustments": {},
  "match_notes": {
-  "9a9f6c78276f74f15f42b013b033aa5d": "PSG zonder Dembélé, Kvaratskhelia, Marquinhos en Nuno Mendes (geblesseerd, nieuws van 28/10). Le Havre mist o.a. Zagadou, Mpasi, Mambimbi en Jelert en verloor 4-3 van Marseille.",
-  "6601f69175a02f03fb7065aacb538e01": "Chelsea mist João Pedro, Reece James, Gittens, keeper Emiliano Martínez en wellicht Lacroix (hamstring); Palmer terug na schorsing. United (16e) zonder Šeško, Shaw, Ugarte en Dorgu, twijfel rond Mainoo en Rashford; acht duels zonder zege.",
-  "3757bcd765c7da1538cdf2785e784038": "Athletic zonder Guruzeta (kruisband, seizoen voorbij) en Ruiz de Galarreta (hamstring); Sancet en Nico Williams terug. Real Sociedad won vier competitieduels op rij en recupereert Aramburu; Beitia twijfelachtig."
+  "6601f69175a02f03fb7065aacb538e01": "Chelsea (5e) mist Lacroix, Reece James, João Pedro, keeper Emiliano Martínez, Hato, Anselmino en Gittens; Palmer terug na schorsing. United (16e, 8 duels zonder zege) zonder Shaw, Šeško, Ugarte en Dorgu; Mainoo terug in training, Rashford twijfelachtig, Fernandes wellicht terug in de basis.",
+  "1ec76c009147b63859f68c6b5a1dd77b": "Hull zonder Matazo, Targett, Ansah, Gyabi en Hughes; Gourna-Douath twijfelachtig, Mendy terug, beslissing over keeper Butland pas vrijdag. Hull wacht sinds augustus op een competitiezege. Ipswich mist Taylor, Lukić (lies) onzeker.",
+  "aecb9d8c01176616c87d893bee4bc0de": "Gladbach krijgt Kühn, Lidberg, Hashioka en Itakura terug; Kleindienst, Leszczynski, Bolin en Honorat ontbreken, Sander wellicht geschorst. Paderborn mist o.a. Meier, Hoffmeier, Gayret, Klaas en Awortwie-Grant en speelde woensdag in de beker (rotatie mogelijk).",
+  "6c520ed959578ca3aebe351ee3765d53": "Real Madrid zonder Vinícius (geschorst), Rodrygo, Mendy en Asencio; Valverde en Courtois terug. Racing mist Salinas (geschorst) en Eriksson, won zijn laatste twee duels.",
+  "d8134f341b5464b458a313342d178d43": "Winkler (8 basisplaatsen op rij) onzeker; rechtsachters Camara en Sardella ontbreken.",
+  "58c68450fcf69bf88e944dd7177f9104": "Union mist Biondic (maanden out) en Mac Allister; Rodriguez, Sykes en Zorgane trainen weer, maar Hubert laat in het midden of ze spelen."
  },
  "community": {
   "6601f69175a02f03fb7065aacb538e01": [
@@ -14,32 +17,53 @@
     "note": "Covers kiest Chelsea-winst: hun beweeglijkheid moet United's trage middenveld en verdediging blootleggen.",
     "source": "Covers",
     "url": "https://www.covers.com/soccer/chelsea-vs-man-united-prediction-picks-oct-31-2026"
-   }
-  ],
-  "3757bcd765c7da1538cdf2785e784038": [
+   },
    {
     "outcome": "home",
-    "note": "RotoWire voorspelt 2-1 voor Athletic: thuisploeg won 4 van de laatste 5 competitieduels tegen La Real in San Mamés.",
-    "source": "RotoWire",
-    "url": "https://www.rotowire.com/soccer/article/athletic-club-vs-real-sociedad-prediction-predicted-lineups-team-news-144597"
+    "note": "Sports Mole voorspelt 2-1 voor Chelsea, dat na twee nederlagen moet terugveren.",
+    "source": "Sports Mole",
+    "url": "https://www.sportsmole.co.uk/football/man-utd/preview/chelsea-vs-man-utd-prediction-team-news-lineups_607947.html"
+   }
+  ],
+  "1ec76c009147b63859f68c6b5a1dd77b": [
+   {
+    "outcome": "home",
+    "note": "Doc's Sports kiest Hull: betere xG en een sterkere keeper dan Ipswich (save% 61,9).",
+    "source": "Doc's Sports",
+    "url": "https://www.docsports.com/free-picks/soccer/2026/hull-city-vs-ipswich-town-prediction-10-31-2026-soccer-pick-tips-and-odds.html"
+   },
+   {
+    "outcome": "away",
+    "note": "Starting11-model tipt 'gelijk of Ipswich' (dubbele kans).",
+    "source": "Starting11",
+    "url": "https://starting11.com/fixtures/hull-city-vs-ipswich-20261031"
+   }
+  ],
+  "6c520ed959578ca3aebe351ee3765d53": [
+   {
+    "outcome": "away",
+    "note": "Sports Mole voorspelt 1-3 voor Real Madrid, dat 9 van de laatste 10 duels met Racing won.",
+    "source": "Sports Mole",
+    "url": "https://www.sportsmole.co.uk/football/real-madrid/race-for-the-la-liga-title/preview/racing-vs-real-madrid-prediction-team-news-lineups_608064.html"
    }
   ]
  },
  "alerts": [
   {
-   "tag": "ODDS-ACHTERSTAND",
-   "time": "07:50",
-   "title": "Unibet betaalt Real Sociedad hoger dan de markt",
-   "body": "Unibet geeft 3,65 op Real Sociedad in Bilbao (zondag 21u), terwijl RotoWire op 29/10 elders +220 à +228 (±3,25) noteerde en de marktconsensus ±29% kans geeft (eerlijk ±3,5). Athletic mist Guruzeta en Galarreta.",
-   "url": "https://www.rotowire.com/soccer/article/athletic-club-vs-real-sociedad-prediction-predicted-lineups-team-news-144597"
+   "tag": "BLESSURE",
+   "time": "07:44",
+   "title": "Anderlecht twijfelt over Winkler tegen Westerlo",
+   "body": "Vaste flankspeler Winkler is onzeker en ook Camara en Sardella ontbreken. Klein effect op Anderlecht-winst (1,56); geen correctie.",
+   "url": "https://voetbalfocus.be/anderlecht-winkler-onzeker-westerlo/"
   }
  ],
  "results": {},
  "picks": [
   {
-   "key": "3757bcd765c7da1538cdf2785e784038|away",
+   "key": "1ec76c009147b63859f68c6b5a1dd77b|away",
    "stake": 6,
-   "reason": "Unibet betaalt 3,65 terwijl de marktconsensus Real Sociedad ±29% kans geeft (eerlijk ±3,5) en andere bookmakers rond 3,25 zaten: ongeveer +5% verwachte winst. La Real is in vorm (vier competitiezeges op rij) en Athletic mist spits Guruzeta en regisseur Galarreta. Het blijft een uitzege in een derby, dus klein bedrag."
+   "reason": "Unibet betaalt 2,75 terwijl de marktconsensus Ipswich ±38% kans geeft (eerlijk ±2,63): ongeveer +4,5% verwachte winst. Hull wacht sinds augustus op een competitiezege en mist vijf spelers (o.a. Matazo, Gyabi, Targett), met twijfel over keeper Butland. Uitzege in een evenwichtige wedstrijd, dus klein bedrag."
   }
- ]
+ ],
+ "urgent": false
 }
