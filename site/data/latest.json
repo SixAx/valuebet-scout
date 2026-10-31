@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T06:44:06Z",
+ "generated_at": "2026-10-31T07:44:45Z",
  "fetched_at": "2026-10-31T05:44:16Z",
  "research_date": "2026-10-31",
  "odds_remaining": "450",
@@ -220,7 +220,9 @@
     "Unibet betaalt 1,23; een eerlijke odds voor die kans is 1,28. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,8% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €12,30 terug als het lukt (winst €2,30). In ongeveer 22% van de gevallen verlies je je inzet.",
     "Nieuws: Real Madrid zonder Vinícius (geschorst), Rodrygo, Mendy en Asencio; Valverde en Courtois terug. Racing mist Salinas (geschorst) en Eriksson, won zijn laatste twee duels."
-   ]
+   ],
+   "claude_pick": true,
+   "pick_reason": "Automatisch aangevuld: 78% winkans, value −3,9% bij odds 1,23."
   },
   {
    "key": "f43ef699c987e112e115f7035114854e|away",
@@ -424,7 +426,9 @@
     "Unibet betaalt 1,75; een eerlijke odds voor die kans is 1,76. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 0,4% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €17,50 terug als het lukt (winst €7,50). In ongeveer 43% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
-   ]
+   ],
+   "claude_pick": true,
+   "pick_reason": "Automatisch aangevuld: 57% winkans, value −0,4% bij odds 1,75."
   },
   {
    "key": "df7d2d81b9e2f3f11c6aeddaee6b7085|away",
@@ -696,7 +700,9 @@
     "Unibet betaalt 1,32; een eerlijke odds voor die kans is 1,37. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,6% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €13,20 terug als het lukt (winst €3,20). In ongeveer 27% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
-   ]
+   ],
+   "claude_pick": true,
+   "pick_reason": "Automatisch aangevuld: 73% winkans, value −3,6% bij odds 1,32."
   },
   {
    "key": "e901dbcdd6e2255fb24d84032b9d437a|away",
@@ -832,7 +838,9 @@
     "Unibet betaalt 1,63; een eerlijke odds voor die kans is 1,66. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 1,6% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €16,30 terug als het lukt (winst €6,30). In ongeveer 40% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
-   ]
+   ],
+   "claude_pick": true,
+   "pick_reason": "Automatisch aangevuld: 60% winkans, value −1,6% bij odds 1,63."
   },
   {
    "key": "9507f4bcbcfd4e4953720628a2b86a17|home",
@@ -968,7 +976,9 @@
     "Unibet betaalt 1,47; een eerlijke odds voor die kans is 1,52. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,0% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €14,70 terug als het lukt (winst €4,70). In ongeveer 34% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
-   ]
+   ],
+   "claude_pick": true,
+   "pick_reason": "Automatisch aangevuld: 66% winkans, value −3,0% bij odds 1,47."
   },
   {
    "key": "bad7337b335a16859b1db6b8e6cf6ca5|home",
@@ -1036,7 +1046,9 @@
     "Let op: Unibet betaalt 1,35, terwijl een eerlijke odds voor die kans 1,41 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,1% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €13,50 terug als het lukt (winst €3,50). In ongeveer 29% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
-   ]
+   ],
+   "claude_pick": true,
+   "pick_reason": "Automatisch aangevuld: 71% winkans, value −4,1% bij odds 1,35."
   },
   {
    "key": "6277e639c064e641265fcb98a0e200b9|home",
@@ -1240,7 +1252,9 @@
     "Unibet betaalt 1,72; een eerlijke odds voor die kans is 1,77. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,9% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €17,20 terug als het lukt (winst €7,20). In ongeveer 44% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
-   ]
+   ],
+   "claude_pick": true,
+   "pick_reason": "Automatisch aangevuld: 56% winkans, value −2,9% bij odds 1,72."
   },
   {
    "key": "586bec023ee8ac2f0645d963bd2c9d25|home",
@@ -3615,10 +3629,10 @@
    {
     "week": "2026-W44",
     "label": "26/10 – 1/11",
-    "n": 3,
+    "n": 10,
     "won": 0,
     "lost": 1,
-    "open": 2,
+    "open": 9,
     "void": 0,
     "staked": 10.0,
     "returned": 0.0,
@@ -3640,7 +3654,7 @@
       }
      }
     },
-    "committed": 22.0
+    "committed": 92.0
    }
   ],
   "total": {

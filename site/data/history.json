@@ -159,7 +159,16 @@
    "fixture_id": null,
    "promo": null,
    "last_fair_odds": 1.279,
-   "clv": -0.0307
+   "clv": -0.0307,
+   "pick_odds": 1.23,
+   "pick_p": 0.7817,
+   "pick_ev": -0.0385,
+   "claude_pick": true,
+   "pick_week": "2026-W44",
+   "pick_stake": 10.0,
+   "pick_at": "2026-10-31T07:44:45Z",
+   "pick_reason": "Automatisch aangevuld: 78% winkans, value −3,9% bij odds 1,23.",
+   "pick_auto": true
   },
   {
    "key": "9507f4bcbcfd4e4953720628a2b86a17|home",
@@ -201,7 +210,16 @@
    "fixture_id": null,
    "promo": null,
    "last_fair_odds": 1.516,
-   "clv": -0.0235
+   "clv": -0.0235,
+   "pick_odds": 1.47,
+   "pick_p": 0.6598,
+   "pick_ev": -0.0301,
+   "claude_pick": true,
+   "pick_week": "2026-W44",
+   "pick_stake": 10.0,
+   "pick_at": "2026-10-31T07:44:45Z",
+   "pick_reason": "Automatisch aangevuld: 66% winkans, value −3,0% bij odds 1,47.",
+   "pick_auto": true
   },
   {
    "key": "8f0b7ef29a47f675429758e83a426d7e|home",
@@ -222,7 +240,16 @@
    "fixture_id": null,
    "promo": null,
    "last_fair_odds": 1.37,
-   "clv": 0.0073
+   "clv": 0.0073,
+   "pick_odds": 1.32,
+   "pick_p": 0.7299,
+   "pick_ev": -0.0365,
+   "claude_pick": true,
+   "pick_week": "2026-W44",
+   "pick_stake": 10.0,
+   "pick_at": "2026-10-31T07:44:45Z",
+   "pick_reason": "Automatisch aangevuld: 73% winkans, value −3,6% bij odds 1,32.",
+   "pick_auto": true
   },
   {
    "key": "2e488800d615a94e5377c195810303c0|home",
@@ -594,7 +621,16 @@
    "fixture_id": null,
    "promo": null,
    "last_fair_odds": 1.771,
-   "clv": -0.0007
+   "clv": -0.0007,
+   "pick_odds": 1.72,
+   "pick_p": 0.5646,
+   "pick_ev": -0.0289,
+   "claude_pick": true,
+   "pick_week": "2026-W44",
+   "pick_stake": 10.0,
+   "pick_at": "2026-10-31T07:44:45Z",
+   "pick_reason": "Automatisch aangevuld: 56% winkans, value −2,9% bij odds 1,72.",
+   "pick_auto": true
   },
   {
    "key": "6277e639c064e641265fcb98a0e200b9|home",
@@ -657,7 +693,16 @@
    "fixture_id": null,
    "promo": null,
    "last_fair_odds": 1.757,
-   "clv": -0.0441
+   "clv": -0.0441,
+   "pick_odds": 1.75,
+   "pick_p": 0.569,
+   "pick_ev": -0.0043,
+   "claude_pick": true,
+   "pick_week": "2026-W44",
+   "pick_stake": 10.0,
+   "pick_at": "2026-10-31T07:44:45Z",
+   "pick_reason": "Automatisch aangevuld: 57% winkans, value −0,4% bij odds 1,75.",
+   "pick_auto": true
   },
   {
    "key": "1eb5e1a69ae9dd9edd92fde344308a4e|home",
@@ -678,7 +723,16 @@
    "fixture_id": null,
    "promo": null,
    "last_fair_odds": 1.656,
-   "clv": -0.016
+   "clv": -0.016,
+   "pick_odds": 1.63,
+   "pick_p": 0.6037,
+   "pick_ev": -0.0159,
+   "claude_pick": true,
+   "pick_week": "2026-W44",
+   "pick_stake": 10.0,
+   "pick_at": "2026-10-31T07:44:45Z",
+   "pick_reason": "Automatisch aangevuld: 60% winkans, value −1,6% bij odds 1,63.",
+   "pick_auto": true
   },
   {
    "key": "34cd26b96f78bd7aa3dbff3d1daca7a7|away",
@@ -804,7 +858,16 @@
    "fixture_id": null,
    "promo": null,
    "last_fair_odds": 1.408,
-   "clv": -0.0552
+   "clv": -0.0552,
+   "pick_odds": 1.35,
+   "pick_p": 0.7104,
+   "pick_ev": -0.041,
+   "claude_pick": true,
+   "pick_week": "2026-W44",
+   "pick_stake": 10.0,
+   "pick_at": "2026-10-31T07:44:45Z",
+   "pick_reason": "Automatisch aangevuld: 71% winkans, value −4,1% bij odds 1,35.",
+   "pick_auto": true
   },
   {
    "key": "60352ce6c1b34bca7b294edae8aa388b|home",
