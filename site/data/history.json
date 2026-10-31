@@ -1239,7 +1239,16 @@
    "fixture_id": null,
    "promo": null,
    "last_fair_odds": 2.632,
-   "clv": 0.0447
+   "clv": 0.0447,
+   "pick_odds": 2.75,
+   "pick_p": 0.3799,
+   "pick_ev": 0.0447,
+   "claude_pick": true,
+   "pick_week": "2026-W44",
+   "pick_stake": 6,
+   "pick_at": "2026-10-31T06:44:06Z",
+   "pick_reason": "Unibet betaalt 2,75 terwijl de marktconsensus Ipswich ±38% kans geeft (eerlijk ±2,63): ongeveer +4,5% verwachte winst. Hull wacht sinds augustus op een competitiezege en mist vijf spelers (o.a. Matazo, Gyabi, Targett), met twijfel over keeper Butland. Uitzege in een evenwichtige wedstrijd, dus klein bedrag.",
+   "pick_auto": false
   },
   {
    "key": "43ebf45469e32887fe9caff703c94ae6|away",
