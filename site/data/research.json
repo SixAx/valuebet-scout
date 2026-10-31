@@ -1,14 +1,17 @@
 {
  "date": "2026-10-31",
- "summary": "Geen vers nieuws over basisspelers dat Unibet nog niet verwerkt heeft, dus geen correcties. Gladbach recupereert Kühn, Lidberg, Hashioka en Itakura tegen Paderborn (dat midweek bekervoetbal speelde), Real Madrid mist Vinícius (geschorst) en Rodrygo in Santander, en Anderlecht twijfelt over Winkler. Enige nieuwe keuze: Ipswich op 2,75 in Hull, licht boven de marktconsensus; de favorieten van het weekend liggen bij Unibet allemaal onder hun eerlijke prijs.",
+ "summary": "Geen vers nieuws over basisspelers dat Unibet nog niet verwerkt heeft, dus geen correcties. Gladbach recupereert Kühn, Lidberg, Hashioka en Itakura tegen Paderborn (dat midweek bekervoetbal speelde), Real Madrid mist Vinícius (geschorst) en Rodrygo in Santander, en Anderlecht twijfelt over Winkler. Enige nieuwe keuze: Ipswich op 2,75 in Hull, licht boven de marktconsensus; de favorieten van het weekend liggen bij Unibet allemaal onder hun eerlijke prijs. Weekendronde (10u49): Rashford en Shaw niet mee naar Chelsea, Koundé out bij Barça en Tomori out voor de derby; niets daarvan geeft value bij Unibet. De weekportefeuille zit al op 10 bets, dus geen nieuwe keuzes.",
  "adjustments": {},
  "match_notes": {
-  "6601f69175a02f03fb7065aacb538e01": "Chelsea (5e) mist Lacroix, Reece James, João Pedro, keeper Emiliano Martínez, Hato, Anselmino en Gittens; Palmer terug na schorsing. United (16e, 8 duels zonder zege) zonder Shaw, Šeško, Ugarte en Dorgu; Mainoo terug in training, Rashford twijfelachtig, Fernandes wellicht terug in de basis.",
+  "6601f69175a02f03fb7065aacb538e01": "Chelsea (5e) mist Lacroix, Reece James, João Pedro, keeper Emiliano Martínez, Hato, Anselmino en Gittens; Palmer terug na schorsing. United (16e, 8 duels zonder zege) zonder Shaw, Šeško, Ugarte en Dorgu; Mainoo terug in training, Rashford twijfelachtig, Fernandes wellicht terug in de basis. Update 10u49: Rashford en Shaw reisden niet mee, Mainoo zit in de selectie.",
   "1ec76c009147b63859f68c6b5a1dd77b": "Hull zonder Matazo, Targett, Ansah, Gyabi en Hughes; Gourna-Douath twijfelachtig, Mendy terug, beslissing over keeper Butland pas vrijdag. Hull wacht sinds augustus op een competitiezege. Ipswich mist Taylor, Lukić (lies) onzeker.",
   "aecb9d8c01176616c87d893bee4bc0de": "Gladbach krijgt Kühn, Lidberg, Hashioka en Itakura terug; Kleindienst, Leszczynski, Bolin en Honorat ontbreken, Sander wellicht geschorst. Paderborn mist o.a. Meier, Hoffmeier, Gayret, Klaas en Awortwie-Grant en speelde woensdag in de beker (rotatie mogelijk).",
   "6c520ed959578ca3aebe351ee3765d53": "Real Madrid zonder Vinícius (geschorst), Rodrygo, Mendy en Asencio; Valverde en Courtois terug. Racing mist Salinas (geschorst) en Eriksson, won zijn laatste twee duels.",
   "d8134f341b5464b458a313342d178d43": "Winkler (8 basisplaatsen op rij) onzeker; rechtsachters Camara en Sardella ontbreken.",
-  "58c68450fcf69bf88e944dd7177f9104": "Union mist Biondic (maanden out) en Mac Allister; Rodriguez, Sykes en Zorgane trainen weer, maar Hubert laat in het midden of ze spelen."
+  "58c68450fcf69bf88e944dd7177f9104": "Union mist Biondic (maanden out) en Mac Allister; Rodriguez, Sykes en Zorgane trainen weer, maar Hubert laat in het midden of ze spelen.",
+  "2db2b55e71574a19ff0557898d3e9933": "Barça mist Koundé (enkel), Christensen, Eric García, Olmo, Bardghji en Espart; slechts vier fitte verdedigers uit de A-kern.",
+  "e82f25e981f2ebc731cfaf5716231af5": "Milan zonder Tomori, Gabbia, Saelemaekers, Loftus-Cheek en Chukwueze; Rabiot terug. Inter zonder Lautaro, Pavard, Stones, Jones en Luis Henrique; Calhanoglu wellicht in de basis. Geen schorsingen.",
+  "bad7337b335a16859b1db6b8e6cf6ca5": "Bayern mist Luis Díaz (hamstring); Kompany na ziekenhuisopname weer op de bank verwacht. Dortmund zonder Karetsas en Konstantelias."
  },
  "community": {
   "6601f69175a02f03fb7065aacb538e01": [
@@ -55,6 +58,27 @@
    "title": "Anderlecht twijfelt over Winkler tegen Westerlo",
    "body": "Vaste flankspeler Winkler is onzeker en ook Camara en Sardella ontbreken. Klein effect op Anderlecht-winst (1,56); geen correctie.",
    "url": "https://voetbalfocus.be/anderlecht-winkler-onzeker-westerlo/"
+  },
+  {
+   "tag": "BLESSURE",
+   "time": "10:49",
+   "title": "Rashford en Shaw niet mee naar Chelsea, Mainoo wel",
+   "body": "Rashford en Shaw reisden vrijdag niet mee met United; Mainoo zit in de selectie. Al sinds vrijdagnamiddag bekend; Unibet (Chelsea 1,97) ligt nog altijd onder de eerlijke prijs, dus geen value en geen correctie.",
+   "url": "https://britbrief.co.uk/sports/football/mainoo-in-man-utd-squad-for-chelsea-trip-rashford-and-shaw-out.html"
+  },
+  {
+   "tag": "BLESSURE",
+   "time": "10:49",
+   "title": "Barça zonder Koundé tegen Alavés",
+   "body": "Koundé (enkel) kon vrijdag niet meetrainen en speelt niet; Flick heeft maar vier fitte verdedigers uit de A-kern (Cancelo, Cubarsí, Gerard Martín, Balde). Barcelona-winst op 1,12 blijft zonder value.",
+   "url": "https://cronicaglobal.elespanol.com/culemania/primer-equipo/20261030/defensa-minimos-flick-cuenta-jugadores-disponibles-primer/1003742807674_0.html"
+  },
+  {
+   "tag": "NIEUWS",
+   "time": "10:49",
+   "title": "Derby: Milan zonder Tomori, Inter zonder Lautaro",
+   "body": "Tuttosport (07:50) zet Tomori bij de afwezigen van Milan; Inter mist Lautaro, Pavard, Stones en Jones, maar Calhanoglu staat in de vermoedelijke elf. Nieuws dat beide kanten raakt; geen correctie.",
+   "url": "https://www.tuttosport.com/news/calcio/serie-a/2026/10/31-152256445/milan-inter_probabili_formazioni_aggiornate_orario_e_dove_vedere_in_tv_e_streaming_la_serie_a"
   }
  ],
  "results": {},
