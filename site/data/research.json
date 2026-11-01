@@ -1,59 +1,73 @@
 {
- "date": "2026-11-01",
- "summary": "Geen vers nieuws dat Unibet nog niet verwerkt heeft, dus geen correcties. Real Madrid mist in Santander ook Valverde (spierpijn na de clásico), Gent speelt in Lommel zonder sterkhouder Christian Burgess (enkel), en Liverpool–Arsenal wordt gespeeld zonder Saka en Szoboszlai. De weekportefeuille van week 44 zit al op 10 bets, dus vandaag geen nieuwe keuzes.",
- "adjustments": {},
- "match_notes": {
-  "6c520ed959578ca3aebe351ee3765d53": "Valverde niet in de selectie (spierklachten na de clásico, 365scores 31/10). Mbappé wel mee en scoorde in vier duels op rij; Racing-topschutter Zabiri (8 goals).",
-  "6a3819cdbe2ba2fe5a3d8f9b4b459965": "Liverpool zonder Frimpong, Ekitike en Bradley; Szoboszlai (hamstring) en Wirtz (enkel) twijfelachtig volgens thefalse9 (27/10). Arsenal zonder Saka ('weken') en Saliba; Calafiori twijfelachtig.",
-  "1eb5e1a69ae9dd9edd92fde344308a4e": "Frankfurt mist Ngankam, Brassier twijfelachtig. HSV mist Remberg (kruisband), Nadir, Capaldo, Fabio Vieira en Poulsen; Torunarigha twijfelachtig (Comunio 29/10).",
-  "3f9f4bc9a19bf36dcb74be2f29610d55": "Lazio zonder Marusic, Rovella en Gudmundsson; Cagliari mist Felici en Idrissi. Geen schorsingen (Fantacalcio Online 31/10).",
-  "9507f4bcbcfd4e4953720628a2b86a17": "Como mist Chalobah, Diao, Addai, Keane en J. Rodríguez; Venezia zonder Franjic, Sverko en Adorante (Fantacalcio Online 31/10).",
-  "2e488800d615a94e5377c195810303c0": "Atalanta met een lange ziekenboeg: Hien, Kolasinac, Kossounou, Bellanova, Kessié, Kristensen, Raspadori en Scamacca out. Parma mist Valenti (Fantacalcio Online 31/10).",
-  "81d52c9bdfaaa5eacaadb9245bc2d883": "Gent zonder centrale verdediger Christian Burgess (enkelblessure op training, onderzoek maandag). Paskotsi kan centraal schuiven.",
-  "ed2ef578ae4e95bdcd81e662dfec5381": "Charleroi mist Bernier (middenvoetsbeentje), Sow (knie), Bojang (ziekenhuis, ontsteking in het gezicht) en Nzita (voet/knie).",
-  "3757bcd765c7da1538cdf2785e784038": "Athletic (Terzic) mist Guruzeta (seizoen) en Ruiz de Galarreta; Sancet terug na blessure. Real Sociedad (4 competitiezeges op rij) zonder Odriozola en Zakharyan (Infobae/EFE 31/10).",
-  "aeadf1388a1075328536501576b3d550": "Juventus zonder Locatelli, K. Thuram, Conceição, Yildiz, Milik en N. González; Napoli mist Lobotka, Buongiorno, Spinazzola en Neres. Geen schorsingen (Fantacalcio Online 31/10)."
- },
- "community": {
-  "6a3819cdbe2ba2fe5a3d8f9b4b459965": [
-   {
-    "outcome": "home",
-    "note": "The False 9 voorspelt 2-1 voor Liverpool: thuisvoordeel en Arsenal zonder Saka.",
-    "source": "The False 9",
-    "url": "https://thefalse9.com/2026/10/liverpool-vs-arsenal-prediction-score-pick.html"
-   },
-   {
-    "outcome": "away",
-    "note": "Squawka steunt Arsenal om op Anfield te winnen.",
-    "source": "Squawka",
-    "url": "https://squawka.com/en/news/previews/liverpool-vs-arsenal-predictions-sunday-01-11-2026"
-   }
-  ]
- },
- "alerts": [
-  {
-   "tag": "BLESSURE",
-   "time": "07:45",
-   "title": "Real Madrid ook zonder Valverde in Santander",
-   "body": "Valverde zit niet in de selectie (spierklachten na de clásico), naast Vinícius, Rodrygo en Mendy. Sinds zaterdagnamiddag bekend; Real Madrid op 1,20 blijft zonder value, geen correctie. Raakt onze weekpick Real Madrid.",
-   "url": "https://www.365scores.com/es/news/lista-real-madrid-vs-racing-la-liga-hoy/"
+  "date": "2026-11-01",
+  "summary": "Geen vers nieuws dat Unibet nog niet verwerkt heeft, dus geen correcties. Real Madrid mist in Santander ook Valverde (spierpijn na de clásico), Gent speelt in Lommel zonder sterkhouder Christian Burgess (enkel), en Liverpool–Arsenal wordt gespeeld zonder Saka en Szoboszlai. De weekportefeuille van week 44 zit al op 10 bets, dus vandaag geen nieuwe keuzes. Weekendronde (11u): geen last-minute nieuws dat de odds verschuift; Szoboszlai en Muñoz misschien toch inzetbaar tegen Arsenal, Courtois terug bij Real Madrid, Gent ook zonder Vergara.",
+  "adjustments": {},
+  "match_notes": {
+    "6c520ed959578ca3aebe351ee3765d53": "Valverde niet in de selectie (spierklachten na de clásico, 365scores 31/10). Mbappé wel mee en scoorde in vier duels op rij; Racing-topschutter Zabiri (8 goals). Update 11u: Courtois terug na ziekte; Racing mist linksachter Jorge Salinas (vijfde gele kaart) (Football Faithful 1/11).",
+    "6a3819cdbe2ba2fe5a3d8f9b4b459965": "Liverpool zonder Frimpong, Ekitike en Bradley; Szoboszlai (hamstring) en Wirtz (enkel) twijfelachtig volgens thefalse9 (27/10). Arsenal zonder Saka ('weken') en Saliba; Calafiori twijfelachtig. Update 11u: Szoboszlai en Muñoz hebben volgens Iraola 'een kans'; bij Arsenal is Madueke twijfelachtig, Rice en Calafiori zouden fit zijn (Last Word on Sports 1/11).",
+    "1eb5e1a69ae9dd9edd92fde344308a4e": "Frankfurt mist Ngankam, Brassier twijfelachtig. HSV mist Remberg (kruisband), Nadir, Capaldo, Fabio Vieira en Poulsen; Torunarigha twijfelachtig (Comunio 29/10).",
+    "3f9f4bc9a19bf36dcb74be2f29610d55": "Lazio zonder Marusic, Rovella en Gudmundsson; Cagliari mist Felici en Idrissi. Geen schorsingen (Fantacalcio Online 31/10). Verwachte elf Lazio met Isaksen–Noslin–Zaccagni voorin; Cagliari met Mendy in de spits (Sportal 1/11).",
+    "9507f4bcbcfd4e4953720628a2b86a17": "Como mist Chalobah, Diao, Addai, Keane en J. Rodríguez; Venezia zonder Franjic, Sverko en Adorante (Fantacalcio Online 31/10).",
+    "2e488800d615a94e5377c195810303c0": "Atalanta met een lange ziekenboeg: Hien, Kolasinac, Kossounou, Bellanova, Kessié, Kristensen, Raspadori en Scamacca out. Parma mist Valenti (Fantacalcio Online 31/10).",
+    "81d52c9bdfaaa5eacaadb9245bc2d883": "Gent zonder centrale verdediger Christian Burgess (enkelblessure op training, onderzoek maandag). Paskotsi kan centraal schuiven. Update 11u: ook Vergara zeker afwezig en Balikwisha 'limiet' (nog geen groepstraining) (Voetbalbelgie 30/10).",
+    "ed2ef578ae4e95bdcd81e662dfec5381": "Charleroi mist Bernier (middenvoetsbeentje), Sow (knie), Bojang (ziekenhuis, ontsteking in het gezicht) en Nzita (voet/knie).",
+    "3757bcd765c7da1538cdf2785e784038": "Athletic (Terzic) mist Guruzeta (seizoen) en Ruiz de Galarreta; Sancet terug na blessure. Real Sociedad (4 competitiezeges op rij) zonder Odriozola en Zakharyan (Infobae/EFE 31/10).",
+    "aeadf1388a1075328536501576b3d550": "Juventus zonder Locatelli, K. Thuram, Conceição, Yildiz, Milik en N. González; Napoli mist Lobotka, Buongiorno, Spinazzola en Neres. Geen schorsingen (Fantacalcio Online 31/10). Update 11u: De Bruyne terug als regisseur bij Napoli, Rrahmani lichte favoriet in centrale verdediging; Juve ook zonder Grabara en Çelik (CalcioNapoli1926)."
   },
-  {
-   "tag": "BLESSURE",
-   "time": "07:45",
-   "title": "Gent mist Burgess in Lommel",
-   "body": "Centrale verdediger Christian Burgess liep een enkelblessure op op training en speelt niet. Klein effect op Gent-winst (1,62); de odds van vanochtend dateren van na het nieuws, dus geen correctie.",
-   "url": "https://www.voetbalkrant.com/nieuws/2026-10-31/nog-meer-pech-voor-de-leider-absolute-sterkhouder-valt-uit-bij-kaa-gent"
+  "community": {
+    "6a3819cdbe2ba2fe5a3d8f9b4b459965": [
+      {
+        "outcome": "home",
+        "note": "The False 9 voorspelt 2-1 voor Liverpool: thuisvoordeel en Arsenal zonder Saka.",
+        "source": "The False 9",
+        "url": "https://thefalse9.com/2026/10/liverpool-vs-arsenal-prediction-score-pick.html"
+      },
+      {
+        "outcome": "away",
+        "note": "Squawka steunt Arsenal om op Anfield te winnen.",
+        "source": "Squawka",
+        "url": "https://squawka.com/en/news/previews/liverpool-vs-arsenal-predictions-sunday-01-11-2026"
+      }
+    ]
   },
-  {
-   "tag": "BLESSURE",
-   "time": "07:45",
-   "title": "Vier afwezigen bij Charleroi tegen La Louvière",
-   "body": "Bernier, Sow, Bojang en Nzita ontbreken. Charleroi-winst op 1,43 lag al ruim onder de eerlijke prijs; geen value.",
-   "url": "https://www.voetbalkrant.com/nieuws/2026-10-30/een-speler-belandde-zelfs-plots-in-het-ziekenhuis-ziekenboeg-van-charleroi-zit-goed-vol"
-  }
- ],
- "results": {},
- "picks": [],
- "urgent": false
+  "alerts": [
+    {
+      "tag": "BLESSURE",
+      "time": "07:45",
+      "title": "Real Madrid ook zonder Valverde in Santander",
+      "body": "Valverde zit niet in de selectie (spierklachten na de clásico), naast Vinícius, Rodrygo en Mendy. Sinds zaterdagnamiddag bekend; Real Madrid op 1,20 blijft zonder value, geen correctie. Raakt onze weekpick Real Madrid.",
+      "url": "https://www.365scores.com/es/news/lista-real-madrid-vs-racing-la-liga-hoy/"
+    },
+    {
+      "tag": "BLESSURE",
+      "time": "07:45",
+      "title": "Gent mist Burgess in Lommel",
+      "body": "Centrale verdediger Christian Burgess liep een enkelblessure op op training en speelt niet. Klein effect op Gent-winst (1,62); de odds van vanochtend dateren van na het nieuws, dus geen correctie.",
+      "url": "https://www.voetbalkrant.com/nieuws/2026-10-31/nog-meer-pech-voor-de-leider-absolute-sterkhouder-valt-uit-bij-kaa-gent"
+    },
+    {
+      "tag": "BLESSURE",
+      "time": "07:45",
+      "title": "Vier afwezigen bij Charleroi tegen La Louvière",
+      "body": "Bernier, Sow, Bojang en Nzita ontbreken. Charleroi-winst op 1,43 lag al ruim onder de eerlijke prijs; geen value.",
+      "url": "https://www.voetbalkrant.com/nieuws/2026-10-30/een-speler-belandde-zelfs-plots-in-het-ziekenhuis-ziekenboeg-van-charleroi-zit-goed-vol"
+    },
+    {
+      "tag": "NIEUWS",
+      "time": "11:00",
+      "title": "Liverpool–Arsenal: Szoboszlai en Muñoz misschien toch inzetbaar",
+      "body": "Iraola zegt dat beide 'een kans' hebben; bij Arsenal is Madueke twijfelachtig en Saka out, Rice en Calafiori zouden fit zijn. Opstellingen pas om 16u30 Belgische tijd bekend; Unibet (2,95 / 3,45 / 2,55) lijkt niet achter te lopen, geen correctie.",
+      "url": "https://lastwordonsports.com/football/2026/11/01/liverpool-vs-arsenal-predicted-lineups"
+    },
+    {
+      "tag": "BLESSURE",
+      "time": "11:00",
+      "title": "Gent in Lommel ook zonder Vergara, Balikwisha onzeker",
+      "body": "Naast Burgess is Vergara zeker afwezig en is Balikwisha twijfelachtig (nog geen groepstraining). Gent-winst op 1,62 blijft zonder duidelijke value; geen correctie.",
+      "url": "https://www.voetbalbelgie.be/artikel/rik-de-mil-geeft-update-over-blessures"
+    }
+  ],
+  "results": {},
+  "picks": [],
+  "urgent": false
 }
