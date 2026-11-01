@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T07:50:46Z",
+ "generated_at": "2026-11-01T09:49:58Z",
  "fetched_at": "2026-11-01T05:49:40Z",
  "research_date": "2026-11-01",
  "odds_remaining": "474",
@@ -552,7 +552,7 @@
     "Real Madrid is de favoriet. Volgens 18 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Real Madrid wint ongeveer 79%: zo'n 8 op 10 keer.",
     "Let op: Unibet betaalt 1,20, terwijl een eerlijke odds voor die kans 1,27 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 5,6% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €12,00 terug als het lukt (winst €2,00). In ongeveer 21% van de gevallen verlies je je inzet.",
-    "Nieuws: Valverde niet in de selectie (spierklachten na de clásico, 365scores 31/10). Mbappé wel mee en scoorde in vier duels op rij; Racing-topschutter Zabiri (8 goals)."
+    "Nieuws: Valverde niet in de selectie (spierklachten na de clásico, 365scores 31/10). Mbappé wel mee en scoorde in vier duels op rij; Racing-topschutter Zabiri (8 goals). Update 11u: Courtois terug na ziekte; Racing mist linksachter Jorge Salinas (vijfde gele kaart) (Football Faithful 1/11)."
    ],
    "claude_pick": true,
    "pick_reason": "Automatisch aangevuld: 78% winkans, value −3,9% bij odds 1,23."
@@ -1848,7 +1848,7 @@
     "Lazio is de favoriet. Volgens 21 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Lazio wint ongeveer 65%: zo'n 7 op 10 keer.",
     "Let op: Unibet betaalt 1,44, terwijl een eerlijke odds voor die kans 1,53 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 6,0% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €14,40 terug als het lukt (winst €4,40). In ongeveer 35% van de gevallen verlies je je inzet.",
-    "Nieuws: Lazio zonder Marusic, Rovella en Gudmundsson; Cagliari mist Felici en Idrissi. Geen schorsingen (Fantacalcio Online 31/10)."
+    "Nieuws: Lazio zonder Marusic, Rovella en Gudmundsson; Cagliari mist Felici en Idrissi. Geen schorsingen (Fantacalcio Online 31/10). Verwachte elf Lazio met Isaksen–Noslin–Zaccagni voorin; Cagliari met Mendy in de spits (Sportal 1/11)."
    ],
    "claude_pick": true,
    "pick_reason": "Automatisch aangevuld: 66% winkans, value −3,0% bij odds 1,47."
@@ -2258,7 +2258,7 @@
     "Gent is de favoriet. Volgens 18 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Gent wint ongeveer 56%: zo'n 6 op 10 keer.",
     "Let op: Unibet betaalt 1,62, terwijl een eerlijke odds voor die kans 1,79 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 9,7% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €16,20 terug als het lukt (winst €6,20). In ongeveer 44% van de gevallen verlies je je inzet.",
-    "Nieuws: Gent zonder centrale verdediger Christian Burgess (enkelblessure op training, onderzoek maandag). Paskotsi kan centraal schuiven."
+    "Nieuws: Gent zonder centrale verdediger Christian Burgess (enkelblessure op training, onderzoek maandag). Paskotsi kan centraal schuiven. Update 11u: ook Vergara zeker afwezig en Balikwisha 'limiet' (nog geen groepstraining) (Voetbalbelgie 30/10)."
    ]
   },
   {
@@ -3280,9 +3280,23 @@
    "title": "Vier afwezigen bij Charleroi tegen La Louvière",
    "body": "Bernier, Sow, Bojang en Nzita ontbreken. Charleroi-winst op 1,43 lag al ruim onder de eerlijke prijs; geen value.",
    "url": "https://www.voetbalkrant.com/nieuws/2026-10-30/een-speler-belandde-zelfs-plots-in-het-ziekenhuis-ziekenboeg-van-charleroi-zit-goed-vol"
+  },
+  {
+   "tag": "NIEUWS",
+   "time": "11:00",
+   "title": "Liverpool–Arsenal: Szoboszlai en Muñoz misschien toch inzetbaar",
+   "body": "Iraola zegt dat beide 'een kans' hebben; bij Arsenal is Madueke twijfelachtig en Saka out, Rice en Calafiori zouden fit zijn. Opstellingen pas om 16u30 Belgische tijd bekend; Unibet (2,95 / 3,45 / 2,55) lijkt niet achter te lopen, geen correctie.",
+   "url": "https://lastwordonsports.com/football/2026/11/01/liverpool-vs-arsenal-predicted-lineups"
+  },
+  {
+   "tag": "BLESSURE",
+   "time": "11:00",
+   "title": "Gent in Lommel ook zonder Vergara, Balikwisha onzeker",
+   "body": "Naast Burgess is Vergara zeker afwezig en is Balikwisha twijfelachtig (nog geen groepstraining). Gent-winst op 1,62 blijft zonder duidelijke value; geen correctie.",
+   "url": "https://www.voetbalbelgie.be/artikel/rik-de-mil-geeft-update-over-blessures"
   }
  ],
- "summary": "Geen vers nieuws dat Unibet nog niet verwerkt heeft, dus geen correcties. Real Madrid mist in Santander ook Valverde (spierpijn na de clásico), Gent speelt in Lommel zonder sterkhouder Christian Burgess (enkel), en Liverpool–Arsenal wordt gespeeld zonder Saka en Szoboszlai. De weekportefeuille van week 44 zit al op 10 bets, dus vandaag geen nieuwe keuzes.",
+ "summary": "Geen vers nieuws dat Unibet nog niet verwerkt heeft, dus geen correcties. Real Madrid mist in Santander ook Valverde (spierpijn na de clásico), Gent speelt in Lommel zonder sterkhouder Christian Burgess (enkel), en Liverpool–Arsenal wordt gespeeld zonder Saka en Szoboszlai. De weekportefeuille van week 44 zit al op 10 bets, dus vandaag geen nieuwe keuzes. Weekendronde (11u): geen last-minute nieuws dat de odds verschuift; Szoboszlai en Muñoz misschien toch inzetbaar tegen Arsenal, Courtois terug bij Real Madrid, Gent ook zonder Vergara.",
  "portfolio": {
   "weeks": [
    {
