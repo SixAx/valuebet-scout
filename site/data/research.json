@@ -1,93 +1,59 @@
 {
- "date": "2026-10-31",
- "summary": "Geen vers nieuws over basisspelers dat Unibet nog niet verwerkt heeft, dus geen correcties. Gladbach recupereert Kühn, Lidberg, Hashioka en Itakura tegen Paderborn (dat midweek bekervoetbal speelde), Real Madrid mist Vinícius (geschorst) en Rodrygo in Santander, en Anderlecht twijfelt over Winkler. Enige nieuwe keuze: Ipswich op 2,75 in Hull, licht boven de marktconsensus; de favorieten van het weekend liggen bij Unibet allemaal onder hun eerlijke prijs. Weekendronde (10u49): Rashford en Shaw niet mee naar Chelsea, Koundé out bij Barça en Tomori out voor de derby; niets daarvan geeft value bij Unibet. De weekportefeuille zit al op 10 bets, dus geen nieuwe keuzes.",
+ "date": "2026-11-01",
+ "summary": "Geen vers nieuws dat Unibet nog niet verwerkt heeft, dus geen correcties. Real Madrid mist in Santander ook Valverde (spierpijn na de clásico), Gent speelt in Lommel zonder sterkhouder Christian Burgess (enkel), en Liverpool–Arsenal wordt gespeeld zonder Saka en Szoboszlai. De weekportefeuille van week 44 zit al op 10 bets, dus vandaag geen nieuwe keuzes.",
  "adjustments": {},
  "match_notes": {
-  "6601f69175a02f03fb7065aacb538e01": "Chelsea (5e) mist Lacroix, Reece James, João Pedro, keeper Emiliano Martínez, Hato, Anselmino en Gittens; Palmer terug na schorsing. United (16e, 8 duels zonder zege) zonder Shaw, Šeško, Ugarte en Dorgu; Mainoo terug in training, Rashford twijfelachtig, Fernandes wellicht terug in de basis. Update 10u49: Rashford en Shaw reisden niet mee, Mainoo zit in de selectie.",
-  "1ec76c009147b63859f68c6b5a1dd77b": "Hull zonder Matazo, Targett, Ansah, Gyabi en Hughes; Gourna-Douath twijfelachtig, Mendy terug, beslissing over keeper Butland pas vrijdag. Hull wacht sinds augustus op een competitiezege. Ipswich mist Taylor, Lukić (lies) onzeker.",
-  "aecb9d8c01176616c87d893bee4bc0de": "Gladbach krijgt Kühn, Lidberg, Hashioka en Itakura terug; Kleindienst, Leszczynski, Bolin en Honorat ontbreken, Sander wellicht geschorst. Paderborn mist o.a. Meier, Hoffmeier, Gayret, Klaas en Awortwie-Grant en speelde woensdag in de beker (rotatie mogelijk).",
-  "6c520ed959578ca3aebe351ee3765d53": "Real Madrid zonder Vinícius (geschorst), Rodrygo, Mendy en Asencio; Valverde en Courtois terug. Racing mist Salinas (geschorst) en Eriksson, won zijn laatste twee duels.",
-  "d8134f341b5464b458a313342d178d43": "Winkler (8 basisplaatsen op rij) onzeker; rechtsachters Camara en Sardella ontbreken.",
-  "58c68450fcf69bf88e944dd7177f9104": "Union mist Biondic (maanden out) en Mac Allister; Rodriguez, Sykes en Zorgane trainen weer, maar Hubert laat in het midden of ze spelen.",
-  "2db2b55e71574a19ff0557898d3e9933": "Barça mist Koundé (enkel), Christensen, Eric García, Olmo, Bardghji en Espart; slechts vier fitte verdedigers uit de A-kern.",
-  "e82f25e981f2ebc731cfaf5716231af5": "Milan zonder Tomori, Gabbia, Saelemaekers, Loftus-Cheek en Chukwueze; Rabiot terug. Inter zonder Lautaro, Pavard, Stones, Jones en Luis Henrique; Calhanoglu wellicht in de basis. Geen schorsingen.",
-  "bad7337b335a16859b1db6b8e6cf6ca5": "Bayern mist Luis Díaz (hamstring); Kompany na ziekenhuisopname weer op de bank verwacht. Dortmund zonder Karetsas en Konstantelias."
+  "6c520ed959578ca3aebe351ee3765d53": "Valverde niet in de selectie (spierklachten na de clásico, 365scores 31/10). Mbappé wel mee en scoorde in vier duels op rij; Racing-topschutter Zabiri (8 goals).",
+  "6a3819cdbe2ba2fe5a3d8f9b4b459965": "Liverpool zonder Frimpong, Ekitike en Bradley; Szoboszlai (hamstring) en Wirtz (enkel) twijfelachtig volgens thefalse9 (27/10). Arsenal zonder Saka ('weken') en Saliba; Calafiori twijfelachtig.",
+  "1eb5e1a69ae9dd9edd92fde344308a4e": "Frankfurt mist Ngankam, Brassier twijfelachtig. HSV mist Remberg (kruisband), Nadir, Capaldo, Fabio Vieira en Poulsen; Torunarigha twijfelachtig (Comunio 29/10).",
+  "3f9f4bc9a19bf36dcb74be2f29610d55": "Lazio zonder Marusic, Rovella en Gudmundsson; Cagliari mist Felici en Idrissi. Geen schorsingen (Fantacalcio Online 31/10).",
+  "9507f4bcbcfd4e4953720628a2b86a17": "Como mist Chalobah, Diao, Addai, Keane en J. Rodríguez; Venezia zonder Franjic, Sverko en Adorante (Fantacalcio Online 31/10).",
+  "2e488800d615a94e5377c195810303c0": "Atalanta met een lange ziekenboeg: Hien, Kolasinac, Kossounou, Bellanova, Kessié, Kristensen, Raspadori en Scamacca out. Parma mist Valenti (Fantacalcio Online 31/10).",
+  "81d52c9bdfaaa5eacaadb9245bc2d883": "Gent zonder centrale verdediger Christian Burgess (enkelblessure op training, onderzoek maandag). Paskotsi kan centraal schuiven.",
+  "ed2ef578ae4e95bdcd81e662dfec5381": "Charleroi mist Bernier (middenvoetsbeentje), Sow (knie), Bojang (ziekenhuis, ontsteking in het gezicht) en Nzita (voet/knie).",
+  "3757bcd765c7da1538cdf2785e784038": "Athletic (Terzic) mist Guruzeta (seizoen) en Ruiz de Galarreta; Sancet terug na blessure. Real Sociedad (4 competitiezeges op rij) zonder Odriozola en Zakharyan (Infobae/EFE 31/10).",
+  "aeadf1388a1075328536501576b3d550": "Juventus zonder Locatelli, K. Thuram, Conceição, Yildiz, Milik en N. González; Napoli mist Lobotka, Buongiorno, Spinazzola en Neres. Geen schorsingen (Fantacalcio Online 31/10)."
  },
  "community": {
-  "6601f69175a02f03fb7065aacb538e01": [
+  "6a3819cdbe2ba2fe5a3d8f9b4b459965": [
    {
     "outcome": "home",
-    "note": "Covers kiest Chelsea-winst: hun beweeglijkheid moet United's trage middenveld en verdediging blootleggen.",
-    "source": "Covers",
-    "url": "https://www.covers.com/soccer/chelsea-vs-man-united-prediction-picks-oct-31-2026"
-   },
-   {
-    "outcome": "home",
-    "note": "Sports Mole voorspelt 2-1 voor Chelsea, dat na twee nederlagen moet terugveren.",
-    "source": "Sports Mole",
-    "url": "https://www.sportsmole.co.uk/football/man-utd/preview/chelsea-vs-man-utd-prediction-team-news-lineups_607947.html"
-   }
-  ],
-  "1ec76c009147b63859f68c6b5a1dd77b": [
-   {
-    "outcome": "home",
-    "note": "Doc's Sports kiest Hull: betere xG en een sterkere keeper dan Ipswich (save% 61,9).",
-    "source": "Doc's Sports",
-    "url": "https://www.docsports.com/free-picks/soccer/2026/hull-city-vs-ipswich-town-prediction-10-31-2026-soccer-pick-tips-and-odds.html"
+    "note": "The False 9 voorspelt 2-1 voor Liverpool: thuisvoordeel en Arsenal zonder Saka.",
+    "source": "The False 9",
+    "url": "https://thefalse9.com/2026/10/liverpool-vs-arsenal-prediction-score-pick.html"
    },
    {
     "outcome": "away",
-    "note": "Starting11-model tipt 'gelijk of Ipswich' (dubbele kans).",
-    "source": "Starting11",
-    "url": "https://starting11.com/fixtures/hull-city-vs-ipswich-20261031"
-   }
-  ],
-  "6c520ed959578ca3aebe351ee3765d53": [
-   {
-    "outcome": "away",
-    "note": "Sports Mole voorspelt 1-3 voor Real Madrid, dat 9 van de laatste 10 duels met Racing won.",
-    "source": "Sports Mole",
-    "url": "https://www.sportsmole.co.uk/football/real-madrid/race-for-the-la-liga-title/preview/racing-vs-real-madrid-prediction-team-news-lineups_608064.html"
+    "note": "Squawka steunt Arsenal om op Anfield te winnen.",
+    "source": "Squawka",
+    "url": "https://squawka.com/en/news/previews/liverpool-vs-arsenal-predictions-sunday-01-11-2026"
    }
   ]
  },
  "alerts": [
   {
    "tag": "BLESSURE",
-   "time": "07:44",
-   "title": "Anderlecht twijfelt over Winkler tegen Westerlo",
-   "body": "Vaste flankspeler Winkler is onzeker en ook Camara en Sardella ontbreken. Klein effect op Anderlecht-winst (1,56); geen correctie.",
-   "url": "https://voetbalfocus.be/anderlecht-winkler-onzeker-westerlo/"
+   "time": "07:45",
+   "title": "Real Madrid ook zonder Valverde in Santander",
+   "body": "Valverde zit niet in de selectie (spierklachten na de clásico), naast Vinícius, Rodrygo en Mendy. Sinds zaterdagnamiddag bekend; Real Madrid op 1,20 blijft zonder value, geen correctie. Raakt onze weekpick Real Madrid.",
+   "url": "https://www.365scores.com/es/news/lista-real-madrid-vs-racing-la-liga-hoy/"
   },
   {
    "tag": "BLESSURE",
-   "time": "10:49",
-   "title": "Rashford en Shaw niet mee naar Chelsea, Mainoo wel",
-   "body": "Rashford en Shaw reisden vrijdag niet mee met United; Mainoo zit in de selectie. Al sinds vrijdagnamiddag bekend; Unibet (Chelsea 1,97) ligt nog altijd onder de eerlijke prijs, dus geen value en geen correctie.",
-   "url": "https://britbrief.co.uk/sports/football/mainoo-in-man-utd-squad-for-chelsea-trip-rashford-and-shaw-out.html"
+   "time": "07:45",
+   "title": "Gent mist Burgess in Lommel",
+   "body": "Centrale verdediger Christian Burgess liep een enkelblessure op op training en speelt niet. Klein effect op Gent-winst (1,62); de odds van vanochtend dateren van na het nieuws, dus geen correctie.",
+   "url": "https://www.voetbalkrant.com/nieuws/2026-10-31/nog-meer-pech-voor-de-leider-absolute-sterkhouder-valt-uit-bij-kaa-gent"
   },
   {
    "tag": "BLESSURE",
-   "time": "10:49",
-   "title": "Barça zonder Koundé tegen Alavés",
-   "body": "Koundé (enkel) kon vrijdag niet meetrainen en speelt niet; Flick heeft maar vier fitte verdedigers uit de A-kern (Cancelo, Cubarsí, Gerard Martín, Balde). Barcelona-winst op 1,12 blijft zonder value.",
-   "url": "https://cronicaglobal.elespanol.com/culemania/primer-equipo/20261030/defensa-minimos-flick-cuenta-jugadores-disponibles-primer/1003742807674_0.html"
-  },
-  {
-   "tag": "NIEUWS",
-   "time": "10:49",
-   "title": "Derby: Milan zonder Tomori, Inter zonder Lautaro",
-   "body": "Tuttosport (07:50) zet Tomori bij de afwezigen van Milan; Inter mist Lautaro, Pavard, Stones en Jones, maar Calhanoglu staat in de vermoedelijke elf. Nieuws dat beide kanten raakt; geen correctie.",
-   "url": "https://www.tuttosport.com/news/calcio/serie-a/2026/10/31-152256445/milan-inter_probabili_formazioni_aggiornate_orario_e_dove_vedere_in_tv_e_streaming_la_serie_a"
+   "time": "07:45",
+   "title": "Vier afwezigen bij Charleroi tegen La Louvière",
+   "body": "Bernier, Sow, Bojang en Nzita ontbreken. Charleroi-winst op 1,43 lag al ruim onder de eerlijke prijs; geen value.",
+   "url": "https://www.voetbalkrant.com/nieuws/2026-10-30/een-speler-belandde-zelfs-plots-in-het-ziekenhuis-ziekenboeg-van-charleroi-zit-goed-vol"
   }
  ],
  "results": {},
- "picks": [
-  {
-   "key": "1ec76c009147b63859f68c6b5a1dd77b|away",
-   "stake": 6,
-   "reason": "Unibet betaalt 2,75 terwijl de marktconsensus Ipswich ±38% kans geeft (eerlijk ±2,63): ongeveer +4,5% verwachte winst. Hull wacht sinds augustus op een competitiezege en mist vijf spelers (o.a. Matazo, Gyabi, Targett), met twijfel over keeper Butland. Uitzege in een evenwichtige wedstrijd, dus klein bedrag."
-  }
- ],
+ "picks": [],
  "urgent": false
 }
