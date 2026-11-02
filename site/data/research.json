@@ -1,73 +1,117 @@
 {
-  "date": "2026-11-01",
-  "summary": "Geen vers nieuws dat Unibet nog niet verwerkt heeft, dus geen correcties. Real Madrid mist in Santander ook Valverde (spierpijn na de clásico), Gent speelt in Lommel zonder sterkhouder Christian Burgess (enkel), en Liverpool–Arsenal wordt gespeeld zonder Saka en Szoboszlai. De weekportefeuille van week 44 zit al op 10 bets, dus vandaag geen nieuwe keuzes. Weekendronde (11u): geen last-minute nieuws dat de odds verschuift; Szoboszlai en Muñoz misschien toch inzetbaar tegen Arsenal, Courtois terug bij Real Madrid, Gent ook zonder Vergara.",
+  "date": "2026-11-02",
+  "summary": "Geen vers nieuws (<24 u) over basisspelers dat Unibet nog niet verwerkt heeft, dus geen correcties. Opvallend voor de Champions League: PSG mist in Villarreal Dembélé, Kvaratskhelia, Marquinhos en Nuno Mendes, Feyenoord verliest Moder opnieuw en Inter komt uit een 3-1-derbynederlaag, Bayern zag Gnabry en Saibari uitvallen tegen Dortmund. Voor de weekportefeuille kies ik vandaag alleen twee kleine bets waar Unibet boven de marktconsensus betaalt: Atlético thuis tegen Bayern en Real Betis in Dortmund; de favorieten zijn deze week allemaal krap geprijsd.",
   "adjustments": {},
   "match_notes": {
-    "6c520ed959578ca3aebe351ee3765d53": "Valverde niet in de selectie (spierklachten na de clásico, 365scores 31/10). Mbappé wel mee en scoorde in vier duels op rij; Racing-topschutter Zabiri (8 goals). Update 11u: Courtois terug na ziekte; Racing mist linksachter Jorge Salinas (vijfde gele kaart) (Football Faithful 1/11).",
-    "6a3819cdbe2ba2fe5a3d8f9b4b459965": "Liverpool zonder Frimpong, Ekitike en Bradley; Szoboszlai (hamstring) en Wirtz (enkel) twijfelachtig volgens thefalse9 (27/10). Arsenal zonder Saka ('weken') en Saliba; Calafiori twijfelachtig. Update 11u: Szoboszlai en Muñoz hebben volgens Iraola 'een kans'; bij Arsenal is Madueke twijfelachtig, Rice en Calafiori zouden fit zijn (Last Word on Sports 1/11).",
-    "1eb5e1a69ae9dd9edd92fde344308a4e": "Frankfurt mist Ngankam, Brassier twijfelachtig. HSV mist Remberg (kruisband), Nadir, Capaldo, Fabio Vieira en Poulsen; Torunarigha twijfelachtig (Comunio 29/10).",
-    "3f9f4bc9a19bf36dcb74be2f29610d55": "Lazio zonder Marusic, Rovella en Gudmundsson; Cagliari mist Felici en Idrissi. Geen schorsingen (Fantacalcio Online 31/10). Verwachte elf Lazio met Isaksen–Noslin–Zaccagni voorin; Cagliari met Mendy in de spits (Sportal 1/11).",
-    "9507f4bcbcfd4e4953720628a2b86a17": "Como mist Chalobah, Diao, Addai, Keane en J. Rodríguez; Venezia zonder Franjic, Sverko en Adorante (Fantacalcio Online 31/10).",
-    "2e488800d615a94e5377c195810303c0": "Atalanta met een lange ziekenboeg: Hien, Kolasinac, Kossounou, Bellanova, Kessié, Kristensen, Raspadori en Scamacca out. Parma mist Valenti (Fantacalcio Online 31/10).",
-    "81d52c9bdfaaa5eacaadb9245bc2d883": "Gent zonder centrale verdediger Christian Burgess (enkelblessure op training, onderzoek maandag). Paskotsi kan centraal schuiven. Update 11u: ook Vergara zeker afwezig en Balikwisha 'limiet' (nog geen groepstraining) (Voetbalbelgie 30/10).",
-    "ed2ef578ae4e95bdcd81e662dfec5381": "Charleroi mist Bernier (middenvoetsbeentje), Sow (knie), Bojang (ziekenhuis, ontsteking in het gezicht) en Nzita (voet/knie).",
-    "3757bcd765c7da1538cdf2785e784038": "Athletic (Terzic) mist Guruzeta (seizoen) en Ruiz de Galarreta; Sancet terug na blessure. Real Sociedad (4 competitiezeges op rij) zonder Odriozola en Zakharyan (Infobae/EFE 31/10).",
-    "aeadf1388a1075328536501576b3d550": "Juventus zonder Locatelli, K. Thuram, Conceição, Yildiz, Milik en N. González; Napoli mist Lobotka, Buongiorno, Spinazzola en Neres. Geen schorsingen (Fantacalcio Online 31/10). Update 11u: De Bruyne terug als regisseur bij Napoli, Rrahmani lichte favoriet in centrale verdediging; Juve ook zonder Grabara en Çelik (CalcioNapoli1926)."
+    "2e488800d615a94e5377c195810303c0": "Atalanta nog steeds met een lange ziekenboeg (o.a. Hien, Kossounou, Kessié, Scamacca, Raspadori; Fantacalcio Online 31/10). Voetbalwedden.eu verwacht verder geen nieuwe schorsingen.",
+    "bd680c6ad693dae859030f86e1be2769": "Aston Villa zonder Wan-Bissaka, Ruggeri en Onana; Manzambi twijfelachtig (thefalse9 29/10). Barça mist jonge back Xavi Espart ±7 weken (enkel, sinds de clásico; ARY News 26/10).",
+    "a341241606cb5b1b59e425d00be64883": "PSG zonder Dembélé en Marquinhos (hamstring), Nuno Mendes en Longoni (been) en Kvaratskhelia (kruisband). Villarreal: Saliba, Diatta, Foyth en Akhomach twijfelachtig met spierproblemen. Sports Mole voorspelt 1-3 (1/11).",
+    "f6f3cf01c2b20b7f746b5a06097a0569": "Feyenoord: Moder viel vrijdag opnieuw uit op training, St. Juste twijfelachtig; Nelson, Van Persie en Smal bijna fit. Inter verloor zondag de derby met 3-1 van Milan (Passione Inter 1/11).",
+    "61b42fd619617a7a2a3770c2444e8a40": "Bayern verloor Saibari en Gnabry (allebei van het veld gedragen tegen Dortmund, 2-2); Olise had enkel kramp. Atlético zonder Johnny Cardoso, Koke terug fit (TribalFootball).",
+    "449d718632202f0e5997d2e4b7273483": "PSV mist Ouaissa (maanden); Pepi was nog onzeker na blessure sinds 20/9 (PSVFans 29/10). Geen nieuws over Club Brugge gevonden.",
+    "a5910ae3b314876faea7f5c03b8aeaad": "Arsenal zonder Saka (dij, nieuwe scan) en Saliba (rug); Rice, Calafiori en Tzolis 75%, Madueke 50% (thefalse9 31/10).",
+    "f43ef699c987e112e115f7035114854e": "Real Madrid zonder Rodrygo, Mendy en Asencio; Valverde kleine twijfel (hamstring). Vinícius' binnenlandse schorsing geldt niet in Europa (Sports Mole 1/11). AEK verloor zondag de derby met 2-0 van Panathinaikos (Goal 1/11).",
+    "e901dbcdd6e2255fb24d84032b9d437a": "Liverpool zonder Frimpong, Ekitike, Leoni en Bradley; geen schorsingen (Sports Mole 2/11).",
+    "df7d2d81b9e2f3f11c6aeddaee6b7085": "Weinig concreet nieuws gevonden; Fantasy Football Scout markeert Gvardiol als rotatierisico (31/10).",
+    "6d386ed81fabf67aa19fbd442c0d8c60": "Geen concreet blessurenieuws gevonden; RG.org noemt Betis (ongeslagen) te hoog geprijsd op 4,57.",
+    "9604c5b1c465435911e038db95ab2a7b": "Anderlecht won 4-1 van Westerlo, Winkler geblesseerd (Anderlecht Online). Salzburg won zondag 5-1 van Austria Lustenau (Voetbalprimeur).",
+    "b828d43ba5fa1c8cdd2e34aabea9d0ce": "Union won 2-1 in Beveren met tien man (rood Aquino, geldt voor de competitie); Rodriguez en Zorgane terug na blessure, geen nieuwe blessures (DH 1/11)."
   },
   "community": {
-    "6a3819cdbe2ba2fe5a3d8f9b4b459965": [
+    "61b42fd619617a7a2a3770c2444e8a40": [
       {
-        "outcome": "home",
-        "note": "The False 9 voorspelt 2-1 voor Liverpool: thuisvoordeel en Arsenal zonder Saka.",
-        "source": "The False 9",
-        "url": "https://thefalse9.com/2026/10/liverpool-vs-arsenal-prediction-score-pick.html"
-      },
+        "outcome": "draw",
+        "note": "Bayern is favoriet maar lekt; het gelijkspel rond 4,08 is volgens hen de value-hoek, kleine inzet.",
+        "source": "RG.org",
+        "url": "https://rg.org/en-ca/news/soccer/barcelona-vs-villa-fenerbahce-vs-liverpool-champions-league-odds"
+      }
+    ],
+    "6d386ed81fabf67aa19fbd442c0d8c60": [
       {
         "outcome": "away",
-        "note": "Squawka steunt Arsenal om op Anfield te winnen.",
-        "source": "Squawka",
-        "url": "https://squawka.com/en/news/previews/liverpool-vs-arsenal-predictions-sunday-01-11-2026"
+        "note": "Real Betis op 4,57 is te hoog voor een ongeslagen ploeg; kleine inzet.",
+        "source": "RG.org",
+        "url": "https://rg.org/en-ca/news/soccer/barcelona-vs-villa-fenerbahce-vs-liverpool-champions-league-odds"
+      }
+    ],
+    "9b8076d3ffa027df6f6cb3189de46706": [
+      {
+        "outcome": "away",
+        "note": "Stuttgart op 2,95: Galatasaray kreeg negen goals tegen in drie duels.",
+        "source": "RG.org",
+        "url": "https://rg.org/en-ca/news/soccer/barcelona-vs-villa-fenerbahce-vs-liverpool-champions-league-odds"
+      }
+    ],
+    "1a5a84045050d0d7baf1301909d3b465": [
+      {
+        "outcome": "home",
+        "note": "Bodø/Glimt op 1,92: Lille kreeg in elke wedstrijd minstens drie goals tegen.",
+        "source": "RG.org",
+        "url": "https://rg.org/en-ca/news/soccer/barcelona-vs-villa-fenerbahce-vs-liverpool-champions-league-odds"
+      }
+    ],
+    "bc0b6614c9714816038d5a0ff8963144": [
+      {
+        "outcome": "away",
+        "note": "Roma rond 2,79 is de value-kant door hun scoringsvorm en United's wankele defensie.",
+        "source": "RG.org",
+        "url": "https://rg.org/en-ca/news/soccer/barcelona-vs-villa-fenerbahce-vs-liverpool-champions-league-odds"
+      }
+    ],
+    "a341241606cb5b1b59e425d00be64883": [
+      {
+        "outcome": "away",
+        "note": "Voorspelt 1-3 voor PSG door Villarreals zwakke defensie, ondanks PSG's afwezigen.",
+        "source": "Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/villarreal/champions-league/preview/villarreal-vs-psg-prediction-team-news-lineups_608209.html"
+      }
+    ],
+    "2e488800d615a94e5377c195810303c0": [
+      {
+        "outcome": "home",
+        "note": "Hoofdtip Atalanta wint (vertrouwen 8/10): thuis en Parma staat 18e.",
+        "source": "voetbalwedden.eu",
+        "url": "https://voetbalwedden.eu/voorbeschouwingen/atalanta-bergamo-parma"
       }
     ]
   },
   "alerts": [
     {
       "tag": "BLESSURE",
-      "time": "07:45",
-      "title": "Real Madrid ook zonder Valverde in Santander",
-      "body": "Valverde zit niet in de selectie (spierklachten na de clásico), naast Vinícius, Rodrygo en Mendy. Sinds zaterdagnamiddag bekend; Real Madrid op 1,20 blijft zonder value, geen correctie. Raakt onze weekpick Real Madrid.",
-      "url": "https://www.365scores.com/es/news/lista-real-madrid-vs-racing-la-liga-hoy/"
-    },
-    {
-      "tag": "BLESSURE",
-      "time": "07:45",
-      "title": "Gent mist Burgess in Lommel",
-      "body": "Centrale verdediger Christian Burgess liep een enkelblessure op op training en speelt niet. Klein effect op Gent-winst (1,62); de odds van vanochtend dateren van na het nieuws, dus geen correctie.",
-      "url": "https://www.voetbalkrant.com/nieuws/2026-10-31/nog-meer-pech-voor-de-leider-absolute-sterkhouder-valt-uit-bij-kaa-gent"
-    },
-    {
-      "tag": "BLESSURE",
-      "time": "07:45",
-      "title": "Vier afwezigen bij Charleroi tegen La Louvière",
-      "body": "Bernier, Sow, Bojang en Nzita ontbreken. Charleroi-winst op 1,43 lag al ruim onder de eerlijke prijs; geen value.",
-      "url": "https://www.voetbalkrant.com/nieuws/2026-10-30/een-speler-belandde-zelfs-plots-in-het-ziekenhuis-ziekenboeg-van-charleroi-zit-goed-vol"
+      "time": "07:55",
+      "title": "PSG met vijf afwezigen in Villarreal",
+      "body": "Dembélé, Marquinhos, Nuno Mendes, Longoni en Kvaratskhelia ontbreken. De odds op PSG (1,57) lijken dat al te bevatten; geen correctie.",
+      "url": "https://www.sportsmole.co.uk/football/villarreal/champions-league/preview/villarreal-vs-psg-prediction-team-news-lineups_608209.html"
     },
     {
       "tag": "NIEUWS",
-      "time": "11:00",
-      "title": "Liverpool–Arsenal: Szoboszlai en Muñoz misschien toch inzetbaar",
-      "body": "Iraola zegt dat beide 'een kans' hebben; bij Arsenal is Madueke twijfelachtig en Saka out, Rice en Calafiori zouden fit zijn. Opstellingen pas om 16u30 Belgische tijd bekend; Unibet (2,95 / 3,45 / 2,55) lijkt niet achter te lopen, geen correctie.",
-      "url": "https://lastwordonsports.com/football/2026/11/01/liverpool-vs-arsenal-predicted-lineups"
+      "time": "07:55",
+      "title": "Feyenoord mist Moder, Inter verloor derby",
+      "body": "Moder viel vrijdag opnieuw uit, St. Juste is twijfelachtig; Inter verloor zondag 3-1 van Milan. Raakt Feyenoord–Inter (dinsdag); de markt prijst het volgens tipsters juist.",
+      "url": "https://en.passioneinter.com/inter-news/feyenoord-towards-inter-with-several-doubts-moder-stops-again-three-close-to-recovery-25611.html"
     },
     {
       "tag": "BLESSURE",
-      "time": "11:00",
-      "title": "Gent in Lommel ook zonder Vergara, Balikwisha onzeker",
-      "body": "Naast Burgess is Vergara zeker afwezig en is Balikwisha twijfelachtig (nog geen groepstraining). Gent-winst op 1,62 blijft zonder duidelijke value; geen correctie.",
-      "url": "https://www.voetbalbelgie.be/artikel/rik-de-mil-geeft-update-over-blessures"
+      "time": "07:55",
+      "title": "Bayern zonder Gnabry en Saibari?",
+      "body": "Beiden werden zaterdag van het veld gedragen tegen Dortmund. Raakt Atlético–Bayern (dinsdag), waar ik Atlético koos.",
+      "url": "https://www.tribalfootball.com/article/soccer-champions-league-atletico-madrid-lineup-v-bayern-munich-confirmed-team-news-with-saibari-and-gnabry-sidelined-7b0d3b36-0356-474b-918c-fbebdf8bd968"
     }
   ],
   "results": {},
-  "picks": [],
+  "picks": [
+    {
+      "key": "61b42fd619617a7a2a3770c2444e8a40|home",
+      "stake": 5,
+      "reason": "Unibet betaalt 2,80 terwijl de marktconsensus (incl. Pinnacle) Atlético op ±36,5% zet: dat is ongeveer +2% verwachte waarde. Bayern verloor Gnabry en Saibari en kreeg recent veel tegen; Atlético is thuis sterk. Kleine inzet omdat het een outsiderbet met dunne marge is."
+    },
+    {
+      "key": "6d386ed81fabf67aa19fbd442c0d8c60|away",
+      "stake": 4,
+      "reason": "Betis op 4,80 ligt boven de eerlijke prijs van de markt (±21,7% kans, +4% verwachte waarde) en ook een tipster vindt Betis te hoog geprijsd. Risicobet, dus bewust klein; het gaat om value op lange termijn, niet om een grote kans."
+    }
+  ],
+  "weekly_report": "Week 44 eindigde op 5 van 10 raak: €92 ingezet, €73,70 terug, −€18,30 (−20%). De favorieten deden het behoorlijk (5 op 7, +€3,70), met Serie A (2 op 2) als uitschieter, maar Manchester City (0-1 tegen Brighton) en Bayern (2-2 tegen Dortmund) kostten geld. De drie risicobets (Zulte Waregem, Real Sociedad, Ipswich) gingen allemaal verloren en waren goed voor −€22; Ipswich speelde 2-2 en zat dus één goal van winst. Zeven van de tien bets werden automatisch aangevuld met favorieten met negatieve verwachte waarde. Deze week kies ik alleen bets waar Unibet boven de marktconsensus betaalt, met kleine bedragen op outsiders, en zet ik liever minder in dan de week vol te maken met krap geprijsde favorieten.",
+  "report_week": "2026-W44",
   "urgent": false
 }
