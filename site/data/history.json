@@ -401,7 +401,16 @@
    "fixture_id": null,
    "promo": null,
    "last_fair_odds": 4.6,
-   "clv": -0.0217
+   "clv": -0.0217,
+   "pick_odds": 4.8,
+   "pick_p": 0.2174,
+   "pick_ev": 0.0435,
+   "claude_pick": true,
+   "pick_week": "2026-W45",
+   "pick_stake": 4,
+   "pick_at": "2026-11-02T06:45:25Z",
+   "pick_reason": "Betis op 4,80 ligt boven de eerlijke prijs van de markt (±21,7% kans, +4% verwachte waarde) en ook een tipster vindt Betis te hoog geprijsd. Risicobet, dus bewust klein; het gaat om value op lange termijn, niet om een grote kans.",
+   "pick_auto": false
   },
   {
    "key": "f43ef699c987e112e115f7035114854e|away",
@@ -2247,6 +2256,37 @@
    "promo": null,
    "last_fair_odds": 1.808,
    "clv": -0.0763
+  },
+  {
+   "key": "61b42fd619617a7a2a3770c2444e8a40|home",
+   "match_id": "61b42fd619617a7a2a3770c2444e8a40",
+   "league": "Champions League",
+   "kickoff": "2026-11-03T20:00:00Z",
+   "match": "Atlético Madrid – Bayern Munich",
+   "pick": "Atlético Madrid",
+   "outcome": "home",
+   "odds": 2.8,
+   "p": 0.365,
+   "ev": 0.022,
+   "score": 0,
+   "tipped_at": "2026-11-02T06:45:25Z",
+   "status": "open",
+   "tracked": true,
+   "category": "risky",
+   "fixture_id": null,
+   "promo": null,
+   "pick_odds": 2.8,
+   "pick_p": 0.365,
+   "pick_ev": 0.022,
+   "claude_pick": true,
+   "pick_week": "2026-W45",
+   "pick_stake": 5,
+   "pick_at": "2026-11-02T06:45:25Z",
+   "pick_reason": "Unibet betaalt 2,80 terwijl de marktconsensus (incl. Pinnacle) Atlético op ±36,5% zet: dat is ongeveer +2% verwachte waarde. Bayern verloor Gnabry en Saibari en kreeg recent veel tegen; Atlético is thuis sterk. Kleine inzet omdat het een outsiderbet met dunne marge is.",
+   "pick_auto": false
   }
- ]
+ ],
+ "reports": {
+  "2026-W44": "Week 44 eindigde op 5 van 10 raak: €92 ingezet, €73,70 terug, −€18,30 (−20%). De favorieten deden het behoorlijk (5 op 7, +€3,70), met Serie A (2 op 2) als uitschieter, maar Manchester City (0-1 tegen Brighton) en Bayern (2-2 tegen Dortmund) kostten geld. De drie risicobets (Zulte Waregem, Real Sociedad, Ipswich) gingen allemaal verloren en waren goed voor −€22; Ipswich speelde 2-2 en zat dus één goal van winst. Zeven van de tien bets werden automatisch aangevuld met favorieten met negatieve verwachte waarde. Deze week kies ik alleen bets waar Unibet boven de marktconsensus betaalt, met kleine bedragen op outsiders, en zet ik liever minder in dan de week vol te maken met krap geprijsde favorieten."
+ }
 }
