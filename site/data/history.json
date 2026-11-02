@@ -2283,7 +2283,9 @@
    "pick_stake": 5,
    "pick_at": "2026-11-02T06:45:25Z",
    "pick_reason": "Unibet betaalt 2,80 terwijl de marktconsensus (incl. Pinnacle) Atlético op ±36,5% zet: dat is ongeveer +2% verwachte waarde. Bayern verloor Gnabry en Saibari en kreeg recent veel tegen; Atlético is thuis sterk. Kleine inzet omdat het een outsiderbet met dunne marge is.",
-   "pick_auto": false
+   "pick_auto": false,
+   "last_fair_odds": 2.74,
+   "clv": 0.022
   }
  ],
  "reports": {
