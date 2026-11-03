@@ -572,7 +572,16 @@
    "fixture_id": null,
    "promo": null,
    "last_fair_odds": 1.429,
-   "clv": -0.0204
+   "clv": -0.0204,
+   "pick_odds": 1.4,
+   "pick_p": 0.6997,
+   "pick_ev": -0.0204,
+   "claude_pick": true,
+   "pick_week": "2026-W45",
+   "pick_stake": 8,
+   "pick_at": "2026-11-03T06:45:14Z",
+   "pick_reason": "Slovan verloor zijn laatste 11 Champions League-matchen en de drie duels in de competitiefase samen met 13-1; LASK won zijn laatste CL-match met 3-2 van Sporting. Ik schat LASK eerder op 72-73% dan de 70% van de markt, wat bij 1,40 een kleine plus geeft. Bescheiden inzet omdat de marge dun is.",
+   "pick_auto": false
   },
   {
    "key": "005711684f3e51024ac40c1ee69978e9|away",
@@ -2351,6 +2360,34 @@
    "promo": null,
    "last_fair_odds": 1.811,
    "clv": -0.0998
+  },
+  {
+   "key": "1a5a84045050d0d7baf1301909d3b465|home",
+   "match_id": "1a5a84045050d0d7baf1301909d3b465",
+   "league": "Champions League",
+   "kickoff": "2026-11-03T20:00:00Z",
+   "match": "Bodø/Glimt – Lille",
+   "pick": "Bodø/Glimt",
+   "outcome": "home",
+   "odds": 1.8,
+   "p": 0.5441,
+   "ev": -0.0206,
+   "score": 0,
+   "tipped_at": "2026-11-03T06:45:14Z",
+   "status": "open",
+   "tracked": true,
+   "category": "risky",
+   "fixture_id": null,
+   "promo": null,
+   "pick_odds": 1.8,
+   "pick_p": 0.5441,
+   "pick_ev": -0.0206,
+   "claude_pick": true,
+   "pick_week": "2026-W45",
+   "pick_stake": 6,
+   "pick_at": "2026-11-03T06:45:14Z",
+   "pick_reason": "Bodø/Glimt won alle drie zijn CL-thuismatchen op kunstgras (o.a. tegen Dortmund), terwijl Lille maar 1 van zijn laatste 6 won en zonder de geschorste Ethan Mbappé speelt. Ik zie Bodø rond 57% tegenover 54% in de markt, dus licht positief op 1,80. Telt als risicobet (onder 55%), daarom klein.",
+   "pick_auto": false
   }
  ],
  "reports": {
