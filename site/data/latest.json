@@ -1,84 +1,16 @@
 {
- "generated_at": "2026-11-03T08:06:02Z",
- "fetched_at": "2026-11-03T05:57:50Z",
- "research_date": "2026-11-03",
- "odds_remaining": "438",
+ "generated_at": "2026-11-04T06:01:38Z",
+ "fetched_at": "2026-11-04T06:01:38Z",
+ "research_date": null,
+ "odds_remaining": "426",
  "errors": [],
  "notes": [
   "API-Football (gratis plan) geeft geen toegang tot dit seizoen: blessures, vorm en uitslagen komen uit het ochtendonderzoek van Claude."
  ],
- "n_matches": 112,
+ "n_matches": 103,
  "elo_fixtures": 0,
  "n_elo": 0,
  "bets": [
-  {
-   "key": "842fcc5b9feb8c63054a661ad1fc8926|home",
-   "match_id": "842fcc5b9feb8c63054a661ad1fc8926",
-   "league": "Premier League",
-   "kickoff": "2026-11-07T15:00:00Z",
-   "match": "Arsenal – Hull City",
-   "outcome": "home",
-   "pick": "Arsenal",
-   "odds": 1.16,
-   "best_odds": 1.18,
-   "p": 0.8277,
-   "p_market": 0.8277,
-   "ev": -0.0399,
-   "ev_market": -0.0399,
-   "score": 5.0,
-   "category": "safe",
-   "parts": [
-    [
-     "Zekerheid (winkans)",
-     9.4
-    ],
-    [
-     "Odds (opbrengst)",
-     0
-    ],
-    [
-     "Prijs t.o.v. eerlijke odds",
-     3.3
-    ],
-    [
-     "Bevestigd door ClubElo",
-     5.0
-    ],
-    [
-     "Nieuws",
-     4.0
-    ]
-   ],
-   "steps": [
-    {
-     "label": "Unibet-odds 1,16",
-     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "86,2%"
-    },
-    {
-     "label": "Marktconsensus",
-     "note": "21 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "82,8%"
-    },
-    {
-     "label": "Eigen kans",
-     "note": "Na alle correcties (begrensd)",
-     "val": "82,8%",
-     "final": true
-    }
-   ],
-   "promo": null,
-   "p_elo": null,
-   "fair_odds": 1.21,
-   "kelly": 0.0,
-   "community": [],
-   "why": [
-    "Arsenal is de favoriet. Volgens 21 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Arsenal wint ongeveer 83%: zo'n 8 op 10 keer.",
-    "Unibet betaalt 1,16; een eerlijke odds voor die kans is 1,21. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 4,0% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
-    "Met €10 krijg je €11,60 terug als het lukt (winst €1,60). In ongeveer 17% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
-   ]
-  },
   {
    "key": "fe97f5adf397dd6b0a8a9e0a5272f307|away",
    "match_id": "fe97f5adf397dd6b0a8a9e0a5272f307",
@@ -87,222 +19,18 @@
    "match": "FSV Mainz 05 – Bayern Munich",
    "outcome": "away",
    "pick": "Bayern Munich",
-   "odds": 1.44,
-   "best_odds": 1.42,
-   "p": 0.683,
-   "p_market": 0.683,
-   "ev": -0.0165,
-   "ev_market": -0.0165,
-   "score": 4.7,
-   "category": "safe",
-   "parts": [
-    [
-     "Zekerheid (winkans)",
-     5.2
-    ],
-    [
-     "Odds (opbrengst)",
-     3.0
-    ],
-    [
-     "Prijs t.o.v. eerlijke odds",
-     5.3
-    ],
-    [
-     "Bevestigd door ClubElo",
-     5.0
-    ],
-    [
-     "Nieuws",
-     4.0
-    ]
-   ],
-   "steps": [
-    {
-     "label": "Unibet-odds 1,44",
-     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "69,4%"
-    },
-    {
-     "label": "Marktconsensus",
-     "note": "19 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "68,3%"
-    },
-    {
-     "label": "Eigen kans",
-     "note": "Na alle correcties (begrensd)",
-     "val": "68,3%",
-     "final": true
-    }
-   ],
-   "promo": null,
-   "p_elo": null,
-   "fair_odds": 1.46,
-   "kelly": 0.0,
-   "community": [],
-   "why": [
-    "Bayern Munich is de favoriet. Volgens 19 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Bayern Munich wint ongeveer 68%: zo'n 7 op 10 keer.",
-    "Unibet betaalt 1,44; een eerlijke odds voor die kans is 1,46. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 1,7% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
-    "Met €10 krijg je €14,40 terug als het lukt (winst €4,40). In ongeveer 32% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
-   ]
-  },
-  {
-   "key": "f110107bca066ac1a598c89661c88fa3|home",
-   "match_id": "f110107bca066ac1a598c89661c88fa3",
-   "league": "Serie A",
-   "kickoff": "2026-11-07T19:45:00Z",
-   "match": "AS Roma – Sassuolo",
-   "outcome": "home",
-   "pick": "AS Roma",
-   "odds": 1.34,
-   "best_odds": 1.35,
-   "p": 0.7279,
-   "p_market": 0.7279,
-   "ev": -0.0246,
-   "ev_market": -0.0246,
-   "score": 4.7,
-   "category": "safe",
-   "parts": [
-    [
-     "Zekerheid (winkans)",
-     6.5
-    ],
-    [
-     "Odds (opbrengst)",
-     1.8
-    ],
-    [
-     "Prijs t.o.v. eerlijke odds",
-     4.6
-    ],
-    [
-     "Bevestigd door ClubElo",
-     5.0
-    ],
-    [
-     "Nieuws",
-     4.0
-    ]
-   ],
-   "steps": [
-    {
-     "label": "Unibet-odds 1,34",
-     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "74,6%"
-    },
-    {
-     "label": "Marktconsensus",
-     "note": "20 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "72,8%"
-    },
-    {
-     "label": "Eigen kans",
-     "note": "Na alle correcties (begrensd)",
-     "val": "72,8%",
-     "final": true
-    }
-   ],
-   "promo": null,
-   "p_elo": null,
-   "fair_odds": 1.37,
-   "kelly": 0.0,
-   "community": [],
-   "why": [
-    "AS Roma is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat AS Roma wint ongeveer 73%: zo'n 7 op 10 keer.",
-    "Unibet betaalt 1,34; een eerlijke odds voor die kans is 1,37. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,5% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
-    "Met €10 krijg je €13,40 terug als het lukt (winst €3,40). In ongeveer 27% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
-   ]
-  },
-  {
-   "key": "a5910ae3b314876faea7f5c03b8aeaad|away",
-   "match_id": "a5910ae3b314876faea7f5c03b8aeaad",
-   "league": "Champions League",
-   "kickoff": "2026-11-04T20:00:00Z",
-   "match": "Slavia Praha – Arsenal",
-   "outcome": "away",
-   "pick": "Arsenal",
-   "odds": 1.29,
-   "best_odds": 1.32,
-   "p": 0.752,
-   "p_market": 0.752,
-   "ev": -0.0299,
-   "ev_market": -0.0299,
-   "score": 4.7,
-   "category": "safe",
-   "parts": [
-    [
-     "Zekerheid (winkans)",
-     7.2
-    ],
-    [
-     "Odds (opbrengst)",
-     1.1
-    ],
-    [
-     "Prijs t.o.v. eerlijke odds",
-     4.2
-    ],
-    [
-     "Bevestigd door ClubElo",
-     5.0
-    ],
-    [
-     "Nieuws",
-     4.0
-    ]
-   ],
-   "steps": [
-    {
-     "label": "Unibet-odds 1,29",
-     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "77,5%"
-    },
-    {
-     "label": "Marktconsensus",
-     "note": "19 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "75,2%"
-    },
-    {
-     "label": "Eigen kans",
-     "note": "Na alle correcties (begrensd)",
-     "val": "75,2%",
-     "final": true
-    }
-   ],
-   "promo": null,
-   "p_elo": null,
-   "fair_odds": 1.33,
-   "kelly": 0.0,
-   "community": [],
-   "why": [
-    "Arsenal is de favoriet. Volgens 19 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Arsenal wint ongeveer 75%: zo'n 8 op 10 keer.",
-    "Unibet betaalt 1,29; een eerlijke odds voor die kans is 1,33. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,0% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
-    "Met €10 krijg je €12,90 terug als het lukt (winst €2,90). In ongeveer 25% van de gevallen verlies je je inzet.",
-    "Nieuws: Arsenal zonder Saka en Saliba, Eze twijfel. Slavia mist Ouanda, Piták en Schranz met nog vier twijfelgevallen (UEFA 2/11)."
-   ]
-  },
-  {
-   "key": "adf608a0e9be02eb1d8b0a6f464a12b1|home",
-   "match_id": "adf608a0e9be02eb1d8b0a6f464a12b1",
-   "league": "Champions League",
-   "kickoff": "2026-11-03T20:00:00Z",
-   "match": "LASK – ŠK Slovan Bratislava",
-   "outcome": "home",
-   "pick": "LASK",
    "odds": 1.4,
-   "best_odds": 1.42,
-   "p": 0.6997,
-   "p_market": 0.6997,
-   "ev": -0.0204,
-   "ev_market": -0.0204,
-   "score": 4.6,
+   "best_odds": 1.4,
+   "p": 0.7084,
+   "p_market": 0.7084,
+   "ev": -0.0082,
+   "ev_market": -0.0082,
+   "score": 5.0,
    "category": "safe",
    "parts": [
     [
      "Zekerheid (winkans)",
-     5.7
+     6.0
     ],
     [
      "Odds (opbrengst)",
@@ -310,7 +38,7 @@
     ],
     [
      "Prijs t.o.v. eerlijke odds",
-     5.0
+     6.0
     ],
     [
      "Bevestigd door ClubElo",
@@ -329,131 +57,48 @@
     },
     {
      "label": "Marktconsensus",
-     "note": "19 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "70,0%"
+     "note": "20 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "70,8%"
     },
     {
      "label": "Eigen kans",
      "note": "Na alle correcties (begrensd)",
-     "val": "70,0%",
+     "val": "70,8%",
      "final": true
     }
    ],
    "promo": null,
    "p_elo": null,
-   "fair_odds": 1.43,
-   "kelly": 0.0,
-   "community": [
-    {
-     "outcome": "home",
-     "note": "LASK in de CL-viervoudige: Slovan noemt hij 'veruit de zwakste ploeg in de competitie'.",
-     "source": "Racing Post",
-     "url": "https://www.racingpost.com/sport/football-tips/champions-league/matchday-four-accumulator-tips-for-tuesday-november-3-aGBGH7b8QbWA/"
-    },
-    {
-     "outcome": "home",
-     "note": "LASK-zege: Slovan verloor alle 11 CL-duels en is zwak op verplaatsing in Oostenrijk.",
-     "source": "Covers",
-     "url": "https://www.covers.com/soccer/champions-league-moneyline-picks-matchday-4-2026"
-    }
-   ],
-   "why": [
-    "LASK is de favoriet. Volgens 19 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat LASK wint ongeveer 70%: zo'n 7 op 10 keer.",
-    "Unibet betaalt 1,40; een eerlijke odds voor die kans is 1,43. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,0% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
-    "Met €10 krijg je €14,00 terug als het lukt (winst €4,00). In ongeveer 30% van de gevallen verlies je je inzet.",
-    "Nieuws: Slovan verloor zijn laatste 11 CL-wedstrijden en de drie duels in de competitiefase samen met 13-1 (Racing Post). LASK: Bello twijfel; Slovan: Čerepkai twijfel (UEFA 2/11)."
-   ],
-   "claude_pick": true,
-   "pick_reason": "Slovan verloor zijn laatste 11 Champions League-matchen en de drie duels in de competitiefase samen met 13-1; LASK won zijn laatste CL-match met 3-2 van Sporting. Ik schat LASK eerder op 72-73% dan de 70% van de markt, wat bij 1,40 een kleine plus geeft. Bescheiden inzet omdat de marge dun is."
-  },
-  {
-   "key": "f43ef699c987e112e115f7035114854e|away",
-   "match_id": "f43ef699c987e112e115f7035114854e",
-   "league": "Champions League",
-   "kickoff": "2026-11-04T17:45:00Z",
-   "match": "AEK Athens – Real Madrid",
-   "outcome": "away",
-   "pick": "Real Madrid",
-   "odds": 1.26,
-   "best_odds": 1.3,
-   "p": 0.7652,
-   "p_market": 0.7652,
-   "ev": -0.0359,
-   "ev_market": -0.0359,
-   "score": 4.6,
-   "category": "safe",
-   "parts": [
-    [
-     "Zekerheid (winkans)",
-     7.6
-    ],
-    [
-     "Odds (opbrengst)",
-     0.8
-    ],
-    [
-     "Prijs t.o.v. eerlijke odds",
-     3.7
-    ],
-    [
-     "Bevestigd door ClubElo",
-     5.0
-    ],
-    [
-     "Nieuws",
-     4.0
-    ]
-   ],
-   "steps": [
-    {
-     "label": "Unibet-odds 1,26",
-     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "79,4%"
-    },
-    {
-     "label": "Marktconsensus",
-     "note": "19 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "76,5%"
-    },
-    {
-     "label": "Eigen kans",
-     "note": "Na alle correcties (begrensd)",
-     "val": "76,5%",
-     "final": true
-    }
-   ],
-   "promo": null,
-   "p_elo": null,
-   "fair_odds": 1.31,
+   "fair_odds": 1.41,
    "kelly": 0.0,
    "community": [],
    "why": [
-    "Real Madrid is de favoriet. Volgens 19 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Real Madrid wint ongeveer 77%: zo'n 8 op 10 keer.",
-    "Unibet betaalt 1,26; een eerlijke odds voor die kans is 1,31. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,6% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
-    "Met €10 krijg je €12,60 terug als het lukt (winst €2,60). In ongeveer 23% van de gevallen verlies je je inzet.",
-    "Nieuws: Real Madrid zonder Rodrygo en Raúl Asencio. AEK mist doelman Strakosha; João Mário en Rota twijfel door ziekte (UEFA 2/11)."
+    "Bayern Munich is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Bayern Munich wint ongeveer 71%: zo'n 7 op 10 keer.",
+    "Unibet betaalt 1,40; een eerlijke odds voor die kans is 1,41. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 0,8% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
+    "Met €10 krijg je €14,00 terug als het lukt (winst €4,00). In ongeveer 29% van de gevallen verlies je je inzet.",
+    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
    ]
   },
   {
-   "key": "bc4a4cc34a2219d9564b7b0c17ba2934|home",
-   "match_id": "bc4a4cc34a2219d9564b7b0c17ba2934",
-   "league": "Europa League",
-   "kickoff": "2026-11-05T20:00:00Z",
-   "match": "Benfica – Lech Poznań",
+   "key": "842fcc5b9feb8c63054a661ad1fc8926|home",
+   "match_id": "842fcc5b9feb8c63054a661ad1fc8926",
+   "league": "Premier League",
+   "kickoff": "2026-11-07T15:00:00Z",
+   "match": "Arsenal – Hull City",
    "outcome": "home",
-   "pick": "Benfica",
+   "pick": "Arsenal",
    "odds": 1.16,
-   "best_odds": 1.22,
-   "p": 0.8156,
-   "p_market": 0.8156,
-   "ev": -0.0539,
-   "ev_market": -0.0539,
-   "score": 4.6,
+   "best_odds": 1.19,
+   "p": 0.8262,
+   "p_market": 0.8262,
+   "ev": -0.0416,
+   "ev_market": -0.0416,
+   "score": 5.0,
    "category": "safe",
    "parts": [
     [
      "Zekerheid (winkans)",
-     9.0
+     9.3
     ],
     [
      "Odds (opbrengst)",
@@ -461,7 +106,7 @@
     ],
     [
      "Prijs t.o.v. eerlijke odds",
-     2.2
+     3.2
     ],
     [
      "Bevestigd door ClubElo",
@@ -480,392 +125,52 @@
     },
     {
      "label": "Marktconsensus",
-     "note": "17 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "81,6%"
+     "note": "22 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "82,6%"
     },
     {
      "label": "Eigen kans",
      "note": "Na alle correcties (begrensd)",
-     "val": "81,6%",
+     "val": "82,6%",
      "final": true
     }
    ],
    "promo": null,
    "p_elo": null,
-   "fair_odds": 1.23,
+   "fair_odds": 1.21,
    "kelly": 0.0,
    "community": [],
    "why": [
-    "Benfica is de favoriet. Volgens 17 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Benfica wint ongeveer 82%: zo'n 8 op 10 keer.",
-    "Let op: Unibet betaalt 1,16, terwijl een eerlijke odds voor die kans 1,23 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 5,4% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
-    "Met €10 krijg je €11,60 terug als het lukt (winst €1,60). In ongeveer 18% van de gevallen verlies je je inzet.",
+    "Arsenal is de favoriet. Volgens 22 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Arsenal wint ongeveer 83%: zo'n 8 op 10 keer.",
+    "Let op: Unibet betaalt 1,16, terwijl een eerlijke odds voor die kans 1,21 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,2% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
+    "Met €10 krijg je €11,60 terug als het lukt (winst €1,60). In ongeveer 17% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
    ]
   },
   {
-   "key": "3ef62ef56758041178c5280225fe5db7|home",
-   "match_id": "3ef62ef56758041178c5280225fe5db7",
-   "league": "Bundesliga",
-   "kickoff": "2026-11-07T14:30:00Z",
-   "match": "Borussia Dortmund – Elversberg",
+   "key": "f110107bca066ac1a598c89661c88fa3|home",
+   "match_id": "f110107bca066ac1a598c89661c88fa3",
+   "league": "Serie A",
+   "kickoff": "2026-11-07T19:45:00Z",
+   "match": "AS Roma – Sassuolo",
    "outcome": "home",
-   "pick": "Borussia Dortmund",
-   "odds": 1.3,
-   "best_odds": 1.32,
-   "p": 0.7429,
-   "p_market": 0.7429,
-   "ev": -0.0343,
-   "ev_market": -0.0343,
-   "score": 4.5,
-   "category": "safe",
-   "parts": [
-    [
-     "Zekerheid (winkans)",
-     6.9
-    ],
-    [
-     "Odds (opbrengst)",
-     1.3
-    ],
-    [
-     "Prijs t.o.v. eerlijke odds",
-     3.8
-    ],
-    [
-     "Bevestigd door ClubElo",
-     5.0
-    ],
-    [
-     "Nieuws",
-     4.0
-    ]
-   ],
-   "steps": [
-    {
-     "label": "Unibet-odds 1,30",
-     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "76,9%"
-    },
-    {
-     "label": "Marktconsensus",
-     "note": "19 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "74,3%"
-    },
-    {
-     "label": "Eigen kans",
-     "note": "Na alle correcties (begrensd)",
-     "val": "74,3%",
-     "final": true
-    }
-   ],
-   "promo": null,
-   "p_elo": null,
-   "fair_odds": 1.35,
-   "kelly": 0.0,
-   "community": [],
-   "why": [
-    "Borussia Dortmund is de favoriet. Volgens 19 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Borussia Dortmund wint ongeveer 74%: zo'n 7 op 10 keer.",
-    "Unibet betaalt 1,30; een eerlijke odds voor die kans is 1,35. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,4% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
-    "Met €10 krijg je €13,00 terug als het lukt (winst €3,00). In ongeveer 26% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
-   ]
-  },
-  {
-   "key": "81ad04996f63fb60b494d243b13ac586|home",
-   "match_id": "81ad04996f63fb60b494d243b13ac586",
-   "league": "LaLiga",
-   "kickoff": "2026-11-08T17:30:00Z",
-   "match": "Villarreal – Getafe",
-   "outcome": "home",
-   "pick": "Villarreal",
-   "odds": 1.49,
-   "best_odds": 1.5,
-   "p": 0.6573,
-   "p_market": 0.6573,
-   "ev": -0.0206,
-   "ev_market": -0.0206,
-   "score": 4.4,
-   "category": "safe",
-   "parts": [
-    [
-     "Zekerheid (winkans)",
-     4.5
-    ],
-    [
-     "Odds (opbrengst)",
-     3.6
-    ],
-    [
-     "Prijs t.o.v. eerlijke odds",
-     5.0
-    ],
-    [
-     "Bevestigd door ClubElo",
-     5.0
-    ],
-    [
-     "Nieuws",
-     4.0
-    ]
-   ],
-   "steps": [
-    {
-     "label": "Unibet-odds 1,49",
-     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "67,1%"
-    },
-    {
-     "label": "Marktconsensus",
-     "note": "17 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "65,7%"
-    },
-    {
-     "label": "Eigen kans",
-     "note": "Na alle correcties (begrensd)",
-     "val": "65,7%",
-     "final": true
-    }
-   ],
-   "promo": null,
-   "p_elo": null,
-   "fair_odds": 1.52,
-   "kelly": 0.0,
-   "community": [],
-   "why": [
-    "Villarreal is de favoriet. Volgens 17 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Villarreal wint ongeveer 66%: zo'n 7 op 10 keer.",
-    "Unibet betaalt 1,49; een eerlijke odds voor die kans is 1,52. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,1% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
-    "Met €10 krijg je €14,90 terug als het lukt (winst €4,90). In ongeveer 34% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
-   ]
-  },
-  {
-   "key": "cb7170b1b0e68a09be62b7a0fcb8d268|home",
-   "match_id": "cb7170b1b0e68a09be62b7a0fcb8d268",
-   "league": "Europa League",
-   "kickoff": "2026-11-05T17:45:00Z",
-   "match": "AC Milan – Ferencváros TC",
-   "outcome": "home",
-   "pick": "AC Milan",
-   "odds": 1.33,
-   "best_odds": 1.33,
-   "p": 0.7248,
-   "p_market": 0.7248,
-   "ev": -0.0361,
-   "ev_market": -0.0361,
-   "score": 4.4,
-   "category": "safe",
-   "parts": [
-    [
-     "Zekerheid (winkans)",
-     6.4
-    ],
-    [
-     "Odds (opbrengst)",
-     1.6
-    ],
-    [
-     "Prijs t.o.v. eerlijke odds",
-     3.7
-    ],
-    [
-     "Bevestigd door ClubElo",
-     5.0
-    ],
-    [
-     "Nieuws",
-     4.0
-    ]
-   ],
-   "steps": [
-    {
-     "label": "Unibet-odds 1,33",
-     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "75,2%"
-    },
-    {
-     "label": "Marktconsensus",
-     "note": "17 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "72,5%"
-    },
-    {
-     "label": "Eigen kans",
-     "note": "Na alle correcties (begrensd)",
-     "val": "72,5%",
-     "final": true
-    }
-   ],
-   "promo": null,
-   "p_elo": null,
-   "fair_odds": 1.38,
-   "kelly": 0.0,
-   "community": [],
-   "why": [
-    "AC Milan is de favoriet. Volgens 17 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat AC Milan wint ongeveer 72%: zo'n 7 op 10 keer.",
-    "Unibet betaalt 1,33; een eerlijke odds voor die kans is 1,38. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,6% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
-    "Met €10 krijg je €13,30 terug als het lukt (winst €3,30). In ongeveer 28% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
-   ]
-  },
-  {
-   "key": "5b386dfdf6f76705116fbb4120ee8493|away",
-   "match_id": "5b386dfdf6f76705116fbb4120ee8493",
-   "league": "LaLiga",
-   "kickoff": "2026-11-07T20:00:00Z",
-   "match": "Valencia – Real Madrid",
-   "outcome": "away",
-   "pick": "Real Madrid",
-   "odds": 1.32,
-   "best_odds": 1.36,
-   "p": 0.7301,
-   "p_market": 0.7301,
-   "ev": -0.0363,
-   "ev_market": -0.0363,
-   "score": 4.4,
-   "category": "safe",
-   "parts": [
-    [
-     "Zekerheid (winkans)",
-     6.6
-    ],
-    [
-     "Odds (opbrengst)",
-     1.5
-    ],
-    [
-     "Prijs t.o.v. eerlijke odds",
-     3.6
-    ],
-    [
-     "Bevestigd door ClubElo",
-     5.0
-    ],
-    [
-     "Nieuws",
-     4.0
-    ]
-   ],
-   "steps": [
-    {
-     "label": "Unibet-odds 1,32",
-     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "75,8%"
-    },
-    {
-     "label": "Marktconsensus",
-     "note": "17 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "73,0%"
-    },
-    {
-     "label": "Eigen kans",
-     "note": "Na alle correcties (begrensd)",
-     "val": "73,0%",
-     "final": true
-    }
-   ],
-   "promo": null,
-   "p_elo": null,
-   "fair_odds": 1.37,
-   "kelly": 0.0,
-   "community": [],
-   "why": [
-    "Real Madrid is de favoriet. Volgens 17 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Real Madrid wint ongeveer 73%: zo'n 7 op 10 keer.",
-    "Unibet betaalt 1,32; een eerlijke odds voor die kans is 1,37. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,6% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
-    "Met €10 krijg je €13,20 terug als het lukt (winst €3,20). In ongeveer 27% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
-   ]
-  },
-  {
-   "key": "6277e639c064e641265fcb98a0e200b9|home",
-   "match_id": "6277e639c064e641265fcb98a0e200b9",
-   "league": "Champions League",
-   "kickoff": "2026-11-04T20:00:00Z",
-   "match": "Viking FK – Sabah FK",
-   "outcome": "home",
-   "pick": "Viking FK",
-   "odds": 1.48,
-   "best_odds": 1.49,
-   "p": 0.6582,
-   "p_market": 0.6582,
-   "ev": -0.0259,
-   "ev_market": -0.0259,
-   "score": 4.3,
-   "category": "safe",
-   "parts": [
-    [
-     "Zekerheid (winkans)",
-     4.5
-    ],
-    [
-     "Odds (opbrengst)",
-     3.5
-    ],
-    [
-     "Prijs t.o.v. eerlijke odds",
-     4.5
-    ],
-    [
-     "Bevestigd door ClubElo",
-     5.0
-    ],
-    [
-     "Nieuws",
-     4.0
-    ]
-   ],
-   "steps": [
-    {
-     "label": "Unibet-odds 1,48",
-     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "67,6%"
-    },
-    {
-     "label": "Marktconsensus",
-     "note": "19 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "65,8%"
-    },
-    {
-     "label": "Eigen kans",
-     "note": "Na alle correcties (begrensd)",
-     "val": "65,8%",
-     "final": true
-    }
-   ],
-   "promo": null,
-   "p_elo": null,
-   "fair_odds": 1.52,
-   "kelly": 0.0,
-   "community": [],
-   "why": [
-    "Viking FK is de favoriet. Volgens 19 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Viking FK wint ongeveer 66%: zo'n 7 op 10 keer.",
-    "Unibet betaalt 1,48; een eerlijke odds voor die kans is 1,52. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,6% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
-    "Met €10 krijg je €14,80 terug als het lukt (winst €4,80). In ongeveer 34% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
-   ]
-  },
-  {
-   "key": "84b68e09ecbe93fdbce759cd822322a2|home",
-   "match_id": "84b68e09ecbe93fdbce759cd822322a2",
-   "league": "Europa League",
-   "kickoff": "2026-11-05T20:00:00Z",
-   "match": "SK Sturm Graz – NK Celje",
-   "outcome": "home",
-   "pick": "SK Sturm Graz",
-   "odds": 1.6,
-   "best_odds": 1.58,
-   "p": 0.6105,
-   "p_market": 0.6105,
+   "pick": "AS Roma",
+   "odds": 1.34,
+   "best_odds": 1.35,
+   "p": 0.7289,
+   "p_market": 0.7289,
    "ev": -0.0232,
    "ev_market": -0.0232,
-   "score": 4.2,
+   "score": 4.7,
    "category": "safe",
    "parts": [
     [
      "Zekerheid (winkans)",
-     3.2
+     6.5
     ],
     [
      "Odds (opbrengst)",
-     5.0
+     1.8
     ],
     [
      "Prijs t.o.v. eerlijke odds",
@@ -882,31 +187,167 @@
    ],
    "steps": [
     {
-     "label": "Unibet-odds 1,60",
+     "label": "Unibet-odds 1,34",
      "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "62,5%"
+     "val": "74,6%"
     },
     {
      "label": "Marktconsensus",
-     "note": "17 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "61,0%"
+     "note": "21 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "72,9%"
     },
     {
      "label": "Eigen kans",
      "note": "Na alle correcties (begrensd)",
-     "val": "61,0%",
+     "val": "72,9%",
      "final": true
     }
    ],
    "promo": null,
    "p_elo": null,
-   "fair_odds": 1.64,
+   "fair_odds": 1.37,
    "kelly": 0.0,
    "community": [],
    "why": [
-    "SK Sturm Graz is de favoriet. Volgens 17 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat SK Sturm Graz wint ongeveer 61%: zo'n 6 op 10 keer.",
-    "Unibet betaalt 1,60; een eerlijke odds voor die kans is 1,64. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,3% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
-    "Met €10 krijg je €16,00 terug als het lukt (winst €6,00). In ongeveer 39% van de gevallen verlies je je inzet.",
+    "AS Roma is de favoriet. Volgens 21 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat AS Roma wint ongeveer 73%: zo'n 7 op 10 keer.",
+    "Unibet betaalt 1,34; een eerlijke odds voor die kans is 1,37. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,3% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
+    "Met €10 krijg je €13,40 terug als het lukt (winst €3,40). In ongeveer 27% van de gevallen verlies je je inzet.",
+    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+   ]
+  },
+  {
+   "key": "bc4a4cc34a2219d9564b7b0c17ba2934|home",
+   "match_id": "bc4a4cc34a2219d9564b7b0c17ba2934",
+   "league": "Europa League",
+   "kickoff": "2026-11-05T20:00:00Z",
+   "match": "Benfica – Lech Poznań",
+   "outcome": "home",
+   "pick": "Benfica",
+   "odds": 1.15,
+   "best_odds": 1.17,
+   "p": 0.819,
+   "p_market": 0.819,
+   "ev": -0.0581,
+   "ev_market": -0.0581,
+   "score": 4.5,
+   "category": "safe",
+   "parts": [
+    [
+     "Zekerheid (winkans)",
+     9.1
+    ],
+    [
+     "Odds (opbrengst)",
+     0
+    ],
+    [
+     "Prijs t.o.v. eerlijke odds",
+     1.8
+    ],
+    [
+     "Bevestigd door ClubElo",
+     5.0
+    ],
+    [
+     "Nieuws",
+     4.0
+    ]
+   ],
+   "steps": [
+    {
+     "label": "Unibet-odds 1,15",
+     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
+     "val": "87,0%"
+    },
+    {
+     "label": "Marktconsensus",
+     "note": "17 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "81,9%"
+    },
+    {
+     "label": "Eigen kans",
+     "note": "Na alle correcties (begrensd)",
+     "val": "81,9%",
+     "final": true
+    }
+   ],
+   "promo": null,
+   "p_elo": null,
+   "fair_odds": 1.22,
+   "kelly": 0.0,
+   "community": [],
+   "why": [
+    "Benfica is de favoriet. Volgens 17 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Benfica wint ongeveer 82%: zo'n 8 op 10 keer.",
+    "Let op: Unibet betaalt 1,15, terwijl een eerlijke odds voor die kans 1,22 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 5,8% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
+    "Met €10 krijg je €11,50 terug als het lukt (winst €1,50). In ongeveer 18% van de gevallen verlies je je inzet.",
+    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+   ]
+  },
+  {
+   "key": "0cfbab01e152f81e34f9014e02c7eb79|away",
+   "match_id": "0cfbab01e152f81e34f9014e02c7eb79",
+   "league": "Premier League",
+   "kickoff": "2026-11-08T14:00:00Z",
+   "match": "Crystal Palace – Liverpool",
+   "outcome": "away",
+   "pick": "Liverpool",
+   "odds": 1.66,
+   "best_odds": 1.66,
+   "p": 0.5951,
+   "p_market": 0.5951,
+   "ev": -0.0121,
+   "ev_market": -0.0121,
+   "score": 4.4,
+   "category": "safe",
+   "parts": [
+    [
+     "Zekerheid (winkans)",
+     2.7
+    ],
+    [
+     "Odds (opbrengst)",
+     5.8
+    ],
+    [
+     "Prijs t.o.v. eerlijke odds",
+     5.7
+    ],
+    [
+     "Bevestigd door ClubElo",
+     5.0
+    ],
+    [
+     "Nieuws",
+     4.0
+    ]
+   ],
+   "steps": [
+    {
+     "label": "Unibet-odds 1,66",
+     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
+     "val": "60,2%"
+    },
+    {
+     "label": "Marktconsensus",
+     "note": "22 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "59,5%"
+    },
+    {
+     "label": "Eigen kans",
+     "note": "Na alle correcties (begrensd)",
+     "val": "59,5%",
+     "final": true
+    }
+   ],
+   "promo": null,
+   "p_elo": null,
+   "fair_odds": 1.68,
+   "kelly": 0.0,
+   "community": [],
+   "why": [
+    "Liverpool is de favoriet. Volgens 22 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Liverpool wint ongeveer 60%: zo'n 6 op 10 keer.",
+    "Unibet betaalt 1,66; een eerlijke odds voor die kans is 1,68. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 1,2% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
+    "Met €10 krijg je €16,60 terug als het lukt (winst €6,60). In ongeveer 40% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
    ]
   },
@@ -919,17 +360,17 @@
    "outcome": "away",
    "pick": "Bournemouth",
    "odds": 1.55,
-   "best_odds": 1.56,
-   "p": 0.6284,
-   "p_market": 0.6284,
-   "ev": -0.0261,
-   "ev_market": -0.0261,
-   "score": 4.2,
+   "best_odds": 1.53,
+   "p": 0.6339,
+   "p_market": 0.6339,
+   "ev": -0.0174,
+   "ev_market": -0.0174,
+   "score": 4.4,
    "category": "safe",
    "parts": [
     [
      "Zekerheid (winkans)",
-     3.7
+     3.8
     ],
     [
      "Odds (opbrengst)",
@@ -937,7 +378,7 @@
     ],
     [
      "Prijs t.o.v. eerlijke odds",
-     4.5
+     5.2
     ],
     [
      "Bevestigd door ClubElo",
@@ -957,41 +398,449 @@
     {
      "label": "Marktconsensus",
      "note": "17 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "62,8%"
+     "val": "63,4%"
     },
     {
      "label": "Eigen kans",
      "note": "Na alle correcties (begrensd)",
-     "val": "62,8%",
+     "val": "63,4%",
      "final": true
     }
    ],
    "promo": null,
    "p_elo": null,
-   "fair_odds": 1.59,
+   "fair_odds": 1.58,
    "kelly": 0.0,
    "community": [],
    "why": [
     "Bournemouth is de favoriet. Volgens 17 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Bournemouth wint ongeveer 63%: zo'n 6 op 10 keer.",
-    "Unibet betaalt 1,55; een eerlijke odds voor die kans is 1,59. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,6% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
+    "Unibet betaalt 1,55; een eerlijke odds voor die kans is 1,58. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 1,7% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €15,50 terug als het lukt (winst €5,50). In ongeveer 37% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
    ]
   },
   {
-   "key": "e1c3625feeebcd65317e17a4e9a38c4f|home",
-   "match_id": "e1c3625feeebcd65317e17a4e9a38c4f",
+   "key": "f43ef699c987e112e115f7035114854e|away",
+   "match_id": "f43ef699c987e112e115f7035114854e",
+   "league": "Champions League",
+   "kickoff": "2026-11-04T17:45:00Z",
+   "match": "AEK Athens – Real Madrid",
+   "outcome": "away",
+   "pick": "Real Madrid",
+   "odds": 1.2,
+   "best_odds": 1.24,
+   "p": 0.7901,
+   "p_market": 0.7901,
+   "ev": -0.0519,
+   "ev_market": -0.0519,
+   "score": 4.4,
+   "category": "safe",
+   "parts": [
+    [
+     "Zekerheid (winkans)",
+     8.3
+    ],
+    [
+     "Odds (opbrengst)",
+     0
+    ],
+    [
+     "Prijs t.o.v. eerlijke odds",
+     2.3
+    ],
+    [
+     "Bevestigd door ClubElo",
+     5.0
+    ],
+    [
+     "Nieuws",
+     4.0
+    ]
+   ],
+   "steps": [
+    {
+     "label": "Unibet-odds 1,20",
+     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
+     "val": "83,3%"
+    },
+    {
+     "label": "Marktconsensus",
+     "note": "19 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "79,0%"
+    },
+    {
+     "label": "Eigen kans",
+     "note": "Na alle correcties (begrensd)",
+     "val": "79,0%",
+     "final": true
+    }
+   ],
+   "promo": null,
+   "p_elo": null,
+   "fair_odds": 1.27,
+   "kelly": 0.0,
+   "community": [],
+   "why": [
+    "Real Madrid is de favoriet. Volgens 19 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Real Madrid wint ongeveer 79%: zo'n 8 op 10 keer.",
+    "Let op: Unibet betaalt 1,20, terwijl een eerlijke odds voor die kans 1,27 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 5,2% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
+    "Met €10 krijg je €12,00 terug als het lukt (winst €2,00). In ongeveer 21% van de gevallen verlies je je inzet.",
+    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+   ]
+  },
+  {
+   "key": "339a6465fa5153fd8f31e487cf557cf0|home",
+   "match_id": "339a6465fa5153fd8f31e487cf557cf0",
+   "league": "LaLiga",
+   "kickoff": "2026-11-08T15:15:00Z",
+   "match": "Real Sociedad – Rayo Vallecano",
+   "outcome": "home",
+   "pick": "Real Sociedad",
+   "odds": 1.74,
+   "best_odds": 1.75,
+   "p": 0.5673,
+   "p_market": 0.5673,
+   "ev": -0.0128,
+   "ev_market": -0.0128,
+   "score": 4.3,
+   "category": "safe",
+   "parts": [
+    [
+     "Zekerheid (winkans)",
+     1.9
+    ],
+    [
+     "Odds (opbrengst)",
+     6.8
+    ],
+    [
+     "Prijs t.o.v. eerlijke odds",
+     5.6
+    ],
+    [
+     "Bevestigd door ClubElo",
+     5.0
+    ],
+    [
+     "Nieuws",
+     4.0
+    ]
+   ],
+   "steps": [
+    {
+     "label": "Unibet-odds 1,74",
+     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
+     "val": "57,5%"
+    },
+    {
+     "label": "Marktconsensus",
+     "note": "18 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "56,7%"
+    },
+    {
+     "label": "Eigen kans",
+     "note": "Na alle correcties (begrensd)",
+     "val": "56,7%",
+     "final": true
+    }
+   ],
+   "promo": null,
+   "p_elo": null,
+   "fair_odds": 1.76,
+   "kelly": 0.0,
+   "community": [],
+   "why": [
+    "Real Sociedad is de favoriet. Volgens 18 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Real Sociedad wint ongeveer 57%: zo'n 6 op 10 keer.",
+    "Unibet betaalt 1,74; een eerlijke odds voor die kans is 1,76. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 1,3% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
+    "Met €10 krijg je €17,40 terug als het lukt (winst €7,40). In ongeveer 43% van de gevallen verlies je je inzet.",
+    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+   ]
+  },
+  {
+   "key": "84b68e09ecbe93fdbce759cd822322a2|home",
+   "match_id": "84b68e09ecbe93fdbce759cd822322a2",
    "league": "Europa League",
    "kickoff": "2026-11-05T20:00:00Z",
-   "match": "Bayer Leverkusen – Marseille",
+   "match": "SK Sturm Graz – NK Celje",
    "outcome": "home",
-   "pick": "Bayer Leverkusen",
+   "pick": "SK Sturm Graz",
+   "odds": 1.6,
+   "best_odds": 1.58,
+   "p": 0.613,
+   "p_market": 0.613,
+   "ev": -0.0192,
+   "ev_market": -0.0192,
+   "score": 4.3,
+   "category": "safe",
+   "parts": [
+    [
+     "Zekerheid (winkans)",
+     3.2
+    ],
+    [
+     "Odds (opbrengst)",
+     5.0
+    ],
+    [
+     "Prijs t.o.v. eerlijke odds",
+     5.1
+    ],
+    [
+     "Bevestigd door ClubElo",
+     5.0
+    ],
+    [
+     "Nieuws",
+     4.0
+    ]
+   ],
+   "steps": [
+    {
+     "label": "Unibet-odds 1,60",
+     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
+     "val": "62,5%"
+    },
+    {
+     "label": "Marktconsensus",
+     "note": "17 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "61,3%"
+    },
+    {
+     "label": "Eigen kans",
+     "note": "Na alle correcties (begrensd)",
+     "val": "61,3%",
+     "final": true
+    }
+   ],
+   "promo": null,
+   "p_elo": null,
+   "fair_odds": 1.63,
+   "kelly": 0.0,
+   "community": [],
+   "why": [
+    "SK Sturm Graz is de favoriet. Volgens 17 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat SK Sturm Graz wint ongeveer 61%: zo'n 6 op 10 keer.",
+    "Unibet betaalt 1,60; een eerlijke odds voor die kans is 1,63. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 1,9% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
+    "Met €10 krijg je €16,00 terug als het lukt (winst €6,00). In ongeveer 39% van de gevallen verlies je je inzet.",
+    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+   ]
+  },
+  {
+   "key": "5b386dfdf6f76705116fbb4120ee8493|away",
+   "match_id": "5b386dfdf6f76705116fbb4120ee8493",
+   "league": "LaLiga",
+   "kickoff": "2026-11-07T20:00:00Z",
+   "match": "Valencia – Real Madrid",
+   "outcome": "away",
+   "pick": "Real Madrid",
+   "odds": 1.32,
+   "best_odds": 1.36,
+   "p": 0.7283,
+   "p_market": 0.7283,
+   "ev": -0.0386,
+   "ev_market": -0.0386,
+   "score": 4.3,
+   "category": "safe",
+   "parts": [
+    [
+     "Zekerheid (winkans)",
+     6.5
+    ],
+    [
+     "Odds (opbrengst)",
+     1.5
+    ],
+    [
+     "Prijs t.o.v. eerlijke odds",
+     3.4
+    ],
+    [
+     "Bevestigd door ClubElo",
+     5.0
+    ],
+    [
+     "Nieuws",
+     4.0
+    ]
+   ],
+   "steps": [
+    {
+     "label": "Unibet-odds 1,32",
+     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
+     "val": "75,8%"
+    },
+    {
+     "label": "Marktconsensus",
+     "note": "18 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "72,8%"
+    },
+    {
+     "label": "Eigen kans",
+     "note": "Na alle correcties (begrensd)",
+     "val": "72,8%",
+     "final": true
+    }
+   ],
+   "promo": null,
+   "p_elo": null,
+   "fair_odds": 1.37,
+   "kelly": 0.0,
+   "community": [],
+   "why": [
+    "Real Madrid is de favoriet. Volgens 18 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Real Madrid wint ongeveer 73%: zo'n 7 op 10 keer.",
+    "Unibet betaalt 1,32; een eerlijke odds voor die kans is 1,37. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,9% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
+    "Met €10 krijg je €13,20 terug als het lukt (winst €3,20). In ongeveer 27% van de gevallen verlies je je inzet.",
+    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+   ]
+  },
+  {
+   "key": "3ef62ef56758041178c5280225fe5db7|home",
+   "match_id": "3ef62ef56758041178c5280225fe5db7",
+   "league": "Bundesliga",
+   "kickoff": "2026-11-07T14:30:00Z",
+   "match": "Borussia Dortmund – Elversberg",
+   "outcome": "home",
+   "pick": "Borussia Dortmund",
+   "odds": 1.3,
+   "best_odds": 1.32,
+   "p": 0.7374,
+   "p_market": 0.7374,
+   "ev": -0.0414,
+   "ev_market": -0.0414,
+   "score": 4.3,
+   "category": "safe",
+   "parts": [
+    [
+     "Zekerheid (winkans)",
+     6.8
+    ],
+    [
+     "Odds (opbrengst)",
+     1.3
+    ],
+    [
+     "Prijs t.o.v. eerlijke odds",
+     3.2
+    ],
+    [
+     "Bevestigd door ClubElo",
+     5.0
+    ],
+    [
+     "Nieuws",
+     4.0
+    ]
+   ],
+   "steps": [
+    {
+     "label": "Unibet-odds 1,30",
+     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
+     "val": "76,9%"
+    },
+    {
+     "label": "Marktconsensus",
+     "note": "20 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "73,7%"
+    },
+    {
+     "label": "Eigen kans",
+     "note": "Na alle correcties (begrensd)",
+     "val": "73,7%",
+     "final": true
+    }
+   ],
+   "promo": null,
+   "p_elo": null,
+   "fair_odds": 1.36,
+   "kelly": 0.0,
+   "community": [],
+   "why": [
+    "Borussia Dortmund is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Borussia Dortmund wint ongeveer 74%: zo'n 7 op 10 keer.",
+    "Let op: Unibet betaalt 1,30, terwijl een eerlijke odds voor die kans 1,36 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,1% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
+    "Met €10 krijg je €13,00 terug als het lukt (winst €3,00). In ongeveer 26% van de gevallen verlies je je inzet.",
+    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+   ]
+  },
+  {
+   "key": "c1b9696d88719cb8832d794b986cdd68|home",
+   "match_id": "c1b9696d88719cb8832d794b986cdd68",
+   "league": "Bundesliga",
+   "kickoff": "2026-11-08T16:30:00Z",
+   "match": "SC Freiburg – Union Berlin",
+   "outcome": "home",
+   "pick": "SC Freiburg",
+   "odds": 1.54,
+   "best_odds": 1.56,
+   "p": 0.6323,
+   "p_market": 0.6323,
+   "ev": -0.0263,
+   "ev_market": -0.0263,
+   "score": 4.2,
+   "category": "safe",
+   "parts": [
+    [
+     "Zekerheid (winkans)",
+     3.8
+    ],
+    [
+     "Odds (opbrengst)",
+     4.3
+    ],
+    [
+     "Prijs t.o.v. eerlijke odds",
+     4.5
+    ],
+    [
+     "Bevestigd door ClubElo",
+     5.0
+    ],
+    [
+     "Nieuws",
+     4.0
+    ]
+   ],
+   "steps": [
+    {
+     "label": "Unibet-odds 1,54",
+     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
+     "val": "64,9%"
+    },
+    {
+     "label": "Marktconsensus",
+     "note": "20 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "63,2%"
+    },
+    {
+     "label": "Eigen kans",
+     "note": "Na alle correcties (begrensd)",
+     "val": "63,2%",
+     "final": true
+    }
+   ],
+   "promo": null,
+   "p_elo": null,
+   "fair_odds": 1.58,
+   "kelly": 0.0,
+   "community": [],
+   "why": [
+    "SC Freiburg is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat SC Freiburg wint ongeveer 63%: zo'n 6 op 10 keer.",
+    "Unibet betaalt 1,54; een eerlijke odds voor die kans is 1,58. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,6% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
+    "Met €10 krijg je €15,40 terug als het lukt (winst €5,40). In ongeveer 37% van de gevallen verlies je je inzet.",
+    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+   ]
+  },
+  {
+   "key": "6277e639c064e641265fcb98a0e200b9|home",
+   "match_id": "6277e639c064e641265fcb98a0e200b9",
+   "league": "Champions League",
+   "kickoff": "2026-11-04T20:00:00Z",
+   "match": "Viking FK – Sabah FK",
+   "outcome": "home",
+   "pick": "Viking FK",
    "odds": 1.43,
-   "best_odds": 1.45,
-   "p": 0.6749,
-   "p_market": 0.6749,
-   "ev": -0.0349,
-   "ev_market": -0.0349,
+   "best_odds": 1.47,
+   "p": 0.6752,
+   "p_market": 0.6752,
+   "ev": -0.0345,
+   "ev_market": -0.0345,
    "score": 4.2,
    "category": "safe",
    "parts": [
@@ -1024,7 +873,7 @@
     },
     {
      "label": "Marktconsensus",
-     "note": "17 bookmakers, marge eruit, incl. Pinnacle",
+     "note": "19 bookmakers, marge eruit, incl. Pinnacle",
      "val": "67,5%"
     },
     {
@@ -1040,40 +889,40 @@
    "kelly": 0.0,
    "community": [],
    "why": [
-    "Bayer Leverkusen is de favoriet. Volgens 17 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Bayer Leverkusen wint ongeveer 67%: zo'n 7 op 10 keer.",
+    "Viking FK is de favoriet. Volgens 19 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Viking FK wint ongeveer 68%: zo'n 7 op 10 keer.",
     "Unibet betaalt 1,43; een eerlijke odds voor die kans is 1,48. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,5% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
-    "Met €10 krijg je €14,30 terug als het lukt (winst €4,30). In ongeveer 33% van de gevallen verlies je je inzet.",
+    "Met €10 krijg je €14,30 terug als het lukt (winst €4,30). In ongeveer 32% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
    ]
   },
   {
-   "key": "8963081c3457212ee238b498bbc33a03|home",
-   "match_id": "8963081c3457212ee238b498bbc33a03",
-   "league": "Bundesliga",
-   "kickoff": "2026-11-08T18:30:00Z",
-   "match": "TSG Hoffenheim – FC Schalke 04",
+   "key": "e1c3625feeebcd65317e17a4e9a38c4f|home",
+   "match_id": "e1c3625feeebcd65317e17a4e9a38c4f",
+   "league": "Europa League",
+   "kickoff": "2026-11-05T20:00:00Z",
+   "match": "Bayer Leverkusen – Marseille",
    "outcome": "home",
-   "pick": "TSG Hoffenheim",
-   "odds": 1.66,
-   "best_odds": 1.66,
-   "p": 0.5878,
-   "p_market": 0.5878,
-   "ev": -0.0242,
-   "ev_market": -0.0242,
-   "score": 4.1,
+   "pick": "Bayer Leverkusen",
+   "odds": 1.4,
+   "best_odds": 1.42,
+   "p": 0.6891,
+   "p_market": 0.6891,
+   "ev": -0.0352,
+   "ev_market": -0.0352,
+   "score": 4.2,
    "category": "safe",
    "parts": [
     [
      "Zekerheid (winkans)",
+     5.4
+    ],
+    [
+     "Odds (opbrengst)",
      2.5
     ],
     [
-     "Odds (opbrengst)",
-     5.8
-    ],
-    [
      "Prijs t.o.v. eerlijke odds",
-     4.6
+     3.7
     ],
     [
      "Bevestigd door ClubElo",
@@ -1086,100 +935,32 @@
    ],
    "steps": [
     {
-     "label": "Unibet-odds 1,66",
+     "label": "Unibet-odds 1,40",
      "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "60,2%"
+     "val": "71,4%"
     },
     {
      "label": "Marktconsensus",
-     "note": "19 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "58,8%"
+     "note": "17 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "68,9%"
     },
     {
      "label": "Eigen kans",
      "note": "Na alle correcties (begrensd)",
-     "val": "58,8%",
+     "val": "68,9%",
      "final": true
     }
    ],
    "promo": null,
    "p_elo": null,
-   "fair_odds": 1.7,
+   "fair_odds": 1.45,
    "kelly": 0.0,
    "community": [],
    "why": [
-    "TSG Hoffenheim is de favoriet. Volgens 19 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat TSG Hoffenheim wint ongeveer 59%: zo'n 6 op 10 keer.",
-    "Unibet betaalt 1,66; een eerlijke odds voor die kans is 1,70. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,4% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
-    "Met €10 krijg je €16,60 terug als het lukt (winst €6,60). In ongeveer 41% van de gevallen verlies je je inzet.",
+    "Bayer Leverkusen is de favoriet. Volgens 17 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Bayer Leverkusen wint ongeveer 69%: zo'n 7 op 10 keer.",
+    "Unibet betaalt 1,40; een eerlijke odds voor die kans is 1,45. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,5% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
+    "Met €10 krijg je €14,00 terug als het lukt (winst €4,00). In ongeveer 31% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
-   ]
-  },
-  {
-   "key": "e901dbcdd6e2255fb24d84032b9d437a|away",
-   "match_id": "e901dbcdd6e2255fb24d84032b9d437a",
-   "league": "Champions League",
-   "kickoff": "2026-11-04T17:45:00Z",
-   "match": "Fenerbahce – Liverpool",
-   "outcome": "away",
-   "pick": "Liverpool",
-   "odds": 1.56,
-   "best_odds": 1.59,
-   "p": 0.6223,
-   "p_market": 0.6223,
-   "ev": -0.0293,
-   "ev_market": -0.0293,
-   "score": 4.1,
-   "category": "safe",
-   "parts": [
-    [
-     "Zekerheid (winkans)",
-     3.5
-    ],
-    [
-     "Odds (opbrengst)",
-     4.5
-    ],
-    [
-     "Prijs t.o.v. eerlijke odds",
-     4.2
-    ],
-    [
-     "Bevestigd door ClubElo",
-     5.0
-    ],
-    [
-     "Nieuws",
-     4.0
-    ]
-   ],
-   "steps": [
-    {
-     "label": "Unibet-odds 1,56",
-     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "64,1%"
-    },
-    {
-     "label": "Marktconsensus",
-     "note": "19 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "62,2%"
-    },
-    {
-     "label": "Eigen kans",
-     "note": "Na alle correcties (begrensd)",
-     "val": "62,2%",
-     "final": true
-    }
-   ],
-   "promo": null,
-   "p_elo": null,
-   "fair_odds": 1.61,
-   "kelly": 0.0,
-   "community": [],
-   "why": [
-    "Liverpool is de favoriet. Volgens 19 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Liverpool wint ongeveer 62%: zo'n 6 op 10 keer.",
-    "Unibet betaalt 1,56; een eerlijke odds voor die kans is 1,61. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,9% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
-    "Met €10 krijg je €15,60 terug als het lukt (winst €5,60). In ongeveer 38% van de gevallen verlies je je inzet.",
-    "Nieuws: Liverpool zonder Bradley, Ekitiké, Frimpong en Leoni; Fenerbahçe mist Aké en Asensio (UEFA 2/11)."
    ]
   },
   {
@@ -1192,11 +973,11 @@
    "pick": "Everton",
    "odds": 1.76,
    "best_odds": 1.77,
-   "p": 0.5545,
-   "p_market": 0.5545,
-   "ev": -0.0241,
-   "ev_market": -0.0241,
-   "score": 4.0,
+   "p": 0.5568,
+   "p_market": 0.5568,
+   "ev": -0.0201,
+   "ev_market": -0.0201,
+   "score": 4.1,
    "category": "safe",
    "parts": [
     [
@@ -1209,7 +990,7 @@
     ],
     [
      "Prijs t.o.v. eerlijke odds",
-     4.7
+     5.0
     ],
     [
      "Bevestigd door ClubElo",
@@ -1228,13 +1009,13 @@
     },
     {
      "label": "Marktconsensus",
-     "note": "21 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "55,4%"
+     "note": "22 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "55,7%"
     },
     {
      "label": "Eigen kans",
      "note": "Na alle correcties (begrensd)",
-     "val": "55,4%",
+     "val": "55,7%",
      "final": true
     }
    ],
@@ -1244,168 +1025,32 @@
    "kelly": 0.0,
    "community": [],
    "why": [
-    "Everton is de favoriet. Volgens 21 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Everton wint ongeveer 55%: zo'n 6 op 10 keer.",
-    "Unibet betaalt 1,76; een eerlijke odds voor die kans is 1,80. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,4% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
-    "Met €10 krijg je €17,60 terug als het lukt (winst €7,60). In ongeveer 45% van de gevallen verlies je je inzet.",
+    "Everton is de favoriet. Volgens 22 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Everton wint ongeveer 56%: zo'n 6 op 10 keer.",
+    "Unibet betaalt 1,76; een eerlijke odds voor die kans is 1,80. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,0% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
+    "Met €10 krijg je €17,60 terug als het lukt (winst €7,60). In ongeveer 44% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
    ]
   },
   {
-   "key": "cdb5f9dd39e79db69659c76cd96d0bbe|home",
-   "match_id": "cdb5f9dd39e79db69659c76cd96d0bbe",
+   "key": "8963081c3457212ee238b498bbc33a03|home",
+   "match_id": "8963081c3457212ee238b498bbc33a03",
    "league": "Bundesliga",
-   "kickoff": "2026-11-07T14:30:00Z",
-   "match": "RB Leipzig – Augsburg",
+   "kickoff": "2026-11-08T18:30:00Z",
+   "match": "TSG Hoffenheim – FC Schalke 04",
    "outcome": "home",
-   "pick": "RB Leipzig",
-   "odds": 1.49,
-   "best_odds": 1.5,
-   "p": 0.6477,
-   "p_market": 0.6477,
-   "ev": -0.035,
-   "ev_market": -0.035,
-   "score": 4.0,
-   "category": "safe",
-   "parts": [
-    [
-     "Zekerheid (winkans)",
-     4.2
-    ],
-    [
-     "Odds (opbrengst)",
-     3.6
-    ],
-    [
-     "Prijs t.o.v. eerlijke odds",
-     3.8
-    ],
-    [
-     "Bevestigd door ClubElo",
-     5.0
-    ],
-    [
-     "Nieuws",
-     4.0
-    ]
-   ],
-   "steps": [
-    {
-     "label": "Unibet-odds 1,49",
-     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "67,1%"
-    },
-    {
-     "label": "Marktconsensus",
-     "note": "19 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "64,8%"
-    },
-    {
-     "label": "Eigen kans",
-     "note": "Na alle correcties (begrensd)",
-     "val": "64,8%",
-     "final": true
-    }
-   ],
-   "promo": null,
-   "p_elo": null,
-   "fair_odds": 1.54,
-   "kelly": 0.0,
-   "community": [],
-   "why": [
-    "RB Leipzig is de favoriet. Volgens 19 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat RB Leipzig wint ongeveer 65%: zo'n 6 op 10 keer.",
-    "Unibet betaalt 1,49; een eerlijke odds voor die kans is 1,54. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,5% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
-    "Met €10 krijg je €14,90 terug als het lukt (winst €4,90). In ongeveer 35% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
-   ]
-  },
-  {
-   "key": "339a6465fa5153fd8f31e487cf557cf0|home",
-   "match_id": "339a6465fa5153fd8f31e487cf557cf0",
-   "league": "LaLiga",
-   "kickoff": "2026-11-08T15:15:00Z",
-   "match": "Real Sociedad – Rayo Vallecano",
-   "outcome": "home",
-   "pick": "Real Sociedad",
-   "odds": 1.74,
-   "best_odds": 1.77,
-   "p": 0.5585,
-   "p_market": 0.5585,
-   "ev": -0.0283,
-   "ev_market": -0.0283,
-   "score": 3.9,
-   "category": "safe",
-   "parts": [
-    [
-     "Zekerheid (winkans)",
-     1.7
-    ],
-    [
-     "Odds (opbrengst)",
-     6.8
-    ],
-    [
-     "Prijs t.o.v. eerlijke odds",
-     4.3
-    ],
-    [
-     "Bevestigd door ClubElo",
-     5.0
-    ],
-    [
-     "Nieuws",
-     4.0
-    ]
-   ],
-   "steps": [
-    {
-     "label": "Unibet-odds 1,74",
-     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "57,5%"
-    },
-    {
-     "label": "Marktconsensus",
-     "note": "17 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "55,8%"
-    },
-    {
-     "label": "Eigen kans",
-     "note": "Na alle correcties (begrensd)",
-     "val": "55,8%",
-     "final": true
-    }
-   ],
-   "promo": null,
-   "p_elo": null,
-   "fair_odds": 1.79,
-   "kelly": 0.0,
-   "community": [],
-   "why": [
-    "Real Sociedad is de favoriet. Volgens 17 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Real Sociedad wint ongeveer 56%: zo'n 6 op 10 keer.",
-    "Unibet betaalt 1,74; een eerlijke odds voor die kans is 1,79. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,8% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
-    "Met €10 krijg je €17,40 terug als het lukt (winst €7,40). In ongeveer 44% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
-   ]
-  },
-  {
-   "key": "0cfbab01e152f81e34f9014e02c7eb79|away",
-   "match_id": "0cfbab01e152f81e34f9014e02c7eb79",
-   "league": "Premier League",
-   "kickoff": "2026-11-08T14:00:00Z",
-   "match": "Crystal Palace – Liverpool",
-   "outcome": "away",
-   "pick": "Liverpool",
+   "pick": "TSG Hoffenheim",
    "odds": 1.66,
-   "best_odds": 1.71,
-   "p": 0.5845,
-   "p_market": 0.5845,
-   "ev": -0.0298,
-   "ev_market": -0.0298,
-   "score": 3.9,
+   "best_odds": 1.65,
+   "p": 0.589,
+   "p_market": 0.589,
+   "ev": -0.0223,
+   "ev_market": -0.0223,
+   "score": 4.1,
    "category": "safe",
    "parts": [
     [
      "Zekerheid (winkans)",
-     2.4
+     2.5
     ],
     [
      "Odds (opbrengst)",
@@ -1413,7 +1058,7 @@
     ],
     [
      "Prijs t.o.v. eerlijke odds",
-     4.2
+     4.8
     ],
     [
      "Bevestigd door ClubElo",
@@ -1432,131 +1077,192 @@
     },
     {
      "label": "Marktconsensus",
-     "note": "21 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "58,4%"
+     "note": "20 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "58,9%"
     },
     {
      "label": "Eigen kans",
      "note": "Na alle correcties (begrensd)",
-     "val": "58,4%",
+     "val": "58,9%",
      "final": true
     }
    ],
    "promo": null,
    "p_elo": null,
-   "fair_odds": 1.71,
+   "fair_odds": 1.7,
    "kelly": 0.0,
    "community": [],
    "why": [
-    "Liverpool is de favoriet. Volgens 21 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Liverpool wint ongeveer 58%: zo'n 6 op 10 keer.",
-    "Unibet betaalt 1,66; een eerlijke odds voor die kans is 1,71. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,0% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
-    "Met €10 krijg je €16,60 terug als het lukt (winst €6,60). In ongeveer 42% van de gevallen verlies je je inzet.",
+    "TSG Hoffenheim is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat TSG Hoffenheim wint ongeveer 59%: zo'n 6 op 10 keer.",
+    "Unibet betaalt 1,66; een eerlijke odds voor die kans is 1,70. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,2% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
+    "Met €10 krijg je €16,60 terug als het lukt (winst €6,60). In ongeveer 41% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
    ]
   },
   {
-   "key": "df7d2d81b9e2f3f11c6aeddaee6b7085|away",
-   "match_id": "df7d2d81b9e2f3f11c6aeddaee6b7085",
+   "key": "cdb5f9dd39e79db69659c76cd96d0bbe|home",
+   "match_id": "cdb5f9dd39e79db69659c76cd96d0bbe",
+   "league": "Bundesliga",
+   "kickoff": "2026-11-07T14:30:00Z",
+   "match": "RB Leipzig – Augsburg",
+   "outcome": "home",
+   "pick": "RB Leipzig",
+   "odds": 1.49,
+   "best_odds": 1.51,
+   "p": 0.6486,
+   "p_market": 0.6486,
+   "ev": -0.0336,
+   "ev_market": -0.0336,
+   "score": 4.1,
+   "category": "safe",
+   "parts": [
+    [
+     "Zekerheid (winkans)",
+     4.2
+    ],
+    [
+     "Odds (opbrengst)",
+     3.6
+    ],
+    [
+     "Prijs t.o.v. eerlijke odds",
+     3.9
+    ],
+    [
+     "Bevestigd door ClubElo",
+     5.0
+    ],
+    [
+     "Nieuws",
+     4.0
+    ]
+   ],
+   "steps": [
+    {
+     "label": "Unibet-odds 1,49",
+     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
+     "val": "67,1%"
+    },
+    {
+     "label": "Marktconsensus",
+     "note": "20 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "64,9%"
+    },
+    {
+     "label": "Eigen kans",
+     "note": "Na alle correcties (begrensd)",
+     "val": "64,9%",
+     "final": true
+    }
+   ],
+   "promo": null,
+   "p_elo": null,
+   "fair_odds": 1.54,
+   "kelly": 0.0,
+   "community": [],
+   "why": [
+    "RB Leipzig is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat RB Leipzig wint ongeveer 65%: zo'n 6 op 10 keer.",
+    "Unibet betaalt 1,49; een eerlijke odds voor die kans is 1,54. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,4% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
+    "Met €10 krijg je €14,90 terug als het lukt (winst €4,90). In ongeveer 35% van de gevallen verlies je je inzet.",
+    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+   ]
+  },
+  {
+   "key": "a5910ae3b314876faea7f5c03b8aeaad|away",
+   "match_id": "a5910ae3b314876faea7f5c03b8aeaad",
    "league": "Champions League",
    "kickoff": "2026-11-04T20:00:00Z",
-   "match": "RB Leipzig – Manchester City",
+   "match": "Slavia Praha – Arsenal",
    "outcome": "away",
-   "pick": "Manchester City",
-   "odds": 1.56,
-   "best_odds": 1.6,
-   "p": 0.619,
-   "p_market": 0.619,
-   "ev": -0.0344,
-   "ev_market": -0.0344,
+   "pick": "Arsenal",
+   "odds": 1.24,
+   "best_odds": 1.28,
+   "p": 0.7598,
+   "p_market": 0.7598,
+   "ev": -0.0579,
+   "ev_market": -0.0579,
+   "score": 4.1,
+   "category": "safe",
+   "parts": [
+    [
+     "Zekerheid (winkans)",
+     7.4
+    ],
+    [
+     "Odds (opbrengst)",
+     0.5
+    ],
+    [
+     "Prijs t.o.v. eerlijke odds",
+     1.8
+    ],
+    [
+     "Bevestigd door ClubElo",
+     5.0
+    ],
+    [
+     "Nieuws",
+     4.0
+    ]
+   ],
+   "steps": [
+    {
+     "label": "Unibet-odds 1,24",
+     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
+     "val": "80,6%"
+    },
+    {
+     "label": "Marktconsensus",
+     "note": "19 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "76,0%"
+    },
+    {
+     "label": "Eigen kans",
+     "note": "Na alle correcties (begrensd)",
+     "val": "76,0%",
+     "final": true
+    }
+   ],
+   "promo": null,
+   "p_elo": null,
+   "fair_odds": 1.32,
+   "kelly": 0.0,
+   "community": [],
+   "why": [
+    "Arsenal is de favoriet. Volgens 19 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Arsenal wint ongeveer 76%: zo'n 8 op 10 keer.",
+    "Let op: Unibet betaalt 1,24, terwijl een eerlijke odds voor die kans 1,32 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 5,8% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
+    "Met €10 krijg je €12,40 terug als het lukt (winst €2,40). In ongeveer 24% van de gevallen verlies je je inzet.",
+    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+   ]
+  },
+  {
+   "key": "81ad04996f63fb60b494d243b13ac586|home",
+   "match_id": "81ad04996f63fb60b494d243b13ac586",
+   "league": "LaLiga",
+   "kickoff": "2026-11-08T17:30:00Z",
+   "match": "Villarreal – Getafe",
+   "outcome": "home",
+   "pick": "Villarreal",
+   "odds": 1.45,
+   "best_odds": 1.5,
+   "p": 0.6592,
+   "p_market": 0.6592,
+   "ev": -0.0441,
+   "ev_market": -0.0441,
    "score": 3.9,
    "category": "safe",
    "parts": [
     [
      "Zekerheid (winkans)",
-     3.4
-    ],
-    [
-     "Odds (opbrengst)",
      4.5
     ],
     [
-     "Prijs t.o.v. eerlijke odds",
-     3.8
-    ],
-    [
-     "Bevestigd door ClubElo",
-     5.0
-    ],
-    [
-     "Nieuws",
-     4.0
-    ]
-   ],
-   "steps": [
-    {
-     "label": "Unibet-odds 1,56",
-     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "64,1%"
-    },
-    {
-     "label": "Marktconsensus",
-     "note": "19 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "61,9%"
-    },
-    {
-     "label": "Eigen kans",
-     "note": "Na alle correcties (begrensd)",
-     "val": "61,9%",
-     "final": true
-    }
-   ],
-   "promo": null,
-   "p_elo": null,
-   "fair_odds": 1.62,
-   "kelly": 0.0,
-   "community": [
-    {
-     "outcome": "away",
-     "note": "City-zege dankzij Haaland, met een sterk record tegen Leipzig.",
-     "source": "Covers",
-     "url": "https://www.covers.com/soccer/champions-league-moneyline-picks-matchday-4-2026"
-    }
-   ],
-   "why": [
-    "Manchester City is de favoriet. Volgens 19 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Manchester City wint ongeveer 62%: zo'n 6 op 10 keer.",
-    "Unibet betaalt 1,56; een eerlijke odds voor die kans is 1,62. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,4% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
-    "Met €10 krijg je €15,60 terug als het lukt (winst €5,60). In ongeveer 38% van de gevallen verlies je je inzet.",
-    "Nieuws: City mist Semenyo en verloor de laatste twee PL-duels; Leipzig (nu onder Demichelis) won alle thuismatchen dit seizoen. Leipzig: Ouédraogo out, Estève twijfel (Football Whispers; UEFA 2/11)."
-   ]
-  },
-  {
-   "key": "a341241606cb5b1b59e425d00be64883|away",
-   "match_id": "a341241606cb5b1b59e425d00be64883",
-   "league": "Champions League",
-   "kickoff": "2026-11-03T20:00:00Z",
-   "match": "Villarreal – Paris Saint Germain",
-   "outcome": "away",
-   "pick": "Paris Saint Germain",
-   "odds": 1.74,
-   "best_odds": 1.79,
-   "p": 0.556,
-   "p_market": 0.556,
-   "ev": -0.0326,
-   "ev_market": -0.0326,
-   "score": 3.8,
-   "category": "safe",
-   "parts": [
-    [
-     "Zekerheid (winkans)",
-     1.6
-    ],
-    [
      "Odds (opbrengst)",
-     6.8
+     3.1
     ],
     [
      "Prijs t.o.v. eerlijke odds",
-     4.0
+     3.0
     ],
     [
      "Bevestigd door ClubElo",
@@ -1569,112 +1275,99 @@
    ],
    "steps": [
     {
-     "label": "Unibet-odds 1,74",
+     "label": "Unibet-odds 1,45",
      "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "57,5%"
+     "val": "69,0%"
     },
     {
      "label": "Marktconsensus",
-     "note": "19 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "55,6%"
+     "note": "18 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "65,9%"
     },
     {
      "label": "Eigen kans",
      "note": "Na alle correcties (begrensd)",
-     "val": "55,6%",
+     "val": "65,9%",
      "final": true
     }
    ],
    "promo": null,
    "p_elo": null,
-   "fair_odds": 1.8,
-   "kelly": 0.0,
-   "community": [
-    {
-     "outcome": "away",
-     "note": "PSG wint en beide ploegen scoren: PSG ongeslagen maar lek, Villarreal scoorde in elke CL-match.",
-     "source": "RotoWire",
-     "url": "https://www.rotowire.com/soccer/article/champions-league-predictions-today-tuesday-nov-3-matchday-4-best-bets-picks-145048"
-    },
-    {
-     "outcome": "away",
-     "note": "PSG in de viervoudige: Villarreal slikte acht goals in drie duels.",
-     "source": "Racing Post",
-     "url": "https://www.racingpost.com/sport/football-tips/champions-league/matchday-four-accumulator-tips-for-tuesday-november-3-aGBGH7b8QbWA/"
-    }
-   ],
-   "why": [
-    "Paris Saint Germain is de favoriet. Volgens 19 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Paris Saint Germain wint ongeveer 56%: zo'n 6 op 10 keer.",
-    "Unibet betaalt 1,74; een eerlijke odds voor die kans is 1,80. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,3% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
-    "Met €10 krijg je €17,40 terug als het lukt (winst €7,40). In ongeveer 44% van de gevallen verlies je je inzet.",
-    "Nieuws: PSG zonder Dembélé, Kvaratskhelia, Marquinhos en Nuno Mendes. Villarreal mist Akhomach, Foyth en Moreno; Alassane twijfel (UEFA 2/11). Sports Mole voorspelt 1-3."
-   ]
-  },
-  {
-   "key": "c1b9696d88719cb8832d794b986cdd68|home",
-   "match_id": "c1b9696d88719cb8832d794b986cdd68",
-   "league": "Bundesliga",
-   "kickoff": "2026-11-08T16:30:00Z",
-   "match": "SC Freiburg – Union Berlin",
-   "outcome": "home",
-   "pick": "SC Freiburg",
-   "odds": 1.53,
-   "best_odds": 1.56,
-   "p": 0.6276,
-   "p_market": 0.6276,
-   "ev": -0.0398,
-   "ev_market": -0.0398,
-   "score": 3.8,
-   "category": "safe",
-   "parts": [
-    [
-     "Zekerheid (winkans)",
-     3.6
-    ],
-    [
-     "Odds (opbrengst)",
-     4.1
-    ],
-    [
-     "Prijs t.o.v. eerlijke odds",
-     3.4
-    ],
-    [
-     "Bevestigd door ClubElo",
-     5.0
-    ],
-    [
-     "Nieuws",
-     4.0
-    ]
-   ],
-   "steps": [
-    {
-     "label": "Unibet-odds 1,53",
-     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "65,4%"
-    },
-    {
-     "label": "Marktconsensus",
-     "note": "19 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "62,8%"
-    },
-    {
-     "label": "Eigen kans",
-     "note": "Na alle correcties (begrensd)",
-     "val": "62,8%",
-     "final": true
-    }
-   ],
-   "promo": null,
-   "p_elo": null,
-   "fair_odds": 1.59,
+   "fair_odds": 1.52,
    "kelly": 0.0,
    "community": [],
    "why": [
-    "SC Freiburg is de favoriet. Volgens 19 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat SC Freiburg wint ongeveer 63%: zo'n 6 op 10 keer.",
-    "Unibet betaalt 1,53; een eerlijke odds voor die kans is 1,59. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 4,0% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
-    "Met €10 krijg je €15,30 terug als het lukt (winst €5,30). In ongeveer 37% van de gevallen verlies je je inzet.",
+    "Villarreal is de favoriet. Volgens 18 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Villarreal wint ongeveer 66%: zo'n 7 op 10 keer.",
+    "Let op: Unibet betaalt 1,45, terwijl een eerlijke odds voor die kans 1,52 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,4% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
+    "Met €10 krijg je €14,50 terug als het lukt (winst €4,50). In ongeveer 34% van de gevallen verlies je je inzet.",
+    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+   ]
+  },
+  {
+   "key": "e901dbcdd6e2255fb24d84032b9d437a|away",
+   "match_id": "e901dbcdd6e2255fb24d84032b9d437a",
+   "league": "Champions League",
+   "kickoff": "2026-11-04T17:45:00Z",
+   "match": "Fenerbahce – Liverpool",
+   "outcome": "away",
+   "pick": "Liverpool",
+   "odds": 1.45,
+   "best_odds": 1.51,
+   "p": 0.6587,
+   "p_market": 0.6587,
+   "ev": -0.0448,
+   "ev_market": -0.0448,
+   "score": 3.8,
+   "category": "safe",
+   "parts": [
+    [
+     "Zekerheid (winkans)",
+     4.5
+    ],
+    [
+     "Odds (opbrengst)",
+     3.1
+    ],
+    [
+     "Prijs t.o.v. eerlijke odds",
+     2.9
+    ],
+    [
+     "Bevestigd door ClubElo",
+     5.0
+    ],
+    [
+     "Nieuws",
+     4.0
+    ]
+   ],
+   "steps": [
+    {
+     "label": "Unibet-odds 1,45",
+     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
+     "val": "69,0%"
+    },
+    {
+     "label": "Marktconsensus",
+     "note": "19 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "65,9%"
+    },
+    {
+     "label": "Eigen kans",
+     "note": "Na alle correcties (begrensd)",
+     "val": "65,9%",
+     "final": true
+    }
+   ],
+   "promo": null,
+   "p_elo": null,
+   "fair_odds": 1.52,
+   "kelly": 0.0,
+   "community": [],
+   "why": [
+    "Liverpool is de favoriet. Volgens 19 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Liverpool wint ongeveer 66%: zo'n 7 op 10 keer.",
+    "Let op: Unibet betaalt 1,45, terwijl een eerlijke odds voor die kans 1,52 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,5% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
+    "Met €10 krijg je €14,50 terug als het lukt (winst €4,50). In ongeveer 34% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
    ]
   },
@@ -1687,17 +1380,17 @@
    "outcome": "home",
    "pick": "Sunderland",
    "odds": 1.48,
-   "best_odds": 1.49,
-   "p": 0.6458,
-   "p_market": 0.6458,
-   "ev": -0.0443,
-   "ev_market": -0.0443,
-   "score": 3.8,
+   "best_odds": 1.51,
+   "p": 0.6439,
+   "p_market": 0.6439,
+   "ev": -0.047,
+   "ev_market": -0.047,
+   "score": 3.7,
    "category": "safe",
    "parts": [
     [
      "Zekerheid (winkans)",
-     4.2
+     4.1
     ],
     [
      "Odds (opbrengst)",
@@ -1705,7 +1398,7 @@
     ],
     [
      "Prijs t.o.v. eerlijke odds",
-     3.0
+     2.7
     ],
     [
      "Bevestigd door ClubElo",
@@ -1725,12 +1418,12 @@
     {
      "label": "Marktconsensus",
      "note": "17 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "64,6%"
+     "val": "64,4%"
     },
     {
      "label": "Eigen kans",
      "note": "Na alle correcties (begrensd)",
-     "val": "64,6%",
+     "val": "64,4%",
      "final": true
     }
    ],
@@ -1740,102 +1433,27 @@
    "kelly": 0.0,
    "community": [],
    "why": [
-    "Sunderland is de favoriet. Volgens 17 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Sunderland wint ongeveer 65%: zo'n 6 op 10 keer.",
-    "Let op: Unibet betaalt 1,48, terwijl een eerlijke odds voor die kans 1,55 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,4% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
-    "Met €10 krijg je €14,80 terug als het lukt (winst €4,80). In ongeveer 35% van de gevallen verlies je je inzet.",
+    "Sunderland is de favoriet. Volgens 17 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Sunderland wint ongeveer 64%: zo'n 6 op 10 keer.",
+    "Let op: Unibet betaalt 1,48, terwijl een eerlijke odds voor die kans 1,55 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,7% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
+    "Met €10 krijg je €14,80 terug als het lukt (winst €4,80). In ongeveer 36% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
    ]
   },
   {
-   "key": "bd680c6ad693dae859030f86e1be2769|home",
-   "match_id": "bd680c6ad693dae859030f86e1be2769",
-   "league": "Champions League",
-   "kickoff": "2026-11-03T20:00:00Z",
-   "match": "Barcelona – Aston Villa",
-   "outcome": "home",
-   "pick": "Barcelona",
-   "odds": 1.23,
-   "best_odds": 1.29,
-   "p": 0.7579,
-   "p_market": 0.7579,
-   "ev": -0.0678,
-   "ev_market": -0.0678,
-   "score": 3.8,
-   "category": "safe",
-   "parts": [
-    [
-     "Zekerheid (winkans)",
-     7.4
-    ],
-    [
-     "Odds (opbrengst)",
-     0.4
-    ],
-    [
-     "Prijs t.o.v. eerlijke odds",
-     1.0
-    ],
-    [
-     "Bevestigd door ClubElo",
-     5.0
-    ],
-    [
-     "Nieuws",
-     4.0
-    ]
-   ],
-   "steps": [
-    {
-     "label": "Unibet-odds 1,23",
-     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "81,3%"
-    },
-    {
-     "label": "Marktconsensus",
-     "note": "19 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "75,8%"
-    },
-    {
-     "label": "Eigen kans",
-     "note": "Na alle correcties (begrensd)",
-     "val": "75,8%",
-     "final": true
-    }
-   ],
-   "promo": null,
-   "p_elo": null,
-   "fair_odds": 1.32,
-   "kelly": 0.0,
-   "community": [
-    {
-     "outcome": "home",
-     "note": "Barça wint en beide ploegen scoren; verwacht 5 à 6 goals.",
-     "source": "The Sports Geek",
-     "url": "https://www.thesportsgeek.com/blog/champions-league-best-bets-2026-11-03/"
-    }
-   ],
-   "why": [
-    "Barcelona is de favoriet. Volgens 19 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Barcelona wint ongeveer 76%: zo'n 8 op 10 keer.",
-    "Let op: Unibet betaalt 1,23, terwijl een eerlijke odds voor die kans 1,32 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 6,8% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
-    "Met €10 krijg je €12,30 terug als het lukt (winst €2,30). In ongeveer 24% van de gevallen verlies je je inzet.",
-    "Nieuws: Barça zonder Koundé, Olmo, Christensen, Eric García en Xavi Espart; Villa mist Ruggeri en Wan-Bissaka (UEFA 2/11). Nicolas Jackson scoorde 8 keer in zijn laatste 10 (SportsGeek)."
-   ]
-  },
-  {
-   "key": "019e9d824f3f2251e5b777623d34a9df|away",
-   "match_id": "019e9d824f3f2251e5b777623d34a9df",
-   "league": "Eredivisie",
-   "kickoff": "2026-11-08T11:15:00Z",
-   "match": "Heerenveen – Feyenoord",
+   "key": "59c5f635cfe11613c07e9a5520ced5c1|away",
+   "match_id": "59c5f635cfe11613c07e9a5520ced5c1",
+   "league": "Premier League",
+   "kickoff": "2026-11-07T17:30:00Z",
+   "match": "Nottingham Forest – Manchester City",
    "outcome": "away",
-   "pick": "Feyenoord",
+   "pick": "Manchester City",
    "odds": 1.74,
-   "best_odds": 1.71,
-   "p": 0.5538,
-   "p_market": 0.5538,
-   "ev": -0.0364,
-   "ev_market": -0.0364,
-   "score": 3.7,
+   "best_odds": 1.79,
+   "p": 0.5524,
+   "p_market": 0.5524,
+   "ev": -0.0388,
+   "ev_market": -0.0388,
+   "score": 3.6,
    "category": "safe",
    "parts": [
     [
@@ -1848,7 +1466,7 @@
     ],
     [
      "Prijs t.o.v. eerlijke odds",
-     3.6
+     3.4
     ],
     [
      "Bevestigd door ClubElo",
@@ -1867,13 +1485,13 @@
     },
     {
      "label": "Marktconsensus",
-     "note": "16 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "55,4%"
+     "note": "22 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "55,2%"
     },
     {
      "label": "Eigen kans",
      "note": "Na alle correcties (begrensd)",
-     "val": "55,4%",
+     "val": "55,2%",
      "final": true
     }
    ],
@@ -1883,32 +1501,32 @@
    "kelly": 0.0,
    "community": [],
    "why": [
-    "Feyenoord is de favoriet. Volgens 16 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Feyenoord wint ongeveer 55%: zo'n 6 op 10 keer.",
-    "Unibet betaalt 1,74; een eerlijke odds voor die kans is 1,81. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,6% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
+    "Manchester City is de favoriet. Volgens 22 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Manchester City wint ongeveer 55%: zo'n 6 op 10 keer.",
+    "Unibet betaalt 1,74; een eerlijke odds voor die kans is 1,81. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,9% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €17,40 terug als het lukt (winst €7,40). In ongeveer 45% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
    ]
   },
   {
-   "key": "6d386ed81fabf67aa19fbd442c0d8c60|home",
-   "match_id": "6d386ed81fabf67aa19fbd442c0d8c60",
-   "league": "Champions League",
-   "kickoff": "2026-11-04T20:00:00Z",
-   "match": "Borussia Dortmund – Real Betis",
-   "outcome": "home",
-   "pick": "Borussia Dortmund",
+   "key": "019e9d824f3f2251e5b777623d34a9df|away",
+   "match_id": "019e9d824f3f2251e5b777623d34a9df",
+   "league": "Eredivisie",
+   "kickoff": "2026-11-08T11:15:00Z",
+   "match": "Heerenveen – Feyenoord",
+   "outcome": "away",
+   "pick": "Feyenoord",
    "odds": 1.74,
-   "best_odds": 1.81,
-   "p": 0.5504,
-   "p_market": 0.5504,
-   "ev": -0.0423,
-   "ev_market": -0.0423,
-   "score": 3.5,
+   "best_odds": 1.71,
+   "p": 0.5523,
+   "p_market": 0.5523,
+   "ev": -0.039,
+   "ev_market": -0.039,
+   "score": 3.6,
    "category": "safe",
    "parts": [
     [
      "Zekerheid (winkans)",
-     1.4
+     1.5
     ],
     [
      "Odds (opbrengst)",
@@ -1916,7 +1534,7 @@
     ],
     [
      "Prijs t.o.v. eerlijke odds",
-     3.1
+     3.4
     ],
     [
      "Bevestigd door ClubElo",
@@ -1935,63 +1553,56 @@
     },
     {
      "label": "Marktconsensus",
-     "note": "19 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "55,0%"
+     "note": "17 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "55,2%"
     },
     {
      "label": "Eigen kans",
      "note": "Na alle correcties (begrensd)",
-     "val": "55,0%",
+     "val": "55,2%",
      "final": true
     }
    ],
    "promo": null,
    "p_elo": null,
-   "fair_odds": 1.82,
+   "fair_odds": 1.81,
    "kelly": 0.0,
-   "community": [
-    {
-     "outcome": "home",
-     "note": "Dortmund: vier Europese thuiszeges op rij tegen Spaanse clubs.",
-     "source": "Covers",
-     "url": "https://www.covers.com/soccer/champions-league-moneyline-picks-matchday-4-2026"
-    }
-   ],
+   "community": [],
    "why": [
-    "Borussia Dortmund is de favoriet. Volgens 19 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Borussia Dortmund wint ongeveer 55%: zo'n 6 op 10 keer.",
-    "Let op: Unibet betaalt 1,74, terwijl een eerlijke odds voor die kans 1,82 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,2% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
+    "Feyenoord is de favoriet. Volgens 17 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Feyenoord wint ongeveer 55%: zo'n 6 op 10 keer.",
+    "Unibet betaalt 1,74; een eerlijke odds voor die kans is 1,81. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,9% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €17,40 terug als het lukt (winst €7,40). In ongeveer 45% van de gevallen verlies je je inzet.",
-    "Nieuws: Dortmund mist enkel Kauã Prates; Betis zonder Cucho Hernández en Junior Firpo (UEFA 2/11)."
+    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
    ]
   },
   {
-   "key": "3642cddab8c2e0da43a419cdd01d1db0|away",
-   "match_id": "3642cddab8c2e0da43a419cdd01d1db0",
-   "league": "Primeira Liga",
-   "kickoff": "2026-11-08T20:30:00Z",
-   "match": "Rio Ave FC – Braga",
+   "key": "df7d2d81b9e2f3f11c6aeddaee6b7085|away",
+   "match_id": "df7d2d81b9e2f3f11c6aeddaee6b7085",
+   "league": "Champions League",
+   "kickoff": "2026-11-04T20:00:00Z",
+   "match": "RB Leipzig – Manchester City",
    "outcome": "away",
-   "pick": "Braga",
-   "odds": 1.56,
-   "best_odds": 1.56,
-   "p": 0.6085,
-   "p_market": 0.6085,
-   "ev": -0.0507,
-   "ev_market": -0.0507,
-   "score": 3.5,
+   "pick": "Manchester City",
+   "odds": 1.53,
+   "best_odds": 1.59,
+   "p": 0.6227,
+   "p_market": 0.6227,
+   "ev": -0.0473,
+   "ev_market": -0.0473,
+   "score": 3.6,
    "category": "safe",
    "parts": [
     [
      "Zekerheid (winkans)",
-     3.1
+     3.5
     ],
     [
      "Odds (opbrengst)",
-     4.5
+     4.1
     ],
     [
      "Prijs t.o.v. eerlijke odds",
-     2.4
+     2.7
     ],
     [
      "Bevestigd door ClubElo",
@@ -2004,31 +1615,99 @@
    ],
    "steps": [
     {
-     "label": "Unibet-odds 1,56",
+     "label": "Unibet-odds 1,53",
      "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "64,1%"
+     "val": "65,4%"
     },
     {
      "label": "Marktconsensus",
-     "note": "15 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "60,9%"
+     "note": "19 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "62,3%"
     },
     {
      "label": "Eigen kans",
      "note": "Na alle correcties (begrensd)",
-     "val": "60,9%",
+     "val": "62,3%",
      "final": true
     }
    ],
    "promo": null,
    "p_elo": null,
-   "fair_odds": 1.64,
+   "fair_odds": 1.61,
    "kelly": 0.0,
    "community": [],
    "why": [
-    "Braga is de favoriet. Volgens 15 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Braga wint ongeveer 61%: zo'n 6 op 10 keer.",
-    "Let op: Unibet betaalt 1,56, terwijl een eerlijke odds voor die kans 1,64 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 5,1% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
-    "Met €10 krijg je €15,60 terug als het lukt (winst €5,60). In ongeveer 39% van de gevallen verlies je je inzet.",
+    "Manchester City is de favoriet. Volgens 19 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Manchester City wint ongeveer 62%: zo'n 6 op 10 keer.",
+    "Let op: Unibet betaalt 1,53, terwijl een eerlijke odds voor die kans 1,61 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,7% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
+    "Met €10 krijg je €15,30 terug als het lukt (winst €5,30). In ongeveer 38% van de gevallen verlies je je inzet.",
+    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+   ]
+  },
+  {
+   "key": "c468a7bc1110c030b62f381e3a480145|away",
+   "match_id": "c468a7bc1110c030b62f381e3a480145",
+   "league": "Primeira Liga",
+   "kickoff": "2026-11-08T18:00:00Z",
+   "match": "Vitória SC – FC Porto",
+   "outcome": "away",
+   "pick": "FC Porto",
+   "odds": 1.68,
+   "best_odds": 1.68,
+   "p": 0.5689,
+   "p_market": 0.5689,
+   "ev": -0.0442,
+   "ev_market": -0.0442,
+   "score": 3.5,
+   "category": "safe",
+   "parts": [
+    [
+     "Zekerheid (winkans)",
+     2.0
+    ],
+    [
+     "Odds (opbrengst)",
+     6.0
+    ],
+    [
+     "Prijs t.o.v. eerlijke odds",
+     3.0
+    ],
+    [
+     "Bevestigd door ClubElo",
+     5.0
+    ],
+    [
+     "Nieuws",
+     4.0
+    ]
+   ],
+   "steps": [
+    {
+     "label": "Unibet-odds 1,68",
+     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
+     "val": "59,5%"
+    },
+    {
+     "label": "Marktconsensus",
+     "note": "16 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "56,9%"
+    },
+    {
+     "label": "Eigen kans",
+     "note": "Na alle correcties (begrensd)",
+     "val": "56,9%",
+     "final": true
+    }
+   ],
+   "promo": null,
+   "p_elo": null,
+   "fair_odds": 1.76,
+   "kelly": 0.0,
+   "community": [],
+   "why": [
+    "FC Porto is de favoriet. Volgens 16 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat FC Porto wint ongeveer 57%: zo'n 6 op 10 keer.",
+    "Let op: Unibet betaalt 1,68, terwijl een eerlijke odds voor die kans 1,76 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,4% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
+    "Met €10 krijg je €16,80 terug als het lukt (winst €6,80). In ongeveer 43% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
    ]
   },
@@ -2042,10 +1721,10 @@
    "pick": "AZ Alkmaar",
    "odds": 1.54,
    "best_odds": 1.55,
-   "p": 0.6153,
-   "p_market": 0.6153,
-   "ev": -0.0525,
-   "ev_market": -0.0525,
+   "p": 0.6163,
+   "p_market": 0.6163,
+   "ev": -0.0509,
+   "ev_market": -0.0509,
    "score": 3.5,
    "category": "safe",
    "parts": [
@@ -2059,7 +1738,7 @@
     ],
     [
      "Prijs t.o.v. eerlijke odds",
-     2.3
+     2.4
     ],
     [
      "Bevestigd door ClubElo",
@@ -2078,24 +1757,24 @@
     },
     {
      "label": "Marktconsensus",
-     "note": "15 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "61,5%"
+     "note": "16 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "61,6%"
     },
     {
      "label": "Eigen kans",
      "note": "Na alle correcties (begrensd)",
-     "val": "61,5%",
+     "val": "61,6%",
      "final": true
     }
    ],
    "promo": null,
    "p_elo": null,
-   "fair_odds": 1.63,
+   "fair_odds": 1.62,
    "kelly": 0.0,
    "community": [],
    "why": [
-    "AZ Alkmaar is de favoriet. Volgens 15 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat AZ Alkmaar wint ongeveer 62%: zo'n 6 op 10 keer.",
-    "Let op: Unibet betaalt 1,54, terwijl een eerlijke odds voor die kans 1,63 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 5,3% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
+    "AZ Alkmaar is de favoriet. Volgens 16 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat AZ Alkmaar wint ongeveer 62%: zo'n 6 op 10 keer.",
+    "Let op: Unibet betaalt 1,54, terwijl een eerlijke odds voor die kans 1,62 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 5,1% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €15,40 terug als het lukt (winst €5,40). In ongeveer 38% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
    ]
@@ -2109,11 +1788,11 @@
    "outcome": "away",
    "pick": "Benfica",
    "odds": 1.18,
-   "best_odds": 1.26,
-   "p": 0.7605,
-   "p_market": 0.7605,
-   "ev": -0.1027,
-   "ev_market": -0.1027,
+   "best_odds": 1.25,
+   "p": 0.7584,
+   "p_market": 0.7584,
+   "ev": -0.1051,
+   "ev_market": -0.1051,
    "score": 3.5,
    "category": "safe",
    "parts": [
@@ -2147,12 +1826,12 @@
     {
      "label": "Marktconsensus",
      "note": "16 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "76,0%"
+     "val": "75,8%"
     },
     {
      "label": "Eigen kans",
      "note": "Na alle correcties (begrensd)",
-     "val": "76,0%",
+     "val": "75,8%",
      "final": true
     }
    ],
@@ -2163,175 +1842,39 @@
    "community": [],
    "why": [
     "Benfica is de favoriet. Volgens 16 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Benfica wint ongeveer 76%: zo'n 8 op 10 keer.",
-    "Let op: Unibet betaalt 1,18, terwijl een eerlijke odds voor die kans 1,32 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 10,3% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
+    "Let op: Unibet betaalt 1,18, terwijl een eerlijke odds voor die kans 1,32 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 10,5% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €11,80 terug als het lukt (winst €1,80). In ongeveer 24% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
    ]
   },
   {
-   "key": "59c5f635cfe11613c07e9a5520ced5c1|away",
-   "match_id": "59c5f635cfe11613c07e9a5520ced5c1",
-   "league": "Premier League",
-   "kickoff": "2026-11-07T17:30:00Z",
-   "match": "Nottingham Forest – Manchester City",
-   "outcome": "away",
-   "pick": "Manchester City",
-   "odds": 1.71,
-   "best_odds": 1.78,
-   "p": 0.5555,
-   "p_market": 0.5555,
-   "ev": -0.0501,
-   "ev_market": -0.0501,
-   "score": 3.4,
-   "category": "safe",
-   "parts": [
-    [
-     "Zekerheid (winkans)",
-     1.6
-    ],
-    [
-     "Odds (opbrengst)",
-     6.4
-    ],
-    [
-     "Prijs t.o.v. eerlijke odds",
-     2.5
-    ],
-    [
-     "Bevestigd door ClubElo",
-     5.0
-    ],
-    [
-     "Nieuws",
-     4.0
-    ]
-   ],
-   "steps": [
-    {
-     "label": "Unibet-odds 1,71",
-     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "58,5%"
-    },
-    {
-     "label": "Marktconsensus",
-     "note": "21 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "55,6%"
-    },
-    {
-     "label": "Eigen kans",
-     "note": "Na alle correcties (begrensd)",
-     "val": "55,6%",
-     "final": true
-    }
-   ],
-   "promo": null,
-   "p_elo": null,
-   "fair_odds": 1.8,
-   "kelly": 0.0,
-   "community": [],
-   "why": [
-    "Manchester City is de favoriet. Volgens 21 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Manchester City wint ongeveer 56%: zo'n 6 op 10 keer.",
-    "Let op: Unibet betaalt 1,71, terwijl een eerlijke odds voor die kans 1,80 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 5,0% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
-    "Met €10 krijg je €17,10 terug als het lukt (winst €7,10). In ongeveer 44% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
-   ]
-  },
-  {
-   "key": "c468a7bc1110c030b62f381e3a480145|away",
-   "match_id": "c468a7bc1110c030b62f381e3a480145",
-   "league": "Primeira Liga",
-   "kickoff": "2026-11-08T18:00:00Z",
-   "match": "Vitória SC – FC Porto",
-   "outcome": "away",
-   "pick": "FC Porto",
-   "odds": 1.68,
-   "best_odds": 1.7,
-   "p": 0.5633,
-   "p_market": 0.5633,
-   "ev": -0.0537,
-   "ev_market": -0.0537,
+   "key": "cb7170b1b0e68a09be62b7a0fcb8d268|home",
+   "match_id": "cb7170b1b0e68a09be62b7a0fcb8d268",
+   "league": "Europa League",
+   "kickoff": "2026-11-05T17:45:00Z",
+   "match": "AC Milan – Ferencváros TC",
+   "outcome": "home",
+   "pick": "AC Milan",
+   "odds": 1.3,
+   "best_odds": 1.4,
+   "p": 0.7102,
+   "p_market": 0.7102,
+   "ev": -0.0768,
+   "ev_market": -0.0768,
    "score": 3.3,
    "category": "safe",
    "parts": [
     [
      "Zekerheid (winkans)",
-     1.8
-    ],
-    [
-     "Odds (opbrengst)",
      6.0
     ],
     [
-     "Prijs t.o.v. eerlijke odds",
-     2.2
-    ],
-    [
-     "Bevestigd door ClubElo",
-     5.0
-    ],
-    [
-     "Nieuws",
-     4.0
-    ]
-   ],
-   "steps": [
-    {
-     "label": "Unibet-odds 1,68",
-     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "59,5%"
-    },
-    {
-     "label": "Marktconsensus",
-     "note": "15 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "56,3%"
-    },
-    {
-     "label": "Eigen kans",
-     "note": "Na alle correcties (begrensd)",
-     "val": "56,3%",
-     "final": true
-    }
-   ],
-   "promo": null,
-   "p_elo": null,
-   "fair_odds": 1.78,
-   "kelly": 0.0,
-   "community": [],
-   "why": [
-    "FC Porto is de favoriet. Volgens 15 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat FC Porto wint ongeveer 56%: zo'n 6 op 10 keer.",
-    "Let op: Unibet betaalt 1,68, terwijl een eerlijke odds voor die kans 1,78 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 5,4% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
-    "Met €10 krijg je €16,80 terug als het lukt (winst €6,80). In ongeveer 44% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
-   ]
-  },
-  {
-   "key": "3eb376e5f313e6d8e7ca8bb6556d0b29|home",
-   "match_id": "3eb376e5f313e6d8e7ca8bb6556d0b29",
-   "league": "Jupiler Pro League",
-   "kickoff": "2026-11-08T17:30:00Z",
-   "match": "Union Saint-Gilloise – Genk",
-   "outcome": "home",
-   "pick": "Union Saint-Gilloise",
-   "odds": 1.65,
-   "best_odds": 1.65,
-   "p": 0.5731,
-   "p_market": 0.5731,
-   "ev": -0.0544,
-   "ev_market": -0.0544,
-   "score": 3.3,
-   "category": "safe",
-   "parts": [
-    [
-     "Zekerheid (winkans)",
-     2.1
-    ],
-    [
      "Odds (opbrengst)",
-     5.6
+     1.3
     ],
     [
      "Prijs t.o.v. eerlijke odds",
-     2.1
+     0.3
     ],
     [
      "Bevestigd door ClubElo",
@@ -2344,31 +1887,31 @@
    ],
    "steps": [
     {
-     "label": "Unibet-odds 1,65",
+     "label": "Unibet-odds 1,30",
      "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "60,6%"
+     "val": "76,9%"
     },
     {
      "label": "Marktconsensus",
-     "note": "14 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "57,3%"
+     "note": "17 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "71,0%"
     },
     {
      "label": "Eigen kans",
      "note": "Na alle correcties (begrensd)",
-     "val": "57,3%",
+     "val": "71,0%",
      "final": true
     }
    ],
    "promo": null,
    "p_elo": null,
-   "fair_odds": 1.74,
+   "fair_odds": 1.41,
    "kelly": 0.0,
    "community": [],
    "why": [
-    "Union Saint-Gilloise is de favoriet. Volgens 14 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Union Saint-Gilloise wint ongeveer 57%: zo'n 6 op 10 keer.",
-    "Let op: Unibet betaalt 1,65, terwijl een eerlijke odds voor die kans 1,74 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 5,4% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
-    "Met €10 krijg je €16,50 terug als het lukt (winst €6,50). In ongeveer 43% van de gevallen verlies je je inzet.",
+    "AC Milan is de favoriet. Volgens 17 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat AC Milan wint ongeveer 71%: zo'n 7 op 10 keer.",
+    "Let op: Unibet betaalt 1,30, terwijl een eerlijke odds voor die kans 1,41 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 7,7% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
+    "Met €10 krijg je €13,00 terug als het lukt (winst €3,00). In ongeveer 29% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
    ]
   },
@@ -2380,26 +1923,26 @@
    "match": "VfB Stuttgart – Werder Bremen",
    "outcome": "home",
    "pick": "VfB Stuttgart",
-   "odds": 1.51,
-   "best_odds": 1.58,
-   "p": 0.6168,
-   "p_market": 0.6168,
-   "ev": -0.0687,
-   "ev_market": -0.0687,
+   "odds": 1.55,
+   "best_odds": 1.66,
+   "p": 0.6039,
+   "p_market": 0.6039,
+   "ev": -0.064,
+   "ev_market": -0.064,
    "score": 3.1,
    "category": "safe",
    "parts": [
     [
      "Zekerheid (winkans)",
-     3.3
+     3.0
     ],
     [
      "Odds (opbrengst)",
-     3.9
+     4.4
     ],
     [
      "Prijs t.o.v. eerlijke odds",
-     0.9
+     1.3
     ],
     [
      "Bevestigd door ClubElo",
@@ -2412,31 +1955,31 @@
    ],
    "steps": [
     {
-     "label": "Unibet-odds 1,51",
+     "label": "Unibet-odds 1,55",
      "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "66,2%"
+     "val": "64,5%"
     },
     {
      "label": "Marktconsensus",
-     "note": "19 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "61,7%"
+     "note": "20 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "60,4%"
     },
     {
      "label": "Eigen kans",
      "note": "Na alle correcties (begrensd)",
-     "val": "61,7%",
+     "val": "60,4%",
      "final": true
     }
    ],
    "promo": null,
    "p_elo": null,
-   "fair_odds": 1.62,
+   "fair_odds": 1.66,
    "kelly": 0.0,
    "community": [],
    "why": [
-    "VfB Stuttgart is de favoriet. Volgens 19 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat VfB Stuttgart wint ongeveer 62%: zo'n 6 op 10 keer.",
-    "Let op: Unibet betaalt 1,51, terwijl een eerlijke odds voor die kans 1,62 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 6,9% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
-    "Met €10 krijg je €15,10 terug als het lukt (winst €5,10). In ongeveer 38% van de gevallen verlies je je inzet.",
+    "VfB Stuttgart is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat VfB Stuttgart wint ongeveer 60%: zo'n 6 op 10 keer.",
+    "Let op: Unibet betaalt 1,55, terwijl een eerlijke odds voor die kans 1,66 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 6,4% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
+    "Met €10 krijg je €15,50 terug als het lukt (winst €5,50). In ongeveer 40% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
    ]
   },
@@ -2448,12 +1991,12 @@
    "match": "SC Cambuur – PSV Eindhoven",
    "outcome": "away",
    "pick": "PSV Eindhoven",
-   "odds": 1.34,
+   "odds": 1.33,
    "best_odds": 1.41,
-   "p": 0.6847,
-   "p_market": 0.6847,
-   "ev": -0.0825,
-   "ev_market": -0.0825,
+   "p": 0.6859,
+   "p_market": 0.6859,
+   "ev": -0.0877,
+   "ev_market": -0.0877,
    "score": 3.1,
    "category": "safe",
    "parts": [
@@ -2463,7 +2006,7 @@
     ],
     [
      "Odds (opbrengst)",
-     1.8
+     1.6
     ],
     [
      "Prijs t.o.v. eerlijke odds",
@@ -2480,19 +2023,19 @@
    ],
    "steps": [
     {
-     "label": "Unibet-odds 1,34",
+     "label": "Unibet-odds 1,33",
      "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "74,6%"
+     "val": "75,2%"
     },
     {
      "label": "Marktconsensus",
-     "note": "16 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "68,5%"
+     "note": "17 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "68,6%"
     },
     {
      "label": "Eigen kans",
      "note": "Na alle correcties (begrensd)",
-     "val": "68,5%",
+     "val": "68,6%",
      "final": true
     }
    ],
@@ -2502,9 +2045,9 @@
    "kelly": 0.0,
    "community": [],
    "why": [
-    "PSV Eindhoven is de favoriet. Volgens 16 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat PSV Eindhoven wint ongeveer 68%: zo'n 7 op 10 keer.",
-    "Let op: Unibet betaalt 1,34, terwijl een eerlijke odds voor die kans 1,46 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 8,2% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
-    "Met €10 krijg je €13,40 terug als het lukt (winst €3,40). In ongeveer 32% van de gevallen verlies je je inzet.",
+    "PSV Eindhoven is de favoriet. Volgens 17 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat PSV Eindhoven wint ongeveer 69%: zo'n 7 op 10 keer.",
+    "Let op: Unibet betaalt 1,33, terwijl een eerlijke odds voor die kans 1,46 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 8,8% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
+    "Met €10 krijg je €13,30 terug als het lukt (winst €3,30). In ongeveer 31% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
    ]
   },
@@ -2518,16 +2061,16 @@
    "pick": "Club Brugge",
    "odds": 1.5,
    "best_odds": 1.54,
-   "p": 0.6153,
-   "p_market": 0.6153,
-   "ev": -0.0771,
-   "ev_market": -0.0771,
-   "score": 2.9,
+   "p": 0.6175,
+   "p_market": 0.6175,
+   "ev": -0.0738,
+   "ev_market": -0.0738,
+   "score": 3.0,
    "category": "safe",
    "parts": [
     [
      "Zekerheid (winkans)",
-     3.3
+     3.4
     ],
     [
      "Odds (opbrengst)",
@@ -2535,7 +2078,7 @@
     ],
     [
      "Prijs t.o.v. eerlijke odds",
-     0.2
+     0.5
     ],
     [
      "Bevestigd door ClubElo",
@@ -2554,120 +2097,52 @@
     },
     {
      "label": "Marktconsensus",
-     "note": "15 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "61,5%"
+     "note": "16 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "61,7%"
     },
     {
      "label": "Eigen kans",
      "note": "Na alle correcties (begrensd)",
-     "val": "61,5%",
+     "val": "61,7%",
      "final": true
     }
    ],
    "promo": null,
    "p_elo": null,
-   "fair_odds": 1.63,
+   "fair_odds": 1.62,
    "kelly": 0.0,
    "community": [],
    "why": [
-    "Club Brugge is de favoriet. Volgens 15 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Club Brugge wint ongeveer 62%: zo'n 6 op 10 keer.",
-    "Let op: Unibet betaalt 1,50, terwijl een eerlijke odds voor die kans 1,63 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 7,7% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
+    "Club Brugge is de favoriet. Volgens 16 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Club Brugge wint ongeveer 62%: zo'n 6 op 10 keer.",
+    "Let op: Unibet betaalt 1,50, terwijl een eerlijke odds voor die kans 1,62 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 7,4% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €15,00 terug als het lukt (winst €5,00). In ongeveer 38% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
    ]
   },
   {
-   "key": "16029fbb3d6ae79243c5650896bef095|home",
-   "match_id": "16029fbb3d6ae79243c5650896bef095",
-   "league": "Jupiler Pro League",
-   "kickoff": "2026-11-08T15:00:00Z",
-   "match": "Gent – KV Kortrijk",
-   "outcome": "home",
-   "pick": "Gent",
-   "odds": 1.32,
-   "best_odds": 1.41,
-   "p": 0.6717,
-   "p_market": 0.6717,
-   "ev": -0.1133,
-   "ev_market": -0.1133,
-   "score": 2.9,
-   "category": "safe",
-   "parts": [
-    [
-     "Zekerheid (winkans)",
-     4.9
-    ],
-    [
-     "Odds (opbrengst)",
-     1.5
-    ],
-    [
-     "Prijs t.o.v. eerlijke odds",
-     0
-    ],
-    [
-     "Bevestigd door ClubElo",
-     5.0
-    ],
-    [
-     "Nieuws",
-     4.0
-    ]
-   ],
-   "steps": [
-    {
-     "label": "Unibet-odds 1,32",
-     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "75,8%"
-    },
-    {
-     "label": "Marktconsensus",
-     "note": "13 bookmakers, marge eruit",
-     "val": "67,2%"
-    },
-    {
-     "label": "Eigen kans",
-     "note": "Na alle correcties (begrensd)",
-     "val": "67,2%",
-     "final": true
-    }
-   ],
-   "promo": null,
-   "p_elo": null,
-   "fair_odds": 1.49,
-   "kelly": 0.0,
-   "community": [],
-   "why": [
-    "Gent is de favoriet. Volgens 13 bookmakers is de kans dat Gent wint ongeveer 67%: zo'n 7 op 10 keer.",
-    "Let op: Unibet betaalt 1,32, terwijl een eerlijke odds voor die kans 1,49 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 11,3% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
-    "Met €10 krijg je €13,20 terug als het lukt (winst €3,20). In ongeveer 33% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
-   ]
-  },
-  {
-   "key": "d9d924bf6388e1288f06e04041b3fe33|home",
-   "match_id": "d9d924bf6388e1288f06e04041b3fe33",
+   "key": "3642cddab8c2e0da43a419cdd01d1db0|away",
+   "match_id": "3642cddab8c2e0da43a419cdd01d1db0",
    "league": "Primeira Liga",
-   "kickoff": "2026-11-07T18:00:00Z",
-   "match": "Alverca – Casa Pia",
-   "outcome": "home",
-   "pick": "Alverca",
-   "odds": 1.63,
-   "best_odds": 1.72,
-   "p": 0.5523,
-   "p_market": 0.5523,
-   "ev": -0.0997,
-   "ev_market": -0.0997,
-   "score": 2.5,
+   "kickoff": "2026-11-08T20:30:00Z",
+   "match": "Rio Ave FC – Braga",
+   "outcome": "away",
+   "pick": "Braga",
+   "odds": 1.56,
+   "best_odds": 1.56,
+   "p": 0.5855,
+   "p_market": 0.5855,
+   "ev": -0.0866,
+   "ev_market": -0.0866,
+   "score": 2.7,
    "category": "safe",
    "parts": [
     [
      "Zekerheid (winkans)",
-     1.5
+     2.4
     ],
     [
      "Odds (opbrengst)",
-     5.4
+     4.5
     ],
     [
      "Prijs t.o.v. eerlijke odds",
@@ -2684,31 +2159,159 @@
    ],
    "steps": [
     {
-     "label": "Unibet-odds 1,63",
+     "label": "Unibet-odds 1,56",
      "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "61,3%"
+     "val": "64,1%"
     },
     {
      "label": "Marktconsensus",
      "note": "16 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "55,2%"
+     "val": "58,6%"
     },
     {
      "label": "Eigen kans",
      "note": "Na alle correcties (begrensd)",
-     "val": "55,2%",
+     "val": "58,6%",
      "final": true
     }
    ],
    "promo": null,
    "p_elo": null,
-   "fair_odds": 1.81,
+   "fair_odds": 1.71,
    "kelly": 0.0,
    "community": [],
    "why": [
-    "Alverca is de favoriet. Volgens 16 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Alverca wint ongeveer 55%: zo'n 6 op 10 keer.",
-    "Let op: Unibet betaalt 1,63, terwijl een eerlijke odds voor die kans 1,81 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 10,0% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
-    "Met €10 krijg je €16,30 terug als het lukt (winst €6,30). In ongeveer 45% van de gevallen verlies je je inzet.",
+    "Braga is de favoriet. Volgens 16 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Braga wint ongeveer 59%: zo'n 6 op 10 keer.",
+    "Let op: Unibet betaalt 1,56, terwijl een eerlijke odds voor die kans 1,71 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 8,7% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
+    "Met €10 krijg je €15,60 terug als het lukt (winst €5,60). In ongeveer 41% van de gevallen verlies je je inzet.",
+    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+   ]
+  },
+  {
+   "key": "cb7170b1b0e68a09be62b7a0fcb8d268|draw",
+   "match_id": "cb7170b1b0e68a09be62b7a0fcb8d268",
+   "league": "Europa League",
+   "kickoff": "2026-11-05T17:45:00Z",
+   "match": "AC Milan – Ferencváros TC",
+   "outcome": "draw",
+   "pick": "Gelijkspel",
+   "odds": 6.0,
+   "best_odds": 5.7,
+   "p": 0.18,
+   "p_market": 0.18,
+   "ev": 0.0802,
+   "ev_market": 0.0802,
+   "score": 7.5,
+   "category": "risky",
+   "parts": [
+    [
+     "X-factor (value)",
+     6.7
+    ],
+    [
+     "Betrouwbaarheid analyse",
+     8.8
+    ],
+    [
+     "Odds-achterstand Unibet",
+     10
+    ],
+    [
+     "Nieuws bevestigd",
+     4.0
+    ]
+   ],
+   "steps": [
+    {
+     "label": "Unibet-odds 6,00",
+     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
+     "val": "16,7%"
+    },
+    {
+     "label": "Marktconsensus",
+     "note": "17 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "18,0%"
+    },
+    {
+     "label": "Eigen kans",
+     "note": "Na alle correcties (begrensd)",
+     "val": "18,0%",
+     "final": true
+    }
+   ],
+   "promo": null,
+   "p_elo": null,
+   "fair_odds": 5.55,
+   "kelly": 0.016,
+   "community": [],
+   "why": [
+    "Dit is een risicobet. De kans dat het gelijk eindigt is volgens 17 bookmakers (waaronder Pinnacle, de scherpste) maar ongeveer 18%: zo'n 1 op 6 keer.",
+    "Unibet betaalt wel 6,00, terwijl een eerlijke odds 5,55 zou zijn. Daardoor is de x-factor +8,0%: wie zulke bets vaak speelt, wint op lange termijn gemiddeld zoveel bovenop zijn inzet terug.",
+    "Je verliest de meeste van deze bets. Met €10 krijg je €60,00 terug als het lukt. Speel ze alleen met een klein bedrag en als reeks, nooit om verlies goed te maken.",
+    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+   ]
+  },
+  {
+   "key": "23bf8ea47358ef82f65aa7398a2b3921|away",
+   "match_id": "23bf8ea47358ef82f65aa7398a2b3921",
+   "league": "Serie A",
+   "kickoff": "2026-11-08T11:30:00Z",
+   "match": "Napoli – Lazio",
+   "outcome": "away",
+   "pick": "Lazio",
+   "odds": 3.45,
+   "best_odds": 3.35,
+   "p": 0.3036,
+   "p_market": 0.3036,
+   "ev": 0.0474,
+   "ev_market": 0.0474,
+   "score": 6.3,
+   "category": "risky",
+   "parts": [
+    [
+     "X-factor (value)",
+     3.9
+    ],
+    [
+     "Betrouwbaarheid analyse",
+     10
+    ],
+    [
+     "Odds-achterstand Unibet",
+     7.9
+    ],
+    [
+     "Nieuws bevestigd",
+     4.0
+    ]
+   ],
+   "steps": [
+    {
+     "label": "Unibet-odds 3,45",
+     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
+     "val": "29,0%"
+    },
+    {
+     "label": "Marktconsensus",
+     "note": "21 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "30,4%"
+    },
+    {
+     "label": "Eigen kans",
+     "note": "Na alle correcties (begrensd)",
+     "val": "30,4%",
+     "final": true
+    }
+   ],
+   "promo": null,
+   "p_elo": null,
+   "fair_odds": 3.29,
+   "kelly": 0.0193,
+   "community": [],
+   "why": [
+    "Dit is een risicobet. De kans dat Lazio wint is volgens 21 bookmakers (waaronder Pinnacle, de scherpste) maar ongeveer 30%: zo'n 1 op 3 keer.",
+    "Unibet betaalt wel 3,45, terwijl een eerlijke odds 3,29 zou zijn. Daardoor is de x-factor +4,7%: wie zulke bets vaak speelt, wint op lange termijn gemiddeld zoveel bovenop zijn inzet terug.",
+    "Je verliest de meeste van deze bets. Met €10 krijg je €34,50 terug als het lukt. Speel ze alleen met een klein bedrag en als reeks, nooit om verlies goed te maken.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
    ]
   },
@@ -2720,26 +2323,26 @@
    "match": "VfB Stuttgart – Werder Bremen",
    "outcome": "away",
    "pick": "Werder Bremen",
-   "odds": 5.6,
-   "best_odds": 5.3,
-   "p": 0.189,
-   "p_market": 0.189,
-   "ev": 0.0587,
-   "ev_market": 0.0587,
-   "score": 6.9,
+   "odds": 5.3,
+   "best_odds": 5.08,
+   "p": 0.1972,
+   "p_market": 0.1972,
+   "ev": 0.0453,
+   "ev_market": 0.0453,
+   "score": 6.1,
    "category": "risky",
    "parts": [
     [
      "X-factor (value)",
-     4.9
+     3.8
     ],
     [
      "Betrouwbaarheid analyse",
-     9.6
+     10
     ],
     [
      "Odds-achterstand Unibet",
-     9.8
+     7.6
     ],
     [
      "Nieuws bevestigd",
@@ -2748,31 +2351,31 @@
    ],
    "steps": [
     {
-     "label": "Unibet-odds 5,60",
+     "label": "Unibet-odds 5,30",
      "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "17,9%"
+     "val": "18,9%"
     },
     {
      "label": "Marktconsensus",
-     "note": "19 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "18,9%"
+     "note": "20 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "19,7%"
     },
     {
      "label": "Eigen kans",
      "note": "Na alle correcties (begrensd)",
-     "val": "18,9%",
+     "val": "19,7%",
      "final": true
     }
    ],
    "promo": null,
    "p_elo": null,
-   "fair_odds": 5.29,
-   "kelly": 0.0128,
+   "fair_odds": 5.07,
+   "kelly": 0.0105,
    "community": [],
    "why": [
-    "Dit is een risicobet. De kans dat Werder Bremen wint is volgens 19 bookmakers (waaronder Pinnacle, de scherpste) maar ongeveer 19%: zo'n 1 op 5 keer.",
-    "Unibet betaalt wel 5,60, terwijl een eerlijke odds 5,29 zou zijn. Daardoor is de x-factor +5,9%: wie zulke bets vaak speelt, wint op lange termijn gemiddeld zoveel bovenop zijn inzet terug.",
-    "Je verliest de meeste van deze bets. Met €10 krijg je €56,00 terug als het lukt. Speel ze alleen met een klein bedrag en als reeks, nooit om verlies goed te maken.",
+    "Dit is een risicobet. De kans dat Werder Bremen wint is volgens 20 bookmakers (waaronder Pinnacle, de scherpste) maar ongeveer 20%: zo'n 1 op 5 keer.",
+    "Unibet betaalt wel 5,30, terwijl een eerlijke odds 5,07 zou zijn. Daardoor is de x-factor +4,5%: wie zulke bets vaak speelt, wint op lange termijn gemiddeld zoveel bovenop zijn inzet terug.",
+    "Je verliest de meeste van deze bets. Met €10 krijg je €53,00 terug als het lukt. Speel ze alleen met een klein bedrag en als reeks, nooit om verlies goed te maken.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
    ]
   },
@@ -2784,18 +2387,18 @@
    "match": "Fiorentina – Juventus",
    "outcome": "home",
    "pick": "Fiorentina",
-   "odds": 3.9,
-   "best_odds": 3.75,
-   "p": 0.269,
-   "p_market": 0.269,
-   "ev": 0.049,
-   "ev_market": 0.049,
-   "score": 6.4,
+   "odds": 3.85,
+   "best_odds": 3.71,
+   "p": 0.2713,
+   "p_market": 0.2713,
+   "ev": 0.0444,
+   "ev_market": 0.0444,
+   "score": 6.1,
    "category": "risky",
    "parts": [
     [
      "X-factor (value)",
-     4.1
+     3.7
     ],
     [
      "Betrouwbaarheid analyse",
@@ -2803,7 +2406,7 @@
     ],
     [
      "Odds-achterstand Unibet",
-     8.2
+     7.4
     ],
     [
      "Nieuws bevestigd",
@@ -2812,31 +2415,95 @@
    ],
    "steps": [
     {
-     "label": "Unibet-odds 3,90",
+     "label": "Unibet-odds 3,85",
      "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "25,6%"
+     "val": "26,0%"
     },
     {
      "label": "Marktconsensus",
-     "note": "20 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "26,9%"
+     "note": "21 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "27,1%"
     },
     {
      "label": "Eigen kans",
      "note": "Na alle correcties (begrensd)",
-     "val": "26,9%",
+     "val": "27,1%",
      "final": true
     }
    ],
    "promo": null,
    "p_elo": null,
-   "fair_odds": 3.72,
-   "kelly": 0.0169,
+   "fair_odds": 3.69,
+   "kelly": 0.0156,
    "community": [],
    "why": [
-    "Dit is een risicobet. De kans dat Fiorentina wint is volgens 20 bookmakers (waaronder Pinnacle, de scherpste) maar ongeveer 27%: zo'n 1 op 4 keer.",
-    "Unibet betaalt wel 3,90, terwijl een eerlijke odds 3,72 zou zijn. Daardoor is de x-factor +4,9%: wie zulke bets vaak speelt, wint op lange termijn gemiddeld zoveel bovenop zijn inzet terug.",
-    "Je verliest de meeste van deze bets. Met €10 krijg je €39,00 terug als het lukt. Speel ze alleen met een klein bedrag en als reeks, nooit om verlies goed te maken.",
+    "Dit is een risicobet. De kans dat Fiorentina wint is volgens 21 bookmakers (waaronder Pinnacle, de scherpste) maar ongeveer 27%: zo'n 1 op 4 keer.",
+    "Unibet betaalt wel 3,85, terwijl een eerlijke odds 3,69 zou zijn. Daardoor is de x-factor +4,4%: wie zulke bets vaak speelt, wint op lange termijn gemiddeld zoveel bovenop zijn inzet terug.",
+    "Je verliest de meeste van deze bets. Met €10 krijg je €38,50 terug als het lukt. Speel ze alleen met een klein bedrag en als reeks, nooit om verlies goed te maken.",
+    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+   ]
+  },
+  {
+   "key": "df7d2d81b9e2f3f11c6aeddaee6b7085|home",
+   "match_id": "df7d2d81b9e2f3f11c6aeddaee6b7085",
+   "league": "Champions League",
+   "kickoff": "2026-11-04T20:00:00Z",
+   "match": "RB Leipzig – Manchester City",
+   "outcome": "home",
+   "pick": "RB Leipzig",
+   "odds": 5.8,
+   "best_odds": 5.7,
+   "p": 0.1798,
+   "p_market": 0.1798,
+   "ev": 0.0431,
+   "ev_market": 0.0431,
+   "score": 5.9,
+   "category": "risky",
+   "parts": [
+    [
+     "X-factor (value)",
+     3.6
+    ],
+    [
+     "Betrouwbaarheid analyse",
+     9.6
+    ],
+    [
+     "Odds-achterstand Unibet",
+     7.2
+    ],
+    [
+     "Nieuws bevestigd",
+     4.0
+    ]
+   ],
+   "steps": [
+    {
+     "label": "Unibet-odds 5,80",
+     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
+     "val": "17,2%"
+    },
+    {
+     "label": "Marktconsensus",
+     "note": "19 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "18,0%"
+    },
+    {
+     "label": "Eigen kans",
+     "note": "Na alle correcties (begrensd)",
+     "val": "18,0%",
+     "final": true
+    }
+   ],
+   "promo": null,
+   "p_elo": null,
+   "fair_odds": 5.56,
+   "kelly": 0.009,
+   "community": [],
+   "why": [
+    "Dit is een risicobet. De kans dat RB Leipzig wint is volgens 19 bookmakers (waaronder Pinnacle, de scherpste) maar ongeveer 18%: zo'n 1 op 6 keer.",
+    "Unibet betaalt wel 5,80, terwijl een eerlijke odds 5,56 zou zijn. Daardoor is de x-factor +4,3%: wie zulke bets vaak speelt, wint op lange termijn gemiddeld zoveel bovenop zijn inzet terug.",
+    "Je verliest de meeste van deze bets. Met €10 krijg je €58,00 terug als het lukt. Speel ze alleen met een klein bedrag en als reeks, nooit om verlies goed te maken.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
    ]
   },
@@ -2849,17 +2516,17 @@
    "outcome": "away",
    "pick": "FC Ararat-Armenia",
    "odds": 4.9,
-   "best_odds": 4.8,
-   "p": 0.2124,
-   "p_market": 0.2124,
-   "ev": 0.0406,
-   "ev_market": 0.0406,
-   "score": 5.5,
+   "best_odds": 4.9,
+   "p": 0.2126,
+   "p_market": 0.2126,
+   "ev": 0.0415,
+   "ev_market": 0.0415,
+   "score": 5.6,
    "category": "risky",
    "parts": [
     [
      "X-factor (value)",
-     3.4
+     3.5
     ],
     [
      "Betrouwbaarheid analyse",
@@ -2867,7 +2534,7 @@
     ],
     [
      "Odds-achterstand Unibet",
-     6.8
+     6.9
     ],
     [
      "Nieuws bevestigd",
@@ -2883,24 +2550,88 @@
     {
      "label": "Marktconsensus",
      "note": "17 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "21,2%"
+     "val": "21,3%"
     },
     {
      "label": "Eigen kans",
      "note": "Na alle correcties (begrensd)",
-     "val": "21,2%",
+     "val": "21,3%",
      "final": true
     }
    ],
    "promo": null,
    "p_elo": null,
-   "fair_odds": 4.71,
-   "kelly": 0.0104,
+   "fair_odds": 4.7,
+   "kelly": 0.0106,
    "community": [],
    "why": [
     "Dit is een risicobet. De kans dat FC Ararat-Armenia wint is volgens 17 bookmakers (waaronder Pinnacle, de scherpste) maar ongeveer 21%: zo'n 1 op 5 keer.",
-    "Unibet betaalt wel 4,90, terwijl een eerlijke odds 4,71 zou zijn. Daardoor is de x-factor +4,1%: wie zulke bets vaak speelt, wint op lange termijn gemiddeld zoveel bovenop zijn inzet terug.",
+    "Unibet betaalt wel 4,90, terwijl een eerlijke odds 4,70 zou zijn. Daardoor is de x-factor +4,1%: wie zulke bets vaak speelt, wint op lange termijn gemiddeld zoveel bovenop zijn inzet terug.",
     "Je verliest de meeste van deze bets. Met €10 krijg je €49,00 terug als het lukt. Speel ze alleen met een klein bedrag en als reeks, nooit om verlies goed te maken.",
+    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+   ]
+  },
+  {
+   "key": "16029fbb3d6ae79243c5650896bef095|draw",
+   "match_id": "16029fbb3d6ae79243c5650896bef095",
+   "league": "Jupiler Pro League",
+   "kickoff": "2026-11-08T15:00:00Z",
+   "match": "Gent – KV Kortrijk",
+   "outcome": "draw",
+   "pick": "Gelijkspel",
+   "odds": 4.8,
+   "best_odds": 5.2,
+   "p": 0.2175,
+   "p_market": 0.2175,
+   "ev": 0.0438,
+   "ev_market": 0.0438,
+   "score": 5.5,
+   "category": "risky",
+   "parts": [
+    [
+     "X-factor (value)",
+     3.7
+    ],
+    [
+     "Betrouwbaarheid analyse",
+     8.0
+    ],
+    [
+     "Odds-achterstand Unibet",
+     7.3
+    ],
+    [
+     "Nieuws bevestigd",
+     4.0
+    ]
+   ],
+   "steps": [
+    {
+     "label": "Unibet-odds 4,80",
+     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
+     "val": "20,8%"
+    },
+    {
+     "label": "Marktconsensus",
+     "note": "15 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "21,7%"
+    },
+    {
+     "label": "Eigen kans",
+     "note": "Na alle correcties (begrensd)",
+     "val": "21,7%",
+     "final": true
+    }
+   ],
+   "promo": null,
+   "p_elo": null,
+   "fair_odds": 4.6,
+   "kelly": 0.0115,
+   "community": [],
+   "why": [
+    "Dit is een risicobet. De kans dat het gelijk eindigt is volgens 15 bookmakers (waaronder Pinnacle, de scherpste) maar ongeveer 22%: zo'n 1 op 5 keer.",
+    "Unibet betaalt wel 4,80, terwijl een eerlijke odds 4,60 zou zijn. Daardoor is de x-factor +4,4%: wie zulke bets vaak speelt, wint op lange termijn gemiddeld zoveel bovenop zijn inzet terug.",
+    "Je verliest de meeste van deze bets. Met €10 krijg je €48,00 terug als het lukt. Speel ze alleen met een klein bedrag en als reeks, nooit om verlies goed te maken.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
    ]
   },
@@ -2914,24 +2645,24 @@
    "pick": "Groningen",
    "odds": 5.75,
    "best_odds": 5.52,
-   "p": 0.1803,
-   "p_market": 0.1803,
-   "ev": 0.0369,
-   "ev_market": 0.0369,
+   "p": 0.1802,
+   "p_market": 0.1802,
+   "ev": 0.036,
+   "ev_market": 0.036,
    "score": 5.1,
    "category": "risky",
    "parts": [
     [
      "X-factor (value)",
-     3.1
+     3.0
     ],
     [
      "Betrouwbaarheid analyse",
-     8.0
+     8.4
     ],
     [
      "Odds-achterstand Unibet",
-     6.2
+     6.0
     ],
     [
      "Nieuws bevestigd",
@@ -2946,7 +2677,7 @@
     },
     {
      "label": "Marktconsensus",
-     "note": "15 bookmakers, marge eruit, incl. Pinnacle",
+     "note": "16 bookmakers, marge eruit, incl. Pinnacle",
      "val": "18,0%"
     },
     {
@@ -2959,76 +2690,12 @@
    "promo": null,
    "p_elo": null,
    "fair_odds": 5.55,
-   "kelly": 0.0078,
+   "kelly": 0.0076,
    "community": [],
    "why": [
-    "Dit is een risicobet. De kans dat Groningen wint is volgens 15 bookmakers (waaronder Pinnacle, de scherpste) maar ongeveer 18%: zo'n 1 op 6 keer.",
-    "Unibet betaalt wel 5,75, terwijl een eerlijke odds 5,55 zou zijn. Daardoor is de x-factor +3,7%: wie zulke bets vaak speelt, wint op lange termijn gemiddeld zoveel bovenop zijn inzet terug.",
+    "Dit is een risicobet. De kans dat Groningen wint is volgens 16 bookmakers (waaronder Pinnacle, de scherpste) maar ongeveer 18%: zo'n 1 op 6 keer.",
+    "Unibet betaalt wel 5,75, terwijl een eerlijke odds 5,55 zou zijn. Daardoor is de x-factor +3,6%: wie zulke bets vaak speelt, wint op lange termijn gemiddeld zoveel bovenop zijn inzet terug.",
     "Je verliest de meeste van deze bets. Met €10 krijg je €57,50 terug als het lukt. Speel ze alleen met een klein bedrag en als reeks, nooit om verlies goed te maken.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
-   ]
-  },
-  {
-   "key": "33c5cad848eb423e163a9bf5631ccefe|draw",
-   "match_id": "33c5cad848eb423e163a9bf5631ccefe",
-   "league": "Eredivisie",
-   "kickoff": "2026-11-07T15:30:00Z",
-   "match": "Fortuna Sittard – SC Telstar",
-   "outcome": "draw",
-   "pick": "Gelijkspel",
-   "odds": 4.0,
-   "best_odds": 3.85,
-   "p": 0.2577,
-   "p_market": 0.2577,
-   "ev": 0.0306,
-   "ev_market": 0.0306,
-   "score": 4.8,
-   "category": "risky",
-   "parts": [
-    [
-     "X-factor (value)",
-     2.6
-    ],
-    [
-     "Betrouwbaarheid analyse",
-     8.8
-    ],
-    [
-     "Odds-achterstand Unibet",
-     5.1
-    ],
-    [
-     "Nieuws bevestigd",
-     4.0
-    ]
-   ],
-   "steps": [
-    {
-     "label": "Unibet-odds 4,00",
-     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
-     "val": "25,0%"
-    },
-    {
-     "label": "Marktconsensus",
-     "note": "17 bookmakers, marge eruit, incl. Pinnacle",
-     "val": "25,8%"
-    },
-    {
-     "label": "Eigen kans",
-     "note": "Na alle correcties (begrensd)",
-     "val": "25,8%",
-     "final": true
-    }
-   ],
-   "promo": null,
-   "p_elo": null,
-   "fair_odds": 3.88,
-   "kelly": 0.0102,
-   "community": [],
-   "why": [
-    "Dit is een risicobet. De kans dat het gelijk eindigt is volgens 17 bookmakers (waaronder Pinnacle, de scherpste) maar ongeveer 26%: zo'n 1 op 4 keer.",
-    "Unibet betaalt wel 4,00, terwijl een eerlijke odds 3,88 zou zijn. Daardoor is de x-factor +3,1%: wie zulke bets vaak speelt, wint op lange termijn gemiddeld zoveel bovenop zijn inzet terug.",
-    "Je verliest de meeste van deze bets. Met €10 krijg je €40,00 terug als het lukt. Speel ze alleen met een klein bedrag en als reeks, nooit om verlies goed te maken.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
    ]
   }
@@ -3041,69 +2708,69 @@
      "pick": "Arsenal",
      "odds": 1.16,
      "key": "842fcc5b9feb8c63054a661ad1fc8926|home",
-     "p": 0.8277,
+     "p": 0.8262,
      "kickoff": "2026-11-07T15:00:00Z",
      "league": "Premier League"
     },
     {
      "match": "Benfica – Lech Poznań",
      "pick": "Benfica",
-     "odds": 1.16,
+     "odds": 1.15,
      "key": "bc4a4cc34a2219d9564b7b0c17ba2934|home",
-     "p": 0.8156,
+     "p": 0.819,
      "kickoff": "2026-11-05T20:00:00Z",
      "league": "Europa League"
     }
    ],
    "n": 2,
-   "odds": 1.35,
+   "odds": 1.33,
    "odds_boosted": null,
    "boost_name": null,
-   "p": 0.6751,
-   "ev": -0.0916,
+   "p": 0.6767,
+   "ev": -0.0973,
    "label": "Zekerste 2-combi",
    "kind": "safe",
    "why": [
     "Deze combi wint als alle 2 selecties lukken. De kans daarop is ongeveer 68%: zo'n 7 op 10 keer.",
-    "De gecombineerde odds zijn 1,35. Een eerlijke odds voor deze kans zou 1,48 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 9,2% van je inzet.",
-    "Zwakste schakel: Benfica (82%). Met €10 krijg je €13,46 terug als alles lukt."
+    "De gecombineerde odds zijn 1,33. Een eerlijke odds voor deze kans zou 1,48 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 9,7% van je inzet.",
+    "Zwakste schakel: Benfica (82%). Met €10 krijg je €13,34 terug als alles lukt."
    ]
   },
   {
    "legs": [
     {
-     "match": "LASK – ŠK Slovan Bratislava",
-     "pick": "LASK",
-     "odds": 1.4,
-     "key": "adf608a0e9be02eb1d8b0a6f464a12b1|home",
-     "p": 0.6997,
-     "kickoff": "2026-11-03T20:00:00Z",
-     "league": "Champions League"
+     "match": "AS Roma – Sassuolo",
+     "pick": "AS Roma",
+     "odds": 1.34,
+     "key": "f110107bca066ac1a598c89661c88fa3|home",
+     "p": 0.7289,
+     "kickoff": "2026-11-07T19:45:00Z",
+     "league": "Serie A"
     },
     {
      "match": "FSV Mainz 05 – Bayern Munich",
      "pick": "Bayern Munich",
-     "odds": 1.44,
+     "odds": 1.4,
      "key": "fe97f5adf397dd6b0a8a9e0a5272f307|away",
-     "p": 0.683,
+     "p": 0.7084,
      "kickoff": "2026-11-07T14:30:00Z",
      "league": "Bundesliga"
     }
    ],
    "n": 2,
-   "odds": 2.02,
+   "odds": 1.88,
    "odds_boosted": null,
    "boost_name": null,
-   "p": 0.4779,
-   "ev": -0.0366,
+   "p": 0.5164,
+   "ev": -0.0313,
    "label": "Beste prijs 2-combi",
    "kind": "value",
    "why": [
-    "Deze combi wint als alle 2 selecties lukken. De kans daarop is ongeveer 48%: zo'n 5 op 10 keer.",
-    "De gecombineerde odds zijn 2,02. Een eerlijke odds voor deze kans zou 2,09 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 3,7% van je inzet.",
-    "Zwakste schakel: Bayern Munich (68%). Met €10 krijg je €20,16 terug als alles lukt."
+    "Deze combi wint als alle 2 selecties lukken. De kans daarop is ongeveer 52%: zo'n 5 op 10 keer.",
+    "De gecombineerde odds zijn 1,88. Een eerlijke odds voor deze kans zou 1,94 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 3,1% van je inzet.",
+    "Zwakste schakel: Bayern Munich (71%). Met €10 krijg je €18,76 terug als alles lukt."
    ]
   },
   {
@@ -3113,87 +2780,87 @@
      "pick": "Arsenal",
      "odds": 1.16,
      "key": "842fcc5b9feb8c63054a661ad1fc8926|home",
-     "p": 0.8277,
+     "p": 0.8262,
      "kickoff": "2026-11-07T15:00:00Z",
      "league": "Premier League"
     },
     {
      "match": "Benfica – Lech Poznań",
      "pick": "Benfica",
-     "odds": 1.16,
+     "odds": 1.15,
      "key": "bc4a4cc34a2219d9564b7b0c17ba2934|home",
-     "p": 0.8156,
+     "p": 0.819,
      "kickoff": "2026-11-05T20:00:00Z",
      "league": "Europa League"
     },
     {
      "match": "AEK Athens – Real Madrid",
      "pick": "Real Madrid",
-     "odds": 1.26,
+     "odds": 1.2,
      "key": "f43ef699c987e112e115f7035114854e|away",
-     "p": 0.7652,
+     "p": 0.7901,
      "kickoff": "2026-11-04T17:45:00Z",
      "league": "Champions League"
     }
    ],
    "n": 3,
-   "odds": 1.7,
-   "odds_boosted": 1.72,
-   "boost_name": "Combo Booster",
-   "p": 0.5166,
-   "ev": -0.1098,
+   "odds": 1.6,
+   "odds_boosted": null,
+   "boost_name": null,
+   "p": 0.5346,
+   "ev": -0.1442,
    "label": "Zekerste 3-combi",
    "kind": "safe",
    "why": [
-    "Deze combi wint als alle 3 selecties lukken. De kans daarop is ongeveer 52%: zo'n 5 op 10 keer.",
-    "De gecombineerde odds zijn 1,70, met de Combo Booster 1,72. Een eerlijke odds voor deze kans zou 1,94 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 11,0% van je inzet.",
-    "Zwakste schakel: Real Madrid (77%). Met €10 krijg je €17,23 terug als alles lukt."
+    "Deze combi wint als alle 3 selecties lukken. De kans daarop is ongeveer 53%: zo'n 5 op 10 keer.",
+    "De gecombineerde odds zijn 1,60. Een eerlijke odds voor deze kans zou 1,87 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 14,4% van je inzet.",
+    "Zwakste schakel: Real Madrid (79%). Met €10 krijg je €16,01 terug als alles lukt."
    ]
   },
   {
    "legs": [
     {
-     "match": "LASK – ŠK Slovan Bratislava",
-     "pick": "LASK",
-     "odds": 1.4,
-     "key": "adf608a0e9be02eb1d8b0a6f464a12b1|home",
-     "p": 0.6997,
-     "kickoff": "2026-11-03T20:00:00Z",
-     "league": "Champions League"
+     "match": "AS Roma – Sassuolo",
+     "pick": "AS Roma",
+     "odds": 1.34,
+     "key": "f110107bca066ac1a598c89661c88fa3|home",
+     "p": 0.7289,
+     "kickoff": "2026-11-07T19:45:00Z",
+     "league": "Serie A"
     },
     {
      "match": "FSV Mainz 05 – Bayern Munich",
      "pick": "Bayern Munich",
-     "odds": 1.44,
+     "odds": 1.4,
      "key": "fe97f5adf397dd6b0a8a9e0a5272f307|away",
-     "p": 0.683,
+     "p": 0.7084,
      "kickoff": "2026-11-07T14:30:00Z",
      "league": "Bundesliga"
     },
     {
-     "match": "Villarreal – Getafe",
-     "pick": "Villarreal",
-     "odds": 1.49,
-     "key": "81ad04996f63fb60b494d243b13ac586|home",
-     "p": 0.6573,
-     "kickoff": "2026-11-08T17:30:00Z",
-     "league": "LaLiga"
+     "match": "Viking FK – Sabah FK",
+     "pick": "Viking FK",
+     "odds": 1.43,
+     "key": "6277e639c064e641265fcb98a0e200b9|home",
+     "p": 0.6752,
+     "kickoff": "2026-11-04T20:00:00Z",
+     "league": "Champions League"
     }
    ],
    "n": 3,
-   "odds": 3.0,
-   "odds_boosted": 3.08,
-   "boost_name": "Combo Booster",
-   "p": 0.3141,
-   "ev": -0.0313,
+   "odds": 2.68,
+   "odds_boosted": null,
+   "boost_name": null,
+   "p": 0.3486,
+   "ev": -0.0647,
    "label": "Beste prijs 3-combi",
    "kind": "value",
    "why": [
-    "Deze combi wint als alle 3 selecties lukken. De kans daarop is ongeveer 31%: zo'n 3 op 10 keer.",
-    "De gecombineerde odds zijn 3,00, met de Combo Booster 3,08. Een eerlijke odds voor deze kans zou 3,18 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 3,1% van je inzet.",
-    "Zwakste schakel: Villarreal (66%). Met €10 krijg je €30,84 terug als alles lukt."
+    "Deze combi wint als alle 3 selecties lukken. De kans daarop is ongeveer 35%: zo'n 3 op 10 keer.",
+    "De gecombineerde odds zijn 2,68. Een eerlijke odds voor deze kans zou 2,87 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 6,5% van je inzet.",
+    "Zwakste schakel: Viking FK (68%). Met €10 krijg je €26,83 terug als alles lukt."
    ]
   },
   {
@@ -3203,105 +2870,105 @@
      "pick": "Arsenal",
      "odds": 1.16,
      "key": "842fcc5b9feb8c63054a661ad1fc8926|home",
-     "p": 0.8277,
+     "p": 0.8262,
      "kickoff": "2026-11-07T15:00:00Z",
      "league": "Premier League"
     },
     {
      "match": "Benfica – Lech Poznań",
      "pick": "Benfica",
-     "odds": 1.16,
+     "odds": 1.15,
      "key": "bc4a4cc34a2219d9564b7b0c17ba2934|home",
-     "p": 0.8156,
+     "p": 0.819,
      "kickoff": "2026-11-05T20:00:00Z",
      "league": "Europa League"
     },
     {
      "match": "AEK Athens – Real Madrid",
      "pick": "Real Madrid",
-     "odds": 1.26,
+     "odds": 1.2,
      "key": "f43ef699c987e112e115f7035114854e|away",
-     "p": 0.7652,
+     "p": 0.7901,
      "kickoff": "2026-11-04T17:45:00Z",
      "league": "Champions League"
     },
     {
-     "match": "CF Estrela – Benfica",
-     "pick": "Benfica",
-     "odds": 1.18,
-     "key": "c02a3d0a40d536e48bb60dffe0e3cd1e|away",
-     "p": 0.7605,
-     "kickoff": "2026-11-08T20:30:00Z",
-     "league": "Primeira Liga"
+     "match": "Slavia Praha – Arsenal",
+     "pick": "Arsenal",
+     "odds": 1.24,
+     "key": "a5910ae3b314876faea7f5c03b8aeaad|away",
+     "p": 0.7598,
+     "kickoff": "2026-11-04T20:00:00Z",
+     "league": "Champions League"
     }
    ],
    "n": 4,
-   "odds": 2.0,
-   "odds_boosted": 2.04,
-   "boost_name": "Combo Booster",
-   "p": 0.3928,
-   "ev": -0.1983,
+   "odds": 1.98,
+   "odds_boosted": null,
+   "boost_name": null,
+   "p": 0.4062,
+   "ev": -0.1937,
    "label": "Zekerste 4-combi",
    "kind": "safe",
    "why": [
-    "Deze combi wint als alle 4 selecties lukken. De kans daarop is ongeveer 39%: zo'n 4 op 10 keer.",
-    "De gecombineerde odds zijn 2,00, met de Combo Booster 2,04. Een eerlijke odds voor deze kans zou 2,55 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 19,8% van je inzet.",
-    "Zwakste schakel: Benfica (76%). Met €10 krijg je €20,41 terug als alles lukt."
+    "Deze combi wint als alle 4 selecties lukken. De kans daarop is ongeveer 41%: zo'n 4 op 10 keer.",
+    "De gecombineerde odds zijn 1,98. Een eerlijke odds voor deze kans zou 2,46 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 19,4% van je inzet.",
+    "Zwakste schakel: Arsenal (76%). Met €10 krijg je €19,85 terug als alles lukt."
    ]
   },
   {
    "legs": [
     {
-     "match": "Slavia Praha – Arsenal",
-     "pick": "Arsenal",
-     "odds": 1.29,
-     "key": "a5910ae3b314876faea7f5c03b8aeaad|away",
-     "p": 0.752,
-     "kickoff": "2026-11-04T20:00:00Z",
-     "league": "Champions League"
-    },
-    {
      "match": "AS Roma – Sassuolo",
      "pick": "AS Roma",
      "odds": 1.34,
      "key": "f110107bca066ac1a598c89661c88fa3|home",
-     "p": 0.7279,
+     "p": 0.7289,
      "kickoff": "2026-11-07T19:45:00Z",
      "league": "Serie A"
     },
     {
-     "match": "LASK – ŠK Slovan Bratislava",
-     "pick": "LASK",
-     "odds": 1.4,
-     "key": "adf608a0e9be02eb1d8b0a6f464a12b1|home",
-     "p": 0.6997,
-     "kickoff": "2026-11-03T20:00:00Z",
-     "league": "Champions League"
+     "match": "Valencia – Real Madrid",
+     "pick": "Real Madrid",
+     "odds": 1.32,
+     "key": "5b386dfdf6f76705116fbb4120ee8493|away",
+     "p": 0.7283,
+     "kickoff": "2026-11-07T20:00:00Z",
+     "league": "LaLiga"
     },
     {
      "match": "FSV Mainz 05 – Bayern Munich",
      "pick": "Bayern Munich",
-     "odds": 1.44,
+     "odds": 1.4,
      "key": "fe97f5adf397dd6b0a8a9e0a5272f307|away",
-     "p": 0.683,
+     "p": 0.7084,
      "kickoff": "2026-11-07T14:30:00Z",
      "league": "Bundesliga"
+    },
+    {
+     "match": "Viking FK – Sabah FK",
+     "pick": "Viking FK",
+     "odds": 1.43,
+     "key": "6277e639c064e641265fcb98a0e200b9|home",
+     "p": 0.6752,
+     "kickoff": "2026-11-04T20:00:00Z",
+     "league": "Champions League"
     }
    ],
    "n": 4,
-   "odds": 3.48,
-   "odds_boosted": 3.58,
-   "boost_name": "Combo Booster",
-   "p": 0.2616,
-   "ev": -0.0624,
+   "odds": 3.54,
+   "odds_boosted": null,
+   "boost_name": null,
+   "p": 0.2539,
+   "ev": -0.1009,
    "label": "Beste prijs 4-combi",
    "kind": "value",
    "why": [
-    "Deze combi wint als alle 4 selecties lukken. De kans daarop is ongeveer 26%: zo'n 3 op 10 keer.",
-    "De gecombineerde odds zijn 3,48, met de Combo Booster 3,58. Een eerlijke odds voor deze kans zou 3,82 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 6,2% van je inzet.",
-    "Zwakste schakel: Bayern Munich (68%). Met €10 krijg je €35,84 terug als alles lukt."
+    "Deze combi wint als alle 4 selecties lukken. De kans daarop is ongeveer 25%: zo'n 3 op 10 keer.",
+    "De gecombineerde odds zijn 3,54. Een eerlijke odds voor deze kans zou 3,94 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 10,1% van je inzet.",
+    "Zwakste schakel: Viking FK (68%). Met €10 krijg je €35,41 terug als alles lukt."
    ]
   },
   {
@@ -3311,34 +2978,34 @@
      "pick": "Arsenal",
      "odds": 1.16,
      "key": "842fcc5b9feb8c63054a661ad1fc8926|home",
-     "p": 0.8277,
+     "p": 0.8262,
      "kickoff": "2026-11-07T15:00:00Z",
      "league": "Premier League"
     },
     {
      "match": "Benfica – Lech Poznań",
      "pick": "Benfica",
-     "odds": 1.16,
+     "odds": 1.15,
      "key": "bc4a4cc34a2219d9564b7b0c17ba2934|home",
-     "p": 0.8156,
+     "p": 0.819,
      "kickoff": "2026-11-05T20:00:00Z",
      "league": "Europa League"
     },
     {
      "match": "AEK Athens – Real Madrid",
      "pick": "Real Madrid",
-     "odds": 1.26,
+     "odds": 1.2,
      "key": "f43ef699c987e112e115f7035114854e|away",
-     "p": 0.7652,
+     "p": 0.7901,
      "kickoff": "2026-11-04T17:45:00Z",
      "league": "Champions League"
     },
     {
      "match": "Slavia Praha – Arsenal",
      "pick": "Arsenal",
-     "odds": 1.29,
+     "odds": 1.24,
      "key": "a5910ae3b314876faea7f5c03b8aeaad|away",
-     "p": 0.752,
+     "p": 0.7598,
      "kickoff": "2026-11-04T20:00:00Z",
      "league": "Champions League"
     },
@@ -3347,24 +3014,24 @@
      "pick": "Benfica",
      "odds": 1.18,
      "key": "c02a3d0a40d536e48bb60dffe0e3cd1e|away",
-     "p": 0.7605,
+     "p": 0.7584,
      "kickoff": "2026-11-08T20:30:00Z",
      "league": "Primeira Liga"
     }
    ],
    "n": 5,
-   "odds": 2.58,
-   "odds_boosted": 2.64,
-   "boost_name": "Combo Booster",
-   "p": 0.2954,
-   "ev": -0.2189,
+   "odds": 2.34,
+   "odds_boosted": null,
+   "boost_name": null,
+   "p": 0.3081,
+   "ev": -0.2784,
    "label": "Zekerste 5-combi",
    "kind": "safe",
    "why": [
-    "Deze combi wint als alle 5 selecties lukken. De kans daarop is ongeveer 30%: zo'n 3 op 10 keer.",
-    "De gecombineerde odds zijn 2,58, met de Combo Booster 2,64. Een eerlijke odds voor deze kans zou 3,38 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 21,9% van je inzet.",
-    "Zwakste schakel: Arsenal (75%). Met €10 krijg je €26,44 terug als alles lukt."
+    "Deze combi wint als alle 5 selecties lukken. De kans daarop is ongeveer 31%: zo'n 3 op 10 keer.",
+    "De gecombineerde odds zijn 2,34. Een eerlijke odds voor deze kans zou 3,25 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 27,8% van je inzet.",
+    "Zwakste schakel: Benfica (76%). Met €10 krijg je €23,42 terug als alles lukt."
    ]
   },
   {
@@ -3374,60 +3041,60 @@
      "pick": "Arsenal",
      "odds": 1.16,
      "key": "842fcc5b9feb8c63054a661ad1fc8926|home",
-     "p": 0.8277,
+     "p": 0.8262,
      "kickoff": "2026-11-07T15:00:00Z",
      "league": "Premier League"
     },
     {
-     "match": "AEK Athens – Real Madrid",
-     "pick": "Real Madrid",
-     "odds": 1.26,
-     "key": "f43ef699c987e112e115f7035114854e|away",
-     "p": 0.7652,
-     "kickoff": "2026-11-04T17:45:00Z",
-     "league": "Champions League"
-    },
-    {
-     "match": "Slavia Praha – Arsenal",
-     "pick": "Arsenal",
-     "odds": 1.29,
-     "key": "a5910ae3b314876faea7f5c03b8aeaad|away",
-     "p": 0.752,
-     "kickoff": "2026-11-04T20:00:00Z",
-     "league": "Champions League"
-    },
-    {
-     "match": "Borussia Dortmund – Elversberg",
-     "pick": "Borussia Dortmund",
-     "odds": 1.3,
-     "key": "3ef62ef56758041178c5280225fe5db7|home",
-     "p": 0.7429,
-     "kickoff": "2026-11-07T14:30:00Z",
-     "league": "Bundesliga"
+     "match": "Benfica – Lech Poznań",
+     "pick": "Benfica",
+     "odds": 1.15,
+     "key": "bc4a4cc34a2219d9564b7b0c17ba2934|home",
+     "p": 0.819,
+     "kickoff": "2026-11-05T20:00:00Z",
+     "league": "Europa League"
     },
     {
      "match": "AS Roma – Sassuolo",
      "pick": "AS Roma",
      "odds": 1.34,
      "key": "f110107bca066ac1a598c89661c88fa3|home",
-     "p": 0.7279,
+     "p": 0.7289,
      "kickoff": "2026-11-07T19:45:00Z",
      "league": "Serie A"
+    },
+    {
+     "match": "Valencia – Real Madrid",
+     "pick": "Real Madrid",
+     "odds": 1.32,
+     "key": "5b386dfdf6f76705116fbb4120ee8493|away",
+     "p": 0.7283,
+     "kickoff": "2026-11-07T20:00:00Z",
+     "league": "LaLiga"
+    },
+    {
+     "match": "FSV Mainz 05 – Bayern Munich",
+     "pick": "Bayern Munich",
+     "odds": 1.4,
+     "key": "fe97f5adf397dd6b0a8a9e0a5272f307|away",
+     "p": 0.7084,
+     "kickoff": "2026-11-07T14:30:00Z",
+     "league": "Bundesliga"
     }
    ],
    "n": 5,
-   "odds": 3.28,
-   "odds_boosted": 3.38,
-   "boost_name": "Combo Booster",
-   "p": 0.2576,
-   "ev": -0.1305,
+   "odds": 3.3,
+   "odds_boosted": null,
+   "boost_name": null,
+   "p": 0.2545,
+   "ev": -0.1594,
    "label": "Beste prijs 5-combi",
    "kind": "value",
    "why": [
-    "Deze combi wint als alle 5 selecties lukken. De kans daarop is ongeveer 26%: zo'n 3 op 10 keer.",
-    "De gecombineerde odds zijn 3,28, met de Combo Booster 3,38. Een eerlijke odds voor deze kans zou 3,88 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 13,1% van je inzet.",
-    "Zwakste schakel: AS Roma (73%). Met €10 krijg je €33,76 terug als alles lukt."
+    "Deze combi wint als alle 5 selecties lukken. De kans daarop is ongeveer 25%: zo'n 3 op 10 keer.",
+    "De gecombineerde odds zijn 3,30. Een eerlijke odds voor deze kans zou 3,93 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 15,9% van je inzet.",
+    "Zwakste schakel: Bayern Munich (71%). Met €10 krijg je €33,03 terug als alles lukt."
    ]
   },
   {
@@ -3437,34 +3104,34 @@
      "pick": "Arsenal",
      "odds": 1.16,
      "key": "842fcc5b9feb8c63054a661ad1fc8926|home",
-     "p": 0.8277,
+     "p": 0.8262,
      "kickoff": "2026-11-07T15:00:00Z",
      "league": "Premier League"
     },
     {
      "match": "Benfica – Lech Poznań",
      "pick": "Benfica",
-     "odds": 1.16,
+     "odds": 1.15,
      "key": "bc4a4cc34a2219d9564b7b0c17ba2934|home",
-     "p": 0.8156,
+     "p": 0.819,
      "kickoff": "2026-11-05T20:00:00Z",
      "league": "Europa League"
     },
     {
      "match": "AEK Athens – Real Madrid",
      "pick": "Real Madrid",
-     "odds": 1.26,
+     "odds": 1.2,
      "key": "f43ef699c987e112e115f7035114854e|away",
-     "p": 0.7652,
+     "p": 0.7901,
      "kickoff": "2026-11-04T17:45:00Z",
      "league": "Champions League"
     },
     {
      "match": "Slavia Praha – Arsenal",
      "pick": "Arsenal",
-     "odds": 1.29,
+     "odds": 1.24,
      "key": "a5910ae3b314876faea7f5c03b8aeaad|away",
-     "p": 0.752,
+     "p": 0.7598,
      "kickoff": "2026-11-04T20:00:00Z",
      "league": "Champions League"
     },
@@ -3473,7 +3140,7 @@
      "pick": "Borussia Dortmund",
      "odds": 1.3,
      "key": "3ef62ef56758041178c5280225fe5db7|home",
-     "p": 0.7429,
+     "p": 0.7374,
      "kickoff": "2026-11-07T14:30:00Z",
      "league": "Bundesliga"
     },
@@ -3482,76 +3149,65 @@
      "pick": "Benfica",
      "odds": 1.18,
      "key": "c02a3d0a40d536e48bb60dffe0e3cd1e|away",
-     "p": 0.7605,
+     "p": 0.7584,
      "kickoff": "2026-11-08T20:30:00Z",
      "league": "Primeira Liga"
     }
    ],
    "n": 6,
-   "odds": 3.36,
-   "odds_boosted": 3.45,
-   "boost_name": "Combo Booster",
-   "p": 0.2195,
-   "ev": -0.243,
+   "odds": 3.04,
+   "odds_boosted": null,
+   "boost_name": null,
+   "p": 0.2272,
+   "ev": -0.3083,
    "label": "Zekerste 6-combi",
    "kind": "safe",
    "why": [
-    "Deze combi wint als alle 6 selecties lukken. De kans daarop is ongeveer 22%: zo'n 2 op 10 keer.",
-    "De gecombineerde odds zijn 3,36, met de Combo Booster 3,45. Een eerlijke odds voor deze kans zou 4,56 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 24,3% van je inzet.",
-    "Zwakste schakel: Borussia Dortmund (74%). Met €10 krijg je €34,49 terug als alles lukt."
+    "Deze combi wint als alle 6 selecties lukken. De kans daarop is ongeveer 23%: zo'n 2 op 10 keer.",
+    "De gecombineerde odds zijn 3,04. Een eerlijke odds voor deze kans zou 4,40 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 30,8% van je inzet.",
+    "Zwakste schakel: Borussia Dortmund (74%). Met €10 krijg je €30,45 terug als alles lukt."
    ]
   }
  ],
- "promos": [
-  {
-   "name": "Combo Booster",
-   "type": "combi_boost",
-   "value": 0.04,
-   "min_legs": 3,
-   "note": "+4% op de nettowinst bij 3 selecties, +8% (4), +12% (5), +16% (6), +20% (7), +25% (8) tot +50% vanaf 12; elke selectie min. odds 1,50; loopt tot 31/01/2027 (vandaag bevestigd op de promopagina). Geen aparte voetbal-odds-boosts gevonden.",
-   "url": "https://nl.unibetsports.be/promotions/sportsbook-promotions/combo-booster"
-  }
- ],
- "alerts": [
-  {
-   "tag": "BLESSURE",
-   "time": "07:44",
-   "title": "Bayern met vier aanvallers minder naar Atlético",
-   "body": "Musiala, Luis Díaz, Gnabry en Saibari zijn out en Kompany is ziek (Danks coacht). Neuer en Olise trainden wel mee. Raakt onze weekbet Atlético (gelockt op 2,80, nu 2,75).",
-   "url": "https://fcbayern.com/en/news/matchpreviews/2026/11/preview-atletico-vs.-fc-bayern-champions-league-matchday-4"
-  },
-  {
-   "tag": "SCHORSING",
-   "time": "07:44",
-   "title": "Inter zonder Lautaro en Bastoni in Rotterdam",
-   "body": "Lautaro (spier) en Stones/Jones out, Bastoni geschorst; Feyenoord mist op zijn beurt Moder en St. Juste. Unibet: Inter 1,96.",
-   "url": "https://www.uefa.com/uefachampionsleague/news/02ab-21f9907f0a27-6a6a67e9775d-1000--champions-league-predicted-line-ups-matchday-4-team-news-/"
-  },
-  {
-   "tag": "PROMO",
-   "time": "07:44",
-   "title": "Combo Booster loopt nog tot 31/01/2027",
-   "body": "+4% op de winst bij 3 selecties tot +50% vanaf 12, elke selectie minstens 1,50. LASK (1,40) en Barça (1,23) tellen dus niet mee.",
-   "url": "https://nl.unibetsports.be/promotions/sportsbook-promotions/combo-booster"
-  }
- ],
- "summary": "Geen vers nieuws (<24 u) over basisspelers dat Unibet nog niet verwerkt heeft, dus geen correcties. Bayern trekt zonder Musiala, Luis Díaz, Gnabry en Saibari naar Atlético (Kompany ziek, assistent Danks coacht; Neuer en Olise trainden wel weer mee), Inter mist in Rotterdam Lautaro en de geschorste Bastoni, en PSG speelt zonder Dembélé, Kvaratskhelia, Marquinhos en Nuno Mendes. Voor de weekportefeuille kies ik vandaag twee kleine thuisbets met een dunne maar positieve marge: LASK (€8) tegen het puntloze Slovan en Bodø/Glimt (€6) op kunstgras tegen een Lille zonder Ethan Mbappé.",
+ "promos": [],
+ "alerts": [],
+ "summary": "",
  "portfolio": {
   "weeks": [
    {
     "week": "2026-W45",
     "label": "2/11 – 8/11",
     "n": 4,
-    "won": 0,
-    "lost": 0,
-    "open": 4,
+    "won": 1,
+    "lost": 2,
+    "open": 1,
     "void": 0,
-    "staked": 0.0,
-    "returned": 0.0,
-    "pnl": 0.0,
+    "staked": 19.0,
+    "returned": 11.2,
+    "pnl": -7.8,
     "report": "",
-    "breakdown": null,
+    "breakdown": {
+     "type": {
+      "Favorieten": {
+       "n": 1,
+       "won": 1,
+       "pnl": 3.2
+      },
+      "Risico": {
+       "n": 2,
+       "won": 0,
+       "pnl": -11.0
+      }
+     },
+     "league": {
+      "Champions League": {
+       "n": 3,
+       "won": 1,
+       "pnl": -7.8
+      }
+     }
+    },
     "committed": 23
    },
    {
@@ -3611,56 +3267,62 @@
    }
   ],
   "total": {
-   "staked": 92.0,
-   "pnl": -18.3,
+   "staked": 111.0,
+   "pnl": -26.1,
    "weeks": 2,
-   "won": 5,
-   "settled": 10,
+   "won": 6,
+   "settled": 13,
    "weeks_positive": 0,
-   "roi": -0.1989
+   "roi": -0.2351
   },
   "per_week": 10,
   "stake": 10.0,
   "budget": 100.0
  },
  "calibration": {
-  "n": 44,
+  "n": 52,
   "rows": [
    {
     "label": "0–30%",
-    "n": 12,
-    "pred": 0.2333,
-    "hit": 0.1667
+    "n": 14,
+    "pred": 0.2296,
+    "hit": 0.1429
    },
    {
     "label": "30–45%",
-    "n": 3,
-    "pred": 0.337,
+    "n": 4,
+    "pred": 0.344,
+    "hit": 0.0
+   },
+   {
+    "label": "45–55%",
+    "n": 1,
+    "pred": 0.5441,
     "hit": 0.0
    },
    {
     "label": "55–65%",
-    "n": 17,
-    "pred": 0.587,
-    "hit": 0.7647
+    "n": 19,
+    "pred": 0.5857,
+    "hit": 0.7895
    },
    {
     "label": "65–75%",
-    "n": 8,
-    "pred": 0.691,
-    "hit": 0.625
+    "n": 9,
+    "pred": 0.692,
+    "hit": 0.6667
    },
    {
     "label": "75–85%",
-    "n": 4,
-    "pred": 0.7884,
-    "hit": 0.75
+    "n": 5,
+    "pred": 0.784,
+    "hit": 0.8
    }
   ],
-  "clv": -0.0238,
-  "pred_avg": 0.5107,
-  "hit_avg": 0.5227,
-  "brier": 0.1847
+  "clv": -0.0168,
+  "pred_avg": 0.5079,
+  "hit_avg": 0.5192,
+  "brier": 0.176
  },
  "settings": {
   "min_value": 0.03,
