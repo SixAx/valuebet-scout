@@ -1,25 +1,25 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "promos": [
     {
       "name": "Combo Booster",
       "type": "combi_boost",
       "value": 0.04,
       "min_legs": 3,
-      "note": "+4% op de nettowinst bij 3 selecties, oplopend tot +50%; elke selectie min. odds 1,50 (voorwaarden van de promopagina; banner vandaag nog actief op de Champions League-pagina).",
-      "url": "https://nl.unibetsports.be/betting/sports/filter/football/champions_league"
+      "note": "Boost op elke sportcombinatie tot 50% (banner vandaag op de voetbalpagina België); volgens eerdere promovoorwaarden +4% vanaf 3 selecties met min. odds 1,50.",
+      "url": "https://nl.unibetsports.be/betting/sports/filter/football/belgium"
     },
     {
       "name": "2UP Vroege Uitbetaling",
       "type": "other",
-      "note": "Je bet wordt vroeg uitbetaald zodra je ploeg 2 goals voorstaat (banner op de Champions League-pagina, geen verdere voorwaarden zichtbaar).",
-      "url": "https://nl.unibetsports.be/betting/sports/filter/football/champions_league"
+      "note": "Bet wordt vroeg uitbetaald zodra je ploeg 2 goals voorstaat (banner op de voetbalpagina België).",
+      "url": "https://nl.unibetsports.be/betting/sports/filter/football/belgium"
     },
     {
       "name": "Power Sub",
       "type": "other",
-      "note": "Spelersbet blijft geldig na een wissel (banner op de Champions League-pagina, geen details zichtbaar).",
-      "url": "https://nl.unibetsports.be/betting/sports/filter/football/champions_league"
+      "note": "Spelersbet blijft geldig na een wissel (banner op de voetbalpagina België, geen details zichtbaar).",
+      "url": "https://nl.unibetsports.be/betting/sports/filter/football/belgium"
     }
   ]
 }

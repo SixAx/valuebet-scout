@@ -1,97 +1,92 @@
 {
-  "date": "2026-11-04",
-  "summary": "Geen vers nieuws over basisspelers dat Unibet nog niet verwerkt lijkt te hebben, dus geen correcties. Liverpool trekt naar Fenerbahçe zonder Gravenberch (hiel), Ekitiké, Frimpong en Bradley; Real Madrid mist Rodrygo en Asencio met Valverde twijfelachtig, Napoli komt zonder De Bruyne en een half dozijn anderen naar Porto. Geen enkele favoriet van vandaag of morgen staat bij Unibet boven de marktconsensus, dus ik kies vandaag bewust geen nieuwe bets en houd €77 en 6 plaatsen over voor het weekend (de 3 risicobets van deze week zijn al op).",
+  "date": "2026-11-05",
+  "summary": "Geen vers nieuws over basisspelers dat Unibet nog niet verwerkt lijkt te hebben, dus geen correcties. Milan speelt zonder de geschorste Maignan en met rotatie tegen Ferencváros, Sunderland mist Habib Diarra zes weken, Leverkusen krijgt Badé terug en Club Brugge mist Potts (geschorst) in de topper. Geen enkele favoriet staat bij Unibet duidelijk boven de marktconsensus (Real Sociedad 1,76 is precies eerlijk), en de 3 risicobets van deze week zijn al op, dus ik kies opnieuw niets en houd €77 en 6 plaatsen over voor het weekend.",
   "adjustments": {},
   "match_notes": {
-    "e901dbcdd6e2255fb24d84032b9d437a": "Liverpool zonder Frimpong, Leoni, Bradley, Ekitiké en Gravenberch (hiel). Fenerbahçe mist Asensio, Oosterwolde en Oppong; Aké twijfel (Sports Mole 3/11).",
-    "f43ef699c987e112e115f7035114854e": "Real Madrid zonder Rodrygo en Raúl Asencio, Valverde twijfel (hamstring). AEK mist doelman Strakosha; João Mário en Rota twijfel door ziekte (Sports Mole 3/11).",
-    "a5910ae3b314876faea7f5c03b8aeaad": "Arsenal zonder Saka en Saliba, Eze twijfel. Slavia mist Ouanda, Piták en Schranz; Isife, Markovič, N'Guessan en Provod twijfel (UEFA 3/11). Slavia verloor eerder van Sabah en Lens (Racing Post).",
-    "df7d2d81b9e2f3f11c6aeddaee6b7085": "City mist Semenyo; Leipzig zonder Ouédraogo, Estève twijfel (UEFA 3/11).",
-    "6d386ed81fabf67aa19fbd442c0d8c60": "Dortmund mist enkel Kauã Prates en speelde zaterdag 2-2 tegen Bayern; Betis (3 op 3 in de CL) zonder Cucho Hernández en Junior Firpo (UEFA 3/11; Racing Post).",
-    "449d718632202f0e5997d2e4b7273483": "PSV zonder Lammers, Ouaissa en Wanner; Club Brugge mist enkel Ordoñez (UEFA 3/11).",
-    "6277e639c064e641265fcb98a0e200b9": "Viking mist Baertelsen, Berisha, Bjørshol, D'Agostino en Roseth; Sabah volledig fit buiten twijfelgeval Simić. Sabah verloor zaterdag 3-2 van Turan Tovuz (UEFA 3/11; footballpredictions.com).",
-    "d437cbfcee6b57ec58d464e6b459c56e": "Bournemouth won zijn laatste zes wedstrijden, telkens zonder tegengoal; Sparta won 1 van zijn laatste 6 en scoorde niet in 4 van de laatste 5 (Mr Fixit's Tips).",
-    "6dad8d4dd99ba6f5dae0b3abdf8f669b": "Sunderland staat laatste in de Premier League (0 zeges in 6), maar won twee van drie EL-duels; zonder Ballard en Mundle. Dinamo verloor 2-4 van NEC en is zijn trainer Kovačević kwijt; McKenna out (Mr Fixit's Tips).",
-    "2347e0e7725940f6a14d5a80601390a5": "Palace staat in de degradatiezone en verloor 4 van zijn laatste 6, maar is 7 Europese thuisduels ongeslagen; Hoffenheim ging uit de beker en verloor in de Bundesliga (Africa Soccer).",
-    "ba82ee37f64a66a30d85f8b90082ec2f": "Napoli zonder Badiashile, Di Lorenzo, Lobotka, Neres, Olivera, Alisson Santos en Spinazzola; De Bruyne (enkel), Højlund en Milinković-Savić twijfel. Porto: William Gomes en Pietuszewski twijfel (UEFA 3/11). Napoli verloor zaterdag 2-0 bij Juventus (Racing Post).",
-    "013cecbf40f5b4530342632a80f35b00": "Lens zonder Édouard, Ganiou en Sima; Como mist Diao en Kean, Chalobah twijfel (UEFA 3/11). Como won vijf keer op rij (Racing Post)."
+    "d6ef4964addd663baed90f8f19fda1d3": "Real Sociedad zonder Beitia, Odriozola en Zakharyan; verloor zaterdag 2-1 in de derby tegen Athletic. Lyon mist Tagliafico, Ouédraogo, Morton, Sulc en Openda (Sports Mole 3/11).",
+    "e1c3625feeebcd65317e17a4e9a38c4f": "Leverkusen (3 op 3 in de EL, nog geen tegengoal) zonder Ben Seghir, Terrier, Diaby en Doué; Badé is fit, Kofane twijfel, Flekken in doel (Yahoo/dpa 4/11). Marseille verloor zijn drie EL-duels maar won vier keer op rij in de Ligue 1 (Sports Mole 3/11).",
+    "bc4a4cc34a2219d9564b7b0c17ba2934": "Benfica won zes keer op rij; Barreiro out, Barrenechea twijfel. Lech mist Gholizadeh, Moutinho en Douglas; Ishak en Monka herstellen van spierletsels (Sports Mole 3/11).",
+    "cb7170b1b0e68a09be62b7a0fcb8d268": "Milan zonder de geschorste Maignan (Torriani in doel) en zonder Tomori, Chukwueze, Gabbia, Saelemaekers en Loftus-Cheek; Amorim roteert. Ferencváros (5 zeges in 6 EL-duels) mist Bero en Ötvös (Sports Mole 3/11).",
+    "b828d43ba5fa1c8cdd2e34aabea9d0ce": "Celta verloor zaterdag 3-0 bij Rayo en mist Starfelt, Román, Núñez en Borja Iglesias. Union won vier keer op rij maar mist o.a. Mac Allister, Leysen, Schoofs en Hurtevent (Sports Mole 3/11).",
+    "84b68e09ecbe93fdbce759cd822322a2": "Geen blessures gemeld bij beide ploegen. Sturm speelde twee keer gelijk in de competitie, Celje is vijf duels ongeslagen (Sports Mole 3/11).",
+    "6dad8d4dd99ba6f5dae0b3abdf8f669b": "Sunderland mist Habib Diarra ongeveer zes weken na een nieuwe blessure; Talbi neemt zijn plaats in de EL-selectie (Yahoo 4/11).",
+    "586bec023ee8ac2f0645d963bd2c9d25": "Everton zonder nieuwe blessures, Grealish onzeker na een disciplinaire kwestie. Coventry mist Amenda, Wright, Eccles en Woolfenden; Thomas en Onyeka worden wellicht fit (Sports Mole en Racing Post 4/11).",
+    "fe97f5adf397dd6b0a8a9e0a5272f307": "Bayern zonder Luis Díaz, Gnabry en Saibari, Musiala twijfel; Kompany is ziek en Danks coacht opnieuw. Mainz mist de geschorste Posch en Mwene en de geblesseerde Kohr en Silas (The False 9, 3/11).",
+    "8a92794bd5f89b8b91b2d8fefdac7b85": "Club Brugge mist Freddie Potts (vijfde gele kaart tegen Zulte Waregem) in de topper (Voetbalkrant 30/10, Voetbalprimeur 31/10).",
+    "59c5f635cfe11613c07e9a5520ced5c1": "City staat op 21 punten uit 9 (7-0-2), Forest op 6 punten (1-3-5); geen blessurenieuws gevonden (Doc's Sports)."
   },
   "community": {
-    "6d386ed81fabf67aa19fbd442c0d8c60": [
-      {
-        "outcome": "away",
-        "note": "Betis 'draw no bet': Betis won al zijn CL-duels en verloor maar 2 van zijn laatste 12 Europese uitmatchen, Dortmund mogelijk moe na Bayern.",
-        "source": "Racing Post",
-        "url": "https://www.racingpost.com/sport/football-tips/champions-league/champions-league-matchday-four-betting-tips-predictions-odds-aNroO7U82ocv/"
-      },
-      {
-        "outcome": "away",
-        "note": "Betis-zege in de CL-viervoudige van woensdag.",
-        "source": "Racing Post",
-        "url": "https://www.racingpost.com/sport/football-tips/football-acca-tips/champions-league-accumulator-tips-for-wednesday-november-4-back-our-acca-at-14-1-aIRDM3R0NhhL/"
-      }
-    ],
-    "a5910ae3b314876faea7f5c03b8aeaad": [
-      {
-        "outcome": "away",
-        "note": "Arsenal-zege in de acca: verdedigend sterk na de zege op Liverpool, Slavia verloor van Sabah en Lens.",
-        "source": "Racing Post",
-        "url": "https://www.racingpost.com/sport/football-tips/football-acca-tips/champions-league-accumulator-tips-for-wednesday-november-4-back-our-acca-at-14-1-aIRDM3R0NhhL/"
-      }
-    ],
-    "6277e639c064e641265fcb98a0e200b9": [
+    "d6ef4964addd663baed90f8f19fda1d3": [
       {
         "outcome": "home",
-        "note": "Viking-zege in de acca: speelde thuis 3-3 tegen Bayern, Sabah won geen van zijn laatste drie.",
-        "source": "Racing Post",
-        "url": "https://www.racingpost.com/sport/football-tips/football-acca-tips/champions-league-accumulator-tips-for-wednesday-november-4-back-our-acca-at-14-1-aIRDM3R0NhhL/"
-      },
-      {
-        "outcome": "home",
-        "note": "Viking als hoofdtip (3-1): sterk thuis met ±4 goals per thuismatch.",
-        "source": "footballpredictions.com",
-        "url": "https://footballpredictions.com/footballpredictions/championsleaguepredictions/viking-vs-sabah-baku-prediction-04-11-2026/"
+        "note": "Sportsgambler tipt een zege van Real Sociedad: eigen kans rond 60% tegen een Lyon dat zijn laatste drie uitmatchen verloor.",
+        "source": "Sportsgambler",
+        "url": "https://www.sportsgambler.com/betting-tips/football/real-sociedad-vs-lyon-prediction-lineups-odds-2026-11-05/"
       }
     ],
-    "d437cbfcee6b57ec58d464e6b459c56e": [
+    "e1c3625feeebcd65317e17a4e9a38c4f": [
+      {
+        "outcome": "home",
+        "note": "Paddy Power tipt Leverkusen wint zonder tegengoal: enige ploeg zonder tegendoelpunt in de EL, Marseille scoorde pas één keer.",
+        "source": "Paddy Power News",
+        "url": "https://news.paddypower.com/football/europa-league/2026/11/04/football-tips-thursday-europa-league-acca-nov-5/"
+      }
+    ],
+    "b828d43ba5fa1c8cdd2e34aabea9d0ce": [
       {
         "outcome": "away",
-        "note": "Bournemouth wint en minder dan 4,5 goals: zes zeges op rij met clean sheet, Sparta scoort amper.",
-        "source": "Mr Fixit's Tips",
-        "url": "https://mrfixitstips.co.uk/previews/sparta-prague-vs-afc-bournemouth-prediction-and-betting-tips-2026-11-05"
+        "note": "Paddy Power tipt dubbele kans Union of gelijkspel: Union verloor dit seizoen nog geen wedstrijd binnen 90 minuten.",
+        "source": "Paddy Power News",
+        "url": "https://news.paddypower.com/football/europa-league/2026/11/04/football-tips-thursday-europa-league-acca-nov-5/"
       }
     ],
     "6dad8d4dd99ba6f5dae0b3abdf8f669b": [
       {
         "outcome": "home",
-        "note": "Sunderland wint en minder dan 4,5 goals: Dinamo in crisis na trainerswissel.",
-        "source": "Mr Fixit's Tips",
-        "url": "https://mrfixitstips.co.uk/previews/sunderland-vs-dinamo-zagreb-prediction-and-betting-tips-2026-11-05"
+        "note": "Paddy Power tipt Sunderland wint en beide ploegen scoren: twee zeges en een gelijkspel in Europa.",
+        "source": "Paddy Power News",
+        "url": "https://news.paddypower.com/football/europa-league/2026/11/04/football-tips-thursday-europa-league-acca-nov-5/"
       }
     ],
-    "013cecbf40f5b4530342632a80f35b00": [
+    "bc4a4cc34a2219d9564b7b0c17ba2934": [
+      {
+        "outcome": "home",
+        "note": "Football Whispers tipt Benfica meer dan 2,5 goals: in elke Europese thuismatch dit jaar minstens drie keer gescoord.",
+        "source": "Football Whispers",
+        "url": "https://footballwhispers.com/blog/benfica-vs-lech-poznan-prediction-05-11-2026/"
+      }
+    ],
+    "586bec023ee8ac2f0645d963bd2c9d25": [
       {
         "outcome": "away",
-        "note": "Como wint: vijf zeges op rij, terwijl Lens in de laatste twee CL-duels niet scoorde en Édouard, Sima en Ganiou mist.",
+        "note": "Racing Post tipt dubbele kans Coventry of gelijkspel: Everton scoort weinig en Coventry won drie van zijn laatste vijf.",
         "source": "Racing Post",
-        "url": "https://www.racingpost.com/sport/football-tips/champions-league/champions-league-matchday-four-betting-tips-predictions-odds-aNroO7U82ocv/"
+        "url": "https://www.racingpost.com/sport/football-tips/premier-league/everton-vs-coventry-predictions-team-news-odds-betting-tips-bet-builder-aBHvm9b8UMFh/"
+      }
+    ],
+    "59c5f635cfe11613c07e9a5520ced5c1": [
+      {
+        "outcome": "away",
+        "note": "Doc's Sports kiest Manchester City tegen een Forest met 6 punten uit 9 duels.",
+        "source": "Doc's Sports",
+        "url": "https://www.docsports.com/free-picks/soccer/2026/nottingham-forest-vs-manchester-city-prediction-11-7-2026-soccer-pick-tips-and-odds.html"
       }
     ]
   },
   "alerts": [
     {
-      "tag": "BLESSURE",
-      "time": "07:45",
-      "title": "Liverpool zonder Gravenberch in Istanbul",
-      "body": "Sports Mole meldt Gravenberch (hiel) als out naast Ekitiké, Frimpong, Bradley en Leoni. Liverpool staat op 1,45 bij Fenerbahçe; de markt lijkt dit al te verwerken, geen correctie.",
-      "url": "https://www.sportsmole.co.uk/football/fenerbahce/champions-league/team-news/fenerbahce-vs-liverpool-injury-suspension-list-predicted-xis_608295.html"
+      "tag": "SCHORSING",
+      "time": "07:55",
+      "title": "Milan zonder Maignan en met rotatie",
+      "body": "Maignan is geschorst, vijf basisspelers zijn geblesseerd en Amorim roteert tegen Ferencváros (5 zeges in 6 EL-duels). Milan staat op 1,33: krap geprijsd, niet spelen.",
+      "url": "https://www.sportsmole.co.uk/football/ac-milan/europa-league/preview/ac-milan-vs-ferencvaros-prediction-team-news-lineups_608327.html"
     },
     {
       "tag": "BLESSURE",
-      "time": "07:45",
-      "title": "Napoli met zwaar gehavende ploeg naar Porto",
-      "body": "Napoli mist o.a. Di Lorenzo, Lobotka, Neres en Olivera; De Bruyne raakte zaterdag geblesseerd en is twijfel. Porto staat op 1,96; Racing Post tipt over 3,5 goals.",
-      "url": "https://www.racingpost.com/sport/football-tips/champions-league/champions-league-matchday-four-betting-tips-predictions-odds-aNroO7U82ocv/"
+      "time": "07:55",
+      "title": "Sunderland mist Diarra zes weken",
+      "body": "Habib Diarra raakte opnieuw geblesseerd en is ongeveer zes weken out. Raakt Sunderland – Dinamo Zagreb (Sunderland 1,48); de odds lijken dit al te verwerken.",
+      "url": "https://sports.yahoo.com/articles/sunderland-predicted-starting-xi-dinamo-160011584.html"
     }
   ],
   "results": {},
