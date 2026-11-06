@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-06T06:00:32Z",
+ "generated_at": "2026-11-06T06:50:20Z",
  "fetched_at": "2026-11-06T06:00:32Z",
- "research_date": null,
+ "research_date": "2026-11-06",
  "odds_remaining": "405",
  "errors": [],
  "notes": [
@@ -71,12 +71,25 @@
    "p_elo": null,
    "fair_odds": 1.21,
    "kelly": 0.0,
-   "community": [],
+   "community": [
+    {
+     "outcome": "home",
+     "note": "Rotowire: Arsenal wint en under 3,5 goals, want zonder Saka verwachten ze geen doelpuntenfestijn.",
+     "source": "Rotowire",
+     "url": "https://www.rotowire.com/soccer/article/premier-league-gameweek-10-best-bets-picks-odds-predictions-gw10-145466"
+    },
+    {
+     "outcome": "home",
+     "note": "Covers kiest Arsenal: slechts vijf tegengoals in negen duels.",
+     "source": "Covers",
+     "url": "https://www.covers.com/soccer/premier-league-moneyline-picks-matchweek-10-2026"
+    }
+   ],
    "why": [
     "Arsenal is de favoriet. Volgens 22 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Arsenal wint ongeveer 82%: zo'n 8 op 10 keer.",
     "Unibet betaalt 1,18; een eerlijke odds voor die kans is 1,21. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,7% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €11,80 terug als het lukt (winst €1,80). In ongeveer 18% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Hull mist de geschorste Matt Crooks en Gyabi, Gourna-Douath en Matazo (Sports Mole 31/10). Arsenal speelt volgens Rotowire zonder Saka."
    ]
   },
   {
@@ -139,12 +152,19 @@
    "p_elo": null,
    "fair_odds": 1.36,
    "kelly": 0.0,
-   "community": [],
+   "community": [
+    {
+     "outcome": "home",
+     "note": "Sports Mole voorspelt 3-1: Roma heeft de beste aanval, Sassuolo de slechtste verdediging.",
+     "source": "Sports Mole",
+     "url": "https://www.sportsmole.co.uk/football/roma/preview/roma-vs-sassuolo-prediction-team-news-lineups_608516.html"
+    }
+   ],
    "why": [
     "AS Roma is de favoriet. Volgens 21 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat AS Roma wint ongeveer 74%: zo'n 7 op 10 keer.",
     "Unibet betaalt 1,32; een eerlijke odds voor die kans is 1,36. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,7% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €13,20 terug als het lukt (winst €3,20). In ongeveer 26% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Roma zonder Pellegrini, Svilar en Rensch; Dybala en Koné terug op training maar twijfel. Sassuolo verloor vier keer op rij en kreeg de meeste goals tegen in de Serie A (Sports Mole 5/11)."
    ]
   },
   {
@@ -207,12 +227,19 @@
    "p_elo": null,
    "fair_odds": 1.39,
    "kelly": 0.0,
-   "community": [],
+   "community": [
+    {
+     "outcome": "away",
+     "note": "Sports Mole voorspelt 1-4 voor Bayern tegen een verzwakt Mainz.",
+     "source": "Sports Mole",
+     "url": "https://www.sportsmole.co.uk/football/bayern-munich/bundesliga-title-race/preview/mainz-vs-bayern-prediction-team-news-lineups_608498.html"
+    }
+   ],
    "why": [
     "Bayern Munich is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Bayern Munich wint ongeveer 72%: zo'n 7 op 10 keer.",
     "Unibet betaalt 1,34; een eerlijke odds voor die kans is 1,39. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,5% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €13,40 terug als het lukt (winst €3,40). In ongeveer 28% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Mainz mist de geschorste Posch en Kohr en pakte 1 op 12 thuis. Bayern zonder Díaz en Gnabry, Musiala twijfel; assistent René Marić coacht in plaats van Kompany (Sports Mole 5/11)."
    ]
   },
   {
@@ -275,12 +302,19 @@
    "p_elo": null,
    "fair_odds": 1.34,
    "kelly": 0.0,
-   "community": [],
+   "community": [
+    {
+     "outcome": "away",
+     "note": "Sports Mole voorspelt 1-2: Valencia scoort, maar Real Madrid wint ook zonder Vinícius.",
+     "source": "Sports Mole",
+     "url": "https://www.sportsmole.co.uk/football/real-madrid/race-for-the-la-liga-title/preview/valencia-vs-real-madrid-prediction-team-news-lineups_608525.html"
+    }
+   ],
    "why": [
     "Real Madrid is de favoriet. Volgens 18 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Real Madrid wint ongeveer 75%: zo'n 7 op 10 keer.",
     "Let op: Unibet betaalt 1,28, terwijl een eerlijke odds voor die kans 1,34 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,3% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €12,80 terug als het lukt (winst €2,80). In ongeveer 25% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Real Madrid zonder Rodrygo, Asencio, Mendy en de geschorste Vinícius (laatste match schorsing), maar won zeven keer op rij. Valencia (19e) mist Canos, Diego López en Otorbi; Sadiq terug (Sports Mole 5/11)."
    ]
   },
   {
@@ -411,12 +445,19 @@
    "p_elo": null,
    "fair_odds": 1.66,
    "kelly": 0.0,
-   "community": [],
+   "community": [
+    {
+     "outcome": "away",
+     "note": "Footballpredictions.com voorspelt 1-3 voor Liverpool; Palace mist de geschorste Mateta.",
+     "source": "footballpredictions.com",
+     "url": "https://footballpredictions.com/footballpredictions/premierleaguepredictions/crystal-palace-vs-liverpool-prediction-08-11-2026/"
+    }
+   ],
    "why": [
     "Liverpool is de favoriet. Volgens 22 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Liverpool wint ongeveer 60%: zo'n 6 op 10 keer.",
     "Unibet betaalt 1,62; een eerlijke odds voor die kans is 1,66. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,4% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €16,20 terug als het lukt (winst €6,20). In ongeveer 40% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Palace (18e) zonder de geschorste Mateta; Liverpool zonder o.a. Ekitike, Gravenberch, Frimpong en Bradley (footballpredictions.com / Rotowire 5/11)."
    ]
   },
   {
@@ -479,12 +520,19 @@
    "p_elo": null,
    "fair_odds": 1.37,
    "kelly": 0.0,
-   "community": [],
+   "community": [
+    {
+     "outcome": "home",
+     "note": "Sports Mole voorspelt 2-0: Dortmund heeft de beste defensie van de Bundesliga.",
+     "source": "Sports Mole",
+     "url": "https://www.sportsmole.co.uk/football/borussia-dortmund/bundesliga-title-race/preview/dortmund-vs-elversberg-prediction-team-news-lineups_608500.html"
+    }
+   ],
    "why": [
     "Borussia Dortmund is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Borussia Dortmund wint ongeveer 73%: zo'n 7 op 10 keer.",
     "Let op: Unibet betaalt 1,30, terwijl een eerlijke odds voor die kans 1,37 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,8% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €13,00 terug als het lukt (winst €3,00). In ongeveer 27% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Dortmund zonder Emre Can, Lerma en Konstantelias; Guirassy lichte twijfel (Fábio Silva kan starten). Elversberg mist Gyamerah en Seifert (Sports Mole 5/11)."
    ]
   },
   {
@@ -615,12 +663,19 @@
    "p_elo": null,
    "fair_odds": 1.79,
    "kelly": 0.0,
-   "community": [],
+   "community": [
+    {
+     "outcome": "away",
+     "note": "Covers kiest City: Forest scoorde maar zes keer in negen duels.",
+     "source": "Covers",
+     "url": "https://www.covers.com/soccer/premier-league-moneyline-picks-matchweek-10-2026"
+    }
+   ],
    "why": [
     "Manchester City is de favoriet. Volgens 22 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Manchester City wint ongeveer 56%: zo'n 6 op 10 keer.",
     "Unibet betaalt 1,74; een eerlijke odds voor die kans is 1,79. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,7% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €17,40 terug als het lukt (winst €7,40). In ongeveer 44% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Forest (degradatiezone, L-L-L-D-L) zonder Savona, Domínguez en Igor Jesus; City mist Semenyo (Khel Now 5/11). City speelde midweek in Leipzig."
    ]
   },
   {
@@ -1023,12 +1078,25 @@
    "p_elo": null,
    "fair_odds": 1.78,
    "kelly": 0.0,
-   "community": [],
+   "community": [
+    {
+     "outcome": "home",
+     "note": "Covers kiest Everton: hun organisatie thuis moet het verschil maken, al is Coventry in vorm.",
+     "source": "Covers",
+     "url": "https://www.covers.com/soccer/premier-league-moneyline-picks-matchweek-10-2026"
+    },
+    {
+     "outcome": "home",
+     "note": "Rotowire speelt under 2,5 goals en ziet Everton zonder tegengoal winnen als alternatief: Coventry's recente zeges vleien hen.",
+     "source": "Rotowire",
+     "url": "https://www.rotowire.com/soccer/article/premier-league-gameweek-10-best-bets-picks-odds-predictions-gw10-145466"
+    }
+   ],
    "why": [
     "Everton is de favoriet. Volgens 22 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Everton wint ongeveer 56%: zo'n 6 op 10 keer.",
     "Let op: Unibet betaalt 1,70, terwijl een eerlijke odds voor die kans 1,78 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,2% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €17,00 terug als het lukt (winst €7,00). In ongeveer 44% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Everton (7e, 13 ptn) zonder blessures op de FPL-lijst; Coventry (16e) twijfelt over Bobby Thomas (kuit, 50%), Amenda out (footballdream 4/11)."
    ]
   },
   {
@@ -1300,7 +1368,7 @@
     "VfB Stuttgart is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat VfB Stuttgart wint ongeveer 58%: zo'n 6 op 10 keer.",
     "Let op: Unibet betaalt 1,62, terwijl een eerlijke odds voor die kans 1,73 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 6,6% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €16,20 terug als het lukt (winst €6,20). In ongeveer 42% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Stuttgart zonder Stiller, Karazor 'hoogst onwaarschijnlijk' als basisspeler, 3 nederlagen in 6. Bremen zeven duels ongeslagen maar mist negen spelers, nieuw: Weiser (hamstring) (Sports Mole 5/11)."
    ]
   },
   {
@@ -1504,7 +1572,7 @@
     "Club Brugge is de favoriet. Volgens 18 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Club Brugge wint ongeveer 63%: zo'n 6 op 10 keer.",
     "Let op: Unibet betaalt 1,38, terwijl een eerlijke odds voor die kans 1,58 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 12,4% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €13,80 terug als het lukt (winst €3,80). In ongeveer 37% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Club Brugge (1e, 27 ptn) mist de geschorste Freddie Potts (VoetbalNieuws 30/10); Anderlecht 5e met 19 ptn en slechts 6 op 15 op verplaatsing (Sporza)."
    ]
   },
   {
@@ -1636,7 +1704,7 @@
     "Dit is een risicobet. De kans dat Werder Bremen wint is volgens 20 bookmakers (waaronder Pinnacle, de scherpste) maar ongeveer 22%: zo'n 1 op 5 keer.",
     "Unibet betaalt wel 4,90, terwijl een eerlijke odds 4,63 zou zijn. Daardoor is de x-factor +5,8%: wie zulke bets vaak speelt, wint op lange termijn gemiddeld zoveel bovenop zijn inzet terug.",
     "Je verliest de meeste van deze bets. Met €10 krijg je €49,00 terug als het lukt. Speel ze alleen met een klein bedrag en als reeks, nooit om verlies goed te maken.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Stuttgart zonder Stiller, Karazor 'hoogst onwaarschijnlijk' als basisspeler, 3 nederlagen in 6. Bremen zeven duels ongeslagen maar mist negen spelers, nieuw: Weiser (hamstring) (Sports Mole 5/11)."
    ]
   },
   {
@@ -2112,8 +2180,37 @@
   }
  ],
  "promos": [],
- "alerts": [],
- "summary": "",
+ "alerts": [
+  {
+   "tag": "SCHORSING",
+   "time": "07:50",
+   "title": "Real Madrid zonder Vinícius in Valencia",
+   "body": "Vinícius zit zijn laatste schorsingsmatch uit; Rodrygo, Asencio en Mendy zijn ook out. Real Madrid staat op 1,28, wat de afwezigheden al lijkt te verwerken.",
+   "url": "https://www.sportsmole.co.uk/football/real-madrid/injury-news/injuries-and-suspensions/vinicius-rodrygo-updates-real-madrid-injury-suspension-news-vs-valencia_608458.html"
+  },
+  {
+   "tag": "NIEUWS",
+   "time": "07:50",
+   "title": "Bayern zonder Kompany, Díaz en Gnabry",
+   "body": "Assistent René Marić leidt Bayern in Mainz; Díaz en Gnabry zijn out, Musiala twijfel. Mainz mist wel de geschorste Posch. Bayern 1,34: krap, niet spelen.",
+   "url": "https://www.sportsmole.co.uk/football/bayern-munich/bundesliga-title-race/preview/mainz-vs-bayern-prediction-team-news-lineups_608498.html"
+  },
+  {
+   "tag": "BLESSURE",
+   "time": "07:50",
+   "title": "Stuttgart mist Stiller, Karazor twijfel",
+   "body": "Stiller is out tot de interlandbreak en Karazor start wellicht niet; Bremen is zeven duels ongeslagen maar mist nu ook Weiser. Stuttgart 1,62 lijkt kort.",
+   "url": "https://www.sportsmole.co.uk/football/stuttgart/preview/stuttgart-vs-werder-bremen-prediction-team-news-lineups_608532.html"
+  },
+  {
+   "tag": "SCHORSING",
+   "time": "07:50",
+   "title": "Crystal Palace zonder Mateta tegen Liverpool",
+   "body": "Palace-spits Mateta is geschorst; Liverpool mist zelf o.a. Ekitike en Gravenberch. Liverpool 1,62 ligt rond de marktconsensus.",
+   "url": "https://www.rotowire.com/soccer/article/premier-league-gameweek-10-best-bets-picks-odds-predictions-gw10-145466"
+  }
+ ],
+ "summary": "Geen vers nieuws over basisspelers dat Unibet nog niet lijkt te verwerken, dus geen correcties. Real Madrid speelt in Valencia zonder de geschorste Vinícius (laatste speeldag schorsing), Bayern mist Díaz en Gnabry en coach Kompany, Crystal Palace mist de geschorste Mateta en Stuttgart moet het zonder Stiller en wellicht Karazor stellen. Geen enkele favoriet staat bij Unibet boven zijn eerlijke prijs en de 3 risicobets van deze week zijn op; ik kies vandaag niets en houd €77 en 6 plaatsen over voor de weekendronde met de opstellingen. Op de Unibet-promopagina zag ik vandaag geen voetbalpromo (enkel een NBA-actie), dus geen combi-boost opgenomen.",
  "portfolio": {
   "weeks": [
    {
