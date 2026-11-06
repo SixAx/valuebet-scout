@@ -6,14 +6,14 @@
   "home": "Everton",
   "away": "Coventry City",
   "unibet": {
-   "away": 5.1,
-   "home": 1.71,
+   "away": 5.2,
+   "home": 1.7,
    "draw": 4.1
   },
   "p_market": {
-   "home": 0.5582,
-   "draw": 0.2401,
-   "away": 0.2017
+   "home": 0.5633,
+   "draw": 0.2393,
+   "away": 0.1973
   }
  },
  {
@@ -23,14 +23,14 @@
   "home": "Leeds United",
   "away": "Tottenham Hotspur",
   "unibet": {
-   "home": 2.63,
-   "away": 2.8,
+   "home": 2.75,
+   "away": 2.7,
    "draw": 3.5
   },
   "p_market": {
-   "home": 0.364,
-   "draw": 0.2848,
-   "away": 0.3511
+   "home": 0.3464,
+   "draw": 0.2838,
+   "away": 0.3698
   }
  },
  {
@@ -40,14 +40,14 @@
   "home": "Arsenal",
   "away": "Hull City",
   "unibet": {
-   "home": 1.15,
-   "away": 21.0,
-   "draw": 9.0
+   "home": 1.18,
+   "away": 20.0,
+   "draw": 8.0
   },
   "p_market": {
-   "home": 0.8258,
-   "draw": 0.1197,
-   "away": 0.0546
+   "home": 0.8247,
+   "draw": 0.1205,
+   "away": 0.0548
   }
  },
  {
@@ -58,13 +58,13 @@
   "away": "Newcastle United",
   "unibet": {
    "home": 2.12,
-   "away": 3.6,
+   "away": 3.55,
    "draw": 3.7
   },
   "p_market": {
-   "home": 0.4624,
-   "draw": 0.2593,
-   "away": 0.2783
+   "home": 0.4602,
+   "draw": 0.2595,
+   "away": 0.2803
   }
  },
  {
@@ -74,14 +74,14 @@
   "home": "Nottingham Forest",
   "away": "Manchester City",
   "unibet": {
-   "away": 1.73,
+   "away": 1.74,
    "home": 4.75,
-   "draw": 4.25
+   "draw": 4.2
   },
   "p_market": {
-   "home": 0.2119,
-   "draw": 0.2354,
-   "away": 0.5527
+   "home": 0.2066,
+   "draw": 0.234,
+   "away": 0.5594
   }
  },
  {
@@ -93,12 +93,12 @@
   "unibet": {
    "away": 2.0,
    "home": 3.8,
-   "draw": 3.85
+   "draw": 3.9
   },
   "p_market": {
-   "home": 0.2537,
-   "draw": 0.2572,
-   "away": 0.489
+   "home": 0.2491,
+   "draw": 0.256,
+   "away": 0.4949
   }
  },
  {
@@ -108,14 +108,14 @@
   "home": "Brighton and Hove Albion",
   "away": "Brentford",
   "unibet": {
-   "away": 3.8,
-   "home": 1.96,
-   "draw": 3.95
+   "away": 3.85,
+   "home": 1.94,
+   "draw": 4.0
   },
   "p_market": {
-   "home": 0.4954,
-   "draw": 0.2472,
-   "away": 0.2575
+   "home": 0.4964,
+   "draw": 0.247,
+   "away": 0.2566
   }
  },
  {
@@ -126,13 +126,13 @@
   "away": "Chelsea",
   "unibet": {
    "away": 2.04,
-   "home": 3.85,
+   "home": 3.9,
    "draw": 3.65
   },
   "p_market": {
-   "home": 0.2642,
-   "draw": 0.2622,
-   "away": 0.4736
+   "home": 0.2589,
+   "draw": 0.2611,
+   "away": 0.48
   }
  },
  {
@@ -142,14 +142,14 @@
   "home": "Crystal Palace",
   "away": "Liverpool",
   "unibet": {
-   "home": 5.25,
-   "away": 1.66,
-   "draw": 4.35
+   "home": 5.4,
+   "away": 1.62,
+   "draw": 4.5
   },
   "p_market": {
-   "home": 0.1827,
-   "draw": 0.2211,
-   "away": 0.5962
+   "home": 0.1782,
+   "draw": 0.2193,
+   "away": 0.6025
   }
  },
  {
@@ -159,14 +159,14 @@
   "home": "Manchester United",
   "away": "Aston Villa",
   "unibet": {
-   "away": 3.1,
+   "away": 3.15,
    "home": 2.28,
    "draw": 3.8
   },
   "p_market": {
-   "home": 0.4384,
-   "draw": 0.257,
-   "away": 0.3046
+   "home": 0.4421,
+   "draw": 0.2554,
+   "away": 0.3025
   }
  },
  {
@@ -176,14 +176,14 @@
   "home": "Sevilla",
   "away": "Alavés",
   "unibet": {
-   "away": 4.2,
-   "home": 2.0,
-   "draw": 3.5
+   "away": 4.35,
+   "home": 1.92,
+   "draw": 3.6
   },
   "p_market": {
-   "home": 0.4901,
-   "draw": 0.2792,
-   "away": 0.2306
+   "home": 0.4996,
+   "draw": 0.2768,
+   "away": 0.2236
   }
  },
  {
@@ -193,14 +193,14 @@
   "home": "Málaga",
   "away": "Real Racing Club de Santander",
   "unibet": {
-   "home": 2.43,
+   "home": 2.45,
    "away": 2.95,
    "draw": 3.65
   },
   "p_market": {
-   "home": 0.396,
-   "draw": 0.268,
-   "away": 0.336
+   "home": 0.3969,
+   "draw": 0.2696,
+   "away": 0.3335
   }
  },
  {
@@ -210,14 +210,14 @@
   "home": "Espanyol",
   "away": "Deportivo La Coruña",
   "unibet": {
-   "away": 3.45,
-   "home": 2.2,
-   "draw": 3.55
+   "away": 3.25,
+   "home": 2.33,
+   "draw": 3.45
   },
   "p_market": {
-   "home": 0.4162,
-   "draw": 0.2863,
-   "away": 0.2976
+   "home": 0.414,
+   "draw": 0.2878,
+   "away": 0.2982
   }
  },
  {
@@ -227,14 +227,14 @@
   "home": "CA Osasuna",
   "away": "Athletic Bilbao",
   "unibet": {
-   "away": 2.18,
-   "home": 3.55,
-   "draw": 3.5
+   "away": 2.12,
+   "home": 3.65,
+   "draw": 3.55
   },
   "p_market": {
-   "home": 0.2687,
-   "draw": 0.2773,
-   "away": 0.454
+   "home": 0.2629,
+   "draw": 0.2762,
+   "away": 0.4608
   }
  },
  {
@@ -244,14 +244,14 @@
   "home": "Valencia",
   "away": "Real Madrid",
   "unibet": {
-   "away": 1.32,
-   "home": 9.5,
-   "draw": 6.1
+   "away": 1.28,
+   "home": 10.0,
+   "draw": 6.5
   },
   "p_market": {
-   "home": 0.1104,
-   "draw": 0.1558,
-   "away": 0.7338
+   "home": 0.1024,
+   "draw": 0.1496,
+   "away": 0.7479
   }
  },
  {
@@ -261,14 +261,14 @@
   "home": "Elche CF",
   "away": "Real Betis",
   "unibet": {
-   "home": 3.25,
-   "away": 2.18,
-   "draw": 3.85
+   "home": 3.35,
+   "away": 2.1,
+   "draw": 3.9
   },
   "p_market": {
-   "home": 0.2946,
-   "draw": 0.2535,
-   "away": 0.4519
+   "home": 0.2925,
+   "draw": 0.2542,
+   "away": 0.4533
   }
  },
  {
@@ -278,14 +278,14 @@
   "home": "Real Sociedad",
   "away": "Rayo Vallecano",
   "unibet": {
-   "away": 4.6,
-   "home": 1.74,
+   "away": 4.75,
+   "home": 1.72,
    "draw": 4.2
   },
   "p_market": {
-   "home": 0.5677,
-   "draw": 0.227,
-   "away": 0.2054
+   "home": 0.5667,
+   "draw": 0.2277,
+   "away": 0.2057
   }
  },
  {
@@ -300,9 +300,9 @@
    "draw": 4.0
   },
   "p_market": {
-   "home": 0.5257,
-   "draw": 0.2499,
-   "away": 0.2245
+   "home": 0.5132,
+   "draw": 0.2552,
+   "away": 0.2316
   }
  },
  {
@@ -314,12 +314,12 @@
   "unibet": {
    "away": 8.0,
    "home": 1.43,
-   "draw": 4.8
+   "draw": 4.75
   },
   "p_market": {
-   "home": 0.6601,
-   "draw": 0.208,
-   "away": 0.132
+   "home": 0.6633,
+   "draw": 0.207,
+   "away": 0.1297
   }
  },
  {
@@ -329,14 +329,14 @@
   "home": "Atlético Madrid",
   "away": "Barcelona",
   "unibet": {
-   "home": 3.7,
-   "away": 1.88,
-   "draw": 4.4
+   "home": 3.85,
+   "away": 1.83,
+   "draw": 4.5
   },
   "p_market": {
-   "home": 0.2583,
-   "draw": 0.2209,
-   "away": 0.5208
+   "home": 0.2562,
+   "draw": 0.22,
+   "away": 0.5238
   }
  },
  {
@@ -347,13 +347,13 @@
   "away": "Udinese",
   "unibet": {
    "away": 3.2,
-   "home": 2.17,
-   "draw": 3.6
+   "home": 2.18,
+   "draw": 3.55
   },
   "p_market": {
-   "home": 0.424,
-   "draw": 0.2718,
-   "away": 0.3042
+   "home": 0.4208,
+   "draw": 0.2754,
+   "away": 0.3038
   }
  },
  {
@@ -364,13 +364,13 @@
   "away": "Frosinone",
   "unibet": {
    "home": 2.75,
-   "away": 2.4,
-   "draw": 3.7
+   "away": 2.43,
+   "draw": 3.65
   },
   "p_market": {
-   "home": 0.3511,
-   "draw": 0.2596,
-   "away": 0.3892
+   "home": 0.3499,
+   "draw": 0.2599,
+   "away": 0.3901
   }
  },
  {
@@ -380,14 +380,14 @@
   "home": "Torino",
   "away": "Lecce",
   "unibet": {
-   "away": 4.6,
-   "home": 1.79,
+   "away": 4.4,
+   "home": 1.81,
    "draw": 3.65
   },
   "p_market": {
-   "home": 0.5284,
-   "draw": 0.2596,
-   "away": 0.212
+   "home": 0.5263,
+   "draw": 0.2598,
+   "away": 0.2139
   }
  },
  {
@@ -398,13 +398,13 @@
   "away": "Bologna",
   "unibet": {
    "away": 1.88,
-   "home": 4.3,
-   "draw": 3.5
+   "home": 4.35,
+   "draw": 3.45
   },
   "p_market": {
-   "home": 0.2127,
-   "draw": 0.2715,
-   "away": 0.5158
+   "home": 0.2118,
+   "draw": 0.2711,
+   "away": 0.5171
   }
  },
  {
@@ -419,9 +419,9 @@
    "draw": 5.6
   },
   "p_market": {
-   "home": 0.7318,
-   "draw": 0.1585,
-   "away": 0.1097
+   "home": 0.7371,
+   "draw": 0.1561,
+   "away": 0.1068
   }
  },
  {
@@ -431,14 +431,14 @@
   "home": "Napoli",
   "away": "Lazio",
   "unibet": {
-   "away": 3.25,
-   "home": 2.14,
-   "draw": 3.65
+   "away": 3.05,
+   "home": 2.25,
+   "draw": 3.55
   },
   "p_market": {
-   "home": 0.4312,
-   "draw": 0.2626,
-   "away": 0.3062
+   "home": 0.4162,
+   "draw": 0.2659,
+   "away": 0.3179
   }
  },
  {
@@ -448,14 +448,14 @@
   "home": "Genoa",
   "away": "AC Milan",
   "unibet": {
-   "away": 1.87,
+   "away": 1.83,
    "home": 4.5,
-   "draw": 3.6
+   "draw": 3.55
   },
   "p_market": {
    "home": 0.2047,
-   "draw": 0.2678,
-   "away": 0.5275
+   "draw": 0.2688,
+   "away": 0.5266
   }
  },
  {
@@ -465,14 +465,14 @@
   "home": "Monza",
   "away": "Atalanta BC",
   "unibet": {
-   "away": 2.08,
-   "home": 3.45,
-   "draw": 3.8
+   "away": 2.07,
+   "home": 3.4,
+   "draw": 3.65
   },
   "p_market": {
-   "home": 0.2857,
-   "draw": 0.2497,
-   "away": 0.4646
+   "home": 0.2886,
+   "draw": 0.2514,
+   "away": 0.46
   }
  },
  {
@@ -482,14 +482,14 @@
   "home": "Inter Milan",
   "away": "Como",
   "unibet": {
-   "away": 3.95,
-   "home": 1.8,
+   "away": 3.75,
+   "home": 1.85,
    "draw": 4.1
   },
   "p_market": {
-   "home": 0.5161,
-   "draw": 0.2317,
-   "away": 0.2522
+   "home": 0.5148,
+   "draw": 0.231,
+   "away": 0.2543
   }
  },
  {
@@ -499,14 +499,14 @@
   "home": "Fiorentina",
   "away": "Juventus",
   "unibet": {
-   "home": 3.85,
-   "away": 1.97,
-   "draw": 3.7
+   "home": 3.65,
+   "away": 2.0,
+   "draw": 3.6
   },
   "p_market": {
-   "home": 0.2712,
-   "draw": 0.2668,
-   "away": 0.462
+   "home": 0.2729,
+   "draw": 0.2689,
+   "away": 0.4582
   }
  },
  {
@@ -517,13 +517,13 @@
   "away": "Borussia Monchengladbach",
   "unibet": {
    "away": 2.85,
-   "home": 2.35,
-   "draw": 3.8
+   "home": 2.43,
+   "draw": 3.6
   },
   "p_market": {
-   "home": 0.3924,
-   "draw": 0.2614,
-   "away": 0.3462
+   "home": 0.4012,
+   "draw": 0.2656,
+   "away": 0.3333
   }
  },
  {
@@ -533,14 +533,14 @@
   "home": "RB Leipzig",
   "away": "Augsburg",
   "unibet": {
-   "away": 5.5,
-   "home": 1.49,
-   "draw": 5.25
+   "away": 5.75,
+   "home": 1.47,
+   "draw": 5.3
   },
   "p_market": {
-   "home": 0.6514,
-   "draw": 0.1791,
-   "away": 0.1695
+   "home": 0.6513,
+   "draw": 0.1796,
+   "away": 0.1691
   }
  },
  {
@@ -550,14 +550,14 @@
   "home": "FSV Mainz 05",
   "away": "Bayern Munich",
   "unibet": {
-   "away": 1.36,
-   "home": 7.0,
-   "draw": 6.4
+   "away": 1.34,
+   "home": 7.5,
+   "draw": 6.25
   },
   "p_market": {
-   "home": 0.1351,
-   "draw": 0.1502,
-   "away": 0.7148
+   "home": 0.1316,
+   "draw": 0.1485,
+   "away": 0.7199
   }
  },
  {
@@ -568,13 +568,13 @@
   "away": "Elversberg",
   "unibet": {
    "home": 1.3,
-   "away": 9.5,
-   "draw": 6.0
+   "away": 9.0,
+   "draw": 6.1
   },
   "p_market": {
-   "home": 0.7354,
-   "draw": 0.1537,
-   "away": 0.1109
+   "home": 0.7326,
+   "draw": 0.1562,
+   "away": 0.1112
   }
  },
  {
@@ -584,14 +584,14 @@
   "home": "SC Paderborn",
   "away": "Eintracht Frankfurt",
   "unibet": {
-   "away": 2.25,
-   "home": 2.9,
-   "draw": 3.9
+   "away": 2.18,
+   "home": 3.05,
+   "draw": 3.95
   },
   "p_market": {
-   "home": 0.3145,
-   "draw": 0.2475,
-   "away": 0.438
+   "home": 0.3122,
+   "draw": 0.2477,
+   "away": 0.4401
   }
  },
  {
@@ -601,14 +601,14 @@
   "home": "VfB Stuttgart",
   "away": "Werder Bremen",
   "unibet": {
-   "home": 1.57,
-   "away": 5.1,
-   "draw": 4.7
+   "home": 1.62,
+   "away": 4.9,
+   "draw": 4.6
   },
   "p_market": {
-   "home": 0.5951,
-   "draw": 0.2012,
-   "away": 0.2036
+   "home": 0.5765,
+   "draw": 0.2076,
+   "away": 0.2159
   }
  },
  {
@@ -619,13 +619,13 @@
   "away": "Bayer Leverkusen",
   "unibet": {
    "home": 4.2,
-   "away": 1.75,
-   "draw": 4.35
+   "away": 1.74,
+   "draw": 4.4
   },
   "p_market": {
-   "home": 0.2367,
-   "draw": 0.2267,
-   "away": 0.5366
+   "home": 0.2389,
+   "draw": 0.2293,
+   "away": 0.5317
   }
  },
  {
@@ -636,13 +636,13 @@
   "away": "Union Berlin",
   "unibet": {
    "home": 1.51,
-   "away": 6.25,
-   "draw": 4.6
+   "away": 6.1,
+   "draw": 4.5
   },
   "p_market": {
-   "home": 0.6311,
-   "draw": 0.2111,
-   "away": 0.1577
+   "home": 0.6364,
+   "draw": 0.2082,
+   "away": 0.1553
   }
  },
  {
@@ -652,14 +652,14 @@
   "home": "TSG Hoffenheim",
   "away": "FC Schalke 04",
   "unibet": {
-   "away": 4.7,
-   "home": 1.67,
-   "draw": 4.4
+   "away": 4.75,
+   "home": 1.66,
+   "draw": 4.35
   },
   "p_market": {
-   "home": 0.588,
-   "draw": 0.2144,
-   "away": 0.1976
+   "home": 0.5906,
+   "draw": 0.2141,
+   "away": 0.1953
   }
  },
  {
@@ -669,14 +669,14 @@
   "home": "Toulouse",
   "away": "Strasbourg",
   "unibet": {
-   "away": 3.3,
-   "home": 2.02,
+   "away": 3.35,
+   "home": 2.0,
    "draw": 3.65
   },
   "p_market": {
-   "home": 0.4626,
-   "draw": 0.253,
-   "away": 0.2845
+   "home": 0.4594,
+   "draw": 0.2562,
+   "away": 0.2844
   }
  },
  {
@@ -687,13 +687,13 @@
   "away": "Paris FC",
   "unibet": {
    "home": 4.25,
-   "away": 1.75,
+   "away": 1.74,
    "draw": 3.8
   },
   "p_market": {
-   "home": 0.2231,
-   "draw": 0.2413,
-   "away": 0.5356
+   "home": 0.2236,
+   "draw": 0.2406,
+   "away": 0.5358
   }
  },
  {
@@ -703,14 +703,14 @@
   "home": "Paris Saint Germain",
   "away": "Troyes",
   "unibet": {
-   "home": 1.13,
-   "away": 15.0,
-   "draw": 8.5
+   "home": 1.1,
+   "away": 19.0,
+   "draw": 10.0
   },
   "p_market": {
-   "home": 0.8462,
-   "draw": 0.0971,
-   "away": 0.0568
+   "home": 0.8603,
+   "draw": 0.0894,
+   "away": 0.0503
   }
  },
  {
@@ -721,13 +721,13 @@
   "away": "Lille",
   "unibet": {
    "away": 3.25,
-   "home": 2.02,
+   "home": 2.0,
    "draw": 3.75
   },
   "p_market": {
-   "home": 0.4455,
-   "draw": 0.2566,
-   "away": 0.2978
+   "home": 0.4456,
+   "draw": 0.2574,
+   "away": 0.297
   }
  },
  {
@@ -737,14 +737,14 @@
   "home": "Le Mans FC",
   "away": "AS Monaco",
   "unibet": {
-   "away": 1.73,
+   "away": 1.74,
    "home": 4.1,
    "draw": 3.95
   },
   "p_market": {
-   "home": 0.2264,
-   "draw": 0.231,
-   "away": 0.5426
+   "home": 0.2261,
+   "draw": 0.2324,
+   "away": 0.5416
   }
  },
  {
@@ -755,13 +755,13 @@
   "away": "Nice",
   "unibet": {
    "home": 3.3,
-   "away": 2.05,
-   "draw": 3.55
+   "away": 2.04,
+   "draw": 3.6
   },
   "p_market": {
-   "home": 0.2754,
-   "draw": 0.2615,
-   "away": 0.4632
+   "home": 0.2738,
+   "draw": 0.2612,
+   "away": 0.465
   }
  },
  {
@@ -771,14 +771,14 @@
   "home": "Brest",
   "away": "Lyon",
   "unibet": {
-   "home": 2.7,
-   "away": 2.4,
-   "draw": 3.4
+   "home": 2.75,
+   "away": 2.45,
+   "draw": 3.35
   },
   "p_market": {
-   "home": 0.3396,
-   "draw": 0.272,
-   "away": 0.3883
+   "home": 0.3403,
+   "draw": 0.2738,
+   "away": 0.3859
   }
  },
  {
@@ -790,11 +790,11 @@
   "unibet": {
    "home": 2.7,
    "away": 2.5,
-   "draw": 3.3
+   "draw": 3.25
   },
   "p_market": {
-   "home": 0.3404,
-   "draw": 0.2869,
+   "home": 0.34,
+   "draw": 0.2873,
    "away": 0.3727
   }
  },
@@ -805,14 +805,14 @@
   "home": "RC Lens",
   "away": "Marseille",
   "unibet": {
-   "away": 3.1,
+   "away": 3.05,
    "home": 2.06,
    "draw": 3.8
   },
   "p_market": {
-   "home": 0.4416,
-   "draw": 0.2444,
-   "away": 0.314
+   "home": 0.4377,
+   "draw": 0.245,
+   "away": 0.3173
   }
  },
  {
@@ -822,14 +822,14 @@
   "home": "Willem II",
   "away": "FC Zwolle",
   "unibet": {
-   "away": 2.38,
-   "home": 2.9,
-   "draw": 3.8
+   "away": 2.32,
+   "home": 3.05,
+   "draw": 3.85
   },
   "p_market": {
-   "home": 0.3351,
-   "draw": 0.2541,
-   "away": 0.4108
+   "home": 0.3139,
+   "draw": 0.2553,
+   "away": 0.4309
   }
  },
  {
@@ -839,14 +839,14 @@
   "home": "Fortuna Sittard",
   "away": "SC Telstar",
   "unibet": {
-   "home": 2.07,
+   "home": 2.08,
    "away": 3.5,
-   "draw": 3.9
+   "draw": 3.85
   },
   "p_market": {
-   "home": 0.4616,
-   "draw": 0.2581,
-   "away": 0.2803
+   "home": 0.4605,
+   "draw": 0.2577,
+   "away": 0.2818
   }
  },
  {
@@ -861,9 +861,9 @@
    "draw": 3.85
   },
   "p_market": {
-   "home": 0.3843,
-   "draw": 0.2615,
-   "away": 0.3542
+   "home": 0.3839,
+   "draw": 0.2618,
+   "away": 0.3543
   }
  },
  {
@@ -874,13 +874,13 @@
   "away": "Go Ahead Eagles",
   "unibet": {
    "home": 2.8,
-   "away": 2.45,
-   "draw": 3.9
+   "away": 2.43,
+   "draw": 3.95
   },
   "p_market": {
-   "home": 0.3452,
-   "draw": 0.2554,
-   "away": 0.3995
+   "home": 0.3425,
+   "draw": 0.2559,
+   "away": 0.4016
   }
  },
  {
@@ -890,14 +890,14 @@
   "home": "Heerenveen",
   "away": "Feyenoord",
   "unibet": {
-   "away": 1.77,
-   "home": 4.25,
+   "away": 1.76,
+   "home": 4.3,
    "draw": 4.4
   },
   "p_market": {
-   "home": 0.2282,
-   "draw": 0.2195,
-   "away": 0.5523
+   "home": 0.2279,
+   "draw": 0.2193,
+   "away": 0.5529
   }
  },
  {
@@ -907,14 +907,14 @@
   "home": "FC Twente Enschede",
   "away": "Ajax",
   "unibet": {
-   "away": 2.75,
-   "home": 2.4,
+   "away": 2.85,
+   "home": 2.33,
    "draw": 4.1
   },
   "p_market": {
-   "home": 0.4167,
-   "draw": 0.2471,
-   "away": 0.3362
+   "home": 0.4193,
+   "draw": 0.2473,
+   "away": 0.3334
   }
  },
  {
@@ -924,14 +924,14 @@
   "home": "AZ Alkmaar",
   "away": "Groningen",
   "unibet": {
-   "home": 1.53,
-   "away": 5.75,
-   "draw": 5.0
+   "home": 1.55,
+   "away": 5.6,
+   "draw": 4.9
   },
   "p_market": {
-   "home": 0.6165,
-   "draw": 0.2035,
-   "away": 0.18
+   "home": 0.6175,
+   "draw": 0.2044,
+   "away": 0.1781
   }
  },
  {
@@ -941,14 +941,14 @@
   "home": "SC Cambuur",
   "away": "PSV Eindhoven",
   "unibet": {
-   "away": 1.34,
-   "home": 8.5,
-   "draw": 6.1
+   "away": 1.35,
+   "home": 8.0,
+   "draw": 6.0
   },
   "p_market": {
-   "home": 0.1461,
-   "draw": 0.1687,
-   "away": 0.6853
+   "home": 0.1478,
+   "draw": 0.1695,
+   "away": 0.6827
   }
  },
  {
@@ -958,14 +958,14 @@
   "home": "FC Utrecht",
   "away": "NEC Nijmegen",
   "unibet": {
-   "home": 2.35,
-   "away": 2.88,
+   "home": 2.43,
+   "away": 2.8,
    "draw": 4.0
   },
   "p_market": {
-   "home": 0.3922,
-   "draw": 0.2493,
-   "away": 0.3584
+   "home": 0.392,
+   "draw": 0.2485,
+   "away": 0.3595
   }
  },
  {
@@ -975,14 +975,14 @@
   "home": "Famalicão",
   "away": "Arouca",
   "unibet": {
-   "away": 3.45,
-   "home": 1.94,
-   "draw": 3.25
+   "away": 3.3,
+   "home": 2.0,
+   "draw": 3.2
   },
   "p_market": {
-   "home": 0.4525,
-   "draw": 0.2758,
-   "away": 0.2716
+   "home": 0.4258,
+   "draw": 0.288,
+   "away": 0.2861
   }
  },
  {
@@ -997,9 +997,9 @@
    "draw": 3.25
   },
   "p_market": {
-   "home": 0.3176,
-   "draw": 0.2834,
-   "away": 0.399
+   "home": 0.3158,
+   "draw": 0.2881,
+   "away": 0.3961
   }
  },
  {
@@ -1014,9 +1014,9 @@
    "draw": 3.55
   },
   "p_market": {
-   "home": 0.5446,
-   "draw": 0.2545,
-   "away": 0.201
+   "home": 0.5351,
+   "draw": 0.2592,
+   "away": 0.2057
   }
  },
  {
@@ -1031,9 +1031,9 @@
    "draw": 7.0
   },
   "p_market": {
-   "home": 0.814,
-   "draw": 0.1219,
-   "away": 0.0642
+   "home": 0.8167,
+   "draw": 0.1201,
+   "away": 0.0632
   }
  },
  {
@@ -1048,9 +1048,9 @@
    "draw": 3.3
   },
   "p_market": {
-   "home": 0.4537,
-   "draw": 0.2751,
-   "away": 0.2713
+   "home": 0.4582,
+   "draw": 0.2711,
+   "away": 0.2707
   }
  },
  {
@@ -1065,9 +1065,9 @@
    "draw": 3.0
   },
   "p_market": {
-   "home": 0.4237,
-   "draw": 0.294,
-   "away": 0.2822
+   "home": 0.4088,
+   "draw": 0.2948,
+   "away": 0.2964
   }
  },
  {
@@ -1077,14 +1077,14 @@
   "home": "Vitória SC",
   "away": "FC Porto",
   "unibet": {
-   "away": 1.63,
-   "home": 4.7,
-   "draw": 3.5
+   "away": 1.55,
+   "home": 5.2,
+   "draw": 3.65
   },
   "p_market": {
-   "home": 0.1881,
-   "draw": 0.2404,
-   "away": 0.5715
+   "home": 0.1862,
+   "draw": 0.238,
+   "away": 0.5758
   }
  },
  {
@@ -1099,9 +1099,9 @@
    "draw": 6.1
   },
   "p_market": {
-   "home": 0.094,
-   "draw": 0.1473,
-   "away": 0.7587
+   "home": 0.0904,
+   "draw": 0.1481,
+   "away": 0.7615
   }
  },
  {
@@ -1116,9 +1116,9 @@
    "draw": 3.65
   },
   "p_market": {
-   "home": 0.162,
-   "draw": 0.2283,
-   "away": 0.6097
+   "home": 0.1612,
+   "draw": 0.2271,
+   "away": 0.6117
   }
  },
  {
@@ -1128,14 +1128,14 @@
   "home": "Standard Liege",
   "away": "SK Beveren",
   "unibet": {
-   "away": 4.1,
-   "home": 1.7,
-   "draw": 3.75
+   "away": 3.8,
+   "home": 1.79,
+   "draw": 3.6
   },
   "p_market": {
-   "home": 0.526,
-   "draw": 0.2416,
-   "away": 0.2324
+   "home": 0.4841,
+   "draw": 0.2554,
+   "away": 0.2604
   }
  },
  {
@@ -1146,13 +1146,13 @@
   "away": "Charleroi",
   "unibet": {
    "away": 2.28,
-   "home": 2.65,
+   "home": 2.63,
    "draw": 3.55
   },
   "p_market": {
-   "home": 0.3356,
-   "draw": 0.2567,
-   "away": 0.4077
+   "home": 0.331,
+   "draw": 0.2545,
+   "away": 0.4145
   }
  },
  {
@@ -1167,9 +1167,9 @@
    "draw": 3.4
   },
   "p_market": {
-   "home": 0.4143,
-   "draw": 0.2705,
-   "away": 0.3152
+   "home": 0.4156,
+   "draw": 0.269,
+   "away": 0.3154
   }
  },
  {
@@ -1179,14 +1179,14 @@
   "home": "RAAL La Louvière",
   "away": "Cercle Brugge KSV",
   "unibet": {
-   "away": 2.5,
+   "away": 2.55,
    "home": 2.5,
    "draw": 3.25
   },
   "p_market": {
-   "home": 0.3527,
-   "draw": 0.2814,
-   "away": 0.3659
+   "home": 0.3517,
+   "draw": 0.2834,
+   "away": 0.3649
   }
  },
  {
@@ -1201,9 +1201,9 @@
    "draw": 3.65
   },
   "p_market": {
-   "home": 0.4999,
-   "draw": 0.2449,
-   "away": 0.2551
+   "home": 0.4989,
+   "draw": 0.248,
+   "away": 0.2531
   }
  },
  {
@@ -1213,14 +1213,14 @@
   "home": "Club Brugge",
   "away": "Anderlecht",
   "unibet": {
-   "away": 5.6,
-   "home": 1.43,
-   "draw": 4.5
+   "away": 6.25,
+   "home": 1.38,
+   "draw": 4.75
   },
   "p_market": {
-   "home": 0.6204,
-   "draw": 0.2008,
-   "away": 0.1788
+   "home": 0.6345,
+   "draw": 0.1947,
+   "away": 0.1708
   }
  },
  {
@@ -1232,12 +1232,12 @@
   "unibet": {
    "home": 1.36,
    "away": 7.0,
-   "draw": 4.5
+   "draw": 4.4
   },
   "p_market": {
-   "home": 0.6547,
-   "draw": 0.2086,
-   "away": 0.1367
+   "home": 0.6505,
+   "draw": 0.2108,
+   "away": 0.1387
   }
  },
  {
@@ -1247,14 +1247,14 @@
   "home": "Union Saint-Gilloise",
   "away": "Genk",
   "unibet": {
-   "away": 4.3,
-   "home": 1.65,
-   "draw": 3.85
+   "away": 4.5,
+   "home": 1.61,
+   "draw": 3.9
   },
   "p_market": {
-   "home": 0.578,
-   "draw": 0.2277,
-   "away": 0.1943
+   "home": 0.5745,
+   "draw": 0.2276,
+   "away": 0.1978
   }
  },
  {
@@ -1269,298 +1269,9 @@
    "draw": 3.8
   },
   "p_market": {
-   "home": 0.5305,
-   "draw": 0.2392,
-   "away": 0.2303
-  }
- },
- {
-  "id": "cb7170b1b0e68a09be62b7a0fcb8d268",
-  "league": "Europa League",
-  "kickoff": "2026-11-05T17:45:00Z",
-  "home": "AC Milan",
-  "away": "Ferencváros TC",
-  "unibet": {
-   "home": 1.33,
-   "away": 9.5,
-   "draw": 5.6
-  },
-  "p_market": {
-   "home": 0.7074,
-   "draw": 0.1802,
-   "away": 0.1125
-  }
- },
- {
-  "id": "9604c5b1c465435911e038db95ab2a7b",
-  "league": "Europa League",
-  "kickoff": "2026-11-05T17:45:00Z",
-  "home": "Anderlecht",
-  "away": "Salzburg",
-  "unibet": {
-   "home": 2.0,
-   "away": 3.7,
-   "draw": 3.9
-  },
-  "p_market": {
-   "home": 0.4818,
-   "draw": 0.2522,
-   "away": 0.266
-  }
- },
- {
-  "id": "d437cbfcee6b57ec58d464e6b459c56e",
-  "league": "Europa League",
-  "kickoff": "2026-11-05T17:45:00Z",
-  "home": "Sparta Prague",
-  "away": "Bournemouth",
-  "unibet": {
-   "away": 1.47,
-   "home": 7.0,
-   "draw": 5.0
-  },
-  "p_market": {
-   "home": 0.1539,
-   "draw": 0.2075,
-   "away": 0.6386
-  }
- },
- {
-  "id": "2347e0e7725940f6a14d5a80601390a5",
-  "league": "Europa League",
-  "kickoff": "2026-11-05T17:45:00Z",
-  "home": "Crystal Palace",
-  "away": "TSG Hoffenheim",
-  "unibet": {
-   "home": 1.91,
-   "away": 3.8,
-   "draw": 4.0
-  },
-  "p_market": {
-   "home": 0.5062,
-   "draw": 0.2394,
-   "away": 0.2544
-  }
- },
- {
-  "id": "3493023efb0aadbdffe37e74e528177c",
-  "league": "Europa League",
-  "kickoff": "2026-11-05T17:45:00Z",
-  "home": "PFC Levski Sofia",
-  "away": "Jagiellonia Białystok",
-  "unibet": {
-   "away": 3.9,
-   "home": 1.97,
-   "draw": 3.8
-  },
-  "p_market": {
-   "home": 0.4713,
-   "draw": 0.271,
-   "away": 0.2577
-  }
- },
- {
-  "id": "c50815d0a3cbc7dfe6b9f3a737ce4836",
-  "league": "Europa League",
-  "kickoff": "2026-11-05T17:45:00Z",
-  "home": "Lillestrom",
-  "away": "Viktoria Plzeň",
-  "unibet": {
-   "home": 3.2,
-   "away": 2.23,
-   "draw": 3.8
-  },
-  "p_market": {
-   "home": 0.3122,
-   "draw": 0.2531,
-   "away": 0.4347
-  }
- },
- {
-  "id": "d6ef4964addd663baed90f8f19fda1d3",
-  "league": "Europa League",
-  "kickoff": "2026-11-05T17:45:00Z",
-  "home": "Real Sociedad",
-  "away": "Lyon",
-  "unibet": {
-   "away": 4.5,
-   "home": 1.76,
-   "draw": 4.3
-  },
-  "p_market": {
-   "home": 0.5689,
-   "draw": 0.2279,
-   "away": 0.2032
-  }
- },
- {
-  "id": "02228f9f6863e25c9538d6062932e155",
-  "league": "Europa League",
-  "kickoff": "2026-11-05T17:45:00Z",
-  "home": "NEC Nijmegen",
-  "away": "Omonoia FC",
-  "unibet": {
-   "home": 1.81,
-   "away": 4.1,
-   "draw": 4.2
-  },
-  "p_market": {
-   "home": 0.5333,
-   "draw": 0.2373,
-   "away": 0.2294
-  }
- },
- {
-  "id": "c91f4c9744f6ca502b7986a564e858df",
-  "league": "Europa League",
-  "kickoff": "2026-11-05T20:00:00Z",
-  "home": "AZ Alkmaar",
-  "away": "Juventus",
-  "unibet": {
-   "home": 3.7,
-   "away": 2.1,
-   "draw": 3.6
-  },
-  "p_market": {
-   "home": 0.2682,
-   "draw": 0.2598,
-   "away": 0.472
-  }
- },
- {
-  "id": "e1c3625feeebcd65317e17a4e9a38c4f",
-  "league": "Europa League",
-  "kickoff": "2026-11-05T20:00:00Z",
-  "home": "Bayer Leverkusen",
-  "away": "Marseille",
-  "unibet": {
-   "home": 1.35,
-   "away": 9.0,
-   "draw": 5.8
-  },
-  "p_market": {
-   "home": 0.7232,
-   "draw": 0.1628,
-   "away": 0.1141
-  }
- },
- {
-  "id": "bc4a4cc34a2219d9564b7b0c17ba2934",
-  "league": "Europa League",
-  "kickoff": "2026-11-05T20:00:00Z",
-  "home": "Benfica",
-  "away": "Lech Poznań",
-  "unibet": {
-   "home": 1.15,
-   "away": 19.0,
-   "draw": 9.5
-  },
-  "p_market": {
-   "home": 0.8295,
-   "draw": 0.1127,
-   "away": 0.0578
-  }
- },
- {
-  "id": "5ecf6578ba030a1e99abaa3200319e37",
-  "league": "Europa League",
-  "kickoff": "2026-11-05T20:00:00Z",
-  "home": "Celtic",
-  "away": "Besiktas JK",
-  "unibet": {
-   "away": 2.2,
-   "home": 3.1,
-   "draw": 3.85
-  },
-  "p_market": {
-   "home": 0.3144,
-   "draw": 0.2481,
-   "away": 0.4375
-  }
- },
- {
-  "id": "b828d43ba5fa1c8cdd2e34aabea9d0ce",
-  "league": "Europa League",
-  "kickoff": "2026-11-05T20:00:00Z",
-  "home": "Celta Vigo",
-  "away": "Union Saint-Gilloise",
-  "unibet": {
-   "home": 2.2,
-   "away": 3.3,
-   "draw": 3.65
-  },
-  "p_market": {
-   "home": 0.4179,
-   "draw": 0.2715,
-   "away": 0.3106
-  }
- },
- {
-  "id": "6dad8d4dd99ba6f5dae0b3abdf8f669b",
-  "league": "Europa League",
-  "kickoff": "2026-11-05T20:00:00Z",
-  "home": "Sunderland",
-  "away": "Dinamo Zagreb",
-  "unibet": {
-   "away": 7.0,
-   "home": 1.48,
-   "draw": 4.8
-  },
-  "p_market": {
-   "home": 0.6496,
-   "draw": 0.2049,
-   "away": 0.1455
-  }
- },
- {
-  "id": "402e102fa845ed84ab7e59b3b17f8c29",
-  "league": "Europa League",
-  "kickoff": "2026-11-05T20:00:00Z",
-  "home": "Torreense",
-  "away": "FC Ararat-Armenia",
-  "unibet": {
-   "away": 4.9,
-   "home": 1.76,
-   "draw": 3.8
-  },
-  "p_market": {
-   "home": 0.5361,
-   "draw": 0.2534,
-   "away": 0.2105
-  }
- },
- {
-  "id": "2af127e906ae56f3543d283b85f7b54e",
-  "league": "Europa League",
-  "kickoff": "2026-11-05T20:00:00Z",
-  "home": "Hapoel Be'er Sheva",
-  "away": "OFI Crete",
-  "unibet": {
-   "home": 2.18,
-   "away": 3.35,
-   "draw": 3.75
-  },
-  "p_market": {
-   "home": 0.4513,
-   "draw": 0.264,
-   "away": 0.2847
-  }
- },
- {
-  "id": "84b68e09ecbe93fdbce759cd822322a2",
-  "league": "Europa League",
-  "kickoff": "2026-11-05T20:00:00Z",
-  "home": "SK Sturm Graz",
-  "away": "NK Celje",
-  "unibet": {
-   "away": 6.1,
-   "home": 1.56,
-   "draw": 4.5
-  },
-  "p_market": {
-   "home": 0.6261,
-   "draw": 0.2088,
-   "away": 0.1651
+   "home": 0.5211,
+   "draw": 0.2406,
+   "away": 0.2383
   }
  }
 ]
