@@ -1,12 +1,12 @@
 {
   "date": "2026-11-07",
-  "summary": "Geen vers nieuws (minder dan 24 uur oud) over basisspelers dat Unibet nog niet verwerkt heeft, dus geen correcties: de previews bevestigen enkel wat al bekend was (Real Madrid zonder Vinícius en Rodrygo, Bayern zonder Díaz, Gnabry en Kompany, Arsenal zonder Saka, City zonder Semenyo, Leipzig met twijfel over Nusa). Alle favorieten staan bij Unibet onder hun eerlijke prijs (verwachte waarde −2,5% tot −12,5%) en de enige value zit bij outsiders, terwijl de 3 risicobets van deze week al op zijn; ik kies vandaag daarom niets en laat €77 liggen. Unibet toont een 25%-winstboost op Pro League-combi's vanaf 3 selecties, maar door de hoge marge op de Belgische favorieten blijft zo'n combi ook mét boost duidelijk negatief.",
+  "summary": "Geen vers nieuws (minder dan 24 uur oud) over basisspelers dat Unibet nog niet verwerkt heeft, dus geen correcties: de previews bevestigen enkel wat al bekend was (Real Madrid zonder Vinícius en Rodrygo, Bayern zonder Díaz, Gnabry en Kompany, Arsenal zonder Saka, City zonder Semenyo, Leipzig met twijfel over Nusa). Alle favorieten staan bij Unibet onder hun eerlijke prijs (verwachte waarde −2,5% tot −12,5%) en de enige value zit bij outsiders, terwijl de 3 risicobets van deze week al op zijn; ik kies vandaag daarom niets en laat €77 liggen. Unibet toont een 25%-winstboost op Pro League-combi's vanaf 3 selecties, maar door de hoge marge op de Belgische favorieten blijft zo'n combi ook mét boost duidelijk negatief. Weekendronde (11u): geen urgent nieuws; Bayern mist ook Musiala en Forest ook Igor Jesus, maar Unibet heeft dat al verwerkt. De week zit vol (10 keuzes), dus geen nieuwe picks.",
   "adjustments": {},
   "match_notes": {
-    "842fcc5b9feb8c63054a661ad1fc8926": "Arsenal zonder de geschorste Dowman en Saka (quadriceps, mogelijk tot eind dit jaar); Konsa is fit na zijn knieprobleem tegen Slavia Praag (Arseblog 6/11).",
-    "5b386dfdf6f76705116fbb4120ee8493": "Real Madrid zonder Rodrygo, Asencio en (wellicht) Mendy; Vinícius zit zijn laatste schorsingsmatch uit. Valencia mist Canós, Diego López en Otorbi, Sadiq is terug (Sports Mole / Khel Now 5/11).",
-    "fe97f5adf397dd6b0a8a9e0a5272f307": "Bayern zonder Díaz en Gnabry (hamstring), Musiala twijfel; René Marić coacht opnieuw i.p.v. Kompany. Mainz mist de geschorste Posch en Kohr (Sports Mole 5/11).",
-    "59c5f635cfe11613c07e9a5520ced5c1": "Forest zonder Savona en Domínguez, Igor Jesus twijfel; City mist Semenyo, O'Reilly twijfel (Sports Mole 6/11).",
+    "842fcc5b9feb8c63054a661ad1fc8926": "Arsenal zonder de geschorste Dowman en Saka (quadriceps, mogelijk tot eind dit jaar); Konsa is fit na zijn knieprobleem tegen Slavia Praag (Arseblog 6/11). Arteta bevestigde vrijdag: Saka 'weken' out, verder iedereen fit (Daily Cannon 6/11).",
+    "5b386dfdf6f76705116fbb4120ee8493": "Real Madrid zonder Rodrygo, Asencio en (wellicht) Mendy; Vinícius zit zijn laatste schorsingsmatch uit. Valencia mist Canós, Diego López en Otorbi, Sadiq is terug (Sports Mole / Khel Now 5/11). Valverde, Tchouaméni en Güler beschikbaar (SI 7/11).",
+    "fe97f5adf397dd6b0a8a9e0a5272f307": "Bayern zonder Díaz en Gnabry (hamstring), Musiala twijfel; René Marić coacht opnieuw i.p.v. Kompany. Mainz mist de geschorste Posch en Kohr (Sports Mole 5/11). Update 10u55: ook Musiala en Saibari out, Kompany nog afwezig (Goal.com 7/11).",
+    "59c5f635cfe11613c07e9a5520ced5c1": "Forest zonder Savona en Domínguez, Igor Jesus twijfel; City mist Semenyo, O'Reilly twijfel (Sports Mole 6/11). Update 10u58: Igor Jesus nu ook out (ESPN 7/11); O'Reilly krijgt rust volgens City.",
     "cdb5f9dd39e79db69659c76cd96d0bbe": "Leipzig zonder Guiu en Ouédraogo, Nusa en Finkgräfe twijfel; nog geen thuisgoal tegen in de competitie. Augsburg mist Banks, Brackelmann en de geschorste Bah en won zes competitieduels niet (Sports Mole 6/11).",
     "8a92794bd5f89b8b91b2d8fefdac7b85": "Bij Anderlecht trainde Aasgaard vrijdag weer mee; Onia Seke (kneuzing) is onzeker (Voetbalfocus 6/11). Club Brugge mist de geschorste Potts."
   },
@@ -36,7 +36,29 @@
       }
     ]
   },
-  "alerts": [],
+  "alerts": [
+    {
+      "tag": "NIEUWS",
+      "time": "10:55",
+      "title": "Bayern in Mainz ook zonder Musiala, Kompany nog afwezig",
+      "body": "Goal.com meldt Saibari, Díaz, Gnabry en Musiala als afwezig; Kompany is herstellende van ziekte. Olise speelde midweek 90 minuten. Unibet zakte al van 1,44 naar 1,32 op Bayern-winst, dus dit zit in de prijs; geen invloed op de lopende keuze.",
+      "url": "https://www.goal.com/en-gb/betting/tips/mainz-vs-bayern-munich-predictions-07-11-2026/A%3Ablt3a81a1f4a3a69041"
+    },
+    {
+      "tag": "BLESSURE",
+      "time": "10:58",
+      "title": "Forest ook zonder Igor Jesus tegen City",
+      "body": "ESPN zet Savona, Domínguez én Igor Jesus (kuit, gisteren nog twijfel) bij de afwezigen; City mist enkel Semenyo, en volgens het persbericht van City krijgt O'Reilly rust. Klein voordeel voor City (lopende keuze), maar Unibet 1,73 ligt al op de marktprijs.",
+      "url": "https://www.espn.com/soccer/story/_/id/50385789/nottingham-forest-vs-manchester-city-tv-channel-how-watch-uk-kickoff-live-stream-team-news-referee-predicted-lineups"
+    },
+    {
+      "tag": "BLESSURE",
+      "time": "11:00",
+      "title": "Leipzig: Nusa 'am Limit', beslissing op wedstrijddag",
+      "body": "Nusa trainde enkel individueel na spierproblemen in de Champions League; Demichelis beslist na een laatste test. Ouédraogo en Guiu zijn zeker out, Baumgartner krijgt wellicht rust. Al bekend en verwerkt in 1,47; geen correctie.",
+      "url": "https://rblive.de/news/rb-aufstellung-gegen-augsburg-nusa-am-limit-diese-elf-ist-noch-frisch-genug-3692118"
+    }
+  ],
   "results": {},
   "picks": [],
   "urgent": false
