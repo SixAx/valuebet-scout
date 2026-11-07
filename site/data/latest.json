@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T07:51:54Z",
+ "generated_at": "2026-11-07T09:50:11Z",
  "fetched_at": "2026-11-07T05:51:25Z",
  "research_date": "2026-11-07",
  "odds_remaining": "395",
@@ -76,7 +76,7 @@
     "Arsenal is de favoriet. Volgens 22 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Arsenal wint ongeveer 83%: zo'n 8 op 10 keer.",
     "Let op: Unibet betaalt 1,15, terwijl een eerlijke odds voor die kans 1,20 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,3% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €11,50 terug als het lukt (winst €1,50). In ongeveer 17% van de gevallen verlies je je inzet.",
-    "Nieuws: Arsenal zonder de geschorste Dowman en Saka (quadriceps, mogelijk tot eind dit jaar); Konsa is fit na zijn knieprobleem tegen Slavia Praag (Arseblog 6/11)."
+    "Nieuws: Arsenal zonder de geschorste Dowman en Saka (quadriceps, mogelijk tot eind dit jaar); Konsa is fit na zijn knieprobleem tegen Slavia Praag (Arseblog 6/11). Arteta bevestigde vrijdag: Saka 'weken' out, verder iedereen fit (Daily Cannon 6/11)."
    ]
   },
   {
@@ -151,7 +151,7 @@
     "Real Madrid is de favoriet. Volgens 18 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Real Madrid wint ongeveer 76%: zo'n 8 op 10 keer.",
     "Unibet betaalt 1,27; een eerlijke odds voor die kans is 1,32. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,8% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €12,70 terug als het lukt (winst €2,70). In ongeveer 24% van de gevallen verlies je je inzet.",
-    "Nieuws: Real Madrid zonder Rodrygo, Asencio en (wellicht) Mendy; Vinícius zit zijn laatste schorsingsmatch uit. Valencia mist Canós, Diego López en Otorbi, Sadiq is terug (Sports Mole / Khel Now 5/11)."
+    "Nieuws: Real Madrid zonder Rodrygo, Asencio en (wellicht) Mendy; Vinícius zit zijn laatste schorsingsmatch uit. Valencia mist Canós, Diego López en Otorbi, Sadiq is terug (Sports Mole / Khel Now 5/11). Valverde, Tchouaméni en Güler beschikbaar (SI 7/11)."
    ]
   },
   {
@@ -226,7 +226,7 @@
     "Bayern Munich is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Bayern Munich wint ongeveer 73%: zo'n 7 op 10 keer.",
     "Unibet betaalt 1,32; een eerlijke odds voor die kans is 1,37. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,6% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €13,20 terug als het lukt (winst €3,20). In ongeveer 27% van de gevallen verlies je je inzet.",
-    "Nieuws: Bayern zonder Díaz en Gnabry (hamstring), Musiala twijfel; René Marić coacht opnieuw i.p.v. Kompany. Mainz mist de geschorste Posch en Kohr (Sports Mole 5/11)."
+    "Nieuws: Bayern zonder Díaz en Gnabry (hamstring), Musiala twijfel; René Marić coacht opnieuw i.p.v. Kompany. Mainz mist de geschorste Posch en Kohr (Sports Mole 5/11). Update 10u55: ook Musiala en Saibari out, Kompany nog afwezig (Goal.com 7/11)."
    ],
    "claude_pick": true,
    "pick_reason": "Automatisch aangevuld: 73% winkans, value −3,6% bij odds 1,32."
@@ -719,7 +719,7 @@
     "Manchester City is de favoriet. Volgens 22 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Manchester City wint ongeveer 56%: zo'n 6 op 10 keer.",
     "Unibet betaalt 1,73; een eerlijke odds voor die kans is 1,79. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,1% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €17,30 terug als het lukt (winst €7,30). In ongeveer 44% van de gevallen verlies je je inzet.",
-    "Nieuws: Forest zonder Savona en Domínguez, Igor Jesus twijfel; City mist Semenyo, O'Reilly twijfel (Sports Mole 6/11)."
+    "Nieuws: Forest zonder Savona en Domínguez, Igor Jesus twijfel; City mist Semenyo, O'Reilly twijfel (Sports Mole 6/11). Update 10u58: Igor Jesus nu ook out (ESPN 7/11); O'Reilly krijgt rust volgens City."
    ],
    "claude_pick": true,
    "pick_reason": "Automatisch aangevuld: 56% winkans, value −3,1% bij odds 1,73."
@@ -2345,8 +2345,30 @@
    "url": "https://nl.unibetsports.be/betting/sports/filter/football/belgium"
   }
  ],
- "alerts": [],
- "summary": "Geen vers nieuws (minder dan 24 uur oud) over basisspelers dat Unibet nog niet verwerkt heeft, dus geen correcties: de previews bevestigen enkel wat al bekend was (Real Madrid zonder Vinícius en Rodrygo, Bayern zonder Díaz, Gnabry en Kompany, Arsenal zonder Saka, City zonder Semenyo, Leipzig met twijfel over Nusa). Alle favorieten staan bij Unibet onder hun eerlijke prijs (verwachte waarde −2,5% tot −12,5%) en de enige value zit bij outsiders, terwijl de 3 risicobets van deze week al op zijn; ik kies vandaag daarom niets en laat €77 liggen. Unibet toont een 25%-winstboost op Pro League-combi's vanaf 3 selecties, maar door de hoge marge op de Belgische favorieten blijft zo'n combi ook mét boost duidelijk negatief.",
+ "alerts": [
+  {
+   "tag": "NIEUWS",
+   "time": "10:55",
+   "title": "Bayern in Mainz ook zonder Musiala, Kompany nog afwezig",
+   "body": "Goal.com meldt Saibari, Díaz, Gnabry en Musiala als afwezig; Kompany is herstellende van ziekte. Olise speelde midweek 90 minuten. Unibet zakte al van 1,44 naar 1,32 op Bayern-winst, dus dit zit in de prijs; geen invloed op de lopende keuze.",
+   "url": "https://www.goal.com/en-gb/betting/tips/mainz-vs-bayern-munich-predictions-07-11-2026/A%3Ablt3a81a1f4a3a69041"
+  },
+  {
+   "tag": "BLESSURE",
+   "time": "10:58",
+   "title": "Forest ook zonder Igor Jesus tegen City",
+   "body": "ESPN zet Savona, Domínguez én Igor Jesus (kuit, gisteren nog twijfel) bij de afwezigen; City mist enkel Semenyo, en volgens het persbericht van City krijgt O'Reilly rust. Klein voordeel voor City (lopende keuze), maar Unibet 1,73 ligt al op de marktprijs.",
+   "url": "https://www.espn.com/soccer/story/_/id/50385789/nottingham-forest-vs-manchester-city-tv-channel-how-watch-uk-kickoff-live-stream-team-news-referee-predicted-lineups"
+  },
+  {
+   "tag": "BLESSURE",
+   "time": "11:00",
+   "title": "Leipzig: Nusa 'am Limit', beslissing op wedstrijddag",
+   "body": "Nusa trainde enkel individueel na spierproblemen in de Champions League; Demichelis beslist na een laatste test. Ouédraogo en Guiu zijn zeker out, Baumgartner krijgt wellicht rust. Al bekend en verwerkt in 1,47; geen correctie.",
+   "url": "https://rblive.de/news/rb-aufstellung-gegen-augsburg-nusa-am-limit-diese-elf-ist-noch-frisch-genug-3692118"
+  }
+ ],
+ "summary": "Geen vers nieuws (minder dan 24 uur oud) over basisspelers dat Unibet nog niet verwerkt heeft, dus geen correcties: de previews bevestigen enkel wat al bekend was (Real Madrid zonder Vinícius en Rodrygo, Bayern zonder Díaz, Gnabry en Kompany, Arsenal zonder Saka, City zonder Semenyo, Leipzig met twijfel over Nusa). Alle favorieten staan bij Unibet onder hun eerlijke prijs (verwachte waarde −2,5% tot −12,5%) en de enige value zit bij outsiders, terwijl de 3 risicobets van deze week al op zijn; ik kies vandaag daarom niets en laat €77 liggen. Unibet toont een 25%-winstboost op Pro League-combi's vanaf 3 selecties, maar door de hoge marge op de Belgische favorieten blijft zo'n combi ook mét boost duidelijk negatief. Weekendronde (11u): geen urgent nieuws; Bayern mist ook Musiala en Forest ook Igor Jesus, maar Unibet heeft dat al verwerkt. De week zit vol (10 keuzes), dus geen nieuwe picks.",
  "portfolio": {
   "weeks": [
    {
