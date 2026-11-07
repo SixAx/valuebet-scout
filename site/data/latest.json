@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T06:38:50Z",
+ "generated_at": "2026-11-07T07:51:54Z",
  "fetched_at": "2026-11-07T05:51:25Z",
  "research_date": "2026-11-07",
  "odds_remaining": "395",
@@ -227,7 +227,9 @@
     "Unibet betaalt 1,32; een eerlijke odds voor die kans is 1,37. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,6% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €13,20 terug als het lukt (winst €3,20). In ongeveer 27% van de gevallen verlies je je inzet.",
     "Nieuws: Bayern zonder Díaz en Gnabry (hamstring), Musiala twijfel; René Marić coacht opnieuw i.p.v. Kompany. Mainz mist de geschorste Posch en Kohr (Sports Mole 5/11)."
-   ]
+   ],
+   "claude_pick": true,
+   "pick_reason": "Automatisch aangevuld: 73% winkans, value −3,6% bij odds 1,32."
   },
   {
    "key": "f110107bca066ac1a598c89661c88fa3|home",
@@ -370,7 +372,9 @@
     "Unibet betaalt 1,47; een eerlijke odds voor die kans is 1,52. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,2% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €14,70 terug als het lukt (winst €4,70). In ongeveer 34% van de gevallen verlies je je inzet.",
     "Nieuws: Leipzig zonder Guiu en Ouédraogo, Nusa en Finkgräfe twijfel; nog geen thuisgoal tegen in de competitie. Augsburg mist Banks, Brackelmann en de geschorste Bah en won zes competitieduels niet (Sports Mole 6/11)."
-   ]
+   ],
+   "claude_pick": true,
+   "pick_reason": "Automatisch aangevuld: 66% winkans, value −3,2% bij odds 1,47."
   },
   {
    "key": "3ef62ef56758041178c5280225fe5db7|home",
@@ -506,7 +510,9 @@
     "Unibet betaalt 1,66; een eerlijke odds voor die kans is 1,70. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,5% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €16,60 terug als het lukt (winst €6,60). In ongeveer 41% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
-   ]
+   ],
+   "claude_pick": true,
+   "pick_reason": "Automatisch aangevuld: 59% winkans, value −2,5% bij odds 1,66."
   },
   {
    "key": "a529e5762f18d97981194ec3668dc3d3|away",
@@ -574,7 +580,9 @@
     "Unibet betaalt 1,73; een eerlijke odds voor die kans is 1,78. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,0% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €17,30 terug als het lukt (winst €7,30). In ongeveer 44% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
-   ]
+   ],
+   "claude_pick": true,
+   "pick_reason": "Automatisch aangevuld: 56% winkans, value −3,0% bij odds 1,73."
   },
   {
    "key": "339a6465fa5153fd8f31e487cf557cf0|home",
@@ -642,7 +650,9 @@
     "Unibet betaalt 1,73; een eerlijke odds voor die kans is 1,78. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,1% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €17,30 terug als het lukt (winst €7,30). In ongeveer 44% van de gevallen verlies je je inzet.",
     "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
-   ]
+   ],
+   "claude_pick": true,
+   "pick_reason": "Automatisch aangevuld: 56% winkans, value −3,1% bij odds 1,73."
   },
   {
    "key": "59c5f635cfe11613c07e9a5520ced5c1|away",
@@ -710,7 +720,9 @@
     "Unibet betaalt 1,73; een eerlijke odds voor die kans is 1,79. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,1% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €17,30 terug als het lukt (winst €7,30). In ongeveer 44% van de gevallen verlies je je inzet.",
     "Nieuws: Forest zonder Savona en Domínguez, Igor Jesus twijfel; City mist Semenyo, O'Reilly twijfel (Sports Mole 6/11)."
-   ]
+   ],
+   "claude_pick": true,
+   "pick_reason": "Automatisch aangevuld: 56% winkans, value −3,1% bij odds 1,73."
   },
   {
    "key": "c1b9696d88719cb8832d794b986cdd68|home",
@@ -2340,10 +2352,10 @@
    {
     "week": "2026-W45",
     "label": "2/11 – 8/11",
-    "n": 4,
+    "n": 10,
     "won": 1,
     "lost": 3,
-    "open": 0,
+    "open": 6,
     "void": 0,
     "staked": 23.0,
     "returned": 11.2,
@@ -2370,7 +2382,7 @@
       }
      }
     },
-    "committed": 23
+    "committed": 83.0
    },
    {
     "week": "2026-W44",
