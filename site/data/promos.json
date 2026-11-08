@@ -1,16 +1,22 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "promos": [
     {
       "name": "25% winstboost Pro League-combi",
       "type": "other",
-      "note": "+25% op de winst van een combi met minstens 3 selecties uit de Jupiler Pro League (geen andere competities).",
+      "note": "+25% op de winst van een combi met minstens 3 selecties uit de Jupiler Pro League.",
       "url": "https://nl.unibetsports.be/betting/sports/filter/football/belgium"
     },
     {
       "name": "2UP vroege uitbetaling",
       "type": "other",
       "note": "Bet wordt uitbetaald zodra je ploeg 2 goals voorstaat.",
+      "url": "https://nl.unibetsports.be/betting/sports/filter/football/belgium"
+    },
+    {
+      "name": "Power Sub",
+      "type": "other",
+      "note": "Je weddenschap blijft overeind bij een wissel (spelersbet-bescherming); details niet vermeld op de pagina.",
       "url": "https://nl.unibetsports.be/betting/sports/filter/football/belgium"
     }
   ]
