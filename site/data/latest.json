@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-08T05:53:03Z",
+ "generated_at": "2026-11-08T06:38:07Z",
  "fetched_at": "2026-11-08T05:53:03Z",
- "research_date": null,
+ "research_date": "2026-11-08",
  "odds_remaining": "375",
  "errors": [],
  "notes": [
@@ -71,12 +71,19 @@
    "p_elo": null,
    "fair_odds": 1.68,
    "kelly": 0.0,
-   "community": [],
+   "community": [
+    {
+     "outcome": "home",
+     "note": "Footballpredictions.com tipt Hoffenheim-winst (2-1) met beide ploegen scoren en over 2,5 goals.",
+     "source": "footballpredictions.com",
+     "url": "https://footballpredictions.com/footballpredictions/bundesligapredictions/hoffenheim-vs-schalke-04-prediction-08-11-2026/"
+    }
+   ],
    "why": [
     "TSG Hoffenheim is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat TSG Hoffenheim wint ongeveer 59%: zo'n 6 op 10 keer.",
     "Unibet betaalt 1,64; een eerlijke odds voor die kans is 1,68. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,6% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €16,40 terug als het lukt (winst €6,40). In ongeveer 41% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Hoffenheim mist o.a. Wimmer, Gendrey, Hranac en Hajdari, Coufal twijfel; Prass terug na schorsing. Schalke mist o.a. Gosens, Gantenbein, Wöber en Bachmann; Dzeko is fit (footballpredictions.com 4/11)."
    ],
    "claude_pick": true,
    "pick_reason": "Automatisch aangevuld: 59% winkans, value −2,5% bij odds 1,66."
@@ -413,12 +420,19 @@
    "p_elo": null,
    "fair_odds": 1.79,
    "kelly": 0.0,
-   "community": [],
+   "community": [
+    {
+     "outcome": "away",
+     "note": "Footballpredictions.com tipt Monaco-winst (2-3) met beide ploegen scoren.",
+     "source": "footballpredictions.com",
+     "url": "https://footballpredictions.com/footballpredictions/ligue1predictions/le-mans-vs-monaco-prediction-08-11-2026/"
+    }
+   ],
    "why": [
     "AS Monaco is de favoriet. Volgens 19 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat AS Monaco wint ongeveer 56%: zo'n 6 op 10 keer.",
     "Let op: Unibet betaalt 1,70, terwijl een eerlijke odds voor die kans 1,79 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,9% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €17,00 terug als het lukt (winst €7,00). In ongeveer 44% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Le Mans zonder Bourabaa, Colas en Sidibé; Monaco zonder Fati, Idumbo en Salisu (footballpredictions.com 4/11)."
    ],
    "claude_pick": true,
    "pick_reason": "Automatisch aangevuld: 56% winkans, value −3,0% bij odds 1,73."
@@ -896,7 +910,7 @@
     "Club Brugge is de favoriet. Volgens 18 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Club Brugge wint ongeveer 63%: zo'n 6 op 10 keer.",
     "Let op: Unibet betaalt 1,40, terwijl een eerlijke odds voor die kans 1,58 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 11,5% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €14,00 terug als het lukt (winst €4,00). In ongeveer 37% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Aasgaard trainde vrijdag weer mee bij Anderlecht na een lichte blessure (Voetbalkrant/Le Soir 7/11); of hij start is onzeker. Club Brugge mist de geschorste Potts."
    ]
   },
   {
@@ -964,7 +978,7 @@
     "Union Saint-Gilloise is de favoriet. Volgens 18 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Union Saint-Gilloise wint ongeveer 59%: zo'n 6 op 10 keer.",
     "Let op: Unibet betaalt 1,50, terwijl een eerlijke odds voor die kans 1,70 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 11,7% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €15,00 terug als het lukt (winst €5,00). In ongeveer 41% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Union zonder de geschorste Dylan Aquino (1 speeldag, beroep van het Bondsparket afgewezen; Voetbalkrant 6/11). Aquino was invaller, dus weinig impact."
    ]
   },
   {
@@ -1092,7 +1106,7 @@
     "Dit is een risicobet. De kans dat Rayo Vallecano wint is volgens 18 bookmakers (waaronder Pinnacle, de scherpste) maar ongeveer 22%: zo'n 1 op 4 keer.",
     "Unibet betaalt wel 4,75, terwijl een eerlijke odds 4,46 zou zijn. Daardoor is de x-factor +6,6%: wie zulke bets vaak speelt, wint op lange termijn gemiddeld zoveel bovenop zijn inzet terug.",
     "Je verliest de meeste van deze bets. Met €10 krijg je €47,50 terug als het lukt. Speel ze alleen met een klein bedrag en als reeks, nooit om verlies goed te maken.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Real Sociedad mist Odriozola, Beitia en Zakharyan twijfel; Rayo mist Batalla, Luiz Felipe en de geschorste Pathé Ciss (footballpredictions.com 3/11)."
    ]
   },
   {
@@ -1156,7 +1170,7 @@
     "Dit is een risicobet. De kans dat Sunderland wint is volgens 22 bookmakers (waaronder Pinnacle, de scherpste) maar ongeveer 26%: zo'n 1 op 4 keer.",
     "Unibet betaalt wel 4,00, terwijl een eerlijke odds 3,79 zou zijn. Daardoor is de x-factor +5,5%: wie zulke bets vaak speelt, wint op lange termijn gemiddeld zoveel bovenop zijn inzet terug.",
     "Je verliest de meeste van deze bets. Met €10 krijg je €40,00 terug als het lukt. Speel ze alleen met een klein bedrag en als reeks, nooit om verlies goed te maken.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Sunderland zonder Ballard, Diarra en Mundle, Mukiele twijfel (hersenschudding); Chelsea zonder o.a. João Pedro, Reece James, Gittens en Hato (footballpredictions.com 3/11)."
    ]
   },
   {
@@ -1284,7 +1298,7 @@
     "Dit is een risicobet. De kans dat Atlético Madrid wint is volgens 18 bookmakers (waaronder Pinnacle, de scherpste) maar ongeveer 30%: zo'n 1 op 3 keer.",
     "Unibet betaalt wel 3,40, terwijl een eerlijke odds 3,30 zou zijn. Daardoor is de x-factor +3,2%: wie zulke bets vaak speelt, wint op lange termijn gemiddeld zoveel bovenop zijn inzet terug.",
     "Je verliest de meeste van deze bets. Met €10 krijg je €34,00 terug als het lukt. Speel ze alleen met een klein bedrag en als reeks, nooit om verlies goed te maken.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Barcelona zonder Rodri (hamstring, tot een maand), Olmo, Espart en Bardghji; Goal en Al Jazeera (7/11) zetten ook Koundé en Christensen bij de afwezigen, Eric Garcia twijfel. Atlético mist Romero en Cardoso; Hjulmand is terug (Sports Mole 7/11). Opta: Barça 49%, gelijk 23%, Atlético 28%."
    ]
   }
  ],
@@ -1641,9 +1655,28 @@
    ]
   }
  ],
- "promos": [],
+ "promos": [
+  {
+   "name": "25% winstboost Pro League-combi",
+   "type": "other",
+   "note": "+25% op de winst van een combi met minstens 3 selecties uit de Jupiler Pro League.",
+   "url": "https://nl.unibetsports.be/betting/sports/filter/football/belgium"
+  },
+  {
+   "name": "2UP vroege uitbetaling",
+   "type": "other",
+   "note": "Bet wordt uitbetaald zodra je ploeg 2 goals voorstaat.",
+   "url": "https://nl.unibetsports.be/betting/sports/filter/football/belgium"
+  },
+  {
+   "name": "Power Sub",
+   "type": "other",
+   "note": "Je weddenschap blijft overeind bij een wissel (spelersbet-bescherming); details niet vermeld op de pagina.",
+   "url": "https://nl.unibetsports.be/betting/sports/filter/football/belgium"
+  }
+ ],
  "alerts": [],
- "summary": "",
+ "summary": "Geen vers nieuws (minder dan 24 uur oud) over basisspelers dat Unibet nog niet verwerkt heeft, dus geen correcties. In Atlético–Barcelona melden Goal en Al Jazeera Koundé en Christensen nu als afwezig naast Rodri, Olmo, Espart en Bardghji; Koundé miste al vier duels, dus dat zat al grotendeels in de prijs. De weekportefeuille van week 45 is vol (10 keuzes), dus vandaag geen nieuwe picks; de 25%-winstboost op Pro League-combi's blijft door de lage odds van Club, Union en Gent duidelijk negatief.",
  "portfolio": {
   "weeks": [
    {
