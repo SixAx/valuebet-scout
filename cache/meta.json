@@ -1,11 +1,11 @@
 {
- "fetched_at": "2026-11-08T05:53:03Z",
- "odds_remaining": "375",
+ "fetched_at": "2026-11-09T06:10:38Z",
+ "odds_remaining": "359",
  "football_calls": 1,
  "errors": [],
  "notes": [
   "API-Football (gratis plan) geeft geen toegang tot dit seizoen: blessures, vorm en uitslagen komen uit het ochtendonderzoek van Claude."
  ],
  "elo_fixtures": 0,
- "scores": 28
+ "scores": 74
 }
