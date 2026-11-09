@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-09T06:10:38Z",
+ "generated_at": "2026-11-09T06:42:28Z",
  "fetched_at": "2026-11-09T06:10:38Z",
- "research_date": null,
+ "research_date": "2026-11-09",
  "odds_remaining": "359",
  "errors": [],
  "notes": [
@@ -13,8 +13,16 @@
  "bets": [],
  "combis": [],
  "promos": [],
- "alerts": [],
- "summary": "",
+ "alerts": [
+  {
+   "tag": "NIEUWS",
+   "time": "07:45",
+   "title": "Interlandperiode: geen clubodds vandaag",
+   "body": "De odds-update gaf vandaag geen wedstrijden terug. Deze week is het interlandweek (Turkije–België op 12/11, België–Italië op 15/11), dus weinig of geen clubvoetbal in de gevolgde competities. Geen nieuwe picks tot er weer odds zijn.",
+   "url": "https://www.voetbalkrant.com/nieuws/2026-10-28/rode-duivels-krijgen-onverwacht-goed-nieuws-in-aanloop-naar-laatste-interland"
+  }
+ ],
+ "summary": "De odds van vandaag ontbraken: de odds-update leverde voor geen enkele competitie wedstrijden op (cache/matches.json is leeg), vermoedelijk door de interlandperiode (België speelt 12/11 in Turkije en 15/11 tegen Italië). Daarom geen correcties en geen picks; er stonden ook geen open bets meer uit. Ik vond geen Unibet België-voetbalpromo die vandaag bevestigd is, dus promos is leeg.",
  "portfolio": {
   "weeks": [
    {
@@ -28,7 +36,7 @@
     "staked": 83.0,
     "returned": 73.0,
     "pnl": -10.0,
-    "report": "",
+    "report": "Week 45 eindigde op 5 van 10 raak: €83 ingezet, €73 terug, −€10 (−12%). Mijn vier eigen keuzes deden het slecht: enkel LASK won (4-0), terwijl de risicobets Betis (1-2 verlies in Dortmund), Atlético (0-2 tegen Bayern) en Bodø/Glimt (0-0 tegen Lille) alle drie misten, goed voor −€11,80; na twee weken staan de risicobets op 0 van 6. De zes automatisch aangevulde favorieten wonnen er vier (Leipzig, Bayern, Real Sociedad, Hoffenheim) en eindigden licht positief (+€1,80), maar met negatieve verwachte waarde is dat vooral geluk, zoals de nederlagen van City (3-1 in Nottingham) en Monaco (1-1 bij Le Mans) tonen. De Bundesliga was met 3 op 3 de beste competitie, de Champions League met 1 op 4 de slechtste. Deze week (interlandweek) kies ik pas iets als er weer odds zijn, beperk ik risicobets tot hoogstens één kleine inzet, en reken ik een dunne marge van 2-3% op een outsider niet meer als genoeg reden om in te zetten.",
     "breakdown": {
      "type": {
       "Risico": {
