@@ -1,83 +1,21 @@
 {
-  "date": "2026-11-08",
-  "summary": "Geen vers nieuws (minder dan 24 uur oud) over basisspelers dat Unibet nog niet verwerkt heeft, dus geen correcties. In Atlético–Barcelona melden Goal en Al Jazeera Koundé en Christensen nu als afwezig naast Rodri, Olmo, Espart en Bardghji; Koundé miste al vier duels, dus dat zat al grotendeels in de prijs. De weekportefeuille van week 45 is vol (10 keuzes), dus vandaag geen nieuwe picks; de 25%-winstboost op Pro League-combi's blijft door de lage odds van Club, Union en Gent duidelijk negatief. Weekendronde (10u50): Barça krijgt Christensen en Eric Garcia toch terug, Club Brugge mist ook Virgili naast Potts, en bij Real Sociedad (open keuze) zijn Sarr, Oyarzabal en Soler twijfelachtig. Geen nieuws dat Unibet duidelijk mist; geen nieuwe picks want de week is vol.",
+  "date": "2026-11-09",
+  "summary": "De odds van vandaag ontbraken: de odds-update leverde voor geen enkele competitie wedstrijden op (cache/matches.json is leeg), vermoedelijk door de interlandperiode (België speelt 12/11 in Turkije en 15/11 tegen Italië). Daarom geen correcties en geen picks; er stonden ook geen open bets meer uit. Ik vond geen Unibet België-voetbalpromo die vandaag bevestigd is, dus promos is leeg.",
   "adjustments": {},
-  "match_notes": {
-    "dd247b356d8fc53e4b4f9bfcfe09c924": "Barcelona zonder Rodri (hamstring, tot een maand), Olmo, Espart en Bardghji; Goal en Al Jazeera (7/11) zetten ook Koundé en Christensen bij de afwezigen, Eric Garcia twijfel. Atlético mist Romero en Cardoso; Hjulmand is terug (Sports Mole 7/11). Opta: Barça 49%, gelijk 23%, Atlético 28%. Update 10u50: Eric Garcia en Christensen zijn toch hersteld en reizen mee; De Jong is terug. Enkel Rodri en Koundé blijven zeker afwezig (Futbolete 7/11, persconferentie Flick). Atlético zonder Romero; Cardoso terug in de groep.",
-    "8a92794bd5f89b8b91b2d8fefdac7b85": "Aasgaard trainde vrijdag weer mee bij Anderlecht na een lichte blessure (Voetbalkrant/Le Soir 7/11); of hij start is onzeker. Club Brugge mist de geschorste Potts. Update 10u50: Club mist naast de geschorste Potts ook Virgili (niet in de kern); Lemaréchal en Diakhon starten vermoedelijk. Anderlecht meldt geen nieuwe afwezigen; Aasgaard staat in de vermoedelijke elf (Voetbalkrant 8/11).",
-    "3eb376e5f313e6d8e7ca8bb6556d0b29": "Union zonder de geschorste Dylan Aquino (1 speeldag, beroep van het Bondsparket afgewezen; Voetbalkrant 6/11). Aquino was invaller, dus weinig impact.",
-    "8963081c3457212ee238b498bbc33a03": "Hoffenheim mist o.a. Wimmer, Gendrey, Hranac en Hajdari, Coufal twijfel; Prass terug na schorsing. Schalke mist o.a. Gosens, Gantenbein, Wöber en Bachmann; Dzeko is fit (footballpredictions.com 4/11).",
-    "a529e5762f18d97981194ec3668dc3d3": "Le Mans zonder Bourabaa, Colas en Sidibé; Monaco zonder Fati, Idumbo en Salisu (footballpredictions.com 4/11). Update 10u50: Monaco-selectie van 21 met Balogun, Golovin, Minamino, Zakaria en Hradecký; enkel Fati en Idumbo geblesseerd (asmonaco.com).",
-    "339a6465fa5153fd8f31e487cf557cf0": "Real Sociedad mist Odriozola, Beitia en Zakharyan twijfel; Rayo mist Batalla, Luiz Felipe en de geschorste Pathé Ciss (footballpredictions.com 3/11). Update 10u50: Real Sociedad heeft twijfels rond Mamadou Sarr (kuit), Oyarzabal (rugklap, coach optimistisch) en Soler (ziek). Rayo mist ook Álvaro García en Kumbulla; Valentín twijfel, Ciss en Ratiu terug (FútbolFantasy 8/11).",
-    "3a4608abdf257d2a0024b944757d9dc9": "Sunderland zonder Ballard, Diarra en Mundle, Mukiele twijfel (hersenschudding); Chelsea zonder o.a. João Pedro, Reece James, Gittens en Hato (footballpredictions.com 3/11).",
-    "0cfbab01e152f81e34f9014e02c7eb79": "Palace mist de geschorste Mateta en Sarr; bij Liverpool zou Gravenberch (hiel) opnieuw ontbreken, Wirtz, Isak en Szoboszlai zijn terug (LiveScore-voorbeschouwing)."
-  },
-  "community": {
-    "dd247b356d8fc53e4b4f9bfcfe09c924": [
-      {
-        "outcome": "away",
-        "note": "Sports Mole voorspelt een nipte 1-2-zege voor Barcelona.",
-        "source": "Sports Mole",
-        "url": "https://www.sportsmole.co.uk/football/barcelona/race-for-the-la-liga-title/preview/atletico-vs-barcelona-prediction-team-news-lineups_608576.html"
-      }
-    ],
-    "8963081c3457212ee238b498bbc33a03": [
-      {
-        "outcome": "home",
-        "note": "Footballpredictions.com tipt Hoffenheim-winst (2-1) met beide ploegen scoren en over 2,5 goals.",
-        "source": "footballpredictions.com",
-        "url": "https://footballpredictions.com/footballpredictions/bundesligapredictions/hoffenheim-vs-schalke-04-prediction-08-11-2026/"
-      }
-    ],
-    "a529e5762f18d97981194ec3668dc3d3": [
-      {
-        "outcome": "away",
-        "note": "Footballpredictions.com tipt Monaco-winst (2-3) met beide ploegen scoren.",
-        "source": "footballpredictions.com",
-        "url": "https://footballpredictions.com/footballpredictions/ligue1predictions/le-mans-vs-monaco-prediction-08-11-2026/"
-      }
-    ],
-    "339a6465fa5153fd8f31e487cf557cf0": [
-      {
-        "outcome": "home",
-        "note": "Footballpredictions.com tipt Real Sociedad-winst (3-1) met beide ploegen scoren.",
-        "source": "footballpredictions.com",
-        "url": "https://footballpredictions.com/footballpredictions/primeradivisionpredictions/real-sociedad-vs-rayo-vallecano-prediction-08-11-2026/"
-      }
-    ],
-    "3a4608abdf257d2a0024b944757d9dc9": [
-      {
-        "outcome": "away",
-        "note": "Footballpredictions.com tipt Chelsea-winst (0-2) en onder 2,5 goals.",
-        "source": "footballpredictions.com",
-        "url": "https://footballpredictions.com/footballpredictions/premierleaguepredictions/sunderland-vs-chelsea-prediction-08-11-2026/"
-      }
-    ]
-  },
+  "match_notes": {},
+  "community": {},
   "alerts": [
     {
       "tag": "NIEUWS",
-      "time": "10:50",
-      "title": "Barça krijgt Christensen en Eric Garcia terug",
-      "body": "Anders dan vanochtend gemeld zijn Christensen en Eric Garcia hersteld en mee naar Madrid; enkel Rodri en Koundé ontbreken. Licht in het voordeel van Barcelona (2,00), maar te klein voor een correctie.",
-      "url": "https://futbolete.com/actualidad/flick-recupera-a-eric-garcia-y-christensen-para-el-atletico-barca-horario-y-donde-ver-el-duelo-del-domingo/270/"
-    },
-    {
-      "tag": "BLESSURE",
-      "time": "10:50",
-      "title": "Club Brugge ook zonder Virgili",
-      "body": "Naast de geschorste Potts zit ook Virgili niet in de kern voor Club–Anderlecht (13u30). Lemaréchal en Diakhon vervangen hen; Club blijft favoriet aan 1,40, geen reden om de odds als achterstand te zien.",
-      "url": "https://www.voetbalkrant.com/nieuws/2026-11-08/puzzelwerken-leko-roteerwerken-bruno-dit-zijn-de-vermoedelijke-opstellingen-voor-club-brugge-anderlecht"
-    },
-    {
-      "tag": "BLESSURE",
-      "time": "10:50",
-      "title": "Twijfels bij Real Sociedad (onze keuze)",
-      "body": "Mamadou Sarr, Oyarzabal en Soler zijn twijfelachtig voor Real Sociedad–Rayo (16u15); de coach is optimistisch over Oyarzabal. Raakt de open keuze Real Sociedad thuiswinst; check de opstelling om 15u15.",
-      "url": "https://www.futbolfantasy.com/laliga/noticias/154252-posibles-alineaciones-y-previa-fantasy-del-real-sociedad-rayo"
+      "time": "07:45",
+      "title": "Interlandperiode: geen clubodds vandaag",
+      "body": "De odds-update gaf vandaag geen wedstrijden terug. Deze week is het interlandweek (Turkije–België op 12/11, België–Italië op 15/11), dus weinig of geen clubvoetbal in de gevolgde competities. Geen nieuwe picks tot er weer odds zijn.",
+      "url": "https://www.voetbalkrant.com/nieuws/2026-10-28/rode-duivels-krijgen-onverwacht-goed-nieuws-in-aanloop-naar-laatste-interland"
     }
   ],
   "results": {},
   "picks": [],
+  "weekly_report": "Week 45 eindigde op 5 van 10 raak: €83 ingezet, €73 terug, −€10 (−12%). Mijn vier eigen keuzes deden het slecht: enkel LASK won (4-0), terwijl de risicobets Betis (1-2 verlies in Dortmund), Atlético (0-2 tegen Bayern) en Bodø/Glimt (0-0 tegen Lille) alle drie misten, goed voor −€11,80; na twee weken staan de risicobets op 0 van 6. De zes automatisch aangevulde favorieten wonnen er vier (Leipzig, Bayern, Real Sociedad, Hoffenheim) en eindigden licht positief (+€1,80), maar met negatieve verwachte waarde is dat vooral geluk, zoals de nederlagen van City (3-1 in Nottingham) en Monaco (1-1 bij Le Mans) tonen. De Bundesliga was met 3 op 3 de beste competitie, de Champions League met 1 op 4 de slechtste. Deze week (interlandweek) kies ik pas iets als er weer odds zijn, beperk ik risicobets tot hoogstens één kleine inzet, en reken ik een dunne marge van 2-3% op een outsider niet meer als genoeg reden om in te zetten.",
+  "report_week": "2026-W45",
   "urgent": false
 }
