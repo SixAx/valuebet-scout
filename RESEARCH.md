@@ -33,22 +33,29 @@ dat een favoriet nog sterker maakt.
    Alleen echte, gevonden tips met link. Ze tellen niet mee in de kans; ze worden enkel getoond.
 7. Maak maximaal 5 `alerts`: belangrijk nieuws waarbij Unibet de odds nog niet lijkt te hebben aangepast, of een
    promo met duidelijke value.
-8. **Weekportefeuille: kies de bets waarop jij zelf €10 zou inzetten.** Elke week (maandag–zondag) zet Claude
+8. **Weekportefeuille: kies de bets waarop jij zelf zou inzetten.** Elke week (maandag–zondag) zet Claude
    zogezegd tot €100 in, op hoogstens 10 bets of combi's; de gebruiker beslist op basis van dit resultaat of hij echt geld inzet. Wees dus
    streng en eerlijk:
    - Lees in `site/data/history.json` hoeveel bets met `"claude_pick": true` en `"pick_week"` = deze week er al zijn.
      Kies er vandaag hoogstens zoveel dat het totaal 10 niet overschrijdt; spreid ze over de week (meestal 2–4 per
      dag, de meeste voor het weekend). Elke bet moet nog moeten beginnen.
-   - Kies alleen bets waarvan je na je onderzoek denkt dat ze op lange termijn winst opleveren: je eigen kans × odds
-     moet boven 1 liggen. Vooral favorieten waar vers nieuws in hun voordeel nog niet in de odds zit, of een
-     odds-boost. Hoogstens 3 risicobets per week (de engine weigert er meer).
-   - Liever minder dan 10 dan een slechte bet. Wat op zaterdag/zondag nog ontbreekt, vult de engine automatisch aan
-     met de sterkste bets van het weekend.
-   - **Bedrag:** je hebt per week €100 en hoogstens 10 bets. Kies per bet zelf een bedrag tussen €2 en €30
-     (`"stake"`): meer op wat je het sterkst vindt, weinig op risicobets. Wat je niet uitgeeft, mag je laten liggen.
-   - **Combi's mogen ook:** `{"combi": ["<key1>", "<key2>", ...], "stake": 10, "reason": "..."}` (2–6 selecties uit
-     verschillende wedstrijden). Een combi telt als één bet. Gebruik ze vooral als er een combi-boost is, of als de
-     combinatie volgens je onderzoek echt value heeft; bekijk ook `combis` in `latest.json`.
+   - **Strategie (sinds W46, op vraag van de gebruiker): veilig spelen, weinig risico, combi's van favorieten.**
+     De cijfers tot nu: favorieten (≥55%) +9% rendement over 72 bets, risicobets −34% over 37 (eigen keuzes 0 op 6).
+     - **Kern = favorieten** (eigen kans ≥ 60%, odds ±1,25–2,00, eigen kans × odds ≥ 1): ongeveer 70–80% van het
+       weekbudget, samen enkel en in combi.
+     - **Combi's van veilige bets:** 2–3 per week, elk van 2–3 favorieten (elke selectie ≥ 60% winkans, andere
+       wedstrijden; 4 selecties alleen met een combi-boost; de engine weigert legs onder 60% en meer dan 4 legs).
+       Kies alleen selecties waarvan je eigen kans × odds ≥ ±0,98 is: de marge van Unibet stapelt zich op in een
+       combi, dus een combi van slechte bets is nog slechter, een combi van goede bets versterkt de winst. Bedrag €5–15.
+     - **Risicobets:** hoogstens 1 per week, hoogstens €5 (de engine dwingt dit af), en alleen bij vers nieuws dat
+       duidelijk nog niet in de odds zit (eigen value ≥ +5%). Een dunne marge van 2–3% op een outsider is geen reden.
+     - Het evenwicht: zet het meest (€15–30) op de 2–3 sterkste favorieten van de week, en verdeel de rest over
+       veilige combi's. Liever een week met €60 ingezet op goede bets dan €100 met opvulling.
+   - Hoogstens 10 bets of combi's per week; liever minder dan 10 dan een slechte bet. Wat op zaterdag/zondag nog
+     ontbreekt, vult de engine automatisch aan met de sterkste **favorieten** van het weekend (nooit risicobets).
+   - **Bedrag:** je hebt per week €100. Kies per bet zelf een bedrag tussen €2 en €30 (`"stake"`).
+   - **Combi-notatie:** `{"combi": ["<key1>", "<key2>", ...], "stake": 10, "reason": "..."}`. Een combi telt als één
+     bet. Bekijk ook `combis` in `latest.json` (de "zekerste" combi's) en of er een combi-boost in `promos.json` staat.
    - Zet ze in `research.json` → `picks`: `{"key": "<match_id>|<home|draw|away>", "stake": 15, "reason": "2–3 zinnen: waarom"}`.
      De sleutel staat als `key` bij elke bet in `latest.json`; een andere uitkomst van een wedstrijd uit
      `cache/matches.json` mag ook. De odds worden vastgelegd op het moment van kiezen; later wijzigen kan niet.

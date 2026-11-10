@@ -855,7 +855,10 @@ PICKS_PER_WEEK = 10       # hoogstens 10 bets (enkel of combi) per week
 PICK_STAKE = 10.0          # standaardbedrag
 WEEK_BUDGET = 100.0        # Claude zet per week samen hoogstens €100 in
 MIN_STAKE, MAX_STAKE = 2.0, 30.0
-MAX_RISKY_PICKS = 3       # hoogstens 3 risicobets per week
+MAX_RISKY_PICKS = 1       # hoogstens 1 risicobet per week (na 0 op 6 in W44-W45)
+MAX_RISKY_STAKE = 5.0     # en daarop hoogstens €5
+COMBI_PICK_MIN_LEG_P = 0.60  # combi's in de weekportefeuille: enkel favorieten met minstens 60% winkans
+COMBI_PICK_MAX_LEGS = 4
 
 
 def local_now():
@@ -925,8 +928,12 @@ def add_picks(history, top, research, autofill, matches=()):
     def take(b, reason, stake, auto=False):
         if not room(stake) or parse_dt(b["kickoff"]) <= now:
             return False
-        if b["category"] == "risky" and n_risky >= MAX_RISKY_PICKS:
-            return False
+        if b["category"] == "risky":
+            if n_risky >= MAX_RISKY_PICKS:
+                return False
+            stake = min(stake, MAX_RISKY_STAKE)
+            if not room(stake):
+                return False
         h = by_key.get(b["key"])
         if h and h.get("claude_pick"):
             return False
@@ -942,8 +949,10 @@ def add_picks(history, top, research, autofill, matches=()):
         return True
 
     def take_combi(legs, reason, stake):
-        if len(legs) < 2 or len({l["match_id"] for l in legs}) < len(legs):
+        if len(legs) < 2 or len(legs) > COMBI_PICK_MAX_LEGS or len({l["match_id"] for l in legs}) < len(legs):
             return False
+        if any(l["p"] < COMBI_PICK_MIN_LEG_P for l in legs):
+            return False  # combi's enkel van veilige selecties
         if not room(stake) or any(parse_dt(l["kickoff"]) <= now for l in legs):
             return False
         key = "combi|" + "+".join(sorted(l["key"] for l in legs))
@@ -980,8 +989,9 @@ def add_picks(history, top, research, autofill, matches=()):
     # zaterdag en zondag: aanvullen met €10-bets die nog dit weekend gespeeld worden
     if autofill and local_now().weekday() >= 5 and room(PICK_STAKE):
         end = (local_now().replace(hour=23, minute=59) + timedelta(days=6 - local_now().weekday())).astimezone(timezone.utc)
-        cands = [b for b in top if parse_dt(b["kickoff"]) <= end and not b.get("promo")]
-        cands.sort(key=lambda b: (b["ev"] < 0, -(b["ev"] if b["category"] == "risky" else b["score"] / 100 + b["ev"])))
+        # enkel favorieten: risicobets worden nooit automatisch aangevuld
+        cands = [b for b in top if parse_dt(b["kickoff"]) <= end and not b.get("promo") and b["category"] == "safe"]
+        cands.sort(key=lambda b: (b["ev"] < 0, -(b["score"] / 100 + b["ev"])))
         for b in cands:
             if not room(PICK_STAKE):
                 break
