@@ -19,6 +19,19 @@ dat een favoriet nog sterker maakt.
    coachwissel, rotatie voor een Europese match. Goede bronnen: officiële clubsites, Sporza, HLN, Het Nieuwsblad,
    BBC Sport, L'Équipe, Gazzetta, Marca/AS, Kicker, Voetbal International, Record/A Bola.
    Neem alleen op wat je in een bron vond. Verzin nooit nieuws.
+3b. **Verplichte check vóór elke pick (ook elke selectie in een combi), voor BEIDE ploegen** (op vraag van de
+   gebruiker; API-Football levert geen vorm, dus dit komt volledig uit je webonderzoek):
+   - **Vorm:** uitslagen van de laatste 5 wedstrijden (alle competities), apart thuis-/uitvorm als die afwijkt.
+     Bronnen: Flashscore, Soccerway, ESPN, Sofascore, BBC Sport, Sporza.
+   - **Blessures en schorsingen** van de favoriet én van de tegenstander (wie valt weg, is het een basisspeler).
+   - **Context:** rotatie door Europese match of beker, coachwissel, motivatie (titelstrijd, degradatie, niets meer
+     te spelen).
+   - Schrijf dit kort in `match_notes` (bv. "Vorm PSG WWWDW, tegenstander LLDLW; Hakimi geschorst bij PSG; bij Lens
+     ontbreekt de vaste doelman."), en verwijs ernaar in de `reason` van de pick.
+   - **Geen pick** als de favoriet in slechte vorm is (2 of meer nederlagen in de laatste 5), als er bij de
+     favoriet meerdere basisspelers ontbreken, of als je de vorm/het nieuws niet in een bron kon vinden.
+     Sterke vorm van de favoriet plus zwakke vorm of afwezigen bij de tegenstander is een plus, maar geen reden
+     om een bet met duidelijk te lage odds toch te nemen: de markt houdt al grotendeels rekening met vorm.
 4. Bepaal per uitkomst een correctie in procentpunten (`pp`, tussen −4 en +4). Wees zuinig: de markt verwerkt
    bekend nieuws snel. Een correctie is alleen terecht als het nieuws vers is (minder dan ±24 uur) en over een
    basisspeler gaat. Geef `confidence` 0–10 (hoe zeker het nieuws en het effect is). Twijfel = geen correctie.
