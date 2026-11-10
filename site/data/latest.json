@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-09T08:19:32Z",
- "fetched_at": "2026-11-09T06:10:38Z",
- "research_date": "2026-11-09",
+ "generated_at": "2026-11-10T05:57:58Z",
+ "fetched_at": "2026-11-10T05:57:58Z",
+ "research_date": null,
  "odds_remaining": "359",
  "errors": [],
  "notes": [
@@ -13,16 +13,8 @@
  "bets": [],
  "combis": [],
  "promos": [],
- "alerts": [
-  {
-   "tag": "NIEUWS",
-   "time": "07:45",
-   "title": "Interlandperiode: geen clubodds vandaag",
-   "body": "De odds-update gaf vandaag geen wedstrijden terug. Deze week is het interlandweek (Turkije–België op 12/11, België–Italië op 15/11), dus weinig of geen clubvoetbal in de gevolgde competities. Geen nieuwe picks tot er weer odds zijn.",
-   "url": "https://www.voetbalkrant.com/nieuws/2026-10-28/rode-duivels-krijgen-onverwacht-goed-nieuws-in-aanloop-naar-laatste-interland"
-  }
- ],
- "summary": "De odds van vandaag ontbraken: de odds-update leverde voor geen enkele competitie wedstrijden op (cache/matches.json is leeg), vermoedelijk door de interlandperiode (België speelt 12/11 in Turkije en 15/11 tegen Italië). Daarom geen correcties en geen picks; er stonden ook geen open bets meer uit. Ik vond geen Unibet België-voetbalpromo die vandaag bevestigd is, dus promos is leeg.",
+ "alerts": [],
+ "summary": "",
  "portfolio": {
   "weeks": [
    {
