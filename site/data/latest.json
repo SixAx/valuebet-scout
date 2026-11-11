@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-10T08:06:24Z",
- "fetched_at": "2026-11-10T05:57:58Z",
- "research_date": "2026-11-10",
+ "generated_at": "2026-11-11T06:02:32Z",
+ "fetched_at": "2026-11-11T06:02:32Z",
+ "research_date": null,
  "odds_remaining": "359",
  "errors": [],
  "notes": [
@@ -13,16 +13,8 @@
  "bets": [],
  "combis": [],
  "promos": [],
- "alerts": [
-  {
-   "tag": "NIEUWS",
-   "time": "07:40",
-   "title": "Nog geen clubodds deze week",
-   "body": "Ook vandaag leverde de odds-update geen wedstrijden op in de gevolgde competities, vermoedelijk door de interlandperiode van november. Tot er weer odds zijn kies ik geen bets voor week 46.",
-   "url": "https://www.voetbalkrant.com/nieuws/2026-10-28/rode-duivels-krijgen-onverwacht-goed-nieuws-in-aanloop-naar-laatste-interland"
-  }
- ],
- "summary": "De odds van vandaag ontbraken: de odds-update gaf voor geen enkele gevolgde competitie wedstrijden terug (cache/matches.json is leeg), vermoedelijk door de interlandperiode. Daarom geen correcties en geen picks; er staan ook geen open bets uit om af te rekenen. Ik vond geen Unibet België-voetbalpromo die vandaag bevestigd is, dus promos is leeg.",
+ "alerts": [],
+ "summary": "",
  "portfolio": {
   "weeks": [
    {
