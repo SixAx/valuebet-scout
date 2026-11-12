@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-11T08:12:57Z",
- "fetched_at": "2026-11-11T06:02:32Z",
- "research_date": "2026-11-11",
+ "generated_at": "2026-11-12T06:06:53Z",
+ "fetched_at": "2026-11-12T06:06:53Z",
+ "research_date": null,
  "odds_remaining": "359",
  "errors": [],
  "notes": [
@@ -13,16 +13,8 @@
  "bets": [],
  "combis": [],
  "promos": [],
- "alerts": [
-  {
-   "tag": "NIEUWS",
-   "time": "07:40",
-   "title": "Nog steeds geen clubodds",
-   "body": "Ook vandaag leverde de odds-update geen wedstrijden op in de gevolgde competities. Tot er weer odds zijn kies ik geen bets voor week 46.",
-   "url": ""
-  }
- ],
- "summary": "De odds van vandaag ontbraken: cache/matches.json is opnieuw leeg (de odds-update van 06:02 gaf geen wedstrijden terug in de gevolgde competities, vermoedelijk door de interlandperiode). Daarom geen correcties en geen picks; er staan geen open bets uit om af te rekenen. Ik vond geen Unibet België-voetbalpromo die vandaag bevestigd is, dus promos is leeg.",
+ "alerts": [],
+ "summary": "",
  "portfolio": {
   "weeks": [
    {
