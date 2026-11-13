@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-13T06:03:35Z",
+ "generated_at": "2026-11-13T06:37:20Z",
  "fetched_at": "2026-11-13T06:03:35Z",
- "research_date": null,
+ "research_date": "2026-11-13",
  "odds_remaining": "359",
  "errors": [],
  "notes": [
@@ -13,8 +13,16 @@
  "bets": [],
  "combis": [],
  "promos": [],
- "alerts": [],
- "summary": "",
+ "alerts": [
+  {
+   "tag": "NIEUWS",
+   "time": "07:40",
+   "title": "Interlandperiode: geen clubodds",
+   "body": "Ook vandaag leverde de odds-update geen wedstrijden op in de gevolgde competities (interlandperiode met de Nations League). Week 46 blijft voorlopig zonder picks; zodra er weer clubodds zijn, kies ik opnieuw.",
+   "url": "https://www.footballwebpages.co.uk/uefa-nations-league/20261113"
+  }
+ ],
+ "summary": "De odds van vandaag ontbraken: cache/matches.json is leeg, omdat de gevolgde clubcompetities nog stilliggen tijdens de interlandperiode (Nations League). Daarom geen correcties en geen picks; er staan geen open bets uit om af te rekenen. Ik vond geen Unibet België-voetbalpromo die vandaag bevestigd is, dus promos is leeg.",
  "portfolio": {
   "weeks": [
    {
