@@ -1,28 +1,89 @@
 {
- "generated_at": "2026-11-13T08:14:15Z",
- "fetched_at": "2026-11-13T06:03:35Z",
- "research_date": "2026-11-13",
- "odds_remaining": "359",
+ "generated_at": "2026-11-14T05:54:19Z",
+ "fetched_at": "2026-11-14T05:54:19Z",
+ "research_date": null,
+ "odds_remaining": "355",
  "errors": [],
  "notes": [
   "API-Football (gratis plan) geeft geen toegang tot dit seizoen: blessures, vorm en uitslagen komen uit het ochtendonderzoek van Claude."
  ],
- "n_matches": 0,
+ "n_matches": 4,
  "elo_fixtures": 0,
  "n_elo": 0,
- "bets": [],
- "combis": [],
- "promos": [],
- "alerts": [
+ "bets": [
   {
-   "tag": "NIEUWS",
-   "time": "07:40",
-   "title": "Interlandperiode: geen clubodds",
-   "body": "Ook vandaag leverde de odds-update geen wedstrijden op in de gevolgde competities (interlandperiode met de Nations League). Week 46 blijft voorlopig zonder picks; zodra er weer clubodds zijn, kies ik opnieuw.",
-   "url": "https://www.footballwebpages.co.uk/uefa-nations-league/20261113"
+   "key": "dcee36f9b8a9989972b6d4ddde76c4c7|home",
+   "match_id": "dcee36f9b8a9989972b6d4ddde76c4c7",
+   "league": "LaLiga",
+   "kickoff": "2026-11-20T20:00:00Z",
+   "match": "Athletic Bilbao – Espanyol",
+   "outcome": "home",
+   "pick": "Athletic Bilbao",
+   "odds": 1.53,
+   "best_odds": 1.54,
+   "p": 0.6408,
+   "p_market": 0.6408,
+   "ev": -0.0196,
+   "ev_market": -0.0196,
+   "score": 4.4,
+   "category": "safe",
+   "parts": [
+    [
+     "Zekerheid (winkans)",
+     4.0
+    ],
+    [
+     "Odds (opbrengst)",
+     4.1
+    ],
+    [
+     "Prijs t.o.v. eerlijke odds",
+     5.0
+    ],
+    [
+     "Bevestigd door ClubElo",
+     5.0
+    ],
+    [
+     "Nieuws",
+     4.0
+    ]
+   ],
+   "steps": [
+    {
+     "label": "Unibet-odds 1,53",
+     "note": "Bron: Unibet (NL) (zelfde platform als unibet.be)",
+     "val": "65,4%"
+    },
+    {
+     "label": "Marktconsensus",
+     "note": "15 bookmakers, marge eruit, incl. Pinnacle",
+     "val": "64,1%"
+    },
+    {
+     "label": "Eigen kans",
+     "note": "Na alle correcties (begrensd)",
+     "val": "64,1%",
+     "final": true
+    }
+   ],
+   "promo": null,
+   "p_elo": null,
+   "fair_odds": 1.56,
+   "kelly": 0.0,
+   "community": [],
+   "why": [
+    "Athletic Bilbao is de favoriet. Volgens 15 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Athletic Bilbao wint ongeveer 64%: zo'n 6 op 10 keer.",
+    "Unibet betaalt 1,53; een eerlijke odds voor die kans is 1,56. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,0% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
+    "Met €10 krijg je €15,30 terug als het lukt (winst €5,30). In ongeveer 36% van de gevallen verlies je je inzet.",
+    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+   ]
   }
  ],
- "summary": "De odds van vandaag ontbraken: cache/matches.json is leeg, omdat de gevolgde clubcompetities nog stilliggen tijdens de interlandperiode (Nations League). Daarom geen correcties en geen picks; er staan geen open bets uit om af te rekenen. Ik vond geen Unibet België-voetbalpromo die vandaag bevestigd is, dus promos is leeg.",
+ "combis": [],
+ "promos": [],
+ "alerts": [],
+ "summary": "",
  "portfolio": {
   "weeks": [
    {

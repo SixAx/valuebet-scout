@@ -2840,6 +2840,27 @@
    "clv": 0.0316,
    "result": "1-2",
    "settled_at": "2026-11-09T06:10:38Z"
+  },
+  {
+   "key": "dcee36f9b8a9989972b6d4ddde76c4c7|home",
+   "match_id": "dcee36f9b8a9989972b6d4ddde76c4c7",
+   "league": "LaLiga",
+   "kickoff": "2026-11-20T20:00:00Z",
+   "match": "Athletic Bilbao – Espanyol",
+   "pick": "Athletic Bilbao",
+   "outcome": "home",
+   "odds": 1.53,
+   "p": 0.6408,
+   "ev": -0.0196,
+   "score": 4.4,
+   "tipped_at": "2026-11-14T05:54:19Z",
+   "status": "open",
+   "tracked": true,
+   "category": "safe",
+   "fixture_id": null,
+   "promo": null,
+   "last_fair_odds": 1.561,
+   "clv": -0.0196
   }
  ],
  "reports": {

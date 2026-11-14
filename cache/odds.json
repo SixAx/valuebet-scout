@@ -1,12 +1,1996 @@
 {
  "soccer_epl": [],
- "soccer_spain_la_liga": [],
+ "soccer_spain_la_liga": [
+  {
+   "id": "dcee36f9b8a9989972b6d4ddde76c4c7",
+   "sport_key": "soccer_spain_la_liga",
+   "sport_title": "La Liga - Spain",
+   "commence_time": "2026-11-20T20:00:00Z",
+   "home_team": "Athletic Bilbao",
+   "away_team": "Espanyol",
+   "bookmakers": [
+    {
+     "key": "pinnacle",
+     "title": "Pinnacle",
+     "last_update": "2026-11-14T05:54:03Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:54:03Z",
+       "outcomes": [
+        {
+         "name": "Athletic Bilbao",
+         "price": 1.49
+        },
+        {
+         "name": "Espanyol",
+         "price": 6.77
+        },
+        {
+         "name": "Draw",
+         "price": 4.52
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "winamax_fr",
+     "title": "Winamax (FR)",
+     "last_update": "2026-11-14T05:54:05Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:54:05Z",
+       "outcomes": [
+        {
+         "name": "Athletic Bilbao",
+         "price": 1.41
+        },
+        {
+         "name": "Espanyol",
+         "price": 5.6
+        },
+        {
+         "name": "Draw",
+         "price": 4.2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "betsson",
+     "title": "Betsson",
+     "last_update": "2026-11-14T05:53:20Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:20Z",
+       "outcomes": [
+        {
+         "name": "Athletic Bilbao",
+         "price": 1.47
+        },
+        {
+         "name": "Espanyol",
+         "price": 6.9
+        },
+        {
+         "name": "Draw",
+         "price": 4.4
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "onexbet",
+     "title": "1xBet",
+     "last_update": "2026-11-14T05:53:48Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:48Z",
+       "outcomes": [
+        {
+         "name": "Athletic Bilbao",
+         "price": 1.54
+        },
+        {
+         "name": "Espanyol",
+         "price": 6.99
+        },
+        {
+         "name": "Draw",
+         "price": 4.47
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "marathonbet",
+     "title": "Marathon Bet",
+     "last_update": "2026-11-14T05:53:54Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:54Z",
+       "outcomes": [
+        {
+         "name": "Athletic Bilbao",
+         "price": 1.5
+        },
+        {
+         "name": "Espanyol",
+         "price": 6.8
+        },
+        {
+         "name": "Draw",
+         "price": 4.35
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "williamhill",
+     "title": "William Hill",
+     "last_update": "2026-11-14T05:54:05Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:54:04Z",
+       "outcomes": [
+        {
+         "name": "Athletic Bilbao",
+         "price": 1.5
+        },
+        {
+         "name": "Espanyol",
+         "price": 6.0
+        },
+        {
+         "name": "Draw",
+         "price": 4.0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "nordicbet",
+     "title": "Nordic Bet",
+     "last_update": "2026-11-14T05:53:23Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:22Z",
+       "outcomes": [
+        {
+         "name": "Athletic Bilbao",
+         "price": 1.46
+        },
+        {
+         "name": "Espanyol",
+         "price": 6.8
+        },
+        {
+         "name": "Draw",
+         "price": 4.35
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "tipico_de",
+     "title": "Tipico",
+     "last_update": "2026-11-14T05:53:48Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:48Z",
+       "outcomes": [
+        {
+         "name": "Athletic Bilbao",
+         "price": 1.45
+        },
+        {
+         "name": "Espanyol",
+         "price": 6.5
+        },
+        {
+         "name": "Draw",
+         "price": 4.6
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "unibet_fr",
+     "title": "Unibet (FR)",
+     "last_update": "2026-11-14T05:54:04Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:54:04Z",
+       "outcomes": [
+        {
+         "name": "Athletic Bilbao",
+         "price": 1.39
+        },
+        {
+         "name": "Espanyol",
+         "price": 5.8
+        },
+        {
+         "name": "Draw",
+         "price": 4.0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "winamax_de",
+     "title": "Winamax (DE)",
+     "last_update": "2026-11-14T05:54:05Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:54:05Z",
+       "outcomes": [
+        {
+         "name": "Athletic Bilbao",
+         "price": 1.45
+        },
+        {
+         "name": "Espanyol",
+         "price": 6.0
+        },
+        {
+         "name": "Draw",
+         "price": 4.5
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "betfair_ex_eu",
+     "title": "Betfair",
+     "last_update": "2026-11-14T05:53:51Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:51Z",
+       "outcomes": [
+        {
+         "name": "Athletic Bilbao",
+         "price": 1.51
+        },
+        {
+         "name": "Espanyol",
+         "price": 7.4
+        },
+        {
+         "name": "Draw",
+         "price": 4.6
+        }
+       ]
+      },
+      {
+       "key": "h2h_lay",
+       "last_update": "2026-11-14T05:53:51Z",
+       "outcomes": [
+        {
+         "name": "Athletic Bilbao",
+         "price": 1.53
+        },
+        {
+         "name": "Espanyol",
+         "price": 8.0
+        },
+        {
+         "name": "Draw",
+         "price": 4.8
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "everygame",
+     "title": "Everygame",
+     "last_update": "2026-11-14T05:53:37Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:37Z",
+       "outcomes": [
+        {
+         "name": "Athletic Bilbao",
+         "price": 1.45
+        },
+        {
+         "name": "Espanyol",
+         "price": 6.25
+        },
+        {
+         "name": "Draw",
+         "price": 4.2
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "codere_it",
+     "title": "Codere (IT)",
+     "last_update": "2026-11-14T05:53:49Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:49Z",
+       "outcomes": [
+        {
+         "name": "Athletic Bilbao",
+         "price": 1.48
+        },
+        {
+         "name": "Espanyol",
+         "price": 6.6
+        },
+        {
+         "name": "Draw",
+         "price": 4.3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "unibet_nl",
+     "title": "Unibet (NL)",
+     "last_update": "2026-11-14T05:54:04Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:54:04Z",
+       "outcomes": [
+        {
+         "name": "Athletic Bilbao",
+         "price": 1.53
+        },
+        {
+         "name": "Espanyol",
+         "price": 6.75
+        },
+        {
+         "name": "Draw",
+         "price": 4.4
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "leovegas_se",
+     "title": "LeoVegas (SE)",
+     "last_update": "2026-11-14T05:54:04Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:54:04Z",
+       "outcomes": [
+        {
+         "name": "Athletic Bilbao",
+         "price": 1.47
+        },
+        {
+         "name": "Espanyol",
+         "price": 6.1
+        },
+        {
+         "name": "Draw",
+         "price": 4.1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "unibet_se",
+     "title": "Unibet (SE)",
+     "last_update": "2026-11-14T05:53:34Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:34Z",
+       "outcomes": [
+        {
+         "name": "Athletic Bilbao",
+         "price": 1.53
+        },
+        {
+         "name": "Espanyol",
+         "price": 6.75
+        },
+        {
+         "name": "Draw",
+         "price": 4.4
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "coolbet",
+     "title": "Coolbet",
+     "last_update": "2026-11-14T05:53:22Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:22Z",
+       "outcomes": [
+        {
+         "name": "Athletic Bilbao",
+         "price": 1.5
+        },
+        {
+         "name": "Espanyol",
+         "price": 6.3
+        },
+        {
+         "name": "Draw",
+         "price": 4.4
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "matchbook",
+     "title": "Matchbook",
+     "last_update": "2026-11-14T05:54:04Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:54:04Z",
+       "outcomes": [
+        {
+         "name": "Athletic Bilbao",
+         "price": 1.51
+        },
+        {
+         "name": "Espanyol",
+         "price": 7.4
+        },
+        {
+         "name": "Draw",
+         "price": 4.6
+        }
+       ]
+      },
+      {
+       "key": "h2h_lay",
+       "last_update": "2026-11-14T05:54:04Z",
+       "outcomes": [
+        {
+         "name": "Athletic Bilbao",
+         "price": 1.53
+        },
+        {
+         "name": "Espanyol",
+         "price": 8.0
+        },
+        {
+         "name": "Draw",
+         "price": 4.8
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
  "soccer_italy_serie_a": [],
- "soccer_germany_bundesliga": [],
- "soccer_france_ligue_one": [],
+ "soccer_germany_bundesliga": [
+  {
+   "id": "cae480fb1195f0032554a268cb80eb44",
+   "sport_key": "soccer_germany_bundesliga",
+   "sport_title": "Bundesliga - Germany",
+   "commence_time": "2026-11-20T19:30:00Z",
+   "home_team": "Bayern Munich",
+   "away_team": "1. FC Köln",
+   "bookmakers": [
+    {
+     "key": "pinnacle",
+     "title": "Pinnacle",
+     "last_update": "2026-11-14T05:54:17Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:54:17Z",
+       "outcomes": [
+        {
+         "name": "1. FC Köln",
+         "price": 19.94
+        },
+        {
+         "name": "Bayern Munich",
+         "price": 1.09
+        },
+        {
+         "name": "Draw",
+         "price": 13.68
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "sport888",
+     "title": "888sport",
+     "last_update": "2026-11-14T05:53:31Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:31Z",
+       "outcomes": [
+        {
+         "name": "1. FC Köln",
+         "price": 19.0
+        },
+        {
+         "name": "Bayern Munich",
+         "price": 1.08
+        },
+        {
+         "name": "Draw",
+         "price": 11.0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "tipico_de",
+     "title": "Tipico",
+     "last_update": "2026-11-14T05:53:04Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:04Z",
+       "outcomes": [
+        {
+         "name": "1. FC Köln",
+         "price": 20.0
+        },
+        {
+         "name": "Bayern Munich",
+         "price": 1.07
+        },
+        {
+         "name": "Draw",
+         "price": 14.0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "winamax_fr",
+     "title": "Winamax (FR)",
+     "last_update": "2026-11-14T05:53:33Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:33Z",
+       "outcomes": [
+        {
+         "name": "1. FC Köln",
+         "price": 15.0
+        },
+        {
+         "name": "Bayern Munich",
+         "price": 1.05
+        },
+        {
+         "name": "Draw",
+         "price": 11.0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "nordicbet",
+     "title": "Nordic Bet",
+     "last_update": "2026-11-14T05:53:46Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:46Z",
+       "outcomes": [
+        {
+         "name": "1. FC Köln",
+         "price": 29.0
+        },
+        {
+         "name": "Bayern Munich",
+         "price": 1.06
+        },
+        {
+         "name": "Draw",
+         "price": 12.5
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "marathonbet",
+     "title": "Marathon Bet",
+     "last_update": "2026-11-14T05:53:51Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:51Z",
+       "outcomes": [
+        {
+         "name": "1. FC Köln",
+         "price": 22.0
+        },
+        {
+         "name": "Bayern Munich",
+         "price": 1.1
+        },
+        {
+         "name": "Draw",
+         "price": 11.75
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "winamax_de",
+     "title": "Winamax (DE)",
+     "last_update": "2026-11-14T05:53:47Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:47Z",
+       "outcomes": [
+        {
+         "name": "1. FC Köln",
+         "price": 16.0
+        },
+        {
+         "name": "Bayern Munich",
+         "price": 1.08
+        },
+        {
+         "name": "Draw",
+         "price": 11.5
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "onexbet",
+     "title": "1xBet",
+     "last_update": "2026-11-14T05:54:17Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:54:17Z",
+       "outcomes": [
+        {
+         "name": "1. FC Köln",
+         "price": 25.0
+        },
+        {
+         "name": "Bayern Munich",
+         "price": 1.11
+        },
+        {
+         "name": "Draw",
+         "price": 13.8
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "unibet_fr",
+     "title": "Unibet (FR)",
+     "last_update": "2026-11-14T05:53:31Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:31Z",
+       "outcomes": [
+        {
+         "name": "1. FC Köln",
+         "price": 15.0
+        },
+        {
+         "name": "Bayern Munich",
+         "price": 1.06
+        },
+        {
+         "name": "Draw",
+         "price": 8.0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "williamhill",
+     "title": "William Hill",
+     "last_update": "2026-11-14T05:53:46Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:46Z",
+       "outcomes": [
+        {
+         "name": "1. FC Köln",
+         "price": 19.0
+        },
+        {
+         "name": "Bayern Munich",
+         "price": 1.08
+        },
+        {
+         "name": "Draw",
+         "price": 11.0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "betsson",
+     "title": "Betsson",
+     "last_update": "2026-11-14T05:53:03Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:02Z",
+       "outcomes": [
+        {
+         "name": "1. FC Köln",
+         "price": 28.0
+        },
+        {
+         "name": "Bayern Munich",
+         "price": 1.06
+        },
+        {
+         "name": "Draw",
+         "price": 12.5
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "betclic_fr",
+     "title": "Betclic (FR)",
+     "last_update": "2026-11-14T05:52:44Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:52:44Z",
+       "outcomes": [
+        {
+         "name": "1. FC Köln",
+         "price": 17.25
+        },
+        {
+         "name": "Bayern Munich",
+         "price": 1.05
+        },
+        {
+         "name": "Draw",
+         "price": 9.0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "betfair_ex_eu",
+     "title": "Betfair",
+     "last_update": "2026-11-14T05:54:01Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:54:01Z",
+       "outcomes": [
+        {
+         "name": "1. FC Köln",
+         "price": 28.0
+        },
+        {
+         "name": "Bayern Munich",
+         "price": 1.1
+        },
+        {
+         "name": "Draw",
+         "price": 14.5
+        }
+       ]
+      },
+      {
+       "key": "h2h_lay",
+       "last_update": "2026-11-14T05:54:01Z",
+       "outcomes": [
+        {
+         "name": "1. FC Köln",
+         "price": 32.0
+        },
+        {
+         "name": "Bayern Munich",
+         "price": 1.12
+        },
+        {
+         "name": "Draw",
+         "price": 16.5
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "everygame",
+     "title": "Everygame",
+     "last_update": "2026-11-14T05:53:37Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:37Z",
+       "outcomes": [
+        {
+         "name": "1. FC Köln",
+         "price": 15.0
+        },
+        {
+         "name": "Bayern Munich",
+         "price": 1.07
+        },
+        {
+         "name": "Draw",
+         "price": 11.0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "codere_it",
+     "title": "Codere (IT)",
+     "last_update": "2026-11-14T05:54:01Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:54:01Z",
+       "outcomes": [
+        {
+         "name": "1. FC Köln",
+         "price": 21.0
+        },
+        {
+         "name": "Bayern Munich",
+         "price": 1.09
+        },
+        {
+         "name": "Draw",
+         "price": 10.0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "coolbet",
+     "title": "Coolbet",
+     "last_update": "2026-11-14T05:53:48Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:48Z",
+       "outcomes": [
+        {
+         "name": "1. FC Köln",
+         "price": 20.0
+        },
+        {
+         "name": "Bayern Munich",
+         "price": 1.1
+        },
+        {
+         "name": "Draw",
+         "price": 11.0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "pmu_fr",
+     "title": "PMU (FR)",
+     "last_update": "2026-11-14T05:53:31Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:31Z",
+       "outcomes": [
+        {
+         "name": "1. FC Köln",
+         "price": 17.0
+        },
+        {
+         "name": "Bayern Munich",
+         "price": 1.03
+        },
+        {
+         "name": "Draw",
+         "price": 10.0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "leovegas_se",
+     "title": "LeoVegas (SE)",
+     "last_update": "2026-11-14T05:53:46Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:46Z",
+       "outcomes": [
+        {
+         "name": "1. FC Köln",
+         "price": 19.0
+        },
+        {
+         "name": "Bayern Munich",
+         "price": 1.07
+        },
+        {
+         "name": "Draw",
+         "price": 11.0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "unibet_se",
+     "title": "Unibet (SE)",
+     "last_update": "2026-11-14T05:54:01Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:54:01Z",
+       "outcomes": [
+        {
+         "name": "1. FC Köln",
+         "price": 21.0
+        },
+        {
+         "name": "Bayern Munich",
+         "price": 1.1
+        },
+        {
+         "name": "Draw",
+         "price": 13.0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "unibet_nl",
+     "title": "Unibet (NL)",
+     "last_update": "2026-11-14T05:53:32Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:32Z",
+       "outcomes": [
+        {
+         "name": "1. FC Köln",
+         "price": 21.0
+        },
+        {
+         "name": "Bayern Munich",
+         "price": 1.1
+        },
+        {
+         "name": "Draw",
+         "price": 13.0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "matchbook",
+     "title": "Matchbook",
+     "last_update": "2026-11-14T05:53:45Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:45Z",
+       "outcomes": [
+        {
+         "name": "1. FC Köln",
+         "price": 27.0
+        },
+        {
+         "name": "Bayern Munich",
+         "price": 1.1
+        },
+        {
+         "name": "Draw",
+         "price": 15.0
+        }
+       ]
+      },
+      {
+       "key": "h2h_lay",
+       "last_update": "2026-11-14T05:53:45Z",
+       "outcomes": [
+        {
+         "name": "1. FC Köln",
+         "price": 30.0
+        },
+        {
+         "name": "Bayern Munich",
+         "price": 1.12
+        },
+        {
+         "name": "Draw",
+         "price": 16.5
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "gtbets",
+     "title": "GTbets",
+     "last_update": "2026-11-14T05:54:01Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:54:01Z",
+       "outcomes": [
+        {
+         "name": "1. FC Köln",
+         "price": 21.94
+        },
+        {
+         "name": "Bayern Munich",
+         "price": 1.09
+        },
+        {
+         "name": "Draw",
+         "price": 11.37
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "soccer_france_ligue_one": [
+  {
+   "id": "5dcc9d2b0da87770a4f49e924275be39",
+   "sport_key": "soccer_france_ligue_one",
+   "sport_title": "Ligue 1 - France",
+   "commence_time": "2026-11-20T19:45:00Z",
+   "home_team": "Troyes",
+   "away_team": "Le Havre",
+   "bookmakers": [
+    {
+     "key": "sport888",
+     "title": "888sport",
+     "last_update": "2026-11-14T05:53:06Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:06Z",
+       "outcomes": [
+        {
+         "name": "Le Havre",
+         "price": 3.3
+        },
+        {
+         "name": "Troyes",
+         "price": 2.0
+        },
+        {
+         "name": "Draw",
+         "price": 3.5
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "williamhill",
+     "title": "William Hill",
+     "last_update": "2026-11-14T05:53:34Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:34Z",
+       "outcomes": [
+        {
+         "name": "Le Havre",
+         "price": 3.3
+        },
+        {
+         "name": "Troyes",
+         "price": 2.0
+        },
+        {
+         "name": "Draw",
+         "price": 3.5
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "unibet_fr",
+     "title": "Unibet (FR)",
+     "last_update": "2026-11-14T05:53:48Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:48Z",
+       "outcomes": [
+        {
+         "name": "Le Havre",
+         "price": 3.2
+        },
+        {
+         "name": "Troyes",
+         "price": 1.92
+        },
+        {
+         "name": "Draw",
+         "price": 3.3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "unibet_se",
+     "title": "Unibet (SE)",
+     "last_update": "2026-11-14T05:54:03Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:54:03Z",
+       "outcomes": [
+        {
+         "name": "Le Havre",
+         "price": 3.45
+        },
+        {
+         "name": "Troyes",
+         "price": 2.16
+        },
+        {
+         "name": "Draw",
+         "price": 3.7
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "tipico_de",
+     "title": "Tipico",
+     "last_update": "2026-11-14T05:53:48Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:48Z",
+       "outcomes": [
+        {
+         "name": "Le Havre",
+         "price": 3.5
+        },
+        {
+         "name": "Troyes",
+         "price": 1.97
+        },
+        {
+         "name": "Draw",
+         "price": 3.6
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "marathonbet",
+     "title": "Marathon Bet",
+     "last_update": "2026-11-14T05:53:53Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:53Z",
+       "outcomes": [
+        {
+         "name": "Le Havre",
+         "price": 3.54
+        },
+        {
+         "name": "Troyes",
+         "price": 2.03
+        },
+        {
+         "name": "Draw",
+         "price": 3.74
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "onexbet",
+     "title": "1xBet",
+     "last_update": "2026-11-14T05:53:06Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:06Z",
+       "outcomes": [
+        {
+         "name": "Le Havre",
+         "price": 3.63
+        },
+        {
+         "name": "Troyes",
+         "price": 2.08
+        },
+        {
+         "name": "Draw",
+         "price": 3.84
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "leovegas_se",
+     "title": "LeoVegas (SE)",
+     "last_update": "2026-11-14T05:54:04Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:54:03Z",
+       "outcomes": [
+        {
+         "name": "Le Havre",
+         "price": 3.45
+        },
+        {
+         "name": "Troyes",
+         "price": 2.16
+        },
+        {
+         "name": "Draw",
+         "price": 3.7
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "winamax_de",
+     "title": "Winamax (DE)",
+     "last_update": "2026-11-14T05:53:20Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:20Z",
+       "outcomes": [
+        {
+         "name": "Le Havre",
+         "price": 3.45
+        },
+        {
+         "name": "Troyes",
+         "price": 1.98
+        },
+        {
+         "name": "Draw",
+         "price": 3.55
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "unibet_nl",
+     "title": "Unibet (NL)",
+     "last_update": "2026-11-14T05:53:48Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:48Z",
+       "outcomes": [
+        {
+         "name": "Le Havre",
+         "price": 3.3
+        },
+        {
+         "name": "Troyes",
+         "price": 2.08
+        },
+        {
+         "name": "Draw",
+         "price": 3.5
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "winamax_fr",
+     "title": "Winamax (FR)",
+     "last_update": "2026-11-14T05:53:21Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:21Z",
+       "outcomes": [
+        {
+         "name": "Le Havre",
+         "price": 3.3
+        },
+        {
+         "name": "Troyes",
+         "price": 1.92
+        },
+        {
+         "name": "Draw",
+         "price": 3.4
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "nordicbet",
+     "title": "Nordic Bet",
+     "last_update": "2026-11-14T05:53:33Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:33Z",
+       "outcomes": [
+        {
+         "name": "Le Havre",
+         "price": 3.55
+        },
+        {
+         "name": "Troyes",
+         "price": 2.02
+        },
+        {
+         "name": "Draw",
+         "price": 3.5
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "betsson",
+     "title": "Betsson",
+     "last_update": "2026-11-14T05:54:03Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:54:03Z",
+       "outcomes": [
+        {
+         "name": "Le Havre",
+         "price": 3.55
+        },
+        {
+         "name": "Troyes",
+         "price": 2.02
+        },
+        {
+         "name": "Draw",
+         "price": 3.5
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "pinnacle",
+     "title": "Pinnacle",
+     "last_update": "2026-11-14T05:54:03Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:54:03Z",
+       "outcomes": [
+        {
+         "name": "Le Havre",
+         "price": 3.64
+        },
+        {
+         "name": "Troyes",
+         "price": 2.06
+        },
+        {
+         "name": "Draw",
+         "price": 3.61
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "betfair_ex_eu",
+     "title": "Betfair",
+     "last_update": "2026-11-14T05:54:03Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:54:03Z",
+       "outcomes": [
+        {
+         "name": "Le Havre",
+         "price": 3.65
+        },
+        {
+         "name": "Troyes",
+         "price": 2.16
+        },
+        {
+         "name": "Draw",
+         "price": 3.6
+        }
+       ]
+      },
+      {
+       "key": "h2h_lay",
+       "last_update": "2026-11-14T05:54:03Z",
+       "outcomes": [
+        {
+         "name": "Le Havre",
+         "price": 3.85
+        },
+        {
+         "name": "Troyes",
+         "price": 2.2
+        },
+        {
+         "name": "Draw",
+         "price": 3.8
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "everygame",
+     "title": "Everygame",
+     "last_update": "2026-11-14T05:51:15Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:51:15Z",
+       "outcomes": [
+        {
+         "name": "Le Havre",
+         "price": 3.4
+        },
+        {
+         "name": "Troyes",
+         "price": 2.0
+        },
+        {
+         "name": "Draw",
+         "price": 3.4
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "codere_it",
+     "title": "Codere (IT)",
+     "last_update": "2026-11-14T05:53:35Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:35Z",
+       "outcomes": [
+        {
+         "name": "Le Havre",
+         "price": 3.5
+        },
+        {
+         "name": "Troyes",
+         "price": 2.07
+        },
+        {
+         "name": "Draw",
+         "price": 3.45
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "coolbet",
+     "title": "Coolbet",
+     "last_update": "2026-11-14T05:53:48Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:48Z",
+       "outcomes": [
+        {
+         "name": "Le Havre",
+         "price": 3.5
+        },
+        {
+         "name": "Troyes",
+         "price": 2.05
+        },
+        {
+         "name": "Draw",
+         "price": 3.6
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "gtbets",
+     "title": "GTbets",
+     "last_update": "2026-11-14T05:54:03Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:54:03Z",
+       "outcomes": [
+        {
+         "name": "Le Havre",
+         "price": 3.5
+        },
+        {
+         "name": "Troyes",
+         "price": 2.05
+        },
+        {
+         "name": "Draw",
+         "price": 3.62
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
  "soccer_netherlands_eredivisie": [],
  "soccer_portugal_primeira_liga": [],
- "soccer_belgium_first_div": [],
+ "soccer_belgium_first_div": [
+  {
+   "id": "f33c91844ee2ddb59ea367b52e27380b",
+   "sport_key": "soccer_belgium_first_div",
+   "sport_title": "Belgium First Div",
+   "commence_time": "2026-11-20T19:45:00Z",
+   "home_team": "Cercle Brugge KSV",
+   "away_team": "Westerlo",
+   "bookmakers": [
+    {
+     "key": "pinnacle",
+     "title": "Pinnacle",
+     "last_update": "2026-11-14T05:53:47Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:47Z",
+       "outcomes": [
+        {
+         "name": "Cercle Brugge KSV",
+         "price": 2.04
+        },
+        {
+         "name": "Westerlo",
+         "price": 3.22
+        },
+        {
+         "name": "Draw",
+         "price": 4.03
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "unibet_fr",
+     "title": "Unibet (FR)",
+     "last_update": "2026-11-14T05:53:33Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:33Z",
+       "outcomes": [
+        {
+         "name": "Cercle Brugge KSV",
+         "price": 1.81
+        },
+        {
+         "name": "Westerlo",
+         "price": 2.8
+        },
+        {
+         "name": "Draw",
+         "price": 3.35
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "winamax_de",
+     "title": "Winamax (DE)",
+     "last_update": "2026-11-14T05:53:21Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:21Z",
+       "outcomes": [
+        {
+         "name": "Cercle Brugge KSV",
+         "price": 1.94
+        },
+        {
+         "name": "Westerlo",
+         "price": 2.85
+        },
+        {
+         "name": "Draw",
+         "price": 3.65
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "winamax_fr",
+     "title": "Winamax (FR)",
+     "last_update": "2026-11-14T05:53:20Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:20Z",
+       "outcomes": [
+        {
+         "name": "Cercle Brugge KSV",
+         "price": 1.9
+        },
+        {
+         "name": "Westerlo",
+         "price": 2.8
+        },
+        {
+         "name": "Draw",
+         "price": 3.5
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "onexbet",
+     "title": "1xBet",
+     "last_update": "2026-11-14T05:53:06Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:06Z",
+       "outcomes": [
+        {
+         "name": "Cercle Brugge KSV",
+         "price": 2.01
+        },
+        {
+         "name": "Westerlo",
+         "price": 3.29
+        },
+        {
+         "name": "Draw",
+         "price": 4.07
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "tipico_de",
+     "title": "Tipico",
+     "last_update": "2026-11-14T05:53:06Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:06Z",
+       "outcomes": [
+        {
+         "name": "Cercle Brugge KSV",
+         "price": 1.9
+        },
+        {
+         "name": "Westerlo",
+         "price": 3.4
+        },
+        {
+         "name": "Draw",
+         "price": 4.0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "betclic_fr",
+     "title": "Betclic (FR)",
+     "last_update": "2026-11-14T05:51:48Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:51:48Z",
+       "outcomes": [
+        {
+         "name": "Cercle Brugge KSV",
+         "price": 1.9
+        },
+        {
+         "name": "Westerlo",
+         "price": 2.88
+        },
+        {
+         "name": "Draw",
+         "price": 3.48
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "marathonbet",
+     "title": "Marathon Bet",
+     "last_update": "2026-11-14T05:53:12Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:12Z",
+       "outcomes": [
+        {
+         "name": "Cercle Brugge KSV",
+         "price": 1.96
+        },
+        {
+         "name": "Westerlo",
+         "price": 3.2
+        },
+        {
+         "name": "Draw",
+         "price": 3.96
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "sport888",
+     "title": "888sport",
+     "last_update": "2026-11-14T05:53:33Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:33Z",
+       "outcomes": [
+        {
+         "name": "Cercle Brugge KSV",
+         "price": 1.95
+        },
+        {
+         "name": "Westerlo",
+         "price": 3.1
+        },
+        {
+         "name": "Draw",
+         "price": 3.75
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "nordicbet",
+     "title": "Nordic Bet",
+     "last_update": "2026-11-14T05:53:53Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:52Z",
+       "outcomes": [
+        {
+         "name": "Cercle Brugge KSV",
+         "price": 1.95
+        },
+        {
+         "name": "Westerlo",
+         "price": 3.2
+        },
+        {
+         "name": "Draw",
+         "price": 4.0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "betsson",
+     "title": "Betsson",
+     "last_update": "2026-11-14T05:54:05Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:54:05Z",
+       "outcomes": [
+        {
+         "name": "Cercle Brugge KSV",
+         "price": 1.95
+        },
+        {
+         "name": "Westerlo",
+         "price": 3.2
+        },
+        {
+         "name": "Draw",
+         "price": 4.0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "leovegas_se",
+     "title": "LeoVegas (SE)",
+     "last_update": "2026-11-14T05:53:06Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:06Z",
+       "outcomes": [
+        {
+         "name": "Cercle Brugge KSV",
+         "price": 2.04
+        },
+        {
+         "name": "Westerlo",
+         "price": 2.9
+        },
+        {
+         "name": "Draw",
+         "price": 3.55
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "unibet_nl",
+     "title": "Unibet (NL)",
+     "last_update": "2026-11-14T05:54:02Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:54:02Z",
+       "outcomes": [
+        {
+         "name": "Cercle Brugge KSV",
+         "price": 2.08
+        },
+        {
+         "name": "Westerlo",
+         "price": 2.95
+        },
+        {
+         "name": "Draw",
+         "price": 3.6
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "unibet_se",
+     "title": "Unibet (SE)",
+     "last_update": "2026-11-14T05:54:03Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:54:02Z",
+       "outcomes": [
+        {
+         "name": "Cercle Brugge KSV",
+         "price": 2.12
+        },
+        {
+         "name": "Westerlo",
+         "price": 3.0
+        },
+        {
+         "name": "Draw",
+         "price": 3.75
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "key": "betfair_ex_eu",
+     "title": "Betfair",
+     "last_update": "2026-11-14T05:53:47Z",
+     "markets": [
+      {
+       "key": "h2h",
+       "last_update": "2026-11-14T05:53:47Z",
+       "outcomes": [
+        {
+         "name": "Cercle Brugge KSV",
+         "price": 1.1
+        },
+        {
+         "name": "Westerlo",
+         "price": 1.1
+        },
+        {
+         "name": "Draw",
+         "price": 1.1
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
  "soccer_uefa_champs_league": [],
  "soccer_uefa_europa_league": []
 }

@@ -1,1 +1,70 @@
-[]
+[
+ {
+  "id": "dcee36f9b8a9989972b6d4ddde76c4c7",
+  "league": "LaLiga",
+  "kickoff": "2026-11-20T20:00:00Z",
+  "home": "Athletic Bilbao",
+  "away": "Espanyol",
+  "unibet": {
+   "home": 1.53,
+   "away": 6.75,
+   "draw": 4.4
+  },
+  "p_market": {
+   "home": 0.6408,
+   "draw": 0.2158,
+   "away": 0.1434
+  }
+ },
+ {
+  "id": "cae480fb1195f0032554a268cb80eb44",
+  "league": "Bundesliga",
+  "kickoff": "2026-11-20T19:30:00Z",
+  "home": "Bayern Munich",
+  "away": "1. FC Köln",
+  "unibet": {
+   "away": 21.0,
+   "home": 1.1,
+   "draw": 13.0
+  },
+  "p_market": {
+   "home": 0.8754,
+   "draw": 0.0787,
+   "away": 0.0459
+  }
+ },
+ {
+  "id": "5dcc9d2b0da87770a4f49e924275be39",
+  "league": "Ligue 1",
+  "kickoff": "2026-11-20T19:45:00Z",
+  "home": "Troyes",
+  "away": "Le Havre",
+  "unibet": {
+   "away": 3.3,
+   "home": 2.08,
+   "draw": 3.5
+  },
+  "p_market": {
+   "home": 0.4641,
+   "draw": 0.2655,
+   "away": 0.2704
+  }
+ },
+ {
+  "id": "f33c91844ee2ddb59ea367b52e27380b",
+  "league": "Jupiler Pro League",
+  "kickoff": "2026-11-20T19:45:00Z",
+  "home": "Cercle Brugge KSV",
+  "away": "Westerlo",
+  "unibet": {
+   "home": 2.08,
+   "away": 2.95,
+   "draw": 3.6
+  },
+  "p_market": {
+   "home": 0.4482,
+   "draw": 0.2514,
+   "away": 0.3004
+  }
+ }
+]
