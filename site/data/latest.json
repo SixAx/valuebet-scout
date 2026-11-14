@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-14T05:54:19Z",
+ "generated_at": "2026-11-14T06:38:02Z",
  "fetched_at": "2026-11-14T05:54:19Z",
- "research_date": null,
+ "research_date": "2026-11-14",
  "odds_remaining": "355",
  "errors": [],
  "notes": [
@@ -76,14 +76,38 @@
     "Athletic Bilbao is de favoriet. Volgens 15 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Athletic Bilbao wint ongeveer 64%: zo'n 6 op 10 keer.",
     "Unibet betaalt 1,53; een eerlijke odds voor die kans is 1,56. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,0% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €15,30 terug als het lukt (winst €5,30). In ongeveer 36% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Volgens Jornada Perfecta (13/11) moeten Aitor Paredes en Nico Serrano na de interlandbreak terug zijn bij Athletic; bij Espanyol zijn Urko González en Jofre Carreras nog twijfelachtig. Vorm nog niet nagekeken (wedstrijd pas op 20/11)."
    ]
   }
  ],
  "combis": [],
- "promos": [],
- "alerts": [],
- "summary": "",
+ "promos": [
+  {
+   "name": "Combo Booster",
+   "type": "combi_boost",
+   "value": 0.04,
+   "min_legs": 3,
+   "note": "Doorlopend (tot 31/01/2027): +4% op de nettowinst bij 3 selecties, +8% bij 4, oplopend tot +50%; elke selectie min. odds 1,50; niet combineerbaar met andere boosts.",
+   "url": "https://nl.unibetsports.be/promotions/sportsbook-promotions/combo-booster"
+  }
+ ],
+ "alerts": [
+  {
+   "tag": "NIEUWS",
+   "time": "07:37",
+   "title": "Bayern: Kompany terug op het oefenterrein",
+   "body": "Kompany (meningitis na instorting op 23/10) is terug op Säbener Straße, maar een terugkeer op de bank tegen Köln (vr 20/11) is onzeker. Weinig effect op de odds (1,10) verwacht; Bayern–Köln haalt de lat niet.",
+   "url": "https://www.malaymail.com/news/sports/2026/11/11/kompany-takes-major-step-towards-bayern-return-after-training-pitch-collapse/242793"
+  },
+  {
+   "tag": "NIEUWS",
+   "time": "07:37",
+   "title": "Cercle Brugge met nieuwe trainer Caixinha",
+   "body": "Pedro Caixinha volgde Lars Friis op; Cercle–Westerlo (vr 20/11) wordt wellicht zijn eerste thuismatch. Geen bet: Cercle is met 45% geen favoriet.",
+   "url": "https://sporza.be/nl/2026/11/05/hij-verraste-meteen-met-opener-in-het-nederlands-cercle-stelt-nieuwe-trainer-voor-die-goede-data-moet-laten-renderen~1793892035867/"
+  }
+ ],
+ "summary": "Nog steeds interlandperiode: in de odds-update staan enkel vier wedstrijden van volgende vrijdag 20/11 (Athletic–Espanyol, Bayern–Köln, Troyes–Le Havre, Cercle–Westerlo). Geen ervan haalt de lat (Athletic 64% × 1,53 en Bayern 88% × 1,10 liggen onder 1, de andere zijn geen favoriet ≥60%), en het is te vroeg voor opstellingsnieuws, dus vandaag geen picks en geen correcties. Er zijn geen open bets om af te rekenen; Unibet's doorlopende Combo Booster (+4% vanaf 3 selecties van min. 1,50) staat in de promo's.",
  "portfolio": {
   "weeks": [
    {
