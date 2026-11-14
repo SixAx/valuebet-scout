@@ -1,16 +1,27 @@
 {
-  "date": "2026-11-13",
-  "summary": "De odds van vandaag ontbraken: cache/matches.json is leeg, omdat de gevolgde clubcompetities nog stilliggen tijdens de interlandperiode (Nations League). Daarom geen correcties en geen picks; er staan geen open bets uit om af te rekenen. Ik vond geen Unibet België-voetbalpromo die vandaag bevestigd is, dus promos is leeg.",
+  "date": "2026-11-14",
+  "summary": "Nog steeds interlandperiode: in de odds-update staan enkel vier wedstrijden van volgende vrijdag 20/11 (Athletic–Espanyol, Bayern–Köln, Troyes–Le Havre, Cercle–Westerlo). Geen ervan haalt de lat (Athletic 64% × 1,53 en Bayern 88% × 1,10 liggen onder 1, de andere zijn geen favoriet ≥60%), en het is te vroeg voor opstellingsnieuws, dus vandaag geen picks en geen correcties. Er zijn geen open bets om af te rekenen; Unibet's doorlopende Combo Booster (+4% vanaf 3 selecties van min. 1,50) staat in de promo's.",
   "adjustments": {},
-  "match_notes": {},
+  "match_notes": {
+    "dcee36f9b8a9989972b6d4ddde76c4c7": "Volgens Jornada Perfecta (13/11) moeten Aitor Paredes en Nico Serrano na de interlandbreak terug zijn bij Athletic; bij Espanyol zijn Urko González en Jofre Carreras nog twijfelachtig. Vorm nog niet nagekeken (wedstrijd pas op 20/11).",
+    "cae480fb1195f0032554a268cb80eb44": "Bayern-coach Vincent Kompany zakte op 23/10 in op de training (meningitis) en keerde deze week voor het eerst terug op Säbener Straße; of hij tegen Köln op de bank zit is onzeker, assistent Aaron Danks leidt intussen. Luis Díaz viel op 22/10 uit met een spierscheurtje ('enkele weken'); zijn status voor 20/11 is niet bekend.",
+    "f33c91844ee2ddb59ea367b52e27380b": "Cercle Brugge ontsloeg Lars Friis begin november en stelde op 5/11 Pedro Caixinha voor als nieuwe trainer; Cercle staat in de onderste regionen van de stand. Vrijdag is wellicht Caixinha's eerste thuismatch."
+  },
   "community": {},
   "alerts": [
     {
       "tag": "NIEUWS",
-      "time": "07:40",
-      "title": "Interlandperiode: geen clubodds",
-      "body": "Ook vandaag leverde de odds-update geen wedstrijden op in de gevolgde competities (interlandperiode met de Nations League). Week 46 blijft voorlopig zonder picks; zodra er weer clubodds zijn, kies ik opnieuw.",
-      "url": "https://www.footballwebpages.co.uk/uefa-nations-league/20261113"
+      "time": "07:37",
+      "title": "Bayern: Kompany terug op het oefenterrein",
+      "body": "Kompany (meningitis na instorting op 23/10) is terug op Säbener Straße, maar een terugkeer op de bank tegen Köln (vr 20/11) is onzeker. Weinig effect op de odds (1,10) verwacht; Bayern–Köln haalt de lat niet.",
+      "url": "https://www.malaymail.com/news/sports/2026/11/11/kompany-takes-major-step-towards-bayern-return-after-training-pitch-collapse/242793"
+    },
+    {
+      "tag": "NIEUWS",
+      "time": "07:37",
+      "title": "Cercle Brugge met nieuwe trainer Caixinha",
+      "body": "Pedro Caixinha volgde Lars Friis op; Cercle–Westerlo (vr 20/11) wordt wellicht zijn eerste thuismatch. Geen bet: Cercle is met 45% geen favoriet.",
+      "url": "https://sporza.be/nl/2026/11/05/hij-verraste-meteen-met-opener-in-het-nederlands-cercle-stelt-nieuwe-trainer-voor-die-goede-data-moet-laten-renderen~1793892035867/"
     }
   ],
   "results": {},
