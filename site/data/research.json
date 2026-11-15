@@ -1,27 +1,32 @@
 {
-  "date": "2026-11-14",
-  "summary": "Nog steeds interlandperiode: in de odds-update staan enkel vier wedstrijden van volgende vrijdag 20/11 (Athletic–Espanyol, Bayern–Köln, Troyes–Le Havre, Cercle–Westerlo). Geen ervan haalt de lat (Athletic 64% × 1,53 en Bayern 88% × 1,10 liggen onder 1, de andere zijn geen favoriet ≥60%), en het is te vroeg voor opstellingsnieuws, dus vandaag geen picks en geen correcties. Er zijn geen open bets om af te rekenen; Unibet's doorlopende Combo Booster (+4% vanaf 3 selecties van min. 1,50) staat in de promo's. Weekendronde (10u50): ook nu staan er voor vandaag geen wedstrijden in de odds-update (interlandperiode), dus geen opstellingen te controleren, geen nieuwe alerts en geen nieuwe picks.",
+  "date": "2026-11-15",
+  "summary": "Laatste dag van de interlandperiode: vandaag geen wedstrijden en geen open bets met een voorbije aftrap. De odds-update bevat de speeldag van vr 20/11 en za 21/11, maar geen enkele favoriet haalt eigen kans × odds ≥ 1 (beste: Man City 68% × 1,47 = 0,996, Athletic 0,98) en opstellingsnieuws is er nog niet; bovendien zouden picks van vandaag in de lege week W46 vallen met odds die zes dagen vooraf vastliggen. Daarom vandaag geen picks en geen correcties; let wel: Man City verloor drie competitiematchen op rij en Guéhi en Gvardiol zijn onzeker voor Fulham.",
   "adjustments": {},
   "match_notes": {
     "dcee36f9b8a9989972b6d4ddde76c4c7": "Volgens Jornada Perfecta (13/11) moeten Aitor Paredes en Nico Serrano na de interlandbreak terug zijn bij Athletic; bij Espanyol zijn Urko González en Jofre Carreras nog twijfelachtig. Vorm nog niet nagekeken (wedstrijd pas op 20/11).",
     "cae480fb1195f0032554a268cb80eb44": "Bayern-coach Vincent Kompany zakte op 23/10 in op de training (meningitis) en keerde deze week voor het eerst terug op Säbener Straße; of hij tegen Köln op de bank zit is onzeker, assistent Aaron Danks leidt intussen. Luis Díaz viel op 22/10 uit met een spierscheurtje ('enkele weken'); zijn status voor 20/11 is niet bekend.",
-    "f33c91844ee2ddb59ea367b52e27380b": "Cercle Brugge ontsloeg Lars Friis begin november en stelde op 5/11 Pedro Caixinha voor als nieuwe trainer; Cercle staat in de onderste regionen van de stand. Vrijdag is wellicht Caixinha's eerste thuismatch."
+    "f33c91844ee2ddb59ea367b52e27380b": "Cercle Brugge ontsloeg Lars Friis begin november en stelde op 5/11 Pedro Caixinha voor als nieuwe trainer; Cercle staat in de onderste regionen van de stand. Vrijdag is wellicht Caixinha's eerste thuismatch.",
+    "6ef39b0fd8839f6e93a3de32523e9807": "Man City verloor op 7/11 met 3-1 bij Nottingham Forest, de derde competitienederlaag op rij (Sports Mole). Guéhi (heup) en Gvardiol vielen er bij de rust uit; Guéhi trok zich terug uit de Engelse selectie, update volgt deze week. Semenyo (knie) mikt op december, O'Reilly niet 100%. Volgens de regel (≥2 nederlagen in laatste 5) geen pick op City.",
+    "71bf9fe98c3e3be39cd1d059f8d71ae8": "Arsenal: Saka out voor 'weken' met een quadricepsblessure (opgelopen tegen Bayern), herevaluatie na de interlandbreak; Dowman geschorst voor Hull én Newcastle (beroep afgewezen); Saliba nog zonder competitieminuten dit seizoen; Konsa miste England–Kroatië maar bleef bij de selectie. Arsenal won op 1/11 met 0-1 op Anfield.",
+    "90af957b2f622a5cf805e60b151c54b9": "Real Madrid won op 1/11 met 0-3 bij Racing Santander (zesde zege op rij) en op 7/11 met 0-3 bij Valencia. Nog geen blessurenieuws voor Celta gevonden.",
+    "25910d9a01889c6534ef099b63823c5e": "Club Brugge speelde op speeldag 11 (8/11) gelijk tegen Anderlecht na een omstreden gelijkmaker (Sporza).",
+    "b8d6ab6ecc8bb356c6335d3f417d0ecf": "Aston Villa: Manzambi verliet de Zwitserse selectie met een kuitblessure en keert vrijdag terug naar Villa; zijn status voor Sunderland is onbekend."
   },
   "community": {},
   "alerts": [
     {
-      "tag": "NIEUWS",
-      "time": "07:37",
-      "title": "Bayern: Kompany terug op het oefenterrein",
-      "body": "Kompany (meningitis na instorting op 23/10) is terug op Säbener Straße, maar een terugkeer op de bank tegen Köln (vr 20/11) is onzeker. Weinig effect op de odds (1,10) verwacht; Bayern–Köln haalt de lat niet.",
-      "url": "https://www.malaymail.com/news/sports/2026/11/11/kompany-takes-major-step-towards-bayern-return-after-training-pitch-collapse/242793"
+      "tag": "BLESSURE",
+      "time": "07:50",
+      "title": "Man City: drie nederlagen op rij, Guéhi en Gvardiol onzeker",
+      "body": "City verloor 3-1 bij Forest (derde competitienederlaag op rij); Guéhi (heup) en Gvardiol vielen bij de rust uit. City–Fulham (za 21/11, 1,47) staat bovenaan de lijst, maar haalt de vormregel niet: geen pick.",
+      "url": "https://www.sportsmole.co.uk/football/man-city/injury-news/news/problems-maresca-delivers-double-man-city-injury-worry-after-forest-defeat_608691.html"
     },
     {
-      "tag": "NIEUWS",
-      "time": "07:37",
-      "title": "Cercle Brugge met nieuwe trainer Caixinha",
-      "body": "Pedro Caixinha volgde Lars Friis op; Cercle–Westerlo (vr 20/11) wordt wellicht zijn eerste thuismatch. Geen bet: Cercle is met 45% geen favoriet.",
-      "url": "https://sporza.be/nl/2026/11/05/hij-verraste-meteen-met-opener-in-het-nederlands-cercle-stelt-nieuwe-trainer-voor-die-goede-data-moet-laten-renderen~1793892035867/"
+      "tag": "BLESSURE",
+      "time": "07:50",
+      "title": "Arsenal zonder Saka, Dowman geschorst in Newcastle",
+      "body": "Saka is weken out (quadriceps) en Dowman mist Newcastle–Arsenal (za 21/11) door schorsing. Arsenal @1,60 (60%) zit onder de lat; geen pick.",
+      "url": "https://buttondown.com/arseradio/archive/nov-7-saka-out-for-weeks-five-gunners-for-england/"
     }
   ],
   "results": {},
