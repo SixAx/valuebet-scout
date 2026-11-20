@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-20T06:09:15Z",
+ "generated_at": "2026-11-20T06:47:14Z",
  "fetched_at": "2026-11-20T06:09:15Z",
- "research_date": null,
+ "research_date": "2026-11-20",
  "odds_remaining": "309",
  "errors": [],
  "notes": [
@@ -207,12 +207,19 @@
    "p_elo": null,
    "fair_odds": 1.22,
    "kelly": 0.0,
-   "community": [],
+   "community": [
+    {
+     "outcome": "home",
+     "note": "Voorspelt 3-1 voor Real Madrid, dat acht keer op rij won.",
+     "source": "Sports Mole",
+     "url": "https://www.sportsmole.co.uk/football/real-madrid/race-for-the-la-liga-title/preview/real-madrid-vs-celta-vigo-prediction-team-news-lineups_609389.html"
+    }
+   ],
    "why": [
     "Real Madrid is de favoriet. Volgens 17 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Real Madrid wint ongeveer 82%: zo'n 8 op 10 keer.",
     "Let op: Unibet betaalt 1,17, terwijl een eerlijke odds voor die kans 1,22 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,0% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €11,70 terug als het lukt (winst €1,70). In ongeveer 18% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Correctie: Vinícius is terug na schorsing en start wellicht. Real won acht keer op rij; Rodrygo, Asencio en Mendy out. Celta met veel twijfels (Ilaix Moriba knie, Borja Iglesias, Starfelt). Real speelt dinsdag tegen PSV (Sports Mole 19/11). Odds 1,17 te krap."
    ]
   },
   {
@@ -824,7 +831,7 @@
     "Barcelona is de favoriet. Volgens 17 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Barcelona wint ongeveer 79%: zo'n 8 op 10 keer.",
     "Let op: Unibet betaalt 1,20, terwijl een eerlijke odds voor die kans 1,26 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,9% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €12,00 terug als het lukt (winst €2,00). In ongeveer 21% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Barça 1e, WWWLL (laatst 2-1 bij Atlético); Cubarsí twijfelachtig, Koundé wellicht out. Villarreal WLLWW, mist Diatta, twijfels Gerard Moreno en Foyth (Sports Mole; asesoriasfantasy 17/11). Odds 1,20 te krap."
    ]
   },
   {
@@ -887,12 +894,19 @@
    "p_elo": null,
    "fair_odds": 1.58,
    "kelly": 0.0,
-   "community": [],
+   "community": [
+    {
+     "outcome": "away",
+     "note": "Voorspelt 0-2 voor Leipzig: Union scoort amper thuis, Leipzig scoort veel.",
+     "source": "footballpredictions.com",
+     "url": "https://footballpredictions.com/footballpredictions/bundesligapredictions/union-berlin-vs-leipzig-prediction-21-11-2026/"
+    }
+   ],
    "why": [
     "RB Leipzig is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat RB Leipzig wint ongeveer 63%: zo'n 6 op 10 keer.",
     "Unibet betaalt 1,55; een eerlijke odds voor die kans is 1,58. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,0% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €15,50 terug als het lukt (winst €5,50). In ongeveer 37% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Correctie: Leipzig WLWWW (5-2 Augsburg, 2-3 Man City, 2-0 Schalke, 4-0 Elversberg) = 1 nederlaag in de laatste 5. Guiu, Ouédraogo en Finkgrafe out. Union LDLDD, 16e en vijf matchen zonder zege; Uduokhai terug (Sports Mole; footballpredictions 17/11). Eigen kans × odds 0,98 → net te krap voor een losse bet."
    ]
   },
   {
@@ -1096,7 +1110,7 @@
     "AS Roma is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat AS Roma wint ongeveer 74%: zo'n 7 op 10 keer.",
     "Let op: Unibet betaalt 1,30, terwijl een eerlijke odds voor die kans 1,36 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,3% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €13,00 terug als het lukt (winst €3,00). In ongeveer 26% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Roma WLWWD (3-0 Sassuolo); Dybala en Mancini terug in groep, Svilar wellicht terug in doel. Parma LWDLL, mist Diego Carlos en Romero (fantacalcio 16-17/11). Eigen kans × odds 0,96 → geen pick."
    ]
   },
   {
@@ -1436,7 +1450,7 @@
     "Como is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Como wint ongeveer 73%: zo'n 7 op 10 keer.",
     "Let op: Unibet betaalt 1,30, terwijl een eerlijke odds voor die kans 1,37 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,8% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €13,00 terug als het lukt (winst €3,00). In ongeveer 27% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Como LWWWW (0-2 bij Inter), Kean (scheenbeen) en Addai/Rodriguez out, Chalobah dicht bij comeback. Cagliari WLLLL met een lange lijst die individueel traint (fantacalcio 13/11; TMW 15/11). Eigen kans × odds 0,95 → geen pick."
    ]
   },
   {
@@ -1776,7 +1790,7 @@
     "Bayer Leverkusen is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Bayer Leverkusen wint ongeveer 75%: zo'n 7 op 10 keer.",
     "Let op: Unibet betaalt 1,26, terwijl een eerlijke odds voor die kans 1,34 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 5,6% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €12,60 terug als het lukt (winst €2,60). In ongeveer 25% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Leverkusen in wisselvallige vorm WLLWL (1-2 in Köln, 0-1 Marseille, 2-4 Stuttgart) → regel ≥2 nederlagen in de laatste 5: geen pick. Tella en Kofane out. Paderborn DDLWD, mist o.a. Michel en Hoffmeier (Sports Mole; voetbalwedden.net)."
    ]
   },
   {
@@ -2043,12 +2057,25 @@
    "p_elo": null,
    "fair_odds": 1.45,
    "kelly": 0.0,
-   "community": [],
+   "community": [
+    {
+     "outcome": "home",
+     "note": "Voorspelt 3-1 voor City: City won de laatste 20 duels met Fulham en Fulham scoort weinig op verplaatsing.",
+     "source": "Sports Mole",
+     "url": "https://www.sportsmole.co.uk/football/man-city/preview/man-city-vs-fulham-prediction-team-news-lineups_609367.html"
+    },
+    {
+     "outcome": "home",
+     "note": "Tipt minder dan 3,5 goals met een verwachte 2-1 voor City; Fulham verdedigt solide.",
+     "source": "Sporting Life",
+     "url": "https://www.sportinglife.com/football/news/jake-osgathorpes-premier-league-tips-and-predictions-2627-saturday-matchday-11/235476"
+    }
+   ],
    "why": [
     "Manchester City is de favoriet. Volgens 22 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Manchester City wint ongeveer 69%: zo'n 7 op 10 keer.",
     "Let op: Unibet betaalt 1,38, terwijl een eerlijke odds voor die kans 1,45 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,9% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €13,80 terug als het lukt (winst €3,80). In ongeveer 31% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: City LWLDL (drie competitienederlagen op rij) → geen pick. Semenyo out, Guéhi en Khusanov grote twijfels. Fulham DDLWW, enkel Cairney twijfelachtig. City speelt dinsdag tegen Napoli in de CL (Sports Mole 18-19/11)."
    ]
   },
   {
@@ -2451,12 +2478,25 @@
    "p_elo": null,
    "fair_odds": 1.62,
    "kelly": 0.0,
-   "community": [],
+   "community": [
+    {
+     "outcome": "home",
+     "note": "Voorspelt 3-1 voor Spurs; Ipswich lekt goals op verplaatsing.",
+     "source": "Sports Mole",
+     "url": "https://www.sportsmole.co.uk/football/spurs/preview/spurs-vs-ipswich-prediction-team-news-lineups_609360.html"
+    },
+    {
+     "outcome": "home",
+     "note": "Verwacht 2-0 voor Spurs.",
+     "source": "Sporting Life",
+     "url": "https://www.sportinglife.com/football/news/jake-osgathorpes-premier-league-tips-and-predictions-2627-saturday-matchday-11/235476"
+    }
+   ],
    "why": [
     "Tottenham Hotspur is de favoriet. Volgens 22 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Tottenham Hotspur wint ongeveer 62%: zo'n 6 op 10 keer.",
     "Let op: Unibet betaalt 1,55, terwijl een eerlijke odds voor die kans 1,62 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,2% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €15,50 terug als het lukt (winst €5,50). In ongeveer 38% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Spurs LWWWD, mist Xavi Simons en Odobert, veel twijfels (o.a. Dubravka, Bergvall); trainer De Zerbi geschorst langs de lijn. Ipswich LDDLW met een fitte selectie (Sports Mole 19/11; Sporting Life 19/11). Eigen kans × odds 0,96 → geen pick."
    ]
   },
   {
@@ -2660,7 +2700,7 @@
     "Lazio is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Lazio wint ongeveer 69%: zo'n 7 op 10 keer.",
     "Let op: Unibet betaalt 1,36, terwijl een eerlijke odds voor die kans 1,44 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 5,6% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €13,60 terug als het lukt (winst €3,60). In ongeveer 31% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Lazio 1e onder Gattuso, vorm DWWWW; Tavares en Zaccagni out, Frattesi twijfelachtig. Lecce 14e, DLLLW (LiveScore ±16/11; footballpredictions). Eigen kans × odds 0,94 → geen pick."
    ]
   },
   {
@@ -3093,17 +3133,17 @@
    ],
    "n": 3,
    "odds": 1.64,
-   "odds_boosted": null,
-   "boost_name": null,
+   "odds_boosted": 1.67,
+   "boost_name": "Combo Booster",
    "p": 0.5284,
-   "ev": -0.132,
+   "ev": -0.1184,
    "label": "Zekerste 3-combi",
    "kind": "safe",
    "why": [
     "Deze combi wint als alle 3 selecties lukken. De kans daarop is ongeveer 53%: zo'n 5 op 10 keer.",
-    "De gecombineerde odds zijn 1,64. Een eerlijke odds voor deze kans zou 1,89 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 13,2% van je inzet.",
-    "Zwakste schakel: Ajax (80%). Met €10 krijg je €16,43 terug als alles lukt."
+    "De gecombineerde odds zijn 1,64, met de Combo Booster 1,67. Een eerlijke odds voor deze kans zou 1,89 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 11,8% van je inzet.",
+    "Zwakste schakel: Ajax (80%). Met €10 krijg je €16,68 terug als alles lukt."
    ]
   },
   {
@@ -3138,17 +3178,17 @@
    ],
    "n": 3,
    "odds": 1.82,
-   "odds_boosted": null,
-   "boost_name": null,
+   "odds_boosted": 1.85,
+   "boost_name": "Combo Booster",
    "p": 0.4971,
-   "ev": -0.0976,
+   "ev": -0.0814,
    "label": "Beste prijs 3-combi",
    "kind": "value",
    "why": [
     "Deze combi wint als alle 3 selecties lukken. De kans daarop is ongeveer 50%: zo'n 5 op 10 keer.",
-    "De gecombineerde odds zijn 1,82. Een eerlijke odds voor deze kans zou 2,01 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 9,8% van je inzet.",
-    "Zwakste schakel: Besiktas JK (78%). Met €10 krijg je €18,15 terug als alles lukt."
+    "De gecombineerde odds zijn 1,82, met de Combo Booster 1,85. Een eerlijke odds voor deze kans zou 2,01 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 8,1% van je inzet.",
+    "Zwakste schakel: Besiktas JK (78%). Met €10 krijg je €18,48 terug als alles lukt."
    ]
   },
   {
@@ -3192,17 +3232,17 @@
    ],
    "n": 4,
    "odds": 1.94,
-   "odds_boosted": null,
-   "boost_name": null,
+   "odds_boosted": 1.98,
+   "boost_name": "Combo Booster",
    "p": 0.4189,
-   "ev": -0.1881,
+   "ev": -0.1724,
    "label": "Zekerste 4-combi",
    "kind": "safe",
    "why": [
     "Deze combi wint als alle 4 selecties lukken. De kans daarop is ongeveer 42%: zo'n 4 op 10 keer.",
-    "De gecombineerde odds zijn 1,94. Een eerlijke odds voor deze kans zou 2,39 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 18,8% van je inzet.",
-    "Zwakste schakel: Feyenoord (79%). Met €10 krijg je €19,38 terug als alles lukt."
+    "De gecombineerde odds zijn 1,94, met de Combo Booster 1,98. Een eerlijke odds voor deze kans zou 2,39 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 17,2% van je inzet.",
+    "Zwakste schakel: Feyenoord (79%). Met €10 krijg je €19,76 terug als alles lukt."
    ]
   },
   {
@@ -3246,17 +3286,17 @@
    ],
    "n": 4,
    "odds": 2.31,
-   "odds_boosted": null,
-   "boost_name": null,
+   "odds_boosted": 2.36,
+   "boost_name": "Combo Booster",
    "p": 0.3778,
-   "ev": -0.1289,
+   "ev": -0.1091,
    "label": "Beste prijs 4-combi",
    "kind": "value",
    "why": [
     "Deze combi wint als alle 4 selecties lukken. De kans daarop is ongeveer 38%: zo'n 4 op 10 keer.",
-    "De gecombineerde odds zijn 2,31. Een eerlijke odds voor deze kans zou 2,65 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 12,9% van je inzet.",
-    "Zwakste schakel: Manchester City (76%). Met €10 krijg je €23,06 terug als alles lukt."
+    "De gecombineerde odds zijn 2,31, met de Combo Booster 2,36. Een eerlijke odds voor deze kans zou 2,65 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 10,9% van je inzet.",
+    "Zwakste schakel: Manchester City (76%). Met €10 krijg je €23,58 terug als alles lukt."
    ]
   },
   {
@@ -3309,17 +3349,17 @@
    ],
    "n": 5,
    "odds": 2.33,
-   "odds_boosted": null,
-   "boost_name": null,
+   "odds_boosted": 2.38,
+   "boost_name": "Combo Booster",
    "p": 0.332,
-   "ev": -0.2278,
+   "ev": -0.2102,
    "label": "Zekerste 5-combi",
    "kind": "safe",
    "why": [
     "Deze combi wint als alle 5 selecties lukken. De kans daarop is ongeveer 33%: zo'n 3 op 10 keer.",
-    "De gecombineerde odds zijn 2,33. Een eerlijke odds voor deze kans zou 3,01 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 22,8% van je inzet.",
-    "Zwakste schakel: Barcelona (79%). Met €10 krijg je €23,26 terug als alles lukt."
+    "De gecombineerde odds zijn 2,33, met de Combo Booster 2,38. Een eerlijke odds voor deze kans zou 3,01 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 21,0% van je inzet.",
+    "Zwakste schakel: Barcelona (79%). Met €10 krijg je €23,79 terug als alles lukt."
    ]
   },
   {
@@ -3372,17 +3412,17 @@
    ],
    "n": 5,
    "odds": 2.81,
-   "odds_boosted": null,
-   "boost_name": null,
+   "odds_boosted": 2.89,
+   "boost_name": "Combo Booster",
    "p": 0.2988,
-   "ev": -0.1595,
+   "ev": -0.1379,
    "label": "Beste prijs 5-combi",
    "kind": "value",
    "why": [
     "Deze combi wint als alle 5 selecties lukken. De kans daarop is ongeveer 30%: zo'n 3 op 10 keer.",
-    "De gecombineerde odds zijn 2,81. Een eerlijke odds voor deze kans zou 3,35 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 16,0% van je inzet.",
-    "Zwakste schakel: Manchester City (76%). Met €10 krijg je €28,13 terug als alles lukt."
+    "De gecombineerde odds zijn 2,81, met de Combo Booster 2,89. Een eerlijke odds voor deze kans zou 3,35 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 13,8% van je inzet.",
+    "Zwakste schakel: Manchester City (76%). Met €10 krijg je €28,85 terug als alles lukt."
    ]
   },
   {
@@ -3444,17 +3484,17 @@
    ],
    "n": 6,
    "odds": 2.93,
-   "odds_boosted": null,
-   "boost_name": null,
+   "odds_boosted": 3.01,
+   "boost_name": "Combo Booster",
    "p": 0.2529,
-   "ev": -0.2589,
+   "ev": -0.2393,
    "label": "Zekerste 6-combi",
    "kind": "safe",
    "why": [
     "Deze combi wint als alle 6 selecties lukken. De kans daarop is ongeveer 25%: zo'n 3 op 10 keer.",
-    "De gecombineerde odds zijn 2,93. Een eerlijke odds voor deze kans zou 3,95 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 25,9% van je inzet.",
-    "Zwakste schakel: Real Betis (76%). Met €10 krijg je €29,31 terug als alles lukt."
+    "De gecombineerde odds zijn 2,93, met de Combo Booster 3,01. Een eerlijke odds voor deze kans zou 3,95 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 23,9% van je inzet.",
+    "Zwakste schakel: Real Betis (76%). Met €10 krijg je €30,08 terug als alles lukt."
    ]
   },
   {
@@ -3516,23 +3556,54 @@
    ],
    "n": 6,
    "odds": 2.95,
-   "odds_boosted": null,
-   "boost_name": null,
+   "odds_boosted": 3.03,
+   "boost_name": "Combo Booster",
    "p": 0.2523,
-   "ev": -0.2545,
+   "ev": -0.2348,
    "label": "Beste prijs 6-combi",
    "kind": "value",
    "why": [
     "Deze combi wint als alle 6 selecties lukken. De kans daarop is ongeveer 25%: zo'n 3 op 10 keer.",
-    "De gecombineerde odds zijn 2,95. Een eerlijke odds voor deze kans zou 3,96 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 25,5% van je inzet.",
-    "Zwakste schakel: Manchester City (76%). Met €10 krijg je €29,54 terug als alles lukt."
+    "De gecombineerde odds zijn 2,95, met de Combo Booster 3,03. Een eerlijke odds voor deze kans zou 3,96 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 23,5% van je inzet.",
+    "Zwakste schakel: Manchester City (76%). Met €10 krijg je €30,32 terug als alles lukt."
    ]
   }
  ],
- "promos": [],
- "alerts": [],
- "summary": "",
+ "promos": [
+  {
+   "name": "Combo Booster",
+   "type": "combi_boost",
+   "value": 0.04,
+   "min_legs": 3,
+   "note": "Doorlopend (tot 31/01/2027): +4% op de nettowinst bij 3 selecties, +8% bij 4, oplopend tot +50%; elke selectie min. odds 1,50; niet combineerbaar met andere boosts.",
+   "url": "https://nl.unibetsports.be/promotions/sportsbook-promotions/combo-booster"
+  }
+ ],
+ "alerts": [
+  {
+   "tag": "NIEUWS",
+   "time": "08:05",
+   "title": "Correctie: Vinícius wel beschikbaar",
+   "body": "Vinícius is terug na schorsing en start wellicht tegen Celta (gisteren meldden we hem foutief als out). Real Madrid 1,17 blijft te krap voor een bet.",
+   "url": "https://www.sportsmole.co.uk/football/real-madrid/race-for-the-la-liga-title/preview/real-madrid-vs-celta-vigo-prediction-team-news-lineups_609389.html"
+  },
+  {
+   "tag": "NIEUWS",
+   "time": "08:05",
+   "title": "Correctie: Leipzig verloor 1 van de laatste 5",
+   "body": "Leipzig speelde WLWWW; de 1-6 in München valt buiten de laatste vijf. Union won vijf matchen niet. Leipzig 1,55 komt op eigen kans × odds 0,98: net geen value, dus geen pick.",
+   "url": "https://www.sportsmole.co.uk/football/bundesliga/union-berlin-vs-rb-leipzig_game_263113.html"
+  },
+  {
+   "tag": "SCHORSING",
+   "time": "08:05",
+   "title": "De Zerbi geschorst bij Spurs",
+   "body": "Spurs-trainer De Zerbi staat zaterdag tegen Ipswich niet langs de lijn; Xavi Simons en Odobert zijn out. Geen invloed op een pick.",
+   "url": "https://www.sportinglife.com/football/news/jake-osgathorpes-premier-league-tips-and-predictions-2627-saturday-matchday-11/235476"
+  }
+ ],
+ "summary": "Geen open bets met een voorbije aftrap; de doorlopende Combo Booster blijft de enige gevonden voetbalpromo van Unibet België. Twee correcties op gisteren: Vinícius is wel beschikbaar bij Real Madrid (terug na schorsing) en Leipzig verloor maar één van zijn laatste vijf, niet twee. Geen enkele favoriet haalt eigen kans × odds ≥ 1 (beste: Leipzig in Union 1,55 → 0,98) en er is geen vers basisspelersnieuws dat een correctie rechtvaardigt, dus vandaag geen picks; ik kijk opnieuw in de weekendronde met de opstellingen erbij.",
  "portfolio": {
   "weeks": [
    {
