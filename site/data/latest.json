@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-23T06:11:05Z",
+ "generated_at": "2026-11-23T06:53:09Z",
  "fetched_at": "2026-11-23T06:11:05Z",
- "research_date": null,
+ "research_date": "2026-11-23",
  "odds_remaining": "249",
  "errors": [
   "Fout bij http://api.clubelo.com/Fixtures: <urlopen error timed out>"
@@ -73,12 +73,19 @@
    "p_elo": null,
    "fair_odds": 1.26,
    "kelly": 0.0,
-   "community": [],
+   "community": [
+    {
+     "outcome": "home",
+     "note": "Algoritme geeft Roma-winst.",
+     "source": "Oddslot",
+     "url": "https://oddslot.com/football/match/serie-a/as-roma/monza/29-nov-2026/"
+    }
+   ],
    "why": [
     "AS Roma is de favoriet. Volgens 18 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat AS Roma wint ongeveer 79%: zo'n 8 op 10 keer.",
     "Unibet betaalt 1,24; een eerlijke odds voor die kans is 1,26. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 1,9% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €12,40 terug als het lukt (winst €2,40). In ongeveer 21% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Roma WWLWW, ongeslagen in de Serie A, speelt woensdag in Parijs (rotatie mogelijk). Monza LLLLW en speelt vanavond nog tegen Fiorentina (ESPN; Sports Mole). Factor 0,981 → kandidaat, opnieuw bekijken na Roma's CL-duel."
    ]
   },
   {
@@ -146,7 +153,7 @@
     "Lyon is de favoriet. Volgens 17 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Lyon wint ongeveer 80%: zo'n 8 op 10 keer.",
     "Unibet betaalt 1,22; een eerlijke odds voor die kans is 1,25. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,8% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €12,20 terug als het lukt (winst €2,20). In ongeveer 20% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Lyon WLDWL, nieuwe coach Vicens (won 0-1 in Lille); Morton, Šulc, Openda out. Lillestrøm: Nyheim geschorst. Lyon 2 nederlagen in laatste 5 → geen pick."
    ]
   },
   {
@@ -214,7 +221,7 @@
     "Juventus is de favoriet. Volgens 17 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Juventus wint ongeveer 80%: zo'n 8 op 10 keer.",
     "Unibet betaalt 1,22; een eerlijke odds voor die kans is 1,26. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,8% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €12,20 terug als het lukt (winst €2,20). In ongeveer 20% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Juve won 4-0 tegen Venezia en speelde 2-2 in Florence; Yildiz, Locatelli, Thuram, Kalulu out (sosfanta 17/11). Omonoia LLLDW. Odds 1,22 te krap."
    ]
   },
   {
@@ -345,12 +352,19 @@
    "p_elo": null,
    "fair_odds": 1.23,
    "kelly": 0.0,
-   "community": [],
+   "community": [
+    {
+     "outcome": "home",
+     "note": "3-1 voor Real, BTTS ja.",
+     "source": "footballpredictions.com",
+     "url": "https://footballpredictions.com/footballpredictions/championsleaguepredictions/real-madrid-vs-psv-prediction-24-11-2026/"
+    }
+   ],
    "why": [
     "Real Madrid is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Real Madrid wint ongeveer 81%: zo'n 8 op 10 keer.",
     "Unibet betaalt 1,19; een eerlijke odds voor die kans is 1,23. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,2% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €11,90 terug als het lukt (winst €1,90). In ongeveer 19% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Real WWWWW, 4/4 in de CL; Rodrygo en Asencio out, mogelijk rust voor Bellingham/Güler. PSV WWLWD; aanvoerder Mauro Júnior out (spier, opgelopen tegen NEC), ook Schouten, Plea, Nagalo en Ouaissa (Sports Mole 22/11). Odds 1,19 te krap."
    ]
   },
   {
@@ -413,12 +427,25 @@
    "p_elo": null,
    "fair_odds": 1.34,
    "kelly": 0.0,
-   "community": [],
+   "community": [
+    {
+     "outcome": "home",
+     "note": "Como leidt bij de rust en scoort in beide helften; geen waarde in de kale thuiszege volgens de schrijver.",
+     "source": "Mr Fixit's Tips",
+     "url": "https://mrfixitstips.co.uk/previews/como-vs-aek-athens-prediction-and-betting-tips-2026-11-24/"
+    },
+    {
+     "outcome": "home",
+     "note": "Voorspelt 3-0 Como, over 2,5 goals.",
+     "source": "footballpredictions.com",
+     "url": "https://footballpredictions.com/footballpredictions/championsleaguepredictions/como-vs-aek-athens-prediction-24-11-2026/"
+    }
+   ],
    "why": [
     "Como is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Como wint ongeveer 74%: zo'n 7 op 10 keer.",
     "Unibet betaalt 1,32; een eerlijke odds voor die kans is 1,34. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 1,7% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €13,20 terug als het lukt (winst €3,20). In ongeveer 26% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Como WLWWW (2-0 Cagliari, 0-2 bij Inter, 9-1 bij Lens), thuis ongeslagen; Kean (terugslag), Addai, Diao en J. Rodríguez out. AEK ?WLLW (uitslag bij Kalamata onzeker in de bron), 3 CL-nederlagen op rij; Koita geschorst, Zine en Zubkov out (Sports Mole 22/11). Eigen kans × odds 0,983 → net geen pick."
    ]
   },
   {
@@ -758,7 +785,7 @@
     "Union Saint-Gilloise is de favoriet. Volgens 17 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Union Saint-Gilloise wint ongeveer 69%: zo'n 7 op 10 keer.",
     "Unibet betaalt 1,41; een eerlijke odds voor die kans is 1,44. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 2,3% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €14,10 terug als het lukt (winst €4,10). In ongeveer 31% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: USG WWWWW (0-1 bij Kortrijk, 4e in de EL); geen blessurenieuws gevonden. Lech WDLWW, 0 op 4 in de EL (Sporza; Sports Mole). Factor 0,977 → net geen pick, opnieuw bekijken woensdag."
    ]
   },
   {
@@ -1025,12 +1052,19 @@
    "p_elo": null,
    "fair_odds": 1.3,
    "kelly": 0.0,
-   "community": [],
+   "community": [
+    {
+     "outcome": "away",
+     "note": "Betis wint 1-2, over 2,5 goals.",
+     "source": "Forza Football",
+     "url": "https://forzafootball.com/gb/play/betting-tips/odds-champions-league-matchday-5"
+    }
+   ],
    "why": [
     "Real Betis is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Real Betis wint ongeveer 77%: zo'n 8 op 10 keer.",
     "Let op: Unibet betaalt 1,24, terwijl een eerlijke odds voor die kans 1,30 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,7% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €12,40 terug als het lukt (winst €2,40). In ongeveer 23% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Slovan WDLWD, 0 punten in de CL; Betis DWWLW, mist Ceballos, Isco en Morante, Antony twijfel (sportnet.sme.sk; footballpredictions 18/11). Factor 0,95 → geen pick."
    ]
   },
   {
@@ -1093,12 +1127,19 @@
    "p_elo": null,
    "fair_odds": 1.45,
    "kelly": 0.0,
-   "community": [],
+   "community": [
+    {
+     "outcome": "home",
+     "note": "Arsenal wint is de waarschijnlijkste uitkomst, maar geen value bet.",
+     "source": "Forza Football",
+     "url": "https://forzafootball.com/gb/play/betting-tips/arsenal-vs-dortmund-champions-league-predictions-odds"
+    }
+   ],
    "why": [
     "Arsenal is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Arsenal wint ongeveer 69%: zo'n 7 op 10 keer.",
     "Unibet betaalt 1,41; een eerlijke odds voor die kans is 1,45. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,1% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €14,10 terug als het lukt (winst €4,10). In ongeveer 31% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Arsenal DWWW + bekeruitschakeling (2-2 Newcastle); Saka en Zubimendi out, Raya (schouder) onzeker → Kepa wellicht in doel. Dortmund WWWDW, 8 duels ongeslagen; Guirassy twijfel, Can, Lerma, Kaba e.a. out (Sports Mole 22/11). Odds 1,41 = marktprijs, geen pick."
    ]
   },
   {
@@ -1161,12 +1202,19 @@
    "p_elo": null,
    "fair_odds": 1.32,
    "kelly": 0.0,
-   "community": [],
+   "community": [
+    {
+     "outcome": "home",
+     "note": "City wint maar geen dominante zege, under 3,5 goals.",
+     "source": "The Stats Zone",
+     "url": "https://www.thestatszone.com/man-city-vs-napoli-preview-team-news-prediction-2026-27-uefa-champions-league-league-phase-241014"
+    }
+   ],
    "why": [
     "Manchester City is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Manchester City wint ongeveer 76%: zo'n 8 op 10 keer.",
     "Let op: Unibet betaalt 1,26, terwijl een eerlijke odds voor die kans 1,32 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,6% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €12,60 terug als het lukt (winst €2,60). In ongeveer 24% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: City DLWL + 2-2 in de beker: maar 4 zeges uit 9, nieuwe coach Maresca; Semenyo out. Napoli WDLLW, Rafa Marín geschorst, Di Lorenzo, Lobotka, Meret, Buongiorno e.a. out (mightytips 22/11; Sports Mole). City 2 nederlagen in laatste 5 → geen pick."
    ]
   },
   {
@@ -1234,7 +1282,7 @@
     "Celtic is de favoriet. Volgens 17 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Celtic wint ongeveer 56%: zo'n 6 op 10 keer.",
     "Unibet betaalt 1,76; een eerlijke odds voor die kans is 1,79. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 1,7% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €17,60 terug als het lukt (winst €7,60). In ongeveer 44% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Celtic WWWLD (4-1 St Mirren), coach O'Neill. Torreense LWDWL (1-3 tegen Benfica in de beker), coachwissel (João Nuno, RTP 18/11). Celtic <60% → geen pick."
    ]
   },
   {
@@ -1365,12 +1413,19 @@
    "p_elo": null,
    "fair_odds": 1.49,
    "kelly": 0.0,
-   "community": [],
+   "community": [
+    {
+     "outcome": "home",
+     "note": "Inter wint 2-1, BTTS ja.",
+     "source": "Forza Football",
+     "url": "https://forzafootball.com/gb/play/betting-tips/odds-champions-league-matchday-5"
+    }
+   ],
    "why": [
     "Inter Milan is de favoriet. Volgens 19 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Inter Milan wint ongeveer 67%: zo'n 7 op 10 keer.",
     "Unibet betaalt 1,44; een eerlijke odds voor die kans is 1,49. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,5% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €14,40 terug als het lukt (winst €4,40). In ongeveer 33% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Inter DWWLW (4-4 bij Atalanta); Çalhanoğlu geschorst en viel geblesseerd uit, Bonny out, Thuram mogelijk out (starting11). Stuttgart DWLWW; Stiller, Zagadou, Jaquez out. Rotatie verwacht. Factor 0,965 → geen pick."
    ]
   },
   {
@@ -1433,12 +1488,19 @@
    "p_elo": null,
    "fair_odds": 1.46,
    "kelly": 0.0,
-   "community": [],
+   "community": [
+    {
+     "outcome": "home",
+     "note": "Leipzig wint en over 2,5 goals, door Leipzigs vorm en de crisis bij Lens.",
+     "source": "Mr Fixit's Tips",
+     "url": "https://mrfixitstips.co.uk/previews/rb-leipzig-vs-lens-prediction-and-betting-tips-2026-11-24/"
+    }
+   ],
    "why": [
     "RB Leipzig is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat RB Leipzig wint ongeveer 69%: zo'n 7 op 10 keer.",
     "Let op: Unibet betaalt 1,40, terwijl een eerlijke odds voor die kans 1,46 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,0% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €14,00 terug als het lukt (winst €4,00). In ongeveer 31% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Leipzig WWLWW (5-1 bij Union); Ouedraogo (basis) out. Lens DLLLW, 1-9 tegen Como, nieuwe coach Digard sinds 13/11; Ivanović, Edouard, Gradit, Nawrocki, Bulatović out (Sports Mole 22/11; rclens.fr). Eigen kans × odds 0,96 → geen pick."
    ]
   },
   {
@@ -1569,12 +1631,19 @@
    "p_elo": null,
    "fair_odds": 1.69,
    "kelly": 0.0,
-   "community": [],
+   "community": [
+    {
+     "outcome": "away",
+     "note": "Bayern wint 1-2, BTTS ja.",
+     "source": "Forza Football",
+     "url": "https://forzafootball.com/gb/play/betting-tips/odds-champions-league-matchday-5"
+    }
+   ],
    "why": [
     "Bayern Munich is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Bayern Munich wint ongeveer 59%: zo'n 6 op 10 keer.",
     "Unibet betaalt 1,63; een eerlijke odds voor die kans is 1,69. Het verschil is de marge van de bookmaker: op lange termijn kost dit ongeveer 3,4% van je inzet. Je wint deze bet vaak, maar niet gratis. Die marge is klein voor een favoriet.",
     "Met €10 krijg je €16,30 terug als het lukt (winst €6,30). In ongeveer 41% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Bayern DWWDW; Kane enkelbanden gescheurd (±3 maanden), Olise 'unlikely', Gnabry en Saibari out (Goal, na 20/11). Lille LWDWD. Nieuws is al 3 dagen oud en zit wellicht in de odds; Bayern <60% → geen pick."
    ]
   },
   {
@@ -1909,12 +1978,19 @@
    "p_elo": null,
    "fair_odds": 1.44,
    "kelly": 0.0,
-   "community": [],
+   "community": [
+    {
+     "outcome": "home",
+     "note": "PSG wint (5 zeges op rij), BTTS ja als waarde-tip, score 2-1.",
+     "source": "Forza Football",
+     "url": "https://forzafootball.com/gb/play/betting-tips/psg-vs-roma-champions-league-predictions-odds"
+    }
+   ],
    "why": [
     "Paris Saint Germain is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Paris Saint Germain wint ongeveer 69%: zo'n 7 op 10 keer.",
     "Let op: Unibet betaalt 1,36, terwijl een eerlijke odds voor die kans 1,44 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 5,9% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €13,60 terug als het lukt (winst €3,60). In ongeveer 31% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: PSG WWWWW; Kvaratskhelia (kruisband) out, Doué in de rust gewisseld bij Nice en Safonov geblesseerd uitgevallen (Vavel 21/11). Roma WWLWW (5-1 bij Parma), Pellegrini, Rensch out, status Svilar/Dybala tegenstrijdig in de bronnen. Factor 0,94 → geen pick."
    ]
   },
   {
@@ -2045,12 +2121,19 @@
    "p_elo": null,
    "fair_odds": 1.75,
    "kelly": 0.0,
-   "community": [],
+   "community": [
+    {
+     "outcome": "away",
+     "note": "Liverpool wint 1-2, BTTS ja als waarde-tip.",
+     "source": "Forza Football",
+     "url": "https://forzafootball.com/gb/play/betting-tips/odds-champions-league-matchday-5"
+    }
+   ],
    "why": [
     "Liverpool is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Liverpool wint ongeveer 57%: zo'n 6 op 10 keer.",
     "Let op: Unibet betaalt 1,67, terwijl een eerlijke odds voor die kans 1,75 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 4,5% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €16,70 terug als het lukt (winst €6,70). In ongeveer 43% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Brugge WDWWW (5-1 bij Mechelen, 2-1 bij PSV); Virgili onzeker. Liverpool WWLLD (4-0 tegen Man Utd); Gakpo out, Gravenberch twijfel, ook Bradley, Ekitike, Frimpong out (Sports Mole 22/11; Voetbalkrant). Liverpool <60% → geen pick."
    ]
   },
   {
@@ -2390,7 +2473,7 @@
     "Bodø/Glimt is de favoriet. Volgens 20 bookmakers (waaronder Pinnacle, de scherpste) is de kans dat Bodø/Glimt wint ongeveer 62%: zo'n 6 op 10 keer.",
     "Let op: Unibet betaalt 1,51, terwijl een eerlijke odds voor die kans 1,61 is. Unibet rekent hier een grote marge: op lange termijn kost dit ongeveer 6,1% van je inzet. Je wint deze bet vaak, maar je wordt er te weinig voor betaald. Kijk eventueel of een combi-boost dit goedmaakt.",
     "Met €10 krijg je €15,10 terug als het lukt (winst €5,10). In ongeveer 38% van de gevallen verlies je je inzet.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Bodø WWDWL, 1 thuisnederlaag in 15; Evjen en Mikkelsen out. LASK WWWWW; Bello, Harakate, Usor out (mightytips 22/11; Sports Mole 23/11). Odds 1,51, factor 0,94 → geen pick."
    ]
   },
   {
@@ -2922,7 +3005,7 @@
     "Dit is een risicobet. De kans dat LASK wint is volgens 20 bookmakers (waaronder Pinnacle, de scherpste) maar ongeveer 19%: zo'n 1 op 5 keer.",
     "Unibet betaalt wel 5,80, terwijl een eerlijke odds 5,38 zou zijn. Daardoor is de x-factor +7,9%: wie zulke bets vaak speelt, wint op lange termijn gemiddeld zoveel bovenop zijn inzet terug.",
     "Je verliest de meeste van deze bets. Met €10 krijg je €58,00 terug als het lukt. Speel ze alleen met een klein bedrag en als reeks, nooit om verlies goed te maken.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Bodø WWDWL, 1 thuisnederlaag in 15; Evjen en Mikkelsen out. LASK WWWWW; Bello, Harakate, Usor out (mightytips 22/11; Sports Mole 23/11). Odds 1,51, factor 0,94 → geen pick."
    ]
   },
   {
@@ -3178,7 +3261,7 @@
     "Dit is een risicobet. De kans dat Club Brugge wint is volgens 20 bookmakers (waaronder Pinnacle, de scherpste) maar ongeveer 22%: zo'n 1 op 5 keer.",
     "Unibet betaalt wel 4,70, terwijl een eerlijke odds 4,54 zou zijn. Daardoor is de x-factor +3,4%: wie zulke bets vaak speelt, wint op lange termijn gemiddeld zoveel bovenop zijn inzet terug.",
     "Je verliest de meeste van deze bets. Met €10 krijg je €47,00 terug als het lukt. Speel ze alleen met een klein bedrag en als reeks, nooit om verlies goed te maken.",
-    "Nog geen ploegnieuws verwerkt: dat gebeurt elke ochtend om 7u35."
+    "Nieuws: Brugge WDWWW (5-1 bij Mechelen, 2-1 bij PSV); Virgili onzeker. Liverpool WWLLD (4-0 tegen Man Utd); Gakpo out, Gravenberch twijfel, ook Bradley, Ekitike, Frimpong out (Sports Mole 22/11; Voetbalkrant). Liverpool <60% → geen pick."
    ]
   },
   {
@@ -3351,17 +3434,17 @@
    ],
    "n": 3,
    "odds": 1.64,
-   "odds_boosted": null,
-   "boost_name": null,
+   "odds_boosted": 1.67,
+   "boost_name": "Combo Booster",
    "p": 0.543,
-   "ev": -0.1083,
+   "ev": -0.0943,
    "label": "Zekerste 3-combi",
    "kind": "safe",
    "why": [
     "Deze combi wint als alle 3 selecties lukken. De kans daarop is ongeveer 54%: zo'n 5 op 10 keer.",
-    "De gecombineerde odds zijn 1,64. Een eerlijke odds voor deze kans zou 1,84 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 10,8% van je inzet.",
-    "Zwakste schakel: Salzburg (81%). Met €10 krijg je €16,42 terug als alles lukt."
+    "De gecombineerde odds zijn 1,64, met de Combo Booster 1,67. Een eerlijke odds voor deze kans zou 1,84 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 9,4% van je inzet.",
+    "Zwakste schakel: Salzburg (81%). Met €10 krijg je €16,68 terug als alles lukt."
    ]
   },
   {
@@ -3396,17 +3479,17 @@
    ],
    "n": 3,
    "odds": 2.0,
-   "odds_boosted": null,
-   "boost_name": null,
+   "odds_boosted": 2.04,
+   "boost_name": "Combo Booster",
    "p": 0.4693,
-   "ev": -0.0628,
+   "ev": -0.044,
    "label": "Beste prijs 3-combi",
    "kind": "value",
    "why": [
     "Deze combi wint als alle 3 selecties lukken. De kans daarop is ongeveer 47%: zo'n 5 op 10 keer.",
-    "De gecombineerde odds zijn 2,00. Een eerlijke odds voor deze kans zou 2,13 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 6,3% van je inzet.",
-    "Zwakste schakel: Como (74%). Met €10 krijg je €19,97 terug als alles lukt."
+    "De gecombineerde odds zijn 2,00, met de Combo Booster 2,04. Een eerlijke odds voor deze kans zou 2,13 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 4,4% van je inzet.",
+    "Zwakste schakel: Como (74%). Met €10 krijg je €20,37 terug als alles lukt."
    ]
   },
   {
@@ -3450,17 +3533,17 @@
    ],
    "n": 4,
    "odds": 2.0,
-   "odds_boosted": null,
-   "boost_name": null,
+   "odds_boosted": 2.04,
+   "boost_name": "Combo Booster",
    "p": 0.4328,
-   "ev": -0.1329,
+   "ev": -0.1156,
    "label": "Zekerste 4-combi",
    "kind": "safe",
    "why": [
     "Deze combi wint als alle 4 selecties lukken. De kans daarop is ongeveer 43%: zo'n 4 op 10 keer.",
-    "De gecombineerde odds zijn 2,00. Een eerlijke odds voor deze kans zou 2,31 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 13,3% van je inzet.",
-    "Zwakste schakel: Lyon (80%). Met €10 krijg je €20,03 terug als alles lukt."
+    "De gecombineerde odds zijn 2,00, met de Combo Booster 2,04. Een eerlijke odds voor deze kans zou 2,31 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 11,6% van je inzet.",
+    "Zwakste schakel: Lyon (80%). Met €10 krijg je €20,44 terug als alles lukt."
    ]
   },
   {
@@ -3504,17 +3587,17 @@
    ],
    "n": 4,
    "odds": 2.44,
-   "odds_boosted": null,
-   "boost_name": null,
+   "odds_boosted": 2.49,
+   "boost_name": "Combo Booster",
    "p": 0.3738,
-   "ev": -0.0894,
+   "ev": -0.0679,
    "label": "Beste prijs 4-combi",
    "kind": "value",
    "why": [
     "Deze combi wint als alle 4 selecties lukken. De kans daarop is ongeveer 37%: zo'n 4 op 10 keer.",
-    "De gecombineerde odds zijn 2,44. Een eerlijke odds voor deze kans zou 2,68 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 8,9% van je inzet.",
-    "Zwakste schakel: Como (74%). Met €10 krijg je €24,36 terug als alles lukt."
+    "De gecombineerde odds zijn 2,44, met de Combo Booster 2,49. Een eerlijke odds voor deze kans zou 2,68 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 6,8% van je inzet.",
+    "Zwakste schakel: Como (74%). Met €10 krijg je €24,94 terug als alles lukt."
    ]
   },
   {
@@ -3567,17 +3650,17 @@
    ],
    "n": 5,
    "odds": 2.44,
-   "odds_boosted": null,
-   "boost_name": null,
+   "odds_boosted": 2.5,
+   "boost_name": "Combo Booster",
    "p": 0.3447,
-   "ev": -0.1575,
+   "ev": -0.1376,
    "label": "Zekerste 5-combi",
    "kind": "safe",
    "why": [
     "Deze combi wint als alle 5 selecties lukken. De kans daarop is ongeveer 34%: zo'n 3 op 10 keer.",
-    "De gecombineerde odds zijn 2,44. Een eerlijke odds voor deze kans zou 2,90 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 15,8% van je inzet.",
-    "Zwakste schakel: Juventus (80%). Met €10 krijg je €24,44 terug als alles lukt."
+    "De gecombineerde odds zijn 2,44, met de Combo Booster 2,50. Een eerlijke odds voor deze kans zou 2,90 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 13,8% van je inzet.",
+    "Zwakste schakel: Juventus (80%). Met €10 krijg je €25,02 terug als alles lukt."
    ]
   },
   {
@@ -3630,17 +3713,17 @@
    ],
    "n": 5,
    "odds": 2.92,
-   "odds_boosted": null,
-   "boost_name": null,
+   "odds_boosted": 3.0,
+   "boost_name": "Combo Booster",
    "p": 0.3024,
-   "ev": -0.116,
+   "ev": -0.0927,
    "label": "Beste prijs 5-combi",
    "kind": "value",
    "why": [
     "Deze combi wint als alle 5 selecties lukken. De kans daarop is ongeveer 30%: zo'n 3 op 10 keer.",
-    "De gecombineerde odds zijn 2,92. Een eerlijke odds voor deze kans zou 3,31 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 11,6% van je inzet.",
-    "Zwakste schakel: Como (74%). Met €10 krijg je €29,23 terug als alles lukt."
+    "De gecombineerde odds zijn 2,92, met de Combo Booster 3,00. Een eerlijke odds voor deze kans zou 3,31 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 9,3% van je inzet.",
+    "Zwakste schakel: Como (74%). Met €10 krijg je €30,00 terug als alles lukt."
    ]
   },
   {
@@ -3702,17 +3785,17 @@
    ],
    "n": 6,
    "odds": 3.03,
-   "odds_boosted": null,
-   "boost_name": null,
+   "odds_boosted": 3.11,
+   "boost_name": "Combo Booster",
    "p": 0.2727,
-   "ev": -0.1736,
+   "ev": -0.1514,
    "label": "Zekerste 6-combi",
    "kind": "safe",
    "why": [
     "Deze combi wint als alle 6 selecties lukken. De kans daarop is ongeveer 27%: zo'n 3 op 10 keer.",
-    "De gecombineerde odds zijn 3,03. Een eerlijke odds voor deze kans zou 3,67 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 17,4% van je inzet.",
-    "Zwakste schakel: AS Roma (79%). Met €10 krijg je €30,31 terug als alles lukt."
+    "De gecombineerde odds zijn 3,03, met de Combo Booster 3,11. Een eerlijke odds voor deze kans zou 3,67 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 15,1% van je inzet.",
+    "Zwakste schakel: AS Roma (79%). Met €10 krijg je €31,12 terug als alles lukt."
    ]
   },
   {
@@ -3774,23 +3857,47 @@
    ],
    "n": 6,
    "odds": 3.35,
-   "odds_boosted": null,
-   "boost_name": null,
+   "odds_boosted": 3.44,
+   "boost_name": "Combo Booster",
    "p": 0.252,
-   "ev": -0.1565,
+   "ev": -0.1328,
    "label": "Beste prijs 6-combi",
    "kind": "value",
    "why": [
     "Deze combi wint als alle 6 selecties lukken. De kans daarop is ongeveer 25%: zo'n 3 op 10 keer.",
-    "De gecombineerde odds zijn 3,35. Een eerlijke odds voor deze kans zou 3,97 zijn.",
-    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 15,6% van je inzet.",
-    "Zwakste schakel: PSV Eindhoven (76%). Met €10 krijg je €33,47 terug als alles lukt."
+    "De gecombineerde odds zijn 3,35, met de Combo Booster 3,44. Een eerlijke odds voor deze kans zou 3,97 zijn.",
+    "Omdat Unibet op elke selectie een marge rekent, stapelt die zich op: op lange termijn kost deze combi ongeveer 13,3% van je inzet.",
+    "Zwakste schakel: PSV Eindhoven (76%). Met €10 krijg je €34,41 terug als alles lukt."
    ]
   }
  ],
- "promos": [],
- "alerts": [],
- "summary": "",
+ "promos": [
+  {
+   "name": "Combo Booster",
+   "type": "combi_boost",
+   "value": 0.04,
+   "min_legs": 3,
+   "note": "Doorlopende actie (tot 31/01/2027 volgens de promopagina, laatst gelezen 22/11; vandaag niet opnieuw te openen): +4% op de nettowinst bij 3 selecties, +8% bij 4, oplopend tot +50%; elke selectie min. odds 1,50.",
+   "url": "https://nl.unibetsports.be/promotions/sportsbook-promotions/combo-booster"
+  }
+ ],
+ "alerts": [
+  {
+   "tag": "BLESSURE",
+   "time": "08:05",
+   "title": "Bayern zonder Kane, Olise onzeker",
+   "body": "Kane is geopereerd aan de enkel (±3 maanden out) en Olise is 'unlikely' voor Lille–Bayern (wo). Raakt ook HSV–Bayern (za). Het nieuws is al enkele dagen oud; geen odds-achterstand vastgesteld.",
+   "url": "https://www.goal.com/en/news/kane-shock-and-olise-s-crutches-force-an-unusual-bayern-munich-line-up-against-lille/blt38bd05ff5e08c783"
+  },
+  {
+   "tag": "BLESSURE",
+   "time": "08:05",
+   "title": "Arsenal: Saka en Zubimendi out, Raya onzeker",
+   "body": "Voor Arsenal–Dortmund (di) ontbreken Saka en Zubimendi; Raya liep een schouderblessure op in Newcastle, Kepa zou starten. Raakt de Arsenal-bet (1,41).",
+   "url": "https://www.sportsmole.co.uk/football/arsenal/champions-league/preview/arsenal-vs-dortmund-prediction-team-news-lineups_609605.html"
+  }
+ ],
+ "summary": "Maandag zonder open bets en zonder vers basisspelersnieuws van minder dan 24 uur, dus geen correcties. Belangrijkste nieuws: Bayern mist Kane (enkel geopereerd, ±3 maanden) en wellicht Olise in Lille, Arsenal mist Saka en Zubimendi en Raya is onzeker, PSV mist aanvoerder Mauro Júnior. Geen enkele favoriet haalt eigen kans × odds ≥ 1 (beste: Como 0,983, Roma 0,981), dus vandaag nog geen picks voor W48; ik kies later in de week met verser nieuws.",
  "portfolio": {
   "weeks": [
    {
@@ -3804,7 +3911,7 @@
     "staked": 100.0,
     "returned": 85.0,
     "pnl": -15.0,
-    "report": "",
+    "report": "Week 47 eindigde op 6 van 10 raak: €100 ingezet, €85 terug, −€15 (−15%). Alle tien bets waren favorieten die de engine automatisch aanvulde, want ik vond doorheen de week geen enkele bet met eigen kans × odds ≥ 1; ze hadden alle tien een verwachte waarde van −1,6% tot −4,4%. Serie A (3 op 4, o.a. Roma 1-5 in Parma en Juve 4-0) en de Bundesliga (2 op 2) deden het goed, maar drie gelijke spelen (Newcastle–Arsenal 2-2, Monaco–Auxerre 1-1, Atalanta–Inter 4-4) en het verlies van Go Ahead Eagles (0-1) kostten telkens €10. Na vier weken staat de balans op −€43,30 over €275 ingezet en nog geen enkele winstweek: met favorieten tegen Unibet-odds onder de marktprijs is er structureel geen voordeel. Deze week kies ik alleen bets waar Unibet minstens de eerlijke prijs betaalt of waar vers nieuws de kans duidelijk verhoogt, en laat ik liever budget liggen dan de week op te vullen.",
     "breakdown": {
      "type": {
       "Favorieten": {
