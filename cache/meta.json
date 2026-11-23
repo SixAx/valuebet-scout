@@ -1,11 +1,13 @@
 {
- "fetched_at": "2026-11-22T06:00:19Z",
- "odds_remaining": "273",
+ "fetched_at": "2026-11-23T06:11:05Z",
+ "odds_remaining": "249",
  "football_calls": 1,
- "errors": [],
+ "errors": [
+  "Fout bij http://api.clubelo.com/Fixtures: <urlopen error timed out>"
+ ],
  "notes": [
   "API-Football (gratis plan) geeft geen toegang tot dit seizoen: blessures, vorm en uitslagen komen uit het ochtendonderzoek van Claude."
  ],
  "elo_fixtures": 0,
- "scores": 39
+ "scores": 63
 }
