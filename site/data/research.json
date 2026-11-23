@@ -1,67 +1,141 @@
 {
-  "date": "2026-11-22",
-  "summary": "Geen open bets met een voorbije aftrap en geen vers basisspelersnieuws dat een correctie rechtvaardigt. Liverpool verloor 2 van zijn laatste 5 competitieduels en mist o.a. Ekitike en Frimpong; bij Inter zou Thuram volgens Corriere dello Sport toch fit zijn, maar Çalhanoğlu blijft geschorst. De weekportefeuille van W47 zit al aan 10 keuzes, dus vandaag geen nieuwe picks. Weekendronde 10u48: Atlético mist Romero, Pubill en Lookman en kan roteren voor de Champions League; bij Werder–HSV en Juventus–Venezia geen nieuwe afwezigen. Geen odds-achterstand gevonden en de week zit vol (10 bets, €100).",
+  "date": "2026-11-23",
+  "summary": "Maandag zonder open bets en zonder vers basisspelersnieuws van minder dan 24 uur, dus geen correcties. Belangrijkste nieuws: Bayern mist Kane (enkel geopereerd, ±3 maanden) en wellicht Olise in Lille, Arsenal mist Saka en Zubimendi en Raya is onzeker, PSV mist aanvoerder Mauro Júnior. Geen enkele favoriet haalt eigen kans × odds ≥ 1 (beste: Como 0,983, Roma 0,981), dus vandaag nog geen picks voor W48; ik kies later in de week met verser nieuws.",
   "adjustments": {},
   "match_notes": {
-    "214a79b6e08dbe3f508844936158c038": "Barça 1e, WWWLL (laatst 2-1 bij Atlético); Cubarsí twijfelachtig, Koundé wellicht out. Villarreal WLLWW, mist Diatta, twijfels Gerard Moreno en Foyth (Sports Mole; asesoriasfantasy 17/11). Odds 1,20 te krap.",
-    "7a62fe738bd20cfff6027c52fec05d51": "Atlético LWWWW in de competitie (o.a. 2-1 tegen Barça), maar de reeks over alle competities (wwwwwdwwll) is niet eenduidig te lezen; Lookman en Romero out, Pubill twijfel. Getafe mist de geschorste Gudelj plus Uche en Juanmi (starting11; footballpredictions 17/11). Eigen kans × odds 0,98, vorm niet zeker → geen pick. Update 22/11 10u48: Simeone bevestigde de afwezigheid van Cuti Romero, Pubill en Lookman; Bordalás recupereert Zaïd Romero en sluit rotatie uit, Gudelj en Uche out (comuniate). Atlético speelt over drie dagen Champions League → rotatie mogelijk (starting11). Starting11 geeft 1,55 voor Atlético, Unibet 1,54 → geen odds-achterstand.",
-    "230a356290e1a358e9dd2f7fa23de3b9": "Brighton WWWDL (2-0 Brentford, zeges tegen Getafe en City); Mitoma, Ferguson, Struijk en Tzimas out. Hull LDDLD, mist Hughes en Ansah (Sports Mole; footballpredictions 17/11). Eigen kans × odds 0,96 → geen pick.",
-    "be2fcabc408be29ca01ce92ab266f8b7": "Juventus in de competitie DWLWL (2 nederlagen in de laatste 5) → regel: geen pick. Yildiz, Thuram en Locatelli in herstel, Zhegrova grote twijfel. Venezia 2-0-9, mist Franjic en wellicht Šverko (footballpredictions 18/11). Update 22/11 10u48: Fantamaster verwacht Juve met Kolo Muani en Woltemade voorin; geen nieuwe afwezigen vermeld.",
-    "e22f82b10fe71d230248b88fef87e58f": "Inter in goede vorm (laatst 2-0 tegen Como), maar Çalhanoğlu geschorst (3 gele kaarten) en Thuram, Bonny en Stanković out, Akanji twijfel (starting11). Atalanta mist Hien, Kristensen, Gaetano en Kossounou. Meerdere basisspelers weg bij de favoriet → geen pick. Update 22/11: volgens Corriere dello Sport (via Fantacalcio 18/11) is Thuram hersteld en start hij, en zit Lautaro na ruim een maand terug op de bank; Çalhanoğlu blijft geschorst. Bronnen spreken elkaar deels tegen → geen correctie. Update 22/11 10u48: Fantamaster (19/11) verwacht Esposito en Thuram in de spits, Lautaro op de bank, Akanji niet helemaal fit; die site zet Çalhanoğlu wel in de basis, wat botst met de schorsing uit starting11 → niet zeker, geen correctie.",
-    "4c08b213ed416e8f41e038f42a42b962": "Liverpool in de competitie WLWWL (2 nederlagen in de laatste 5 → regel: geen pick); Bradley, Ekitike, Frimpong, Leoni en Nallo out, Van Dijk hersteld. United DLLDD; Baleba, Rashford, Šeško en Ugarte out, Maguire en Shaw twijfelachtig (footballpredictions 17/11).",
-    "9a214142c9b31ad8233dccad53f75d6d": "Werder thuis ongeslagen dit seizoen (3W 1G) en won 8 van de laatste 9 thuisduels tegen HSV, maar verloor op speeldag 9 in Stuttgart. HSV won 4 van zijn laatste 6, maar verloor 4 van 5 uitmatchen (bundesliga.com 20/11). Geen actuele blessurelijst gevonden. Update 22/11 10u48: verwachte opstellingen op bundesliga.com (Werder met Füllkrug in de spits, HSV met Daka); geen blessures of schorsingen vermeld. Officiële opstellingen pas een uur voor de aftrap.",
-    "6cad97568ca4c6b7caeaaa79a6a3054c": "Union 1,34 in Kortrijk; opstellingen nog niet bekend en geen betrouwbare actuele blessurelijst gevonden (voetbalwedden.net). Te krappe odds.",
-    "0a8990d4206c802cdba25a03b50e5d95": "Anderlecht – OHL: geen blessurenieuws gevonden; beide ploegen hielden ±85% van hun basiself de laatste 6 matchen (starting11)."
+    "ba719e378ac366262013bdb51a06aa6f": "Como WLWWW (2-0 Cagliari, 0-2 bij Inter, 9-1 bij Lens), thuis ongeslagen; Kean (terugslag), Addai, Diao en J. Rodríguez out. AEK ?WLLW (uitslag bij Kalamata onzeker in de bron), 3 CL-nederlagen op rij; Koita geschorst, Zine en Zubkov out (Sports Mole 22/11). Eigen kans × odds 0,983 → net geen pick.",
+    "aee4e3c225603397ab52de3d066b566b": "Arsenal DWWW + bekeruitschakeling (2-2 Newcastle); Saka en Zubimendi out, Raya (schouder) onzeker → Kepa wellicht in doel. Dortmund WWWDW, 8 duels ongeslagen; Guirassy twijfel, Can, Lerma, Kaba e.a. out (Sports Mole 22/11). Odds 1,41 = marktprijs, geen pick.",
+    "3fb5e4a792cf34a0459efcb79a11a785": "Real WWWWW, 4/4 in de CL; Rodrygo en Asencio out, mogelijk rust voor Bellingham/Güler. PSV WWLWD; aanvoerder Mauro Júnior out (spier, opgelopen tegen NEC), ook Schouten, Plea, Nagalo en Ouaissa (Sports Mole 22/11). Odds 1,19 te krap.",
+    "b9f00a4d399ec661e733857c9d5fb2dc": "City DLWL + 2-2 in de beker: maar 4 zeges uit 9, nieuwe coach Maresca; Semenyo out. Napoli WDLLW, Rafa Marín geschorst, Di Lorenzo, Lobotka, Meret, Buongiorno e.a. out (mightytips 22/11; Sports Mole). City 2 nederlagen in laatste 5 → geen pick.",
+    "aea973c122c91837c15e066c757c747f": "Leipzig WWLWW (5-1 bij Union); Ouedraogo (basis) out. Lens DLLLW, 1-9 tegen Como, nieuwe coach Digard sinds 13/11; Ivanović, Edouard, Gradit, Nawrocki, Bulatović out (Sports Mole 22/11; rclens.fr). Eigen kans × odds 0,96 → geen pick.",
+    "50b80f3ebd38bf63663b11ae0afc575b": "Bodø WWDWL, 1 thuisnederlaag in 15; Evjen en Mikkelsen out. LASK WWWWW; Bello, Harakate, Usor out (mightytips 22/11; Sports Mole 23/11). Odds 1,51, factor 0,94 → geen pick.",
+    "8e93849b4c1ccbf1c207836d5c470150": "Slovan WDLWD, 0 punten in de CL; Betis DWWLW, mist Ceballos, Isco en Morante, Antony twijfel (sportnet.sme.sk; footballpredictions 18/11). Factor 0,95 → geen pick.",
+    "14007bc0605bce3bd164b132254ba24c": "PSG WWWWW; Kvaratskhelia (kruisband) out, Doué in de rust gewisseld bij Nice en Safonov geblesseerd uitgevallen (Vavel 21/11). Roma WWLWW (5-1 bij Parma), Pellegrini, Rensch out, status Svilar/Dybala tegenstrijdig in de bronnen. Factor 0,94 → geen pick.",
+    "e7e64568f6af00d395a3fdfc27de8ae3": "Inter DWWLW (4-4 bij Atalanta); Çalhanoğlu geschorst en viel geblesseerd uit, Bonny out, Thuram mogelijk out (starting11). Stuttgart DWLWW; Stiller, Zagadou, Jaquez out. Rotatie verwacht. Factor 0,965 → geen pick.",
+    "0ee2cfddf20153779cd2cc3e1f1f879f": "Bayern DWWDW; Kane enkelbanden gescheurd (±3 maanden), Olise 'unlikely', Gnabry en Saibari out (Goal, na 20/11). Lille LWDWD. Nieuws is al 3 dagen oud en zit wellicht in de odds; Bayern <60% → geen pick.",
+    "99459b90f3e732106e09585bf94b36b4": "Brugge WDWWW (5-1 bij Mechelen, 2-1 bij PSV); Virgili onzeker. Liverpool WWLLD (4-0 tegen Man Utd); Gakpo out, Gravenberch twijfel, ook Bradley, Ekitike, Frimpong out (Sports Mole 22/11; Voetbalkrant). Liverpool <60% → geen pick.",
+    "b1af6789fe6db7aab18a2945ce56f035": "Atlético WLLWW (3-0 bij Getafe); Hjulmand geschorst, Lookman, Pubill, Romero out (365scores; missesnextmatch 23/11). Viking LWWLW. Odds 1,13 te krap.",
+    "3ee2bf8a6fa6add543f64ac3e9813976": "USG WWWWW (0-1 bij Kortrijk, 4e in de EL); geen blessurenieuws gevonden. Lech WDLWW, 0 op 4 in de EL (Sporza; Sports Mole). Factor 0,977 → net geen pick, opnieuw bekijken woensdag.",
+    "e2036567ee9394a55f022358781dce15": "Celtic WWWLD (4-1 St Mirren), coach O'Neill. Torreense LWDWL (1-3 tegen Benfica in de beker), coachwissel (João Nuno, RTP 18/11). Celtic <60% → geen pick.",
+    "d6377d30379e5d3053c1076646d83f78": "Juve won 4-0 tegen Venezia en speelde 2-2 in Florence; Yildiz, Locatelli, Thuram, Kalulu out (sosfanta 17/11). Omonoia LLLDW. Odds 1,22 te krap.",
+    "a24c89b65c5a30fb9473735049589e64": "Lyon WLDWL, nieuwe coach Vicens (won 0-1 in Lille); Morton, Šulc, Openda out. Lillestrøm: Nyheim geschorst. Lyon 2 nederlagen in laatste 5 → geen pick.",
+    "c979bd4559d2d81a8e2fe8f2d4aec376": "Roma WWLWW, ongeslagen in de Serie A, speelt woensdag in Parijs (rotatie mogelijk). Monza LLLLW en speelt vanavond nog tegen Fiorentina (ESPN; Sports Mole). Factor 0,981 → kandidaat, opnieuw bekijken na Roma's CL-duel."
   },
   "community": {
-    "4c08b213ed416e8f41e038f42a42b962": [
+    "ba719e378ac366262013bdb51a06aa6f": [
       {
         "outcome": "home",
-        "note": "Tipster voorspelt 2-1 voor Liverpool en raadt thuiszege, beide ploegen scoren en over 2,5 goals aan.",
+        "note": "Como leidt bij de rust en scoort in beide helften; geen waarde in de kale thuiszege volgens de schrijver.",
+        "source": "Mr Fixit's Tips",
+        "url": "https://mrfixitstips.co.uk/previews/como-vs-aek-athens-prediction-and-betting-tips-2026-11-24/"
+      },
+      {
+        "outcome": "home",
+        "note": "Voorspelt 3-0 Como, over 2,5 goals.",
         "source": "footballpredictions.com",
-        "url": "https://footballpredictions.com/footballpredictions/premierleaguepredictions/liverpool-vs-manchester-united-prediction-22-11-2026/"
+        "url": "https://footballpredictions.com/footballpredictions/championsleaguepredictions/como-vs-aek-athens-prediction-24-11-2026/"
       }
     ],
-    "0a8990d4206c802cdba25a03b50e5d95": [
+    "aee4e3c225603397ab52de3d066b566b": [
       {
         "outcome": "home",
-        "note": "Model van de site raadt dubbele kans Anderlecht of gelijk aan (voorspelling 1-0).",
-        "source": "starting11",
-        "url": "https://starting11.com/fixtures/anderlecht-vs-oh-leuven"
+        "note": "Arsenal wint is de waarschijnlijkste uitkomst, maar geen value bet.",
+        "source": "Forza Football",
+        "url": "https://forzafootball.com/gb/play/betting-tips/arsenal-vs-dortmund-champions-league-predictions-odds"
+      }
+    ],
+    "3fb5e4a792cf34a0459efcb79a11a785": [
+      {
+        "outcome": "home",
+        "note": "3-1 voor Real, BTTS ja.",
+        "source": "footballpredictions.com",
+        "url": "https://footballpredictions.com/footballpredictions/championsleaguepredictions/real-madrid-vs-psv-prediction-24-11-2026/"
+      }
+    ],
+    "b9f00a4d399ec661e733857c9d5fb2dc": [
+      {
+        "outcome": "home",
+        "note": "City wint maar geen dominante zege, under 3,5 goals.",
+        "source": "The Stats Zone",
+        "url": "https://www.thestatszone.com/man-city-vs-napoli-preview-team-news-prediction-2026-27-uefa-champions-league-league-phase-241014"
+      }
+    ],
+    "aea973c122c91837c15e066c757c747f": [
+      {
+        "outcome": "home",
+        "note": "Leipzig wint en over 2,5 goals, door Leipzigs vorm en de crisis bij Lens.",
+        "source": "Mr Fixit's Tips",
+        "url": "https://mrfixitstips.co.uk/previews/rb-leipzig-vs-lens-prediction-and-betting-tips-2026-11-24/"
+      }
+    ],
+    "14007bc0605bce3bd164b132254ba24c": [
+      {
+        "outcome": "home",
+        "note": "PSG wint (5 zeges op rij), BTTS ja als waarde-tip, score 2-1.",
+        "source": "Forza Football",
+        "url": "https://forzafootball.com/gb/play/betting-tips/psg-vs-roma-champions-league-predictions-odds"
+      }
+    ],
+    "e7e64568f6af00d395a3fdfc27de8ae3": [
+      {
+        "outcome": "home",
+        "note": "Inter wint 2-1, BTTS ja.",
+        "source": "Forza Football",
+        "url": "https://forzafootball.com/gb/play/betting-tips/odds-champions-league-matchday-5"
+      }
+    ],
+    "0ee2cfddf20153779cd2cc3e1f1f879f": [
+      {
+        "outcome": "away",
+        "note": "Bayern wint 1-2, BTTS ja.",
+        "source": "Forza Football",
+        "url": "https://forzafootball.com/gb/play/betting-tips/odds-champions-league-matchday-5"
+      }
+    ],
+    "99459b90f3e732106e09585bf94b36b4": [
+      {
+        "outcome": "away",
+        "note": "Liverpool wint 1-2, BTTS ja als waarde-tip.",
+        "source": "Forza Football",
+        "url": "https://forzafootball.com/gb/play/betting-tips/odds-champions-league-matchday-5"
+      }
+    ],
+    "8e93849b4c1ccbf1c207836d5c470150": [
+      {
+        "outcome": "away",
+        "note": "Betis wint 1-2, over 2,5 goals.",
+        "source": "Forza Football",
+        "url": "https://forzafootball.com/gb/play/betting-tips/odds-champions-league-matchday-5"
+      }
+    ],
+    "c979bd4559d2d81a8e2fe8f2d4aec376": [
+      {
+        "outcome": "home",
+        "note": "Algoritme geeft Roma-winst.",
+        "source": "Oddslot",
+        "url": "https://oddslot.com/football/match/serie-a/as-roma/monza/29-nov-2026/"
       }
     ]
   },
   "alerts": [
     {
-      "tag": "NIEUWS",
-      "time": "07:50",
-      "title": "Thuram mogelijk toch fit voor Atalanta–Inter",
-      "body": "Volgens Corriere dello Sport (via Fantacalcio) is Thuram hersteld en start hij; Lautaro zit terug op de bank. Çalhanoğlu blijft geschorst. Inter 1,56 blijft geen pick.",
-      "url": "https://www.fantacalcio.it/news/calcio-italia/18_11_2026/inter-lautaro-martinez-ci-sara-contro-l-atalanta-il-piano-di-chivu-500787"
+      "tag": "BLESSURE",
+      "time": "08:05",
+      "title": "Bayern zonder Kane, Olise onzeker",
+      "body": "Kane is geopereerd aan de enkel (±3 maanden out) en Olise is 'unlikely' voor Lille–Bayern (wo). Raakt ook HSV–Bayern (za). Het nieuws is al enkele dagen oud; geen odds-achterstand vastgesteld.",
+      "url": "https://www.goal.com/en/news/kane-shock-and-olise-s-crutches-force-an-unusual-bayern-munich-line-up-against-lille/blt38bd05ff5e08c783"
     },
     {
       "tag": "BLESSURE",
-      "time": "07:50",
-      "title": "Liverpool zonder Ekitike en Frimpong tegen United",
-      "body": "Liverpool mist Bradley, Ekitike, Frimpong, Leoni en Nallo; United mist Baleba, Rashford, Šeško en Ugarte. Liverpool 1,70 is geen pick (2 nederlagen in de laatste 5).",
-      "url": "https://footballpredictions.com/footballpredictions/premierleaguepredictions/liverpool-vs-manchester-united-prediction-22-11-2026/"
-    },
-    {
-      "tag": "NIEUWS",
-      "time": "10:48",
-      "title": "Atlético zonder Romero, Pubill en Lookman in Getafe",
-      "body": "Simeone bevestigde de drie afwezigen; Getafe recupereert Zaïd Romero maar mist Gudelj en Uche. Met Champions League over drie dagen kan Atlético roteren. Raakt de open weekbet Atlético (1,54); odds elders 1,55, dus geen achterstand.",
-      "url": "https://www.comuniate.com/partido/26/4/13/getafe-atletico"
-    },
-    {
-      "tag": "NIEUWS",
-      "time": "10:48",
-      "title": "Werder–HSV: geen blessurenieuws, Füllkrug verwacht in de spits",
-      "body": "Bundesliga.com geeft verwachte opstellingen zonder afwezigen. Open weekbet Werder (1,65) blijft staan; officiële opstelling om 15u30.",
-      "url": "https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/10/sv-werder-bremen-vs-hamburger-sv/liveticker"
+      "time": "08:05",
+      "title": "Arsenal: Saka en Zubimendi out, Raya onzeker",
+      "body": "Voor Arsenal–Dortmund (di) ontbreken Saka en Zubimendi; Raya liep een schouderblessure op in Newcastle, Kepa zou starten. Raakt de Arsenal-bet (1,41).",
+      "url": "https://www.sportsmole.co.uk/football/arsenal/champions-league/preview/arsenal-vs-dortmund-prediction-team-news-lineups_609605.html"
     }
   ],
   "results": {},
   "picks": [],
+  "weekly_report": "Week 47 eindigde op 6 van 10 raak: €100 ingezet, €85 terug, −€15 (−15%). Alle tien bets waren favorieten die de engine automatisch aanvulde, want ik vond doorheen de week geen enkele bet met eigen kans × odds ≥ 1; ze hadden alle tien een verwachte waarde van −1,6% tot −4,4%. Serie A (3 op 4, o.a. Roma 1-5 in Parma en Juve 4-0) en de Bundesliga (2 op 2) deden het goed, maar drie gelijke spelen (Newcastle–Arsenal 2-2, Monaco–Auxerre 1-1, Atalanta–Inter 4-4) en het verlies van Go Ahead Eagles (0-1) kostten telkens €10. Na vier weken staat de balans op −€43,30 over €275 ingezet en nog geen enkele winstweek: met favorieten tegen Unibet-odds onder de marktprijs is er structureel geen voordeel. Deze week kies ik alleen bets waar Unibet minstens de eerlijke prijs betaalt of waar vers nieuws de kans duidelijk verhoogt, en laat ik liever budget liggen dan de week op te vullen.",
+  "report_week": "2026-W47",
   "urgent": false
 }
