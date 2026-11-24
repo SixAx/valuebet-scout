@@ -3823,8 +3823,8 @@
    "category": "risky",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 5.376,
-   "clv": 0.0788
+   "last_fair_odds": 5.787,
+   "clv": 0.0022
   },
   {
    "key": "8e93849b4c1ccbf1c207836d5c470150|away",
@@ -3844,8 +3844,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.301,
-   "clv": -0.0011
+   "last_fair_odds": 1.311,
+   "clv": -0.0081
   },
   {
    "key": "3fb5e4a792cf34a0459efcb79a11a785|home",
@@ -3865,8 +3865,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.23,
-   "clv": -0.0242
+   "last_fair_odds": 1.189,
+   "clv": 0.0096
   },
   {
    "key": "ba719e378ac366262013bdb51a06aa6f|home",
@@ -3886,8 +3886,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.343,
-   "clv": 0.0124
+   "last_fair_odds": 1.312,
+   "clv": 0.0366
   },
   {
    "key": "b9f00a4d399ec661e733857c9d5fb2dc|home",
@@ -3907,8 +3907,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.321,
-   "clv": -0.0385
+   "last_fair_odds": 1.354,
+   "clv": -0.0622
   },
   {
    "key": "aee4e3c225603397ab52de3d066b566b|home",
@@ -3928,8 +3928,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.455,
-   "clv": -0.0169
+   "last_fair_odds": 1.502,
+   "clv": -0.0476
   },
   {
    "key": "5bc13c44b33981f3185400163388267e|home",
@@ -3972,8 +3972,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.458,
-   "clv": -0.0057
+   "last_fair_odds": 1.442,
+   "clv": 0.0053
   },
   {
    "key": "50b80f3ebd38bf63663b11ae0afc575b|home",
@@ -3993,8 +3993,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.608,
-   "clv": -0.0485
+   "last_fair_odds": 1.557,
+   "clv": -0.0173
   },
   {
    "key": "ba719e378ac366262013bdb51a06aa6f|draw",
@@ -4014,8 +4014,8 @@
    "category": "risky",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 6.41,
-   "clv": -0.0952
+   "last_fair_odds": 6.859,
+   "clv": -0.1544
   },
   {
    "key": "14007bc0605bce3bd164b132254ba24c|home",
@@ -4035,8 +4035,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.445,
-   "clv": -0.0449
+   "last_fair_odds": 1.487,
+   "clv": -0.0718
   },
   {
    "key": "0ee2cfddf20153779cd2cc3e1f1f879f|away",
@@ -4056,8 +4056,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.688,
-   "clv": -0.2121
+   "last_fair_odds": 1.699,
+   "clv": -0.217
   },
   {
    "key": "e7e64568f6af00d395a3fdfc27de8ae3|home",
@@ -4077,8 +4077,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.492,
-   "clv": -0.0351
+   "last_fair_odds": 1.485,
+   "clv": -0.0306
   },
   {
    "key": "99459b90f3e732106e09585bf94b36b4|away",
@@ -4098,8 +4098,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.749,
-   "clv": -0.0279
+   "last_fair_odds": 1.727,
+   "clv": -0.0159
   },
   {
    "key": "a24c89b65c5a30fb9473735049589e64|home",
@@ -4119,8 +4119,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.255,
-   "clv": -0.0277
+   "last_fair_odds": 1.244,
+   "clv": -0.019
   },
   {
    "key": "a18687d4f17a96a7732fb0c8673ea037|home",
@@ -4140,8 +4140,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.284,
-   "clv": -0.0344
+   "last_fair_odds": 1.281,
+   "clv": -0.0318
   },
   {
    "key": "d6377d30379e5d3053c1076646d83f78|home",
@@ -4161,8 +4161,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.256,
-   "clv": -0.0284
+   "last_fair_odds": 1.245,
+   "clv": -0.0203
   },
   {
    "key": "3ee2bf8a6fa6add543f64ac3e9813976|home",
@@ -4183,7 +4183,7 @@
    "fixture_id": null,
    "promo": null,
    "last_fair_odds": 1.444,
-   "clv": -0.0234
+   "clv": -0.0239
   },
   {
    "key": "413409b43875d1bdb627a9e7fb6bc3fd|home",
@@ -4203,8 +4203,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.336,
-   "clv": -0.0347
+   "last_fair_odds": 1.323,
+   "clv": -0.0251
   },
   {
    "key": "707c513bfa43b45b7813126e09ad08d8|home",
@@ -4224,8 +4224,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.503,
-   "clv": -0.0217
+   "last_fair_odds": 1.499,
+   "clv": -0.0191
   },
   {
    "key": "e2036567ee9394a55f022358781dce15|away",
@@ -4245,8 +4245,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.79,
-   "clv": -0.0165
+   "last_fair_odds": 1.765,
+   "clv": -0.003
   },
   {
    "key": "cdf4b848361b0374c2027326bd54d8eb|away",
@@ -4266,8 +4266,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.805,
-   "clv": -0.0305
+   "last_fair_odds": 1.792,
+   "clv": -0.0237
   },
   {
    "key": "0e5553b52ece07115fbdf8145df0c377|home",
@@ -4287,8 +4287,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.442,
-   "clv": -0.057
+   "last_fair_odds": 1.441,
+   "clv": -0.0562
   },
   {
    "key": "df4947bbe49057782feacca38c03e790|home",
@@ -4308,8 +4308,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.412,
-   "clv": -0.0513
+   "last_fair_odds": 1.414,
+   "clv": -0.0521
   },
   {
    "key": "5902b4703e9ddc1f573091e14107834c|home",
@@ -4329,8 +4329,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.236,
-   "clv": -0.0292
+   "last_fair_odds": 1.234,
+   "clv": -0.0273
   },
   {
    "key": "38332e4cbb2b3991904b00a75dc3769d|away",
@@ -4350,8 +4350,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.589,
-   "clv": -0.0562
+   "last_fair_odds": 1.562,
+   "clv": -0.0398
   },
   {
    "key": "4c08b213ed416e8f41e038f42a42b962|away",
@@ -4394,8 +4394,8 @@
    "category": "risky",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 4.439,
-   "clv": -0.0087
+   "last_fair_odds": 4.572,
+   "clv": -0.0377
   },
   {
    "key": "1bb4951d418dcb641c608e085b87a1c3|draw",
@@ -4438,8 +4438,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.456,
-   "clv": -0.1143
+   "last_fair_odds": 1.465,
+   "clv": -0.1193
   },
   {
    "key": "4c08b213ed416e8f41e038f42a42b962|home",
@@ -4505,8 +4505,8 @@
    "category": "risky",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 5.285,
-   "clv": 0.0974
+   "last_fair_odds": 5.294,
+   "clv": 0.0956
   },
   {
    "key": "40236ab976955345ebd1edb72abf6b22|home",
@@ -4526,8 +4526,8 @@
    "category": "risky",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 5.599,
-   "clv": 0.0002
+   "last_fair_odds": 6.258,
+   "clv": -0.1051
   },
   {
    "key": "e836bc70afa19b0db28fb320a97662e4|draw",
@@ -4547,8 +4547,8 @@
    "category": "risky",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 3.957,
-   "clv": 0.0108
+   "last_fair_odds": 4.032,
+   "clv": -0.008
   },
   {
    "key": "38332e4cbb2b3991904b00a75dc3769d|draw",
@@ -4568,8 +4568,8 @@
    "category": "risky",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 4.953,
-   "clv": -0.0107
+   "last_fair_odds": 5.126,
+   "clv": -0.044
   },
   {
    "key": "f0c241457472f32fc55b90b2b95b665b|away",
@@ -4612,8 +4612,8 @@
    "category": "risky",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 5.794,
-   "clv": 0.0356
+   "last_fair_odds": 5.656,
+   "clv": 0.0608
   },
   {
    "key": "24b99950496c624f7124922fc1bda8bd|home",
@@ -4633,8 +4633,8 @@
    "category": "risky",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 4.757,
-   "clv": -0.0541
+   "last_fair_odds": 4.773,
+   "clv": -0.0573
   },
   {
    "key": "c99772cba1418e72f2eded26e4afeb59|home",
@@ -4654,8 +4654,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.212,
-   "clv": -0.0425
+   "last_fair_odds": 1.208,
+   "clv": -0.0398
   },
   {
    "key": "5d838190a8f5932d7fcfbcc26bacdd9c|away",
@@ -4675,8 +4675,8 @@
    "category": "risky",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 4.172,
-   "clv": 0.0547
+   "last_fair_odds": 4.155,
+   "clv": 0.0591
   },
   {
    "key": "3b025a029f51fbeb9580a178d0612f50|away",
@@ -4696,8 +4696,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.315,
-   "clv": -0.0415
+   "last_fair_odds": 1.307,
+   "clv": -0.0362
   },
   {
    "key": "12002f6f804a122db48271ff05be03c0|home",
@@ -4717,8 +4717,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.276,
-   "clv": -0.0439
+   "last_fair_odds": 1.271,
+   "clv": -0.04
   },
   {
    "key": "0bc17a3c7d8153e72b94688960cc603a|home",
@@ -4738,8 +4738,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.612,
-   "clv": -0.0013
+   "last_fair_odds": 1.59,
+   "clv": 0.0124
   },
   {
    "key": "f128c19fa7af43e30dbe3c373e7bc27e|home",
@@ -4759,8 +4759,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.397,
-   "clv": -0.098
+   "last_fair_odds": 1.384,
+   "clv": -0.0898
   },
   {
    "key": "8031222f3f3e8384a69c0ca5e1166458|home",
@@ -4780,8 +4780,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.311,
-   "clv": -0.0235
+   "last_fair_odds": 1.318,
+   "clv": -0.0289
   },
   {
    "key": "c81520b9a9794749cfdab57f89bdeb16|home",
@@ -4801,8 +4801,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.643,
-   "clv": -0.0626
+   "last_fair_odds": 1.666,
+   "clv": -0.0757
   },
   {
    "key": "af3432ca724da03d38f0ff4e62045e4c|home",
@@ -4822,8 +4822,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.587,
-   "clv": -0.0545
+   "last_fair_odds": 1.6,
+   "clv": -0.0627
   },
   {
    "key": "e9a1243fbfbc6f58d0e0522eb07ea9a1|home",
@@ -4843,8 +4843,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.763,
-   "clv": -0.064
+   "last_fair_odds": 1.758,
+   "clv": -0.0615
   },
   {
    "key": "365e1a00908ab1cd5a51a53ede2b86b2|home",
@@ -4864,8 +4864,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.582,
-   "clv": -0.071
+   "last_fair_odds": 1.575,
+   "clv": -0.0667
   },
   {
    "key": "5d838190a8f5932d7fcfbcc26bacdd9c|home",
@@ -4885,8 +4885,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.812,
-   "clv": -0.0837
+   "last_fair_odds": 1.815,
+   "clv": -0.0852
   },
   {
    "key": "40236ab976955345ebd1edb72abf6b22|away",
@@ -4906,8 +4906,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.655,
-   "clv": -0.0516
+   "last_fair_odds": 1.579,
+   "clv": -0.0054
   },
   {
    "key": "37501fa07aae9bfd26a648fdf4e3e651|home",
@@ -4927,8 +4927,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.734,
-   "clv": -0.1293
+   "last_fair_odds": 1.61,
+   "clv": -0.0621
   },
   {
    "key": "d583b1676d961c26794a3ccedf7edffb|home",
@@ -4948,8 +4948,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.8,
-   "clv": -0.0888
+   "last_fair_odds": 1.791,
+   "clv": -0.0846
   },
   {
    "key": "3348c02fd713356ec319779bd5edc561|home",
@@ -4969,8 +4969,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.809,
-   "clv": -0.1155
+   "last_fair_odds": 1.799,
+   "clv": -0.1107
   },
   {
    "key": "630736ab8e87597d5ac6e58133d7f7d0|home",
@@ -4990,8 +4990,8 @@
    "category": "risky",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 5.133,
-   "clv": 0.1298
+   "last_fair_odds": 5.444,
+   "clv": 0.0655
   },
   {
    "key": "0617a45f4dae394d0fd75e3dc4d5cae4|draw",
@@ -5011,8 +5011,8 @@
    "category": "risky",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 3.774,
-   "clv": 0.0865
+   "last_fair_odds": 3.905,
+   "clv": 0.05
   },
   {
    "key": "98dc79e39433bb4c59bf9753e35a5cdf|away",
@@ -5032,8 +5032,8 @@
    "category": "risky",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 4.227,
-   "clv": 0.0647
+   "last_fair_odds": 4.212,
+   "clv": 0.0683
   },
   {
    "key": "99459b90f3e732106e09585bf94b36b4|home",
@@ -5053,8 +5053,8 @@
    "category": "risky",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 4.545,
-   "clv": 0.034
+   "last_fair_odds": 4.649,
+   "clv": 0.011
   },
   {
    "key": "d77c244bd9dd91534c40b863e44cf905|home",
@@ -5074,8 +5074,8 @@
    "category": "risky",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 2.888,
-   "clv": 0.0389
+   "last_fair_odds": 2.915,
+   "clv": 0.0293
   },
   {
    "key": "c979bd4559d2d81a8e2fe8f2d4aec376|home",
@@ -5116,8 +5116,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.323,
-   "clv": -0.0326
+   "last_fair_odds": 1.319,
+   "clv": -0.0294
   },
   {
    "key": "dc63586a1b1d938a461d71bf5b36d982|away",
@@ -5137,8 +5137,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.753,
-   "clv": -0.0419
+   "last_fair_odds": 1.748,
+   "clv": -0.0389
   },
   {
    "key": "e9c2b74ecaafd494e3b2d8521b52216a|home",
@@ -5158,8 +5158,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.653,
-   "clv": -0.0502
+   "last_fair_odds": 1.626,
+   "clv": -0.0346
   },
   {
    "key": "24b99950496c624f7124922fc1bda8bd|away",
@@ -5179,8 +5179,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.8,
-   "clv": -0.0553
+   "last_fair_odds": 1.79,
+   "clv": -0.0504
   },
   {
    "key": "523fa336e1cf685100957e5e6359fc4c|away",
@@ -5200,8 +5200,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.604,
-   "clv": -0.0836
+   "last_fair_odds": 1.729,
+   "clv": -0.1498
   },
   {
    "key": "98dc79e39433bb4c59bf9753e35a5cdf|home",
@@ -5221,8 +5221,8 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.801,
-   "clv": -0.078
+   "last_fair_odds": 1.796,
+   "clv": -0.0757
   },
   {
    "key": "adf2cdd99a32b11949f854bb84271604|home",
@@ -5242,8 +5242,176 @@
    "category": "safe",
    "fixture_id": null,
    "promo": null,
-   "last_fair_odds": 1.677,
-   "clv": -0.1057
+   "last_fair_odds": 1.574,
+   "clv": -0.0472
+  },
+  {
+   "key": "c81520b9a9794749cfdab57f89bdeb16|away",
+   "match_id": "c81520b9a9794749cfdab57f89bdeb16",
+   "league": "LaLiga",
+   "kickoff": "2026-11-28T13:00:00Z",
+   "match": "Real Betis – Rayo Vallecano",
+   "pick": "Rayo Vallecano",
+   "outcome": "away",
+   "odds": 6.0,
+   "p": 0.1818,
+   "ev": 0.0911,
+   "score": 7.8,
+   "tipped_at": "2026-11-24T06:04:59Z",
+   "status": "open",
+   "tracked": true,
+   "category": "risky",
+   "fixture_id": null,
+   "promo": null,
+   "last_fair_odds": 5.501,
+   "clv": 0.0908
+  },
+  {
+   "key": "523fa336e1cf685100957e5e6359fc4c|draw",
+   "match_id": "523fa336e1cf685100957e5e6359fc4c",
+   "league": "Eredivisie",
+   "kickoff": "2026-11-29T15:45:00Z",
+   "match": "FC Zwolle – AZ Alkmaar",
+   "pick": "Gelijkspel",
+   "outcome": "draw",
+   "odds": 4.9,
+   "p": 0.2225,
+   "ev": 0.0903,
+   "score": 7.8,
+   "tipped_at": "2026-11-24T06:04:59Z",
+   "status": "open",
+   "tracked": true,
+   "category": "risky",
+   "fixture_id": null,
+   "promo": null,
+   "last_fair_odds": 4.494,
+   "clv": 0.0902
+  },
+  {
+   "key": "a846e6934bbb0f1a707bae28d3c52e9b|away",
+   "match_id": "a846e6934bbb0f1a707bae28d3c52e9b",
+   "league": "Eredivisie",
+   "kickoff": "2026-11-29T13:30:00Z",
+   "match": "Feyenoord – Ajax",
+   "pick": "Ajax",
+   "outcome": "away",
+   "odds": 3.4,
+   "p": 0.3172,
+   "ev": 0.0786,
+   "score": 7.4,
+   "tipped_at": "2026-11-24T06:04:59Z",
+   "status": "open",
+   "tracked": true,
+   "category": "risky",
+   "fixture_id": null,
+   "promo": null,
+   "last_fair_odds": 3.153,
+   "clv": 0.0785
+  },
+  {
+   "key": "7aa2e13c09deb4fbd70e62312e82a514|draw",
+   "match_id": "7aa2e13c09deb4fbd70e62312e82a514",
+   "league": "Eredivisie",
+   "kickoff": "2026-11-27T19:00:00Z",
+   "match": "Groningen – Willem II",
+   "pick": "Gelijkspel",
+   "outcome": "draw",
+   "odds": 6.0,
+   "p": 0.1776,
+   "ev": 0.0658,
+   "score": 7.0,
+   "tipped_at": "2026-11-24T06:04:59Z",
+   "status": "open",
+   "tracked": true,
+   "category": "risky",
+   "fixture_id": null,
+   "promo": null,
+   "last_fair_odds": 5.631,
+   "clv": 0.0656
+  },
+  {
+   "key": "8b09095f4f6b0fe4d90d591fa38daa61|home",
+   "match_id": "8b09095f4f6b0fe4d90d591fa38daa61",
+   "league": "Eredivisie",
+   "kickoff": "2026-11-29T19:00:00Z",
+   "match": "NEC Nijmegen – FC Twente Enschede",
+   "pick": "NEC Nijmegen",
+   "outcome": "home",
+   "odds": 3.9,
+   "p": 0.2715,
+   "ev": 0.0588,
+   "score": 6.7,
+   "tipped_at": "2026-11-24T06:04:59Z",
+   "status": "open",
+   "tracked": false,
+   "category": "risky",
+   "fixture_id": null,
+   "promo": null,
+   "last_fair_odds": 3.683,
+   "clv": 0.0589
+  },
+  {
+   "key": "3d57da6bdb20b65145bc2479ee5f2ae7|away",
+   "match_id": "3d57da6bdb20b65145bc2479ee5f2ae7",
+   "league": "Serie A",
+   "kickoff": "2026-11-30T19:45:00Z",
+   "match": "Cagliari – AC Milan",
+   "pick": "AC Milan",
+   "outcome": "away",
+   "odds": 1.71,
+   "p": 0.5505,
+   "ev": -0.0586,
+   "score": 3.1,
+   "tipped_at": "2026-11-24T06:04:59Z",
+   "status": "open",
+   "tracked": false,
+   "category": "safe",
+   "fixture_id": null,
+   "promo": null,
+   "last_fair_odds": 1.817,
+   "clv": -0.0586
+  },
+  {
+   "key": "61b7d270b965f9804d2d2ed500f41214|away",
+   "match_id": "61b7d270b965f9804d2d2ed500f41214",
+   "league": "Primeira Liga",
+   "kickoff": "2026-11-30T20:15:00Z",
+   "match": "Casa Pia – Braga",
+   "pick": "Braga",
+   "outcome": "away",
+   "odds": 1.38,
+   "p": 0.6491,
+   "ev": -0.1043,
+   "score": 2.8,
+   "tipped_at": "2026-11-24T06:04:59Z",
+   "status": "open",
+   "tracked": false,
+   "category": "safe",
+   "fixture_id": null,
+   "promo": null,
+   "last_fair_odds": 1.541,
+   "clv": -0.1042
+  },
+  {
+   "key": "630736ab8e87597d5ac6e58133d7f7d0|away",
+   "match_id": "630736ab8e87597d5ac6e58133d7f7d0",
+   "league": "Jupiler Pro League",
+   "kickoff": "2026-11-29T17:30:00Z",
+   "match": "Standard Liege – Club Brugge",
+   "pick": "Club Brugge",
+   "outcome": "away",
+   "odds": 1.44,
+   "p": 0.6104,
+   "ev": -0.121,
+   "score": 2.6,
+   "tipped_at": "2026-11-24T06:04:59Z",
+   "status": "open",
+   "tracked": false,
+   "category": "safe",
+   "fixture_id": null,
+   "promo": null,
+   "last_fair_odds": 1.638,
+   "clv": -0.121
   }
  ],
  "reports": {
