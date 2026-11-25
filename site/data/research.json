@@ -1,157 +1,128 @@
 {
-  "date": "2026-11-24",
-  "summary": "Geen vers basisspelersnieuws van minder dan 24 uur dat nog niet in de odds zit, dus geen correcties. De UEFA-teamnieuwsronde bevestigt Raya out bij Arsenal (naast Saka en Zubimendi), Doué en Kvaratskhelia out bij PSG en Kane, Neuer en Davies out bij Bayern. Het ClubElo-model was vandaag niet bereikbaar en geen enkele favoriet haalt eigen kans × odds ≥ 1 (beste: Celtic 0,99, Lyon 0,99 maar in slechte vorm), dus nog geen picks voor W48: liever budget sparen voor donderdag en het weekend.",
+  "date": "2026-11-25",
+  "summary": "Weinig vers nieuws dat nog niet in de odds zit, dus geen correcties. De opvallendste punten: bij Lech Poznań is aanvoerder-spits Ishak twijfelachtig en valt Pablo Rodríguez weg, Bayern speelt in Lille en Hamburg zonder Kane, Neuer en Davies, en bij Sunderland ontbreken Xhaka, Brobbey en Ballard. Eén keuze voor W48: €10 op Union Saint-Gilloise tegen Lech. Geen enkele favoriet haalt eigen kans × odds ≥ 1, dus de rest van het budget wacht op het weekend.",
   "adjustments": {},
   "match_notes": {
-    "ba719e378ac366262013bdb51a06aa6f": "Como WLWWW (2-0 Cagliari, 0-2 bij Inter, 9-1 bij Lens), thuis ongeslagen; Kean (terugslag), Addai, Diao en J. Rodríguez out. AEK ?WLLW (uitslag bij Kalamata onzeker in de bron), 3 CL-nederlagen op rij; Koita geschorst, Zine en Zubkov out (Sports Mole 22/11). Eigen kans × odds 0,983 → net geen pick. Update UEFA (23/11): Como mist Kean en Diao, Caqueret twijfel; AEK mist Arriaga en de geschorste Koita.",
-    "aee4e3c225603397ab52de3d066b566b": "Arsenal DWWW + bekeruitschakeling (2-2 Newcastle); Saka en Zubimendi out, Raya (schouder) onzeker → Kepa wellicht in doel. Dortmund WWWDW, 8 duels ongeslagen; Guirassy twijfel, Can, Lerma, Kaba e.a. out (Sports Mole 22/11). Odds 1,41 = marktprijs, geen pick. Update UEFA (23/11): Raya bevestigd out (schouder), naast Saka en Zubimendi; Dortmund mist Inácio en Kaba, Guirassy en Chukwuemeka twijfel.",
-    "3fb5e4a792cf34a0459efcb79a11a785": "Real WWWWW, 4/4 in de CL; Rodrygo en Asencio out, mogelijk rust voor Bellingham/Güler. PSV WWLWD; aanvoerder Mauro Júnior out (spier, opgelopen tegen NEC), ook Schouten, Plea, Nagalo en Ouaissa (Sports Mole 22/11). Odds 1,19 te krap. Update UEFA (23/11): Real mist Asencio en Rodrygo; PSV mist Mauro Júnior en Ouaissa, Starting11 noemt ook Schouten, Nagalo, Plea out en Dest/Wanner twijfel.",
-    "b9f00a4d399ec661e733857c9d5fb2dc": "City DLWL + 2-2 in de beker: maar 4 zeges uit 9, nieuwe coach Maresca; Semenyo out. Napoli WDLLW, Rafa Marín geschorst, Di Lorenzo, Lobotka, Meret, Buongiorno e.a. out (mightytips 22/11; Sports Mole). City 2 nederlagen in laatste 5 → geen pick.",
-    "aea973c122c91837c15e066c757c747f": "Leipzig WWLWW (5-1 bij Union); Ouedraogo (basis) out. Lens DLLLW, 1-9 tegen Como, nieuwe coach Digard sinds 13/11; Ivanović, Edouard, Gradit, Nawrocki, Bulatović out (Sports Mole 22/11; rclens.fr). Eigen kans × odds 0,96 → geen pick. Update UEFA (23/11): Lens mist Bulatović en Édouard, Ivanović twijfel (hersenschudding).",
-    "50b80f3ebd38bf63663b11ae0afc575b": "Bodø WWDWL, 1 thuisnederlaag in 15; Evjen en Mikkelsen out. LASK WWWWW; Bello, Harakate, Usor out (mightytips 22/11; Sports Mole 23/11). Odds 1,51, factor 0,94 → geen pick.",
-    "8e93849b4c1ccbf1c207836d5c470150": "Slovan WDLWD, 0 punten in de CL; Betis DWWLW, mist Ceballos, Isco en Morante, Antony twijfel (sportnet.sme.sk; footballpredictions 18/11). Factor 0,95 → geen pick.",
-    "14007bc0605bce3bd164b132254ba24c": "PSG WWWWW; Kvaratskhelia (kruisband) out, Doué in de rust gewisseld bij Nice en Safonov geblesseerd uitgevallen (Vavel 21/11). Roma WWLWW (5-1 bij Parma), Pellegrini, Rensch out, status Svilar/Dybala tegenstrijdig in de bronnen. Factor 0,94 → geen pick. Update UEFA (23/11): Doué en Kvaratskhelia out bij PSG; Roma mist Pellegrini, Balerdi en Rensch twijfel.",
-    "e7e64568f6af00d395a3fdfc27de8ae3": "Inter DWWLW (4-4 bij Atalanta); Çalhanoğlu geschorst en viel geblesseerd uit, Bonny out, Thuram mogelijk out (starting11). Stuttgart DWLWW; Stiller, Zagadou, Jaquez out. Rotatie verwacht. Factor 0,965 → geen pick. Update UEFA (23/11): Çalhanoğlu en Bonny out; bij Stuttgart Jaquez, Sauer, Stiller twijfel.",
-    "0ee2cfddf20153779cd2cc3e1f1f879f": "Bayern DWWDW; Kane enkelbanden gescheurd (±3 maanden), Olise 'unlikely', Gnabry en Saibari out (Goal, na 20/11). Lille LWDWD. Nieuws is al 3 dagen oud en zit wellicht in de odds; Bayern <60% → geen pick. Update UEFA (23/11): Bayern mist ook Neuer en Davies; Olise en Luis Díaz twijfel.",
-    "99459b90f3e732106e09585bf94b36b4": "Brugge WDWWW (5-1 bij Mechelen, 2-1 bij PSV); Virgili onzeker. Liverpool WWLLD (4-0 tegen Man Utd); Gakpo out, Gravenberch twijfel, ook Bradley, Ekitike, Frimpong out (Sports Mole 22/11; Voetbalkrant). Liverpool <60% → geen pick.",
-    "b1af6789fe6db7aab18a2945ce56f035": "Atlético WLLWW (3-0 bij Getafe); Hjulmand geschorst, Lookman, Pubill, Romero out (365scores; missesnextmatch 23/11). Viking LWWLW. Odds 1,13 te krap.",
-    "3ee2bf8a6fa6add543f64ac3e9813976": "USG WWWWW (0-1 bij Kortrijk, 4e in de EL); geen blessurenieuws gevonden. Lech WDLWW, 0 op 4 in de EL (Sporza; Sports Mole). Factor 0,977 → net geen pick, opnieuw bekijken woensdag.",
-    "e2036567ee9394a55f022358781dce15": "Celtic WWWLD (4-1 St Mirren), coach O'Neill. Torreense LWDWL (1-3 tegen Benfica in de beker), coachwissel (João Nuno, RTP 18/11). Celtic <60% → geen pick.",
-    "d6377d30379e5d3053c1076646d83f78": "Juve won 4-0 tegen Venezia en speelde 2-2 in Florence; Yildiz, Locatelli, Thuram, Kalulu out (sosfanta 17/11). Omonoia LLLDW. Odds 1,22 te krap.",
-    "a24c89b65c5a30fb9473735049589e64": "Lyon WLDWL, nieuwe coach Vicens (won 0-1 in Lille); Morton, Šulc, Openda out. Lillestrøm: Nyheim geschorst. Lyon 2 nederlagen in laatste 5 → geen pick.",
-    "c979bd4559d2d81a8e2fe8f2d4aec376": "Roma WWLWW, ongeslagen in de Serie A, speelt woensdag in Parijs (rotatie mogelijk). Monza LLLLW en speelt vanavond nog tegen Fiorentina (ESPN; Sports Mole). Factor 0,981 → kandidaat, opnieuw bekijken na Roma's CL-duel."
+    "3ee2bf8a6fa6add543f64ac3e9813976": "Union 7 zeges op rij in alle competities (1-0 Kortrijk; EL 3-0 Plzeň, 4-0 Beer-Sheva, 2-1 Celta), leider in de Pro League; Kevin Mac Allister en Biondić out. Lech leider in Polen (1-0 Katowice) maar 35e in de EL zonder zege (0-4 Palace, 0-4 Leverkusen, 1-3 Benfica); Walemark en Pablo Rodríguez out, aanvoerder Ishak traint apart en is twijfelachtig (transfery.info 23-24/11; flashscore.pl).",
+    "707c513bfa43b45b7813126e09ad08d8": "Marseille LWWWW (2-3 tegen Le Mans op 22/11, daarvoor 2-1 in Lens, 1-0 in Leverkusen); Cornelius en Emerson out, Højbjerg twijfel (ziek). Levski WLWWD (4-1 Lokomotiv, 0-3 CSKA); Sangaré en Kirilov geschorst volgens Football Faithful (andere bronnen noemen geen schorsingen). Factor 0,99, nederlaag tegen Le Mans → geen pick.",
+    "a24c89b65c5a30fb9473735049589e64": "Lyon: nieuwe coach Carlos Vicens (1-0 in Lille bij debuut), maar vormreeksen verschillen (LWDLW / LLWDL) met nederlagen bij PSG en Brest; Morton, Šulc, Mata, Ouédraogo out. Lillestrøm 5 competitiezeges op rij, Garnås out, Paintsil geblesseerd. 2 nederlagen in laatste 5 → geen pick.",
+    "d6377d30379e5d3053c1076646d83f78": "Juventus LWWDW (4-0 Venezia, 2-1 bij AZ); Kalulu en Nico González nog apart, Alajbegović twijfel; mogelijk rotatie voor Como (zondag). Omonia 1-1 APOEL na twee EL-nederlagen; Kitsos geschorst, Mayambela, Christou, Eiting, Négo out. Odds 1,22, factor 0,98 → geen pick.",
+    "413409b43875d1bdb627a9e7fb6bc3fd": "Sunderland DWLLW (0-0 Villa, 1-0 Chelsea, 0-2 Dinamo, 1-3 Coventry); basisspelers Xhaka, Brobbey en Ballard out, Hume geschorst, rotatie verwacht. Jagiellonia LWLWW; Romańczuk geschorst. 2 nederlagen + meerdere basisspelers weg → geen pick.",
+    "cdf4b848361b0374c2027326bd54d8eb": "Dinamo WLWWW, drie zeges op rij onder Leko; aanvoerder Mišić twijfel (pols). Leverkusen 4-0 Paderborn, maar 0-1 tegen Marseille in de EL; Terrier out, Tella/Maza twijfel. Kans 56% < 60% → geen pick.",
+    "e2036567ee9394a55f022358781dce15": "Torreense LLWDW (13e in tweede klasse), spits Aguirre geschorst. Celtic WWWLD (4-1 St Mirren); Baur en Johnston out, Jota/Emenalo niet ingeschreven. Kans 57% → geen pick.",
+    "14007bc0605bce3bd164b132254ba24c": "PSG WWWWW (12 zeges op rij volgens Sports Mole); Doué en Kvaratskhelia out, Dembélé terug. Roma WWLWW, Pellegrini out, Svilar en Dybala terug. Odds 1,42 onder de marktprijs → geen pick.",
+    "0ee2cfddf20153779cd2cc3e1f1f879f": "Lille LWDWD; T. Santos en Igamane out. Bayern DWWDW; Kane (maanden), Neuer, Davies, Gnabry, Saibari out, Olise en Díaz twijfel; Musiala-status onduidelijk (Sporza 24/11). Kans 59% → geen pick.",
+    "e7e64568f6af00d395a3fdfc27de8ae3": "Inter DWWLW (4-4 Atalanta); Calhanoglu en Bonny out, Lautaro en Bastoni terug. Stuttgart DWLWW; Stiller (basis) out. Factor 0,95 → geen pick.",
+    "99459b90f3e732106e09585bf94b36b4": "Brugge WDWWW; Ordoñez (basis) out, Virgili twijfel. Liverpool WWLLD (4-0 Man Utd); Ekitike out, Gravenberch en Gakpo twijfel. Kans 58% → geen pick.",
+    "0bc17a3c7d8153e72b94688960cc603a": "Leeds W W (4-1 bij Chelsea, 1-0 Spurs), daarvoor L/D/D; Farke meldt geen blessures. Coventry WLWLL (3-2 Palace), Awoniyi twijfel (enkel, op krukken), Wright, Woolfenden, Eccles, Amenda out (starting11). Factor 0,98 → zaterdag opnieuw bekijken.",
+    "3b025a029f51fbeb9580a178d0612f50": "HSV LWLLL (0-4 bij Werder); topschutter Muheim, Lokonga, Remberg out. Bayern zonder Kane, Neuer, Davies, Gnabry; speelt woensdag in Lille → rotatie. Odds 1,26 onder de marktprijs → geen pick.",
+    "f128c19fa7af43e30dbe3c373e7bc27e": "Inter speelt woensdag tegen Stuttgart; Calhanoglu, Bonny, Zielinski en Thuram out (starting11). Genoa WLWWW (2-0 Sassuolo); Frendrup twijfel, Colombo verstuikte knie. Factor 0,97 → geen pick.",
+    "c81520b9a9794749cfdab57f89bdeb16": "Betis WDDWL, roteerde in de CL; vijf basisspelers keren terug (FútbolFantasy 24/11). Rayo LLWDL, doelman Batalla en Luiz Felipe out. Rayo-odds 6,0 boven de marktprijs, maar geen vers nieuws dat voor Rayo pleit → geen risicobet."
   },
   "community": {
-    "ba719e378ac366262013bdb51a06aa6f": [
+    "3ee2bf8a6fa6add543f64ac3e9813976": [
       {
         "outcome": "home",
-        "note": "Dubbel Como en Leipzig winnen + telkens over 1,5 goals (19/20), omdat beide thuisploegen in vorm zijn en veel scoren.",
-        "source": "Sporting Life",
-        "url": "https://www.sportinglife.com/football/news/tuesday-best-bets-champions-league-tips-for-november-24-2026/235620"
-      },
-      {
-        "outcome": "home",
-        "note": "Como leidt bij de rust en scoort in beide helften; geen waarde in de kale thuiszege volgens de schrijver.",
-        "source": "Mr Fixit's Tips",
-        "url": "https://mrfixitstips.co.uk/previews/como-vs-aek-athens-prediction-and-betting-tips-2026-11-24/"
+        "note": "voetbalwedden.eu tipt een zege van Union aan 1,43.",
+        "source": "voetbalwedden.eu",
+        "url": "https://voetbalwedden.eu/wedtips/voorspelling-union-sint-gilloise-lech-poznan/"
       }
     ],
-    "aee4e3c225603397ab52de3d066b566b": [
+    "707c513bfa43b45b7813126e09ad08d8": [
       {
         "outcome": "home",
-        "note": "Arsenal wint is de waarschijnlijkste uitkomst, maar geen value bet.",
-        "source": "Forza Football",
-        "url": "https://forzafootball.com/gb/play/betting-tips/arsenal-vs-dortmund-champions-league-predictions-odds"
-      },
-      {
-        "outcome": "home",
-        "note": "Geen 1X2-tip: under 3,5 goals, want beide ploegen spelen vooral matches met weinig goals.",
-        "source": "RotoWire",
-        "url": "https://www.rotowire.com/soccer/article/champions-league-predictions-today-tuesday-nov-24-matchday-5-best-bets-picks-147840"
+        "note": "Football Faithful tipt Marseille-winst aan 1,40.",
+        "source": "The Football Faithful",
+        "url": "https://thefootballfaithful.com/olympique-marseille-vs-levski-sofia-prediction-betting-tips-26-11-2026/"
       }
     ],
-    "3fb5e4a792cf34a0459efcb79a11a785": [
+    "a24c89b65c5a30fb9473735049589e64": [
       {
         "outcome": "home",
-        "note": "3-1 voor Real, BTTS ja.",
-        "source": "footballpredictions.com",
-        "url": "https://footballpredictions.com/footballpredictions/championsleaguepredictions/real-madrid-vs-psv-prediction-24-11-2026/"
+        "note": "Footballwhispers voorspelt 3-1 voor Lyon.",
+        "source": "Footballwhispers",
+        "url": "https://footballwhispers.com/blog/lyon-vs-lillestrom-prediction-26-11-2026/"
       }
     ],
-    "b9f00a4d399ec661e733857c9d5fb2dc": [
+    "d6377d30379e5d3053c1076646d83f78": [
       {
         "outcome": "home",
-        "note": "City wint maar geen dominante zege, under 3,5 goals.",
-        "source": "The Stats Zone",
-        "url": "https://www.thestatszone.com/man-city-vs-napoli-preview-team-news-prediction-2026-27-uefa-champions-league-league-phase-241014"
-      },
-      {
-        "outcome": "home",
-        "note": "Haaland eerste doelpuntenmaker; Napoli won 8 CL-uitduels op rij niet.",
-        "source": "RotoWire",
-        "url": "https://www.rotowire.com/soccer/article/champions-league-predictions-today-tuesday-nov-24-matchday-5-best-bets-picks-147840"
+        "note": "Footballwhispers voorspelt 3-0 en tipt Juve -1 handicap aan 1,63.",
+        "source": "Footballwhispers",
+        "url": "https://footballwhispers.com/blog/juventus-vs-omonia-prediction-26-11-2026/"
       }
     ],
-    "aea973c122c91837c15e066c757c747f": [
+    "413409b43875d1bdb627a9e7fb6bc3fd": [
       {
         "outcome": "home",
-        "note": "Dubbel Como en Leipzig winnen + telkens over 1,5 goals; ook Como en Leipzig −1 handicap als kleine gok.",
-        "source": "Sporting Life",
-        "url": "https://www.sportinglife.com/football/news/tuesday-best-bets-champions-league-tips-for-november-24-2026/235620"
-      },
-      {
-        "outcome": "home",
-        "note": "Leipzig wint en over 2,5 goals, door Leipzigs vorm en de crisis bij Lens.",
-        "source": "Mr Fixit's Tips",
-        "url": "https://mrfixitstips.co.uk/previews/rb-leipzig-vs-lens-prediction-and-betting-tips-2026-11-24/"
+        "note": "Footballwhispers voorspelt 2-0 voor Sunderland, onder 2,5 goals.",
+        "source": "Footballwhispers",
+        "url": "https://footballwhispers.com/blog/sunderland-vs-jagiellonia-prediction-26-11-2026/"
       }
     ],
     "14007bc0605bce3bd164b132254ba24c": [
       {
         "outcome": "home",
-        "note": "PSG wint (5 zeges op rij), BTTS ja als waarde-tip, score 2-1.",
-        "source": "Forza Football",
-        "url": "https://forzafootball.com/gb/play/betting-tips/psg-vs-roma-champions-league-predictions-odds"
-      }
-    ],
-    "e7e64568f6af00d395a3fdfc27de8ae3": [
-      {
-        "outcome": "home",
-        "note": "Inter wint 2-1, BTTS ja.",
-        "source": "Forza Football",
-        "url": "https://forzafootball.com/gb/play/betting-tips/odds-champions-league-matchday-5"
+        "note": "Sports Mole voorspelt 2-1 voor PSG.",
+        "source": "Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/psg/champions-league/preview/psg-vs-roma-prediction-team-news-lineups_609703.html"
       }
     ],
     "0ee2cfddf20153779cd2cc3e1f1f879f": [
       {
         "outcome": "away",
-        "note": "Bayern wint 1-2, BTTS ja.",
-        "source": "Forza Football",
-        "url": "https://forzafootball.com/gb/play/betting-tips/odds-champions-league-matchday-5"
+        "note": "Sports Mole voorspelt 1-2 voor Bayern.",
+        "source": "Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/lille/champions-league/preview/lille-vs-bayern-prediction-team-news-lineups_609676.html"
       }
     ],
     "99459b90f3e732106e09585bf94b36b4": [
       {
         "outcome": "away",
-        "note": "Liverpool wint 1-2, BTTS ja als waarde-tip.",
-        "source": "Forza Football",
-        "url": "https://forzafootball.com/gb/play/betting-tips/odds-champions-league-matchday-5"
+        "note": "Sports Mole voorspelt 2-3 voor Liverpool.",
+        "source": "Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/club-brugge/champions-league/preview/brugge-vs-liverpool-prediction-team-news-lineups_609715.html"
       }
     ],
-    "8e93849b4c1ccbf1c207836d5c470150": [
-      {
-        "outcome": "away",
-        "note": "Betis wint 1-2, over 2,5 goals.",
-        "source": "Forza Football",
-        "url": "https://forzafootball.com/gb/play/betting-tips/odds-champions-league-matchday-5"
-      }
-    ],
-    "c979bd4559d2d81a8e2fe8f2d4aec376": [
+    "e7e64568f6af00d395a3fdfc27de8ae3": [
       {
         "outcome": "home",
-        "note": "Algoritme geeft Roma-winst.",
-        "source": "Oddslot",
-        "url": "https://oddslot.com/football/match/serie-a/as-roma/monza/29-nov-2026/"
+        "note": "Sports Mole voorspelt 3-2 voor Inter.",
+        "source": "Sports Mole",
+        "url": "https://www.sportsmole.co.uk/football/inter-milan/champions-league/preview/inter-milan-vs-stuttgart-prediction-team-news-lineups_609700.html"
       }
     ]
   },
   "alerts": [
     {
       "tag": "BLESSURE",
-      "time": "07:50",
-      "title": "Arsenal: Raya nu ook bevestigd out",
-      "body": "Volgens UEFA's teamnieuws (23/11) missen Raya, Saka en Zubimendi Arsenal–Dortmund vanavond; Guirassy is twijfelachtig bij Dortmund. Odds 1,41 lijken dit al te verwerken.",
-      "url": "https://www.uefa.com/uefachampionsleague/news/02ab-2223c67db015-c4f7874e074e-1000--champions-league-predicted-line-ups-matchday-5-team-news-/"
+      "time": "07:55",
+      "title": "Lech mist Rodríguez, Ishak twijfelachtig",
+      "body": "Pablo Rodríguez (enkel) mist Union – Lech zeker, aanvoerder-spits Ishak traint apart. Raakt de bet Union SG (1,40).",
+      "url": "https://transfery.info/aktualnosci/zle-wiesci-dla-lecha-poznan-kluczowy-zawodnik-opusci-wazne-mecze/287369"
     },
     {
       "tag": "BLESSURE",
-      "time": "07:50",
-      "title": "PSG zonder Doué en Kvaratskhelia tegen Roma",
-      "body": "UEFA meldt beide out voor PSG–Roma (wo); bij Roma ontbreekt Pellegrini en zijn Balerdi en Rensch twijfel. Geen odds-achterstand vastgesteld (factor 0,95).",
-      "url": "https://www.uefa.com/uefachampionsleague/news/02ab-2223c67db015-c4f7874e074e-1000--champions-league-predicted-line-ups-matchday-5-team-news-/"
+      "time": "07:55",
+      "title": "Sunderland zonder Xhaka, Brobbey en Ballard",
+      "body": "Drie basisspelers out en rotatie verwacht tegen Jagiellonia; de favorietenbet Sunderland (1,28) is daardoor minder zeker.",
+      "url": "https://starting11.com/fixtures/sunderland-vs-jagiellonia"
+    },
+    {
+      "tag": "BLESSURE",
+      "time": "07:55",
+      "title": "HSV mist topschutter Muheim tegen Bayern",
+      "body": "Muheim (kuit) valt voorlopig uit; Bayern mist zelf Kane, Neuer en Davies en speelt woensdag in Lille.",
+      "url": "https://www.sport1.de/news/fussball/bundesliga/2026/11/nach-verletzung-im-derby-muheim-fehlt-hsv-vorerst"
     }
   ],
   "results": {},
-  "picks": [],
+  "picks": [
+    {
+      "key": "3ee2bf8a6fa6add543f64ac3e9813976|home",
+      "stake": 10,
+      "reason": "Union won 7 keer op rij en is leider in België; Lech staat 35e in de EL zonder zege (0-4, 0-4, 1-3) en mist Pablo Rodríguez, met aanvoerder Ishak twijfelachtig. De odds 1,40 liggen net op de marktprijs (factor 0,99); het Lech-nieuws geeft volgens mij een kleine marge erbovenop, maar die is dun, dus maar €10."
+    }
+  ],
   "urgent": false
 }
