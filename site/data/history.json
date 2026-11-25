@@ -4201,7 +4201,16 @@
    "fixture_id": null,
    "promo": null,
    "last_fair_odds": 1.411,
-   "clv": -0.0081
+   "clv": -0.0081,
+   "pick_odds": 1.4,
+   "pick_p": 0.7085,
+   "pick_ev": -0.0082,
+   "claude_pick": true,
+   "pick_week": "2026-W48",
+   "pick_stake": 10,
+   "pick_at": "2026-11-25T06:44:06Z",
+   "pick_reason": "Union won 7 keer op rij en is leider in België; Lech staat 35e in de EL zonder zege (0-4, 0-4, 1-3) en mist Pablo Rodríguez, met aanvoerder Ishak twijfelachtig. De odds 1,40 liggen net op de marktprijs (factor 0,99); het Lech-nieuws geeft volgens mij een kleine marge erbovenop, maar die is dun, dus maar €10.",
+   "pick_auto": false
   },
   {
    "key": "413409b43875d1bdb627a9e7fb6bc3fd|home",
