@@ -1,72 +1,26 @@
 {
-  "date": "2026-11-26",
-  "summary": "Geen correcties en geen nieuwe keuzes vandaag: geen enkele favoriet haalt eigen kans × odds ≥ 1 (beste factor 0,98 bij Juventus en Salzburg), en een combi daarvan verliest op lange termijn ±4%. Opvallend: Mainz (1,48) verloor 5 keer op rij en Groningen (1,43) 4 keer op rij, en Bayern speelt in Hamburg zonder Kane, Neuer en Davies na een nederlaag in Lille. De €10 op Union–Lech blijft de enige W48-keuze; de rest van het budget wacht op vers weekendnieuws.",
+  "date": "2026-11-27",
+  "summary": "Geen correcties en geen nieuwe keuzes: geen enkele favoriet van het weekend haalt eigen kans × odds ≥ 1 (beste factoren 0,97 bij Groningen, Leeds en Barça–Atlético, 0,96 bij Depor–Barça en Inter), en vandaag vond ik geen vers basisspelernieuws dat dat verandert. Groningen (4 nederlagen op rij), Brighton en Mainz vallen af op vorm. Na het verlies van Union–Lech blijft W48 op 1 keuze (€10); de rest van het budget wacht op de weekendronde.",
   "adjustments": {},
   "match_notes": {
-    "3ee2bf8a6fa6add543f64ac3e9813976": "(26/11 ongewijzigd t.o.v. gisteren) Union 7 zeges op rij in alle competities (1-0 Kortrijk; EL 3-0 Plzeň, 4-0 Beer-Sheva, 2-1 Celta), leider in de Pro League; Kevin Mac Allister en Biondić out. Lech leider in Polen (1-0 Katowice) maar 35e in de EL zonder zege (0-4 Palace, 0-4 Leverkusen, 1-3 Benfica); Walemark en Pablo Rodríguez out, aanvoerder Ishak traint apart en is twijfelachtig (transfery.info 23-24/11; flashscore.pl).",
-    "d6377d30379e5d3053c1076646d83f78": "(26/11 ongewijzigd t.o.v. gisteren) Juventus LWWDW (4-0 Venezia, 2-1 bij AZ); Kalulu en Nico González nog apart, Alajbegović twijfel; mogelijk rotatie voor Como (zondag). Omonia 1-1 APOEL na twee EL-nederlagen; Kitsos geschorst, Mayambela, Christou, Eiting, Négo out. Odds 1,22, factor 0,98 → geen pick.",
-    "707c513bfa43b45b7813126e09ad08d8": "(26/11 ongewijzigd t.o.v. gisteren) Marseille LWWWW (2-3 tegen Le Mans op 22/11, daarvoor 2-1 in Lens, 1-0 in Leverkusen); Cornelius en Emerson out, Højbjerg twijfel (ziek). Levski WLWWD (4-1 Lokomotiv, 0-3 CSKA); Sangaré en Kirilov geschorst volgens Football Faithful (andere bronnen noemen geen schorsingen). Factor 0,99, nederlaag tegen Le Mans → geen pick.",
-    "413409b43875d1bdb627a9e7fb6bc3fd": "(26/11 ongewijzigd t.o.v. gisteren) Sunderland DWLLW (0-0 Villa, 1-0 Chelsea, 0-2 Dinamo, 1-3 Coventry); basisspelers Xhaka, Brobbey en Ballard out, Hume geschorst, rotatie verwacht. Jagiellonia LWLWW; Romańczuk geschorst. 2 nederlagen + meerdere basisspelers weg → geen pick.",
-    "cdf4b848361b0374c2027326bd54d8eb": "(26/11 ongewijzigd t.o.v. gisteren) Dinamo WLWWW, drie zeges op rij onder Leko; aanvoerder Mišić twijfel (pols). Leverkusen 4-0 Paderborn, maar 0-1 tegen Marseille in de EL; Terrier out, Tella/Maza twijfel. Kans 56% < 60% → geen pick.",
-    "e2036567ee9394a55f022358781dce15": "(26/11 ongewijzigd t.o.v. gisteren) Torreense LLWDW (13e in tweede klasse), spits Aguirre geschorst. Celtic WWWLD (4-1 St Mirren); Baur en Johnston out, Jota/Emenalo niet ingeschreven. Kans 57% → geen pick.",
-    "a24c89b65c5a30fb9473735049589e64": "(26/11 ongewijzigd t.o.v. gisteren) Lyon: nieuwe coach Carlos Vicens (1-0 in Lille bij debuut), maar vormreeksen verschillen (LWDLW / LLWDL) met nederlagen bij PSG en Brest; Morton, Šulc, Mata, Ouédraogo out. Lillestrøm 5 competitiezeges op rij, Garnås out, Paintsil geblesseerd. 2 nederlagen in laatste 5 → geen pick.",
-    "3b025a029f51fbeb9580a178d0612f50": "Vorm HSV L-W-L-L (0-4 in Bremen, 3-1 Gladbach, 1-3 Frankfurt, 0-1 Paderborn); Muheim, Nadir, Poulsen, Remberg out. Bayern L-D-W-W-D (1-2 in Lille in de CL op 25/11, 1-1 Köln, 2-1 Mainz, 2-0 Atlético, 2-2 Dortmund); Kane, Neuer en Davies out, Olise twijfel, Musiala terug. 2 nederlagen in 5 bij de favoriet + meerdere basisspelers weg → geen pick (bundesliga.com 24/11, tipsterio).",
-    "365e1a00908ab1cd5a51a53ede2b86b2": "Mainz verloor 5 keer op rij in alle competities (1-3 Augsburg, 1-2 Bayern, 1-4 Elversberg, 2-3 Werder, bekerexit Bochum); Kohr out, coach Fischer onder druk. Union Berlin L-L-D-D (1-5 Leipzig) en 17e; Van den Bosch geschorst, Markgraf, Skov, Uduokhai, Nsoki out. Favoriet in slechte vorm → geen pick (Berliner Kurier, bundesliga.com).",
-    "698f4a7967ead89e10205a68ceb4bda4": "Werder W-L-W-L-W (4-0 HSV, 0-1 Stuttgart), thuis ongeslagen; Musah, Ndiaye, Stage, Topp out. Gladbach laatste met 4 punten, L-L-D-W-W; aanvoerder Kleindienst out, Itakura terug. Kans 55% < 60% en 2 nederlagen → geen pick (bundesliga.com, tipsterio).",
-    "8031222f3f3e8384a69c0ca5e1166458": "PSV L-W-W-L (1-5 bij Real Madrid op 24/11, 4-1 NEC, 5-2 Cambuur, 1-2 Club Brugge); Jerdy Schouten (basis) en Pléa out, Perisic twijfel. GAE verloor 0-1 van Fortuna; James en Linthorst twijfel. 2 nederlagen in 4 gevonden → geen pick (voetbalprimeur, blessuresenschorsingen.nl).",
-    "7aa2e13c09deb4fbd70e62312e82a514": "Groningen L-L-L-L-D (1-3 Heerenveen, 3-4 AZ) onder interimcoach Goedkoop; Jeng en Hernes out. Willem II laatste en zonder zege (L-D-L-W-L, 0-7 PSV); Tjoe-A-On geschorst, doelman Didillon out. Favoriet met 4 nederlagen op rij → geen pick (Sports Mole).",
-    "523fa336e1cf685100957e5e6359fc4c": "Zwolle W-D-W-L-D (3-1 Telstar). AZ W-W-L-L-L (5-1 Sparta, 4-3 Groningen, 1-2 Juventus, 0-1 Ajax, 0-2 Twente); Kees Smit (basis), Patati, Resink, Hornkamp out, speelt vanavond in Praag → rotatie mogelijk. Geen pick (Sports Mole, voetbalzone).",
-    "12002f6f804a122db48271ff05be03c0": "PSG W-W-W-W-D (2-2 Roma in de CL op 25/11, 3-2 Nice, 6-0 Villarreal), leider; Kvaratskhelia en Doué (kruisband), Chevalier out, Dembélé net terug. Lorient D-W-L-D-W, 10e; doelman Mvogo geblesseerd. Odds 1,21 onder de marktprijs → geen pick (gidstats, Footmercato).",
-    "f128c19fa7af43e30dbe3c373e7bc27e": "Inter W-D-W-W-L (2-0 Stuttgart in de CL op 25/11, 4-4 Atalanta, 1-3 Milan); Calhanoglu (basis) ±1 maand out, Zielinski twijfel. Genoa W-L-W-W-W onder De Rossi; spits Colombo seizoen voorbij. Genoa in goede vorm, odds 1,32 onder de marktprijs → geen pick (gidstats, pazzidifanta).",
-    "c979bd4559d2d81a8e2fe8f2d4aec376": "Roma D-W-W-L-W (2-2 PSG, 5-1 Parma, 3-0 Sassuolo), 2e en ongeslagen in de competitie; Pellegrini en Rensch out, Gasperini spaarde Dybala/Malen/Cristante tegen PSG. Monza W-L-L-L-L, nog geen uitzege; Folorunsho out. Odds 1,21 onder de marktprijs → geen pick (gidstats, laroma24).",
-    "69fc06d019491be2aa1bf69b8f8041e3": "Barça WWWWW (4-1 Sabah in de CL op 25/11, 3-2 Villarreal, 2-1 Atlético), leider; Fermín López 2 duels geschorst, Bardghji out, Balde/Christensen twijfel. Depor L-D-W-W-L, 12e. Odds 1,26 onder de marktprijs → geen pick (gidstats, Crónica Global, futbolfantasy).",
-    "40236ab976955345ebd1edb72abf6b22": "Elche D-L-L-W-L, 19e, 1 punt uit 6 thuismatchen; Lemar en Rubén Sánchez out. Atlético W-W-L-L-W (2-0 Viking in de CL op 25/11, 1-2 Barça, 0-2 Bayern); Lookman out, Sørloth twijfel; woensdag Barça–Atlético. 2 nederlagen in 5 → geen pick (gidstats, futbolfantasy).",
-    "af3432ca724da03d38f0ff4e62045e4c": "Frosinone L-L-W-W-D (1-5 Milan, 0-1 Cagliari) maar won de laatste 5 thuismatchen; Raimondo out. Parma L-L-W-D-L, 17e; Romero en Valenti out. 2 nederlagen bij de favoriet → geen pick (gidstats, The Stats Zone).",
-    "adf2cdd99a32b11949f854bb84271604": "Union 5 zeges op rij (1-0 Kortrijk, 1-0 Genk, 2-1 Celta), leider; Biondić out. Gent L-W-D-L-W (0-1 Beveren met een man meer); Burgess (basis, scheenbeenbreuk), De Vlieger, Balikwisha, Ngom out. Beide spelen vanavond Europees. Kans 64% × 1,50 = 0,96 → nu geen pick, heroverwegen na vanavond (Sporza, voetbalnieuws.be).",
-    "630736ab8e87597d5ac6e58133d7f7d0": "Standard W-W-D-L-W (2-1 Lommel), maar aanvoerder Fossey seizoen out. Brugge L-W-D-W-W (0-3 Liverpool in de CL op 25/11, 5-1 Mechelen); Marsà viel geblesseerd uit. Geen pick (Sporza, voetbalkrant).",
-    "0bc17a3c7d8153e72b94688960cc603a": "Leeds W-W-L-D-D (4-1 in Chelsea, 1-0 Spurs); alleen Mateo Joseph out. Coventry W-L-W-L-L; spits Awoniyi grote twijfel (enkel), Yirenkyi twijfel, Eccles/Amenda/Woolfenden out. Kans 65% × 1,50 = 0,97 → net geen pick (leedsunited.com, Yorkshire Evening Post, thefalse9 25/11)."
+    "3b025a029f51fbeb9580a178d0612f50": "(27/11 ongewijzigd t.o.v. gisteren) Vorm HSV L-W-L-L (0-4 in Bremen, 3-1 Gladbach, 1-3 Frankfurt, 0-1 Paderborn); Muheim, Nadir, Poulsen, Remberg out. Bayern L-D-W-W-D (1-2 in Lille in de CL op 25/11, 1-1 Köln, 2-1 Mainz, 2-0 Atlético, 2-2 Dortmund); Kane, Neuer en Davies out, Olise twijfel, Musiala terug. 2 nederlagen in 5 bij de favoriet + meerdere basisspelers weg → geen pick (bundesliga.com 24/11, tipsterio).",
+    "365e1a00908ab1cd5a51a53ede2b86b2": "(27/11 ongewijzigd t.o.v. gisteren) Mainz verloor 5 keer op rij in alle competities (1-3 Augsburg, 1-2 Bayern, 1-4 Elversberg, 2-3 Werder, bekerexit Bochum); Kohr out, coach Fischer onder druk. Union Berlin L-L-D-D (1-5 Leipzig) en 17e; Van den Bosch geschorst, Markgraf, Skov, Uduokhai, Nsoki out. Favoriet in slechte vorm → geen pick (Berliner Kurier, bundesliga.com).",
+    "698f4a7967ead89e10205a68ceb4bda4": "(27/11 ongewijzigd t.o.v. gisteren) Werder W-L-W-L-W (4-0 HSV, 0-1 Stuttgart), thuis ongeslagen; Musah, Ndiaye, Stage, Topp out. Gladbach laatste met 4 punten, L-L-D-W-W; aanvoerder Kleindienst out, Itakura terug. Kans 55% < 60% en 2 nederlagen → geen pick (bundesliga.com, tipsterio).",
+    "8031222f3f3e8384a69c0ca5e1166458": "(27/11 ongewijzigd t.o.v. gisteren) PSV L-W-W-L (1-5 bij Real Madrid op 24/11, 4-1 NEC, 5-2 Cambuur, 1-2 Club Brugge); Jerdy Schouten (basis) en Pléa out, Perisic twijfel. GAE verloor 0-1 van Fortuna; James en Linthorst twijfel. 2 nederlagen in 4 gevonden → geen pick (voetbalprimeur, blessuresenschorsingen.nl).",
+    "7aa2e13c09deb4fbd70e62312e82a514": "(27/11 ongewijzigd t.o.v. gisteren) Groningen L-L-L-L-D (1-3 Heerenveen, 3-4 AZ) onder interimcoach Goedkoop; Jeng en Hernes out. Willem II laatste en zonder zege (L-D-L-W-L, 0-7 PSV); Tjoe-A-On geschorst, doelman Didillon out. Favoriet met 4 nederlagen op rij → geen pick (Sports Mole).",
+    "523fa336e1cf685100957e5e6359fc4c": "(27/11 ongewijzigd t.o.v. gisteren) Zwolle W-D-W-L-D (3-1 Telstar). AZ W-W-L-L-L (5-1 Sparta, 4-3 Groningen, 1-2 Juventus, 0-1 Ajax, 0-2 Twente); Kees Smit (basis), Patati, Resink, Hornkamp out, speelt vanavond in Praag → rotatie mogelijk. Geen pick (Sports Mole, voetbalzone).",
+    "12002f6f804a122db48271ff05be03c0": "(27/11 ongewijzigd t.o.v. gisteren) PSG W-W-W-W-D (2-2 Roma in de CL op 25/11, 3-2 Nice, 6-0 Villarreal), leider; Kvaratskhelia en Doué (kruisband), Chevalier out, Dembélé net terug. Lorient D-W-L-D-W, 10e; doelman Mvogo geblesseerd. Odds 1,21 onder de marktprijs → geen pick (gidstats, Footmercato).",
+    "f128c19fa7af43e30dbe3c373e7bc27e": "(27/11 gecontroleerd) Inter W-D-W-W-L (2-0 Stuttgart, 4-4 Atalanta, 2-0 Como, 3-0 Feyenoord, 1-3 Milan); Calhanoglu (basis) out. Genoa W-L-W-W-W (2-0 Sassuolo, 2-0 Juventus). Kickoff.co.uk tipt Inter (66%), markt 73-74%; odds 1,32 → factor 0,96, geen pick (gidstats, kickoff.co.uk).",
+    "c979bd4559d2d81a8e2fe8f2d4aec376": "(27/11 ongewijzigd t.o.v. gisteren) Roma D-W-W-L-W (2-2 PSG, 5-1 Parma, 3-0 Sassuolo), 2e en ongeslagen in de competitie; Pellegrini en Rensch out, Gasperini spaarde Dybala/Malen/Cristante tegen PSG. Monza W-L-L-L-L, nog geen uitzege; Folorunsho out. Odds 1,21 onder de marktprijs → geen pick (gidstats, laroma24).",
+    "69fc06d019491be2aa1bf69b8f8041e3": "(27/11 gecontroleerd) Barça WWWWW (4-1 Sabah, 3-2 Villarreal, 2-1 in Madrid bij Atlético, 3-0 Villa, 6-1 Alavés); Fermín López geschorst, Bardghji out, Balde/Christensen twijfel. Depor WDLWL (1-3 in Alavés). Kalshi/Polymarket ±80% Barça; Unibet 1,24 × 78% = 0,96 → geen pick (gidstats).",
+    "40236ab976955345ebd1edb72abf6b22": "(27/11 ongewijzigd t.o.v. gisteren) Elche D-L-L-W-L, 19e, 1 punt uit 6 thuismatchen; Lemar en Rubén Sánchez out. Atlético W-W-L-L-W (2-0 Viking in de CL op 25/11, 1-2 Barça, 0-2 Bayern); Lookman out, Sørloth twijfel; woensdag Barça–Atlético. 2 nederlagen in 5 → geen pick (gidstats, futbolfantasy).",
+    "af3432ca724da03d38f0ff4e62045e4c": "(27/11 ongewijzigd t.o.v. gisteren) Frosinone L-L-W-W-D (1-5 Milan, 0-1 Cagliari) maar won de laatste 5 thuismatchen; Raimondo out. Parma L-L-W-D-L, 17e; Romero en Valenti out. 2 nederlagen bij de favoriet → geen pick (gidstats, The Stats Zone).",
+    "adf2cdd99a32b11949f854bb84271604": "(27/11) Union verloor donderdag in de EL van Lech Poznań (onze W48-bet). Union 5 zeges op rij (1-0 Kortrijk, 1-0 Genk, 2-1 Celta), leider; Biondić out. Gent L-W-D-L-W (0-1 Beveren met een man meer); Burgess (basis, scheenbeenbreuk), De Vlieger, Balikwisha, Ngom out. Beide spelen vanavond Europees. Kans 64% × 1,50 = 0,96 → nu geen pick, heroverwegen na vanavond (Sporza, voetbalnieuws.be).",
+    "630736ab8e87597d5ac6e58133d7f7d0": "(27/11 ongewijzigd t.o.v. gisteren) Standard W-W-D-L-W (2-1 Lommel), maar aanvoerder Fossey seizoen out. Brugge L-W-D-W-W (0-3 Liverpool in de CL op 25/11, 5-1 Mechelen); Marsà viel geblesseerd uit. Geen pick (Sporza, voetbalkrant).",
+    "0bc17a3c7d8153e72b94688960cc603a": "(27/11 ongewijzigd t.o.v. gisteren) Leeds W-W-L-D-D (4-1 in Chelsea, 1-0 Spurs); alleen Mateo Joseph out. Coventry W-L-W-L-L; spits Awoniyi grote twijfel (enkel), Yirenkyi twijfel, Eccles/Amenda/Woolfenden out. Kans 65% × 1,50 = 0,97 → net geen pick (leedsunited.com, Yorkshire Evening Post, thefalse9 25/11).",
+    "e9c2b74ecaafd494e3b2d8521b52216a": "Brighton L-W-W-L-W (0-2 in Hull, 2-0 Brentford, 1-0 in City, 0-2 Liverpool, 5-0 Palace). Newcastle D-D-L-W-L (2-2 Arsenal, 1-1 Fulham, 0-1 Everton). Geen blessurelijst gevonden. 2 nederlagen bij de favoriet en factor 0,96 → geen pick (gidstats)."
   },
   "community": {
-    "3ee2bf8a6fa6add543f64ac3e9813976": [
-      {
-        "outcome": "home",
-        "note": "voetbalwedden.eu tipt een zege van Union aan 1,43.",
-        "source": "voetbalwedden.eu",
-        "url": "https://voetbalwedden.eu/wedtips/voorspelling-union-sint-gilloise-lech-poznan/"
-      }
-    ],
-    "707c513bfa43b45b7813126e09ad08d8": [
-      {
-        "outcome": "home",
-        "note": "Football Faithful tipt Marseille-winst aan 1,40.",
-        "source": "The Football Faithful",
-        "url": "https://thefootballfaithful.com/olympique-marseille-vs-levski-sofia-prediction-betting-tips-26-11-2026/"
-      }
-    ],
-    "a24c89b65c5a30fb9473735049589e64": [
-      {
-        "outcome": "home",
-        "note": "Footballwhispers voorspelt 3-1 voor Lyon.",
-        "source": "Footballwhispers",
-        "url": "https://footballwhispers.com/blog/lyon-vs-lillestrom-prediction-26-11-2026/"
-      }
-    ],
-    "d6377d30379e5d3053c1076646d83f78": [
-      {
-        "outcome": "home",
-        "note": "Footballwhispers voorspelt 3-0 en tipt Juve -1 handicap aan 1,63.",
-        "source": "Footballwhispers",
-        "url": "https://footballwhispers.com/blog/juventus-vs-omonia-prediction-26-11-2026/"
-      }
-    ],
-    "413409b43875d1bdb627a9e7fb6bc3fd": [
-      {
-        "outcome": "home",
-        "note": "Footballwhispers voorspelt 2-0 voor Sunderland, onder 2,5 goals.",
-        "source": "Footballwhispers",
-        "url": "https://footballwhispers.com/blog/sunderland-vs-jagiellonia-prediction-26-11-2026/"
-      }
-    ],
     "3b025a029f51fbeb9580a178d0612f50": [
       {
         "outcome": "away",
@@ -144,26 +98,42 @@
         "source": "The Stats Zone",
         "url": "https://www.thestatszone.com/leeds-vs-coventry-preview-team-news-prediction-242293"
       }
+    ],
+    "f128c19fa7af43e30dbe3c373e7bc27e": [
+      {
+        "outcome": "home",
+        "note": "Kickoff.co.uk: beste tip Inter wint, verwachte score 2-0.",
+        "source": "kickoff.co.uk",
+        "url": "https://www.kickoff.co.uk/italian-serie-a-predictions-stats-odds/inter-milan-vs-genoa/"
+      }
+    ],
+    "69fc06d019491be2aa1bf69b8f8041e3": [
+      {
+        "outcome": "away",
+        "note": "GidStats: Barça favoriet, maar ze verwachten geen clean sheet.",
+        "source": "GidStats",
+        "url": "https://gidstats.com/football/la-liga/2026-11-29-1570465-deportivo-la-coruna-vs-barcelona/"
+      }
     ]
   },
   "alerts": [
     {
       "tag": "NIEUWS",
-      "time": "08:40",
+      "time": "26/11 08:40",
       "title": "Mainz favoriet na 5 nederlagen op rij",
       "body": "Mainz staat op 1,48 tegen Union Berlin maar verloor vijf officiële wedstrijden op rij (o.a. 1-4 in Elversberg); coach Fischer staat onder druk. Union mist wel Van den Bosch (geschorst) en vier verdedigers. Wees voorzichtig met Mainz in een combi.",
       "url": "https://www.berliner-kurier.de/article/union-berlin-mainz-urs-fischer-lustrinelli-krise-11-spieltag-10630221"
     },
     {
       "tag": "NIEUWS",
-      "time": "08:40",
+      "time": "26/11 08:40",
       "title": "Groningen favoriet met 4 nederlagen op rij",
       "body": "Groningen (1,43) verloor vier keer op rij en speelt onder interimcoach Goedkoop; tegenstander Willem II is laatste en zonder zege, maar mist doelman Didillon en Tjoe-A-On.",
       "url": "https://www.sportsmole.co.uk/football/groningen/preview/groningen-vs-willem-ii-prediction-team-news-lineups_609843.html"
     },
     {
       "tag": "BLESSURE",
-      "time": "08:40",
+      "time": "26/11 08:40",
       "title": "Bayern zonder Kane, Neuer en Davies naar Hamburg",
       "body": "Bayern verloor dinsdag 2-1 in Lille en speelt zaterdag na 3 dagen rust in Hamburg zonder Kane, Neuer en Davies; Olise is twijfelachtig. De odds 1,27 lijken dat al te verrekenen.",
       "url": "https://www.bundesliga.com/en/bundesliga/news/team-news-line-ups-2026-27-bayern-dortmund-fantasy-20707"
