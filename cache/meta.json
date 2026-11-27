@@ -1,6 +1,6 @@
 {
- "fetched_at": "2026-11-26T06:04:58Z",
- "odds_remaining": "216",
+ "fetched_at": "2026-11-27T06:09:01Z",
+ "odds_remaining": "206",
  "football_calls": 1,
  "errors": [
   "Fout bij http://api.clubelo.com/Fixtures: <urlopen error timed out>"
