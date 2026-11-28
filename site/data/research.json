@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-27",
-  "summary": "Geen correcties en geen nieuwe keuzes: geen enkele favoriet van het weekend haalt eigen kans × odds ≥ 1 (beste factoren 0,97 bij Groningen, Leeds en Barça–Atlético, 0,96 bij Depor–Barça en Inter), en vandaag vond ik geen vers basisspelernieuws dat dat verandert. Groningen (4 nederlagen op rij), Brighton en Mainz vallen af op vorm. Na het verlies van Union–Lech blijft W48 op 1 keuze (€10); de rest van het budget wacht op de weekendronde.",
+  "date": "2026-11-28",
+  "summary": "Geen nieuwe keuzes en geen correcties: ook vandaag haalt geen enkele favoriet eigen kans × odds ≥ 0,98 (beste: Barça–Atlético 0,97, Mainz 0,97, Leeds 0,96), ClubElo gaf vanochtend geen data en ik vond geen vers basisspelernieuws dat de odds nog niet verwerkt hebben. Leeds (WWLDD, 64-65% volgens Kalshi/Polymarket en KickOff) en Betis (4e, maar 2 zeges in 5) blijven net te krap geprijsd. W48 blijft op 1 eigen keuze (€10, verloren); de weekendronde om 10u47 kijkt nog naar de opstellingen.",
   "adjustments": {},
   "match_notes": {
     "3b025a029f51fbeb9580a178d0612f50": "(27/11 ongewijzigd t.o.v. gisteren) Vorm HSV L-W-L-L (0-4 in Bremen, 3-1 Gladbach, 1-3 Frankfurt, 0-1 Paderborn); Muheim, Nadir, Poulsen, Remberg out. Bayern L-D-W-W-D (1-2 in Lille in de CL op 25/11, 1-1 Köln, 2-1 Mainz, 2-0 Atlético, 2-2 Dortmund); Kane, Neuer en Davies out, Olise twijfel, Musiala terug. 2 nederlagen in 5 bij de favoriet + meerdere basisspelers weg → geen pick (bundesliga.com 24/11, tipsterio).",
@@ -17,8 +17,9 @@
     "af3432ca724da03d38f0ff4e62045e4c": "(27/11 ongewijzigd t.o.v. gisteren) Frosinone L-L-W-W-D (1-5 Milan, 0-1 Cagliari) maar won de laatste 5 thuismatchen; Raimondo out. Parma L-L-W-D-L, 17e; Romero en Valenti out. 2 nederlagen bij de favoriet → geen pick (gidstats, The Stats Zone).",
     "adf2cdd99a32b11949f854bb84271604": "(27/11) Union verloor donderdag in de EL van Lech Poznań (onze W48-bet). Union 5 zeges op rij (1-0 Kortrijk, 1-0 Genk, 2-1 Celta), leider; Biondić out. Gent L-W-D-L-W (0-1 Beveren met een man meer); Burgess (basis, scheenbeenbreuk), De Vlieger, Balikwisha, Ngom out. Beide spelen vanavond Europees. Kans 64% × 1,50 = 0,96 → nu geen pick, heroverwegen na vanavond (Sporza, voetbalnieuws.be).",
     "630736ab8e87597d5ac6e58133d7f7d0": "(27/11 ongewijzigd t.o.v. gisteren) Standard W-W-D-L-W (2-1 Lommel), maar aanvoerder Fossey seizoen out. Brugge L-W-D-W-W (0-3 Liverpool in de CL op 25/11, 5-1 Mechelen); Marsà viel geblesseerd uit. Geen pick (Sporza, voetbalkrant).",
-    "0bc17a3c7d8153e72b94688960cc603a": "(27/11 ongewijzigd t.o.v. gisteren) Leeds W-W-L-D-D (4-1 in Chelsea, 1-0 Spurs); alleen Mateo Joseph out. Coventry W-L-W-L-L; spits Awoniyi grote twijfel (enkel), Yirenkyi twijfel, Eccles/Amenda/Woolfenden out. Kans 65% × 1,50 = 0,97 → net geen pick (leedsunited.com, Yorkshire Evening Post, thefalse9 25/11).",
-    "e9c2b74ecaafd494e3b2d8521b52216a": "Brighton L-W-W-L-W (0-2 in Hull, 2-0 Brentford, 1-0 in City, 0-2 Liverpool, 5-0 Palace). Newcastle D-D-L-W-L (2-2 Arsenal, 1-1 Fulham, 0-1 Everton). Geen blessurelijst gevonden. 2 nederlagen bij de favoriet en factor 0,96 → geen pick (gidstats)."
+    "0bc17a3c7d8153e72b94688960cc603a": "(28/11) Leeds W-W-L-D-D (4-1 in Chelsea, 1-0 Spurs, 0-2 Bournemouth, 0-0 Sunderland, 1-1 Man Utd), 7e; alleen Mateo Joseph out. Coventry W-L-W-L-L (3-2 Palace, 1-3 Everton), 14e-15e; Awoniyi grote twijfel, Eccles/Amenda/Woolfenden out. Kalshi/Polymarket ±64-65% Leeds, KickOff 65%. Unibet 1,50 × 64% = 0,96 → geen pick (gidstats, kickoff.co.uk).",
+    "e9c2b74ecaafd494e3b2d8521b52216a": "Brighton L-W-W-L-W (0-2 in Hull, 2-0 Brentford, 1-0 in City, 0-2 Liverpool, 5-0 Palace). Newcastle D-D-L-W-L (2-2 Arsenal, 1-1 Fulham, 0-1 Everton). Geen blessurelijst gevonden. 2 nederlagen bij de favoriet en factor 0,96 → geen pick (gidstats).",
+    "c81520b9a9794749cfdab57f89bdeb16": "(28/11) Betis W-D-D-W-L (2-0 Slovan in de CL, 1-1 Sevilla, 2-2 Navalcarnero in de beker, 2-0 in Elche, 1-2 in Dortmund), 4e en dinsdag Europees gespeeld. Rayo L-L-W-D-L (0-1 Valencia, 0-1 Real Sociedad), 16e. Laatste 2 onderlinge duels 1-1 en 0-0. Geen blessurelijst gevonden. Kans 59% < 60% → geen pick (gidstats)."
   },
   "community": {
     "3b025a029f51fbeb9580a178d0612f50": [
@@ -123,13 +124,6 @@
       "title": "Mainz favoriet na 5 nederlagen op rij",
       "body": "Mainz staat op 1,48 tegen Union Berlin maar verloor vijf officiële wedstrijden op rij (o.a. 1-4 in Elversberg); coach Fischer staat onder druk. Union mist wel Van den Bosch (geschorst) en vier verdedigers. Wees voorzichtig met Mainz in een combi.",
       "url": "https://www.berliner-kurier.de/article/union-berlin-mainz-urs-fischer-lustrinelli-krise-11-spieltag-10630221"
-    },
-    {
-      "tag": "NIEUWS",
-      "time": "26/11 08:40",
-      "title": "Groningen favoriet met 4 nederlagen op rij",
-      "body": "Groningen (1,43) verloor vier keer op rij en speelt onder interimcoach Goedkoop; tegenstander Willem II is laatste en zonder zege, maar mist doelman Didillon en Tjoe-A-On.",
-      "url": "https://www.sportsmole.co.uk/football/groningen/preview/groningen-vs-willem-ii-prediction-team-news-lineups_609843.html"
     },
     {
       "tag": "BLESSURE",
